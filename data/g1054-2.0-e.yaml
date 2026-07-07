@@ -4,8 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1054 Preparing for a Voluntary IMO Audit on Aids to Navigation Service
-    Delivery
+  content: PREPARING FOR AN IMO AUDIT ON AIDS TO NAVIGATION SERVICE DELIVERY
   type: main
 source:
 - type: website
@@ -65,6 +64,6 @@ ext:
   doctype:
     content: guideline
   flavor: iala
-  urn: urn:mrn:iala:pub:g1054:ed2.0:e
+  urn: urn:mrn:iala:pub:g1054:ed2.0
   webpage: https://www.iala.int/product/g1054/
   committee: ARM

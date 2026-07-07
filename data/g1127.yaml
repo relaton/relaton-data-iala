@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1127 Systems and Services for High Accuracy Positioning and Ranging
+  content: SYSTEMS AND SERVICES FOR HIGH- ACCURACY POSITIONING AND RANGING
   type: main
 docidentifier:
 - content: IALA G1127 Ed 2.1
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: guideline
   flavor: iala
+  urn: urn:mrn:iala:pub:g1127:ed2.1
   committee: ENAV

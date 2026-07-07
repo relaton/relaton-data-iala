@@ -1,5 +1,5 @@
 ---
-id: iala-world-wide-radio-navigation-plan
+id: iala-world-wide-radio-navigation-plan-2
 schema_version: v1.5.6
 type: standard
 title:
@@ -7,7 +7,7 @@ title:
   content: IALA World Wide Radio Navigation Plan
   type: main
 docidentifier:
-- content: IALA iala-world-wide-radio-navigation-plan
+- content: IALA iala-world-wide-radio-navigation-plan Ed 2
   type: IALA
   primary: true
 docnumber: iala-world-wide-radio-navigation-plan
@@ -55,7 +55,7 @@ relation:
 - type: hasInstance
   bibitem:
     docidentifier:
-    - content: IALA iala-world-wide-radio-navigation-plan (E)
+    - content: IALA iala-world-wide-radio-navigation-plan Ed 2 (E)
       type: IALA
 ext:
   doctype:

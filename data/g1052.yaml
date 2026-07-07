@@ -4,10 +4,10 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1052 Quality Management Systems for AtoN Service Delivery
+  content: QUALITY MANAGEMENT SYSTEMS FOR MARINE AIDS TO NAVIGATION SERVICE DELIVERY
   type: main
 - language: spa
-  content: G1052 Sistemas de gestión de calidad para la provisión de AtoNs
+  content: QUALITY MANAGEMENT SYSTEMS FOR MARINE AIDS TO NAVIGATION SERVICE DELIVERY
   type: main
 docidentifier:
 - content: IALA G1052 Ed 3.2
@@ -70,4 +70,5 @@ ext:
   doctype:
     content: guideline
   flavor: iala
+  urn: urn:mrn:iala:pub:g1052:ed3.2
   committee: ARM

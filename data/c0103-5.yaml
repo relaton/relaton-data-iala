@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: C0103-5 (V-103/5) Revalidation Training for VTS Personnel
+  content: REVALIDATION TRAINING FOR VTS PERSONNEL
   type: main
 docidentifier:
 - content: IALA C0103-5 Ed 2.0
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: model-course
   flavor: iala
+  urn: urn:mrn:iala:pub:c0103-5:ed2.0
   committee: VTS

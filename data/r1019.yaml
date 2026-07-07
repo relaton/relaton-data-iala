@@ -62,4 +62,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
+  urn: urn:mrn:iala:pub:r1019:ed2.0
   committee: ARM

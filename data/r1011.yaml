@@ -4,8 +4,8 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R1011 The Performance and Monitoring of eLoran Services in the Frequency
-    Band 90-110 kHz
+  content: THE PERFORMANCE AND MONITORING OF eLORAN SERVICES IN THE FREQUENCY BAND
+    90 – 110 KHZ
   type: main
 docidentifier:
 - content: IALA R1011 Ed 1.1
@@ -62,4 +62,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
+  urn: urn:mrn:iala:pub:r1011:ed1.1
   committee: ENG

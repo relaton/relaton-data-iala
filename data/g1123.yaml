@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1123 The Use of IALA Waterway Risk Assessment Programme (IWRAP)
+  content: THE USE OF IALA WATERWAY RISK ASSESSMENT PROGRAM (IWRAP)
   type: main
 docidentifier:
 - content: IALA G1123 Ed 2.1
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: guideline
   flavor: iala
+  urn: urn:mrn:iala:pub:g1123:ed2.1
   committee: ARM

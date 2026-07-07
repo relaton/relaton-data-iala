@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R1017 Resilient Position, Navigation and Timing (PNT)
+  content: RESILIENT POSITION, NAVIGATION AND TIMING (PNT)
   type: main
 docidentifier:
 - content: IALA R1017 Ed 1.1
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
+  urn: urn:mrn:iala:pub:r1017ed:1.1
   committee: ENG

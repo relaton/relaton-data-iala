@@ -1,5 +1,5 @@
 ---
-id: iala-world-wide-radio-navigation-plan-E
+id: iala-world-wide-radio-navigation-plan-2-E
 schema_version: v1.5.6
 type: standard
 title:
@@ -10,7 +10,7 @@ source:
 - type: website
   content: https://www.iala.int/product/iala-world-wide-radio-navigation-plan/?download=true
 docidentifier:
-- content: IALA iala-world-wide-radio-navigation-plan (E)
+- content: IALA iala-world-wide-radio-navigation-plan Ed 2 (E)
   type: IALA
   primary: true
 docnumber: iala-world-wide-radio-navigation-plan

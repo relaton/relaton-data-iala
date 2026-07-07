@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1080 Selection and Display of heritage Artefacts
+  content: THE SELECTION AND DISPLAY OF HERITAGE ARTEFACTS
   type: main
 docidentifier:
 - content: IALA G1080 Ed 1.1
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: guideline
   flavor: iala
+  urn: urn:mrn:iala:pub:g1080:ed1.1
   committee: ENG

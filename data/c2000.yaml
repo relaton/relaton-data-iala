@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: C2000 Level 2 Technician Training Overview
+  content: LEVEL 2 – TECHNICIAN TRAINING MODEL COURSE OVERVIEW
   type: main
 docidentifier:
 - content: IALA C2000 Ed 3.0
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: model-course
   flavor: iala
+  urn: urn:mrn:iala:pub:c2000:ed3.0
   committee: ENG

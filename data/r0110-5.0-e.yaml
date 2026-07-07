@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R0110 – Rhythmic Characters of Lights on Aids to Navigation
+  content: RHYTHMIC CHARACTERS OF LIGHTS ON MARINE AIDS TO NAVIGATION
   type: main
 source:
 - type: website
@@ -64,6 +64,6 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r0110:ed5.0:e
+  urn: urn:mrn:iala:pub:r0110:ed5.0
   webpage: https://www.iala.int/product/r0110/
   committee: ENG

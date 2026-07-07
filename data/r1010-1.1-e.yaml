@@ -4,8 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R1010 The Involvement of Maritime Authorities in Marine Spatial Planning
-    (MSP)
+  content: THE INVOLVEMENT OF MARITIME AUTHORITIES IN MARINE SPATIAL PLANNING (MSP)
   type: main
 source:
 - type: website
@@ -65,6 +64,6 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r1010:ed1.1:e
+  urn: urn:mrn:iala:pub:r1010ed1.1
   webpage: https://www.iala.int/product/r1010/
   committee: ARM

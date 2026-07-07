@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: fra
-  content: R1016 Aides à la navigation maritimes mobiles (MAtoN)
+  content: AIDES À LA NAVIGATION MARITIMES MOBILES (MAtoN - MANM)
   type: main
 source:
 - type: website
@@ -52,5 +52,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r1016:ed2.0:f
+  urn: urn:mrn:iala:pub:r1016
   webpage: https://www.iala.int/product/r1016-aides-a-la-navigation-maritimes-mobiles-maton/

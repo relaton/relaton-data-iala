@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R0143 Provision of  Virtual Aids to Navigation
+  content: PROVISION OF VIRTUAL AIDS TO NAVIGATION (O-143)
   type: main
 source:
 - type: website
@@ -64,6 +64,6 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r0143:ed2.0:e
+  urn: urn:mrn:iala:pub:r0143:ed2.0
   webpage: https://www.iala.int/product/r0143/
   committee: ARM

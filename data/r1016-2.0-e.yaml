@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R1016 Mobile Marine Aid to Navigation (MAtoN)
+  content: MOBILE MARINE AIDS TO NAVIGATION (MAtoN)
   type: main
 source:
 - type: website
@@ -64,6 +64,6 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r1016:ed2.0:e
+  urn: urn:mrn:iala:pub:r1016:ed2.0
   webpage: https://www.iala.int/product/r1016/
   committee: ARM

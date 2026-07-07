@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R1005 Conserving and promoting Heritage Marine Aids to Navigation
+  content: CONSERVING AND PROMOTING HERITAGE MARINE AIDS TO NAVIGATION
   type: main
 source:
 - type: website
@@ -64,6 +64,6 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r1005:ed3.0:e
+  urn: urn:mrn:iala:pub:r1005:ed2.0
   webpage: https://www.iala.int/product/r1005/
   committee: ENG

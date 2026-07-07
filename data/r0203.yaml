@@ -4,10 +4,10 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R0203 Definition of marine signal lights terms and measurement
+  content: DEFINITIONS OF MARINE SIGNAL LIGHTS TERMS OF MEASUREMENT
   type: main
 - language: spa
-  content: R0203 (E-200-3) SEÑALES LUMINOSAS MARINAS – PARTE 3 – MEDICIÓN
+  content: DEFINITIONS OF MARINE SIGNAL LIGHTS TERMS OF MEASUREMENT
   type: main
 docidentifier:
 - content: IALA R0203 Ed 2.0
@@ -70,4 +70,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
+  urn: urn:mrn:iala:pub:r0203:ed2.0
   committee: ENG

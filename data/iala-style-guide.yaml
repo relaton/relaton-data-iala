@@ -1,5 +1,5 @@
 ---
-id: iala-style-guide
+id: iala-style-guide-1.0
 schema_version: v1.5.6
 type: standard
 title:
@@ -7,7 +7,7 @@ title:
   content: IALA Style Guide
   type: main
 docidentifier:
-- content: IALA iala-style-guide
+- content: IALA iala-style-guide Ed 1.0
   type: IALA
   primary: true
 docnumber: iala-style-guide
@@ -43,7 +43,7 @@ relation:
 - type: hasInstance
   bibitem:
     docidentifier:
-    - content: IALA iala-style-guide (E)
+    - content: IALA iala-style-guide Ed 1.0 (E)
       type: IALA
 ext:
   doctype:

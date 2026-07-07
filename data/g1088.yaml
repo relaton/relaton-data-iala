@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1088 Introduction to Preparing S-100 Product Specifications
+  content: INTRODUCTION TO PREPARING S-100 PRODUCT SPECIFICATIONS
   type: main
 docidentifier:
 - content: IALA G1088 Ed 1.1
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: guideline
   flavor: iala
+  urn: urn:mrn:iala:pub:g1088:ed1.1
   committee: e-NAV

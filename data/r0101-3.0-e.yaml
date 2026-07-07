@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R0101 Marine Radar Beacons (Racons)
+  content: MARINE RADAR BEACONS (RACONS)
   type: main
 source:
 - type: website
@@ -64,6 +64,6 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r0101:ed3.0:e
+  urn: urn:mrn:iala:pub:r0101:ed3.0
   webpage: https://www.iala.int/product/r0101/
   committee: DTEC

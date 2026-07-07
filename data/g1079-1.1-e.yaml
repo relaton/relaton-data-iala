@@ -4,8 +4,8 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1079 Establishing and Conducting User Consultancy by Aids to Navigation
-    Authorities
+  content: ESTABLISHING AND CONDUCTING USER CONSULTANCY BY MARINE AIDS TO NAVIGATION
+    AUTHORITIES
   type: main
 source:
 - type: website
@@ -65,6 +65,6 @@ ext:
   doctype:
     content: guideline
   flavor: iala
-  urn: urn:mrn:iala:pub:g1079:ed1.1:e
+  urn: urn:mrn:iala:pub:g1079:ed1.1
   webpage: https://www.iala.int/product/g1079/
   committee: ARM

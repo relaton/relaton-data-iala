@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R0125 VTS Portrayal
+  content: VTS PORTRAYAL
   type: main
 source:
 - type: website
@@ -64,6 +64,6 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r0125:ed4.0:e
+  urn: urn:mrn:iala:pub:r0125:ed4.0
   webpage: https://www.iala.int/product/r0125/
   committee: VTS

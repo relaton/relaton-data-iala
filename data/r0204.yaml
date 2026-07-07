@@ -82,4 +82,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
+  urn: urn:mrn:iala:pub:r0204:ed:3.0
   committee: ENG

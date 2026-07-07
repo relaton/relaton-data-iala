@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1152 SBAS Maritime Service
+  content: SBAS MARITIME SERVICE
   type: main
 docidentifier:
 - content: IALA G1152 Ed 1.1
@@ -49,3 +49,4 @@ ext:
   doctype:
     content: guideline
   flavor: iala
+  urn: urn:mrn:iala:pub:g1152:ed1.1

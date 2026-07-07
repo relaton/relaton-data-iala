@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1167 VTS Management
+  content: VTS MANAGEMENT
   type: main
 source:
 - type: website
@@ -64,6 +64,6 @@ ext:
   doctype:
     content: guideline
   flavor: iala
-  urn: urn:mrn:iala:pub:g1167:ed1.1:e
+  urn: urn:mrn:iala:pub:g1167:ed1.0
   webpage: https://www.iala.int/product/g1167/
   committee: VTS

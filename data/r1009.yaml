@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R1009 Disaster Recovery
+  content: DISASTER RECOVERY
   type: main
 docidentifier:
 - content: IALA R1009 Ed 1.1
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
+  urn: urn:mrn:iala:pub:r1009:ed1.1
   committee: ARM

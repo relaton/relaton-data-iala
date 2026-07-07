@@ -4,8 +4,8 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1016 Bilateral agreements and inter-agency memorandums of understanding
-    on the provision of DGNSS services in the frequency band 283.5 – 325 kHz
+  content: BILATERAL AGREEMENTS AND INTER-AGENCY MoU ON THE PROVISION OF DGNSS SERVICES
+    IN THE FREQUENCY BAND 283.5 KHZ – 325 KHZ
   type: main
 docidentifier:
 - content: IALA G1016 Ed 1.1
@@ -62,4 +62,5 @@ ext:
   doctype:
     content: guideline
   flavor: iala
+  urn: urn:mrn:iala:pub:g1016:ed1.2
   committee: ENG

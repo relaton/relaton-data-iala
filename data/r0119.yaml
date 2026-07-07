@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R0119 Establishment of a VTS
+  content: ESTABLISHMENT OF A VTS
   type: main
 docidentifier:
 - content: IALA R0119 Ed 4.2
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
+  urn: urn:mrn:iala:pub:r0119:ed4.2
   committee: VTS

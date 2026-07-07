@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R1004 Sustainability in the Provision of Marine Aids to Navigation
+  content: SUSTAINABILITY IN THE PROVISION OF MARINE AIDS TO NAVIGATION
   type: main
 docidentifier:
 - content: IALA R1004 Ed 2.1
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
+  urn: urn:mrn:iala:pub:r1004:ed2.1
   committee: ENG

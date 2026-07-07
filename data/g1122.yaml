@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1122 The Use of Pictograms on Aids to Navigation
+  content: THE USE OF PICTOGRAMS ON AIDS TO NAVIGATION
   type: main
 docidentifier:
 - content: IALA G1122 Ed 1.1
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: guideline
   flavor: iala
+  urn: urn:mrn:iala:pub:g1122:ed1.1
   committee: ARM

@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1035 Availability and Reliability of Aids to Navigation
+  content: AVAILABILITY AND RELIABILITY OF AIDS TO NAVIGATION - THEORY AND EXAMPLES
   type: main
 source:
 - type: website
@@ -64,6 +64,6 @@ ext:
   doctype:
     content: guideline
   flavor: iala
-  urn: urn:mrn:iala:pub:g1035:ed2.1:e
+  urn: urn:mrn:iala:pub:g1035:ed2.1
   webpage: https://www.iala.int/product/g1035/
   committee: ENG

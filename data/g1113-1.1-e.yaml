@@ -4,8 +4,8 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1113 Design and Implementation Principles for Harmonised System Architectures
-    of Shore-based Infrastructure
+  content: DESIGN AND IMPLEMENTATION PRINCIPLES FOR HARMONIZED SYSTEM ARCHITECTURES
+    OF SHORE-BASED INFRASTRUCTURE
   type: main
 source:
 - type: website
@@ -65,6 +65,6 @@ ext:
   doctype:
     content: guideline
   flavor: iala
-  urn: urn:mrn:iala:pub:g1113:ed1.1:e
+  urn: urn:mrn:iala:pub:g1113:ed1.1
   webpage: https://www.iala.int/product/g1113/
   committee: ENAV

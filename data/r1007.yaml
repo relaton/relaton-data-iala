@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R1007 The VHF Data Exchange System (VDES) for Shore Infrastructure
+  content: THE VHF DATA EXCHANGE SYSTEM (VDES) FOR SHORE INFRASTRUCTURE
   type: main
 docidentifier:
 - content: IALA R1007 Ed 2.0
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
+  urn: urn:mrn:iala:pub:r1007:ed2.0
   committee: ENAV

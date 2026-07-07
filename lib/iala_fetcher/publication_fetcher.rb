@@ -123,7 +123,8 @@ module IalaFetcher
         "language" => titles.map { |t| t["language"] }.uniq,
         "script" => scripts_for(group),
         "status" => { "stage" => { "content" => "in-force" } },
-        "ext" => ext_block(work_docid, group.work_doctype, committee, nil, nil),
+        "ext" => ext_block(work_docid, group.work_doctype, committee, nil,
+                           work_urn_for(work_docid, cover)),
       }
       apply_dates!(hash, date)
       apply_copyright!(hash, date)
@@ -222,6 +223,15 @@ module IalaFetcher
       return work_docid unless edition
 
       work_docid.with_edition(edition)
+    end
+
+    # The Work's URN. Prefers the cover-page URN (authoritative source —
+    # printed on the cover by IALA). Falls back to computing one from the
+    # Work docid for typed codes. Returns nil for codeless items.
+    def work_urn_for(work_docid, cover)
+      return cover.urn if cover&.urn && !cover.urn.empty?
+
+      work_docid.urn
     end
 
     def titles_for(group, cover)

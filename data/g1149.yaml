@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1149 VTS Training for Deck Officers
+  content: VTS TRAINING FOR DECK OFFICERS
   type: main
 docidentifier:
 - content: IALA G1149 Ed 1.1
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: guideline
   flavor: iala
+  urn: urn:mrn:iala:pub:g1149:ed1.1
   committee: VTS

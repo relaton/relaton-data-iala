@@ -4,7 +4,8 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: C2005-1 Surface Preparation before Coating
+  content: MARINE AIDS TO NAVIGATION – TECHNICIAN TRAINING INTRODUCTION TO COATINGS
+    AND SPECIFICATIONS, SURFACE PREPARATION
   type: main
 docidentifier:
 - content: IALA C2005-1 Ed 3.0
@@ -61,4 +62,5 @@ ext:
   doctype:
     content: model-course
   flavor: iala
+  urn: urn:mrn:iala:pub:c2005-1:ed3.0
   committee: ENG

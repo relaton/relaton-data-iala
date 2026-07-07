@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1197 GNSS sat-based PPP maritime service
+  content: GNSS SATELLITE-BASED PRECISE POINT POSITIONING (PPP) MARITIME SERVICE
   type: main
 source:
 - type: website
@@ -52,5 +52,5 @@ ext:
   doctype:
     content: guideline
   flavor: iala
-  urn: urn:mrn:iala:pub:g1197:ed1.0:e
+  urn: urn:mrn:iala:pub:g1197:ed1.0
   webpage: https://www.iala.int/product/g1197-gnss-sat-based-ppp-maritime-service/

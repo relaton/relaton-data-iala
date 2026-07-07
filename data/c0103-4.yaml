@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: C0103-4 (V-103/4) Vessel Traffic Service – On the Job Training Instructor
+  content: VTS ON-THE-JOB TRAINING INSTRUCTOR
   type: main
 docidentifier:
 - content: IALA C0103-4 Ed 3.0
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: model-course
   flavor: iala
+  urn: urn:mrn:iala:pub:c0103-4:ed3.0
   committee: VTS

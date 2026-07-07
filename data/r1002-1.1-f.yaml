@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: fra
-  content: R1002 Gestion des risques pour les aides à la navigation maritimes
+  content: GESTION DES RISQUES POUR LES AIDES À LA NAVIGATION MARITIMES
   type: main
 source:
 - type: website
@@ -52,5 +52,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r1002:ed1.1:f
+  urn: urn:mrn:iala:pub:r1002:ed1.1
   webpage: https://www.iala.int/product/r1002-gestion-des-risques-pour-les-aides-a-la-navigation-maritimes/
