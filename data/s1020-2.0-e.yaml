@@ -1,0 +1,56 @@
+---
+id: S1020-2.0-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: S1020 Marine Aids to Navigation Design and Delivery
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/s1020/?download=true
+docidentifier:
+- content: IALA S1020 Ed 2.0 (E)
+  type: IALA
+  primary: true
+docnumber: '1020'
+date:
+- type: published
+  from: '2023-06-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2023-06-03'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA S1020
+      type: IALA
+ext:
+  doctype:
+    content: standard
+  flavor: iala
+  urn: urn:mrn:iala:pub:s1020:ed2.0:e
+  webpage: https://www.iala.int/product/s1020/

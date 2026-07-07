@@ -1,0 +1,52 @@
+---
+id: S1050-2.0
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: S1050 Training and Certification
+  type: main
+docidentifier:
+- content: IALA S1050 Ed 2.0
+  type: IALA
+  primary: true
+docnumber: '1050'
+date:
+- type: published
+  from: '2023-06-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2023-06-03'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA S1050 Ed 2.0 (E)
+      type: IALA
+ext:
+  doctype:
+    content: standard
+  flavor: iala
+  urn: urn:mrn:iala:pub:s1050:ed2.0
