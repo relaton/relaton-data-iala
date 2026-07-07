@@ -1,0 +1,66 @@
+---
+id: G1036-3.1
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: ENVIRONMENTAL MANAGEMENT IN AIDS TO NAVIGATION
+  type: main
+docidentifier:
+- content: IALA G1036 Ed 3.1
+  type: IALA
+  primary: true
+docnumber: '1036'
+date:
+- type: published
+  from: '2004-12-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2004-12-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA G1036 Ed 3.1 (E)
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1036:ed3.1
+  webpage: https://www.iala.int/product/g1036/
+  committee: ENG

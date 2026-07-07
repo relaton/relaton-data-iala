@@ -1,0 +1,66 @@
+---
+id: G1179-1.0
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: AN INTRODUCTION TO THE INTERNET OF THINGS (IOT) FROM AN IALA PERSPECTIVE
+  type: main
+docidentifier:
+- content: IALA G1179 Ed 1.0
+  type: IALA
+  primary: true
+docnumber: '1179'
+date:
+- type: published
+  from: '2022-12-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: e-Navigation Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2022-12-16'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA G1179 Ed 1.0 (E)
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1179:ed1.0
+  webpage: https://www.iala.int/product/g1179/
+  committee: ENAV

@@ -1,0 +1,66 @@
+---
+id: C2001-5-2.0
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: MARINE AIDS TO NAVIGATION – TECHNICIAN TRAINING BUOY CLEANING
+  type: main
+docidentifier:
+- content: IALA C2001-5 Ed 2.0
+  type: IALA
+  primary: true
+docnumber: 2001-5
+date:
+- type: published
+  from: '2012-10-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2012-10-10'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA C2001-5 Ed 2.0 (E)
+      type: IALA
+ext:
+  doctype:
+    content: model-course
+  flavor: iala
+  urn: urn:mrn:iala:pub:c2001-5:ed2.0
+  webpage: https://www.iala.int/product/c2001-5/
+  committee: ENG

@@ -1,0 +1,67 @@
+---
+id: G1079-1.1
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: ESTABLISHING AND CONDUCTING USER CONSULTANCY BY MARINE AIDS TO NAVIGATION
+    AUTHORITIES
+  type: main
+docidentifier:
+- content: IALA G1079 Ed 1.1
+  type: IALA
+  primary: true
+docnumber: '1079'
+date:
+- type: published
+  from: '2009-12-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: AtoN Requirements and Management Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2009-12-09'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA G1079 Ed 1.1 (E)
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1079:ed1.1
+  webpage: https://www.iala.int/product/g1079/
+  committee: ARM

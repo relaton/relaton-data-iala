@@ -46,7 +46,7 @@ relation:
 - type: instanceOf
   bibitem:
     docidentifier:
-    - content: IALA iala-style-guide
+    - content: IALA iala-style-guide Ed 1.0
       type: IALA
 ext:
   doctype:

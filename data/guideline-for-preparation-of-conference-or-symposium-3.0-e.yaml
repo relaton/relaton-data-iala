@@ -46,7 +46,7 @@ relation:
 - type: instanceOf
   bibitem:
     docidentifier:
-    - content: IALA guideline-for-preparation-of-conference-or-symposium
+    - content: IALA guideline-for-preparation-of-conference-or-symposium Ed 3.0
       type: IALA
 ext:
   doctype:

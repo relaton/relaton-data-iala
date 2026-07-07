@@ -59,7 +59,7 @@ relation:
 - type: instanceOf
   bibitem:
     docidentifier:
-    - content: IALA C2001-10
+    - content: IALA C2001-10 Ed 2.0
       type: IALA
 ext:
   doctype:

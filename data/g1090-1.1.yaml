@@ -1,0 +1,66 @@
+---
+id: G1090-1.1
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: THE USE OF AUDIBLE SIGNALS
+  type: main
+docidentifier:
+- content: IALA G1090 Ed 1.1
+  type: IALA
+  primary: true
+docnumber: '1090'
+date:
+- type: published
+  from: '2012-12-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: AtoN Requirements and Management Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2012-12-07'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA G1090 Ed 1.1 (E)
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1090:ed1.1
+  webpage: https://www.iala.int/product/g1090/
+  committee: ARM

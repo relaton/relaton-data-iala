@@ -1,0 +1,84 @@
+---
+id: R0201-3.1
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: R0201 Marine Signal Lights-Colours (E200-1)
+  type: main
+- language: fra
+  content: R0201 Feux de signalisation maritime – Couleurs
+  type: main
+- language: spa
+  content: R0201(E200‐1)  SEÑALES LUMINOSAS MARÍTIMAS ‐ COLORES
+  type: main
+docidentifier:
+- content: IALA R0201 Ed 3.1
+  type: IALA
+  primary: true
+docnumber: '0201'
+date:
+- type: published
+  from: '2008-12-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2008-12-04'
+language:
+- eng
+- fra
+- spa
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA R0201 Ed 3.1 (E)
+      type: IALA
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA R0201 Ed 3.1 (F)
+      type: IALA
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA R0201 Ed 3.1 (S)
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r0201:ed3.1
+  webpage: https://www.iala.int/product/r0201/
+  committee: ENG

@@ -1,0 +1,53 @@
+---
+id: G1182-1.0
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: CYBER SECURITY SPECIFICS FROM AN IALA PERSPECTIVE
+  type: main
+docidentifier:
+- content: IALA G1182 Ed 1.0
+  type: IALA
+  primary: true
+docnumber: '1182'
+date:
+- type: published
+  from: '2024-06-28'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2024-06-28'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA G1182 Ed 1.0 (E)
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1182:ed1.0
+  webpage: https://www.iala.int/product/g1182-ed1-0-cyber-security-specifics-from-an-iala-perspective/
