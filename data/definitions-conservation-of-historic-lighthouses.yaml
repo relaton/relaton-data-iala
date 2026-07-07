@@ -1,0 +1,64 @@
+---
+id: definitions-conservation-of-historic-lighthouses
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Definitions – Conservation of Historic Lighthouses
+  type: main
+docidentifier:
+- content: IALA definitions-conservation-of-historic-lighthouses
+  type: IALA
+  primary: true
+docnumber: definitions-conservation-of-historic-lighthouses
+date:
+- type: published
+  from: '2008-12-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: EEP
+    abbreviation:
+      content: IALA
+version:
+- content: '2008-12-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA definitions-conservation-of-historic-lighthouses (E)
+      type: IALA
+ext:
+  doctype:
+    content: resolution
+  flavor: iala
+  committee: EEP

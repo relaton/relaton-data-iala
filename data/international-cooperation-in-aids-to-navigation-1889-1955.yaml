@@ -1,0 +1,38 @@
+---
+id: international-cooperation-in-aids-to-navigation-1889-1955
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: International Cooperation in Aids to Navigation 1889-1955
+  type: main
+docidentifier:
+- content: IALA international-cooperation-in-aids-to-navigation-1889-1955
+  type: IALA
+  primary: true
+docnumber: international-cooperation-in-aids-to-navigation-1889-1955
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA international-cooperation-in-aids-to-navigation-1889-1955 (E)
+      type: IALA
+ext:
+  doctype:
+    content: resolution
+  flavor: iala

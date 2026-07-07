@@ -1,0 +1,65 @@
+---
+id: report-iala-workshop-common-phraseology-procedures-vts-communication
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Workshop – IALA – Common Phraseology and Procedures for VTS Communication
+  type: main
+docidentifier:
+- content: IALA report-iala-workshop-common-phraseology-procedures-vts-communication
+  type: IALA
+  primary: true
+docnumber: report-iala-workshop-common-phraseology-procedures-vts-communication
+date:
+- type: published
+  from: '2017-02-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Vessel Traffic Services Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2017-02-24'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA report-iala-workshop-common-phraseology-procedures-vts-communication
+        (E)
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  committee: VTS

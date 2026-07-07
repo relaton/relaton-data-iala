@@ -1,0 +1,56 @@
+---
+id: G1190-1.0-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1190 Harmonised IoT protocol for visual AtoN
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/g1190/?download=true
+docidentifier:
+- content: IALA G1190 Ed 1.0 (E)
+  type: IALA
+  primary: true
+docnumber: '1190'
+date:
+- type: published
+  from: '2025-06-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2025-06-13'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA G1190
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1190:ed1.0:e
+  webpage: https://www.iala.int/product/g1190/

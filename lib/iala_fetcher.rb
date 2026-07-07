@@ -31,16 +31,26 @@ module IalaFetcher
   # Language categories — slug → ISO 639-3 code. Each maps a parallel
   # translation of the publications tree. English is the default; the
   # English slug is the canonical source for Work-level metadata.
+  # All ten base categories have an English entry; recommendations and
+  # manuals also have translation slugs that exist on the site today.
   LANGUAGE_CATEGORIES = {
-    "recommendations"          => "eng",
-    "recommendations-french"   => "fra",
-    "recommendations-spanish"  => "spa",
-    "recommendation-arabic"    => "ara",
-    "recommendation-chinese"   => "zho",
-    "recommendation-russian"   => "rus",
-    "guidelines"               => "eng",
-    "standards"                => "eng",
-    "manuals"                  => "eng",
+    # English — all categories
+    "standards"                                  => "eng",
+    "recommendations"                            => "eng",
+    "guidelines"                                 => "eng",
+    "manuals"                                    => "eng",
+    "model-courses"                              => "eng",
+    "model-courses/level-1-aton-manager-courses" => "eng",
+    "model-courses/level-2-technician-courses"   => "eng",
+    "model-courses/vts-model-courses"            => "eng",
+    "reports-and-proceedings"                    => "eng",
+    "other-publications"                         => "eng",
+    # French / Spanish / Arabic / Chinese / Russian variants
+    "recommendations-french"                     => "fra",
+    "recommendations-spanish"                    => "spa",
+    "recommendation-arabic"                      => "ara",
+    "recommendation-chinese"                     => "zho",
+    "recommendation-russian"                     => "rus",
   }.freeze
 
   # ISO 639-3 → IALA single-letter docid language code (printed on covers).
@@ -56,14 +66,23 @@ module IalaFetcher
   # Inverse of DOCID_LANG_CODE — used to decode cover-page language tags.
   LANG_FROM_DOCID_CODE = DOCID_LANG_CODE.invert.freeze
 
-  # IALA's four technical committees plus governance bodies.
+  # IALA's technical committees plus governance bodies. Historical
+  # committee codes appear on older publications and are preserved here
+  # so the contributor block can render the full name.
   COMMITTEES = {
     "ARM"       => "AtoN Requirements and Management Committee",
     "ENG"       => "Engineering and Sustainability Committee",
     "DTEC"      => "Digital Technologies Committee",
     "VTS"       => "Vessel Traffic Services Committee",
+    # Historical / sub-committee codes seen on legacy publications
+    "e-NAV"     => "e-Navigation Committee",
+    "ENAV"      => "e-Navigation Committee",
+    "AtoN"      => "AtoN Requirements and Management Committee",
+    "IS"        => "Information Systems Committee",
+    # Governance bodies
     "Council"   => "IALA Council",
     "Secretariat" => "IALA Secretariat",
+    "General Assembly" => "IALA General Assembly",
   }.freeze
 
   # Cover-page label → doctype vocabulary. The cover-page OCR uses these

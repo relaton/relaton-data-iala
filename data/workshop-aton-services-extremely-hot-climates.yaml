@@ -1,0 +1,51 @@
+---
+id: workshop-aton-services-extremely-hot-climates
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Workshop – IALA – AtoN Services in Extremely Hot Climates
+  type: main
+docidentifier:
+- content: IALA workshop-aton-services-extremely-hot-climates
+  type: IALA
+  primary: true
+docnumber: workshop-aton-services-extremely-hot-climates
+date:
+- type: published
+  from: '2016-09-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2016-09-09'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA workshop-aton-services-extremely-hot-climates (E)
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala

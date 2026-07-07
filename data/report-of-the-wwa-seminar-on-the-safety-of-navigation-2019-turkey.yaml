@@ -1,0 +1,39 @@
+---
+id: report-of-the-wwa-seminar-on-the-safety-of-navigation-2019-turkey
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Seminar – IALA – WWA Safety of Navigation 2019 Turkey
+  type: main
+docidentifier:
+- content: IALA report-of-the-wwa-seminar-on-the-safety-of-navigation-2019-turkey
+  type: IALA
+  primary: true
+docnumber: report-of-the-wwa-seminar-on-the-safety-of-navigation-2019-turkey
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA report-of-the-wwa-seminar-on-the-safety-of-navigation-2019-turkey
+        (E)
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala

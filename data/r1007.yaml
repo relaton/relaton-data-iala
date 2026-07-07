@@ -1,0 +1,64 @@
+---
+id: R1007-2.0
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: R1007 The VHF Data Exchange System (VDES) for Shore Infrastructure
+  type: main
+docidentifier:
+- content: IALA R1007 Ed 2.0
+  type: IALA
+  primary: true
+docnumber: '1007'
+date:
+- type: published
+  from: '2017-06-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: e-Navigation Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2017-06-16'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA R1007 Ed 2.0 (E)
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  committee: ENAV

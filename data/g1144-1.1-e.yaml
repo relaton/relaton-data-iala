@@ -1,0 +1,70 @@
+---
+id: G1144-1.1-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1144 Promulgating the Requirements of a VTS to Mariners – A VTS Users
+    Guide
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/g1144/?download=true
+docidentifier:
+- content: IALA G1144 Ed 1.1 (E)
+  type: IALA
+  primary: true
+docnumber: '1144'
+date:
+- type: published
+  from: '2019-06-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Vessel Traffic Services Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2019-06-21'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA G1144
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1144:ed1.1:e
+  webpage: https://www.iala.int/product/g1144/
+  committee: VTS

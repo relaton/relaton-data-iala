@@ -1,0 +1,55 @@
+---
+id: report-on-the-workshop-digital-maritime-communications-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report on the workshop Digital Maritime Communications
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/report-on-the-workshop-digital-maritime-communications/?download=true
+docidentifier:
+- content: IALA report-on-the-workshop-digital-maritime-communications (E)
+  type: IALA
+  primary: true
+docnumber: report-on-the-workshop-digital-maritime-communications
+date:
+- type: published
+  from: '2023-02-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2023-02-24'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA report-on-the-workshop-digital-maritime-communications
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/report-on-the-workshop-digital-maritime-communications/

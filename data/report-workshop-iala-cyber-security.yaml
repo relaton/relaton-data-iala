@@ -1,0 +1,38 @@
+---
+id: report-workshop-iala-cyber-security
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Workshop – IALA – Cyber Security
+  type: main
+docidentifier:
+- content: IALA report-workshop-iala-cyber-security
+  type: IALA
+  primary: true
+docnumber: report-workshop-iala-cyber-security
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA report-workshop-iala-cyber-security (E)
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala

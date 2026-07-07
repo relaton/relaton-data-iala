@@ -1,0 +1,43 @@
+---
+id: iala-1957-1990-33-year-of-international-cooperation-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: 'AISM-IALA 1957-1990: 33 ans de coopération internationale – 33 Years of
+    International Co-operation'
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/iala-1957-1990-33-year-of-international-cooperation/
+docidentifier:
+- content: IALA iala-1957-1990-33-year-of-international-cooperation (E)
+  type: IALA
+  primary: true
+docnumber: iala-1957-1990-33-year-of-international-cooperation
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA iala-1957-1990-33-year-of-international-cooperation
+      type: IALA
+ext:
+  doctype:
+    content: resolution
+  flavor: iala
+  webpage: https://www.iala.int/product/iala-1957-1990-33-year-of-international-cooperation/

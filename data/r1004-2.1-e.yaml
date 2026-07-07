@@ -1,0 +1,69 @@
+---
+id: R1004-2.1-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: R1004 Sustainability in the Provision of Marine Aids to Navigation
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r1004/?download=true
+docidentifier:
+- content: IALA R1004 Ed 2.1 (E)
+  type: IALA
+  primary: true
+docnumber: '1004'
+date:
+- type: published
+  from: '2019-12-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2019-12-13'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R1004
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r1004:ed2.1:e
+  webpage: https://www.iala.int/product/r1004/
+  committee: ENG

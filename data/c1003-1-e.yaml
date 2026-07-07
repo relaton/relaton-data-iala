@@ -1,0 +1,70 @@
+---
+id: C1003-1-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: C1003 Aids to Navigation Manager Training Level 1 – Use of the IALA Risk
+    Management Tools
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/c1003/?download=true
+docidentifier:
+- content: IALA C1003 Ed 1 (E)
+  type: IALA
+  primary: true
+docnumber: '1003'
+date:
+- type: published
+  from: '2013-05-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: AtoN Requirements and Management Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2013-05-31'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA C1003
+      type: IALA
+ext:
+  doctype:
+    content: model-course
+  flavor: iala
+  urn: urn:mrn:iala:pub:c1003:ed1:e
+  webpage: https://www.iala.int/product/c1003/
+  committee: ARM

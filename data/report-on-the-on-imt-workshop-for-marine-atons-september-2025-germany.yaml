@@ -1,0 +1,52 @@
+---
+id: report-on-the-on-imt-workshop-for-marine-atons-september-2025-germany
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report on the IMT Workshop for Marine AtoNs, September 2025, Germany
+  type: main
+docidentifier:
+- content: IALA report-on-the-on-imt-workshop-for-marine-atons-september-2025-germany
+  type: IALA
+  primary: true
+docnumber: report-on-the-on-imt-workshop-for-marine-atons-september-2025-germany
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Digital Technologies Committee
+    abbreviation:
+      content: IALA
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA report-on-the-on-imt-workshop-for-marine-atons-september-2025-germany
+        (E)
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  committee: DTEC

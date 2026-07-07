@@ -1,0 +1,68 @@
+---
+id: report-training-and-certification-of-aton-and-vts-personnel-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Training and Certification of AtoN and VTS Personnel
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/report-training-and-certification-of-aton-and-vts-personnel/?download=true
+docidentifier:
+- content: IALA report-training-and-certification-of-aton-and-vts-personnel (E)
+  type: IALA
+  primary: true
+docnumber: report-training-and-certification-of-aton-and-vts-personnel
+date:
+- type: published
+  from: '2014-05-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Pre-Conference Seminar
+    abbreviation:
+      content: IALA
+version:
+- content: '2014-05-24'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA report-training-and-certification-of-aton-and-vts-personnel
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/report-training-and-certification-of-aton-and-vts-personnel/
+  committee: Pre-Conference Seminar

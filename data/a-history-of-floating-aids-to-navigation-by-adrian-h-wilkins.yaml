@@ -1,0 +1,38 @@
+---
+id: a-history-of-floating-aids-to-navigation-by-adrian-h-wilkins
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: A History of Floating Aids to Navigation by Adrian H Wilkins
+  type: main
+docidentifier:
+- content: IALA a-history-of-floating-aids-to-navigation-by-adrian-h-wilkins
+  type: IALA
+  primary: true
+docnumber: a-history-of-floating-aids-to-navigation-by-adrian-h-wilkins
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA a-history-of-floating-aids-to-navigation-by-adrian-h-wilkins (E)
+      type: IALA
+ext:
+  doctype:
+    content: resolution
+  flavor: iala

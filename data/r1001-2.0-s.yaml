@@ -1,0 +1,56 @@
+---
+id: R1001-2.0-S
+schema_version: v1.5.6
+type: standard
+title:
+- language: spa
+  content: R1001 El sistema de balizamiento maritimo – IALA
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r1001-el-sistema-de-balizamiento-maritimo-iala/?download=true
+docidentifier:
+- content: IALA R1001 Ed 2.0 (S)
+  type: IALA
+  primary: true
+docnumber: '1001'
+date:
+- type: published
+  from: '2023-06-02'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2023-06-02'
+language:
+- spa
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R1001
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r1001:ed2.0:s
+  webpage: https://www.iala.int/product/r1001-el-sistema-de-balizamiento-maritimo-iala/

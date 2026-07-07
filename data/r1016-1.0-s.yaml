@@ -1,0 +1,69 @@
+---
+id: R1016-1.0-S
+schema_version: v1.5.6
+type: standard
+title:
+- language: spa
+  content: R1016  AYUDAS A LA NAVEGACIÓN MARÍTIMA  MOVILES (MAtoN)
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r1016_es/?download=true
+docidentifier:
+- content: IALA R1016 Ed 1.0 (S)
+  type: IALA
+  primary: true
+docnumber: '1016'
+date:
+- type: published
+  from: '2017-12-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: AtoN Requirements and Management Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2017-12-08'
+language:
+- spa
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R1016
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r1016:ed1.0:s
+  webpage: https://www.iala.int/product/r1016_es/
+  committee: ARM

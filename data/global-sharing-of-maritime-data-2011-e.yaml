@@ -1,0 +1,55 @@
+---
+id: global-sharing-of-maritime-data-2011-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Workshop – IALA – Global Sharing of Maritime Data 2011
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/global-sharing-of-maritime-data-2011/?download=true
+docidentifier:
+- content: IALA global-sharing-of-maritime-data-2011 (E)
+  type: IALA
+  primary: true
+docnumber: global-sharing-of-maritime-data-2011
+date:
+- type: published
+  from: '2011-09-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2011-09-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA global-sharing-of-maritime-data-2011
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/global-sharing-of-maritime-data-2011/

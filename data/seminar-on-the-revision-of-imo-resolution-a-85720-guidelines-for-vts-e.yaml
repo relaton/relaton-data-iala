@@ -1,0 +1,57 @@
+---
+id: seminar-on-the-revision-of-imo-resolution-a-85720-guidelines-for-vts-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Seminar – IALA – Revision of IMO Resolution A.857(20) Guidelines
+    for VTS
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/seminar-on-the-revision-of-imo-resolution-a-85720-guidelines-for-vts/?download=true
+docidentifier:
+- content: IALA seminar-on-the-revision-of-imo-resolution-a-85720-guidelines-for-vts
+    (E)
+  type: IALA
+  primary: true
+docnumber: seminar-on-the-revision-of-imo-resolution-a-85720-guidelines-for-vts
+date:
+- type: published
+  from: '2019-06-28'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2019-06-28'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA seminar-on-the-revision-of-imo-resolution-a-85720-guidelines-for-vts
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/seminar-on-the-revision-of-imo-resolution-a-85720-guidelines-for-vts/

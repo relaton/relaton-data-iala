@@ -1,0 +1,38 @@
+---
+id: risk-seminar-singapore-2015
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Seminar – IALA – Risk Training Singapore 2015
+  type: main
+docidentifier:
+- content: IALA risk-seminar-singapore-2015
+  type: IALA
+  primary: true
+docnumber: risk-seminar-singapore-2015
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA risk-seminar-singapore-2015 (E)
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala

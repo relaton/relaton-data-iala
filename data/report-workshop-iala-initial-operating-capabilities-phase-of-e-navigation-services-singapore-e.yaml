@@ -1,0 +1,44 @@
+---
+id: report-workshop-iala-initial-operating-capabilities-phase-of-e-navigation-services-singapore-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Workshop – IALA – Initial Operating Capabilities Phase of E-Navigation
+    Services Singapore
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/report-workshop-iala-initial-operating-capabilities-phase-of-e-navigation-services-singapore/?download=true
+docidentifier:
+- content: IALA report-workshop-iala-initial-operating-capabilities-phase-of-e-navigation-services-singapore
+    (E)
+  type: IALA
+  primary: true
+docnumber: report-workshop-iala-initial-operating-capabilities-phase-of-e-navigation-services-singapore
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA report-workshop-iala-initial-operating-capabilities-phase-of-e-navigation-services-singapore
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/report-workshop-iala-initial-operating-capabilities-phase-of-e-navigation-services-singapore/

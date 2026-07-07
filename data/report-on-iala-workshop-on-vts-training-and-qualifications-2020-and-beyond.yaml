@@ -1,0 +1,52 @@
+---
+id: report-on-iala-workshop-on-vts-training-and-qualifications-2020-and-beyond
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Workshop – IALA – VTS Training and Qualifications, 2020 and beyond
+  type: main
+docidentifier:
+- content: IALA report-on-iala-workshop-on-vts-training-and-qualifications-2020-and-beyond
+  type: IALA
+  primary: true
+docnumber: report-on-iala-workshop-on-vts-training-and-qualifications-2020-and-beyond
+date:
+- type: published
+  from: '2020-07-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2020-07-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA report-on-iala-workshop-on-vts-training-and-qualifications-2020-and-beyond
+        (E)
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala

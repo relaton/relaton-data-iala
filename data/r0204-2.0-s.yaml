@@ -1,0 +1,57 @@
+---
+id: R0204-2.0-S
+schema_version: v1.5.6
+type: standard
+title:
+- language: spa
+  content: R0204(E200‐4)  SEÑALES LUMINOSAS MARÍTIMAS –  DETERMINACIÓN Y CÁLCULO DE
+    LA  INTENSIDAD EFICAZ
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r0204_es/?download=true
+docidentifier:
+- content: IALA R0204 Ed 2.0 (S)
+  type: IALA
+  primary: true
+docnumber: '0204'
+date:
+- type: published
+  from: '2008-12-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2008-12-12'
+language:
+- spa
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R0204
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r0204:ed2.0:s
+  webpage: https://www.iala.int/product/r0204_es/

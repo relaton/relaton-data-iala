@@ -1,0 +1,64 @@
+---
+id: maritime-radio-communications-plan
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Maritime Radio Communications Plan (MRCP)
+  type: main
+docidentifier:
+- content: IALA maritime-radio-communications-plan
+  type: IALA
+  primary: true
+docnumber: maritime-radio-communications-plan
+date:
+- type: published
+  from: '2009-12-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: e-Navigation Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2009-12-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA maritime-radio-communications-plan (E)
+      type: IALA
+ext:
+  doctype:
+    content: resolution
+  flavor: iala
+  committee: ENAV

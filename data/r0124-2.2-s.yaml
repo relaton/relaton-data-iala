@@ -1,0 +1,56 @@
+---
+id: R0124-2.2-S
+schema_version: v1.5.6
+type: standard
+title:
+- language: spa
+  content: R0124 (A-124) EL SERVICIO AIS
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r0124-a-124-el-servicio-ais/?download=true
+docidentifier:
+- content: IALA R0124 Ed 2.2 (S)
+  type: IALA
+  primary: true
+docnumber: '0124'
+date:
+- type: published
+  from: '2002-12-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2002-12-13'
+language:
+- spa
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R0124
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r0124:ed2.2:s
+  webpage: https://www.iala.int/product/r0124-a-124-el-servicio-ais/

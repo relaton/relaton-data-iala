@@ -1,0 +1,42 @@
+---
+id: risk-seminar-turkey-2018-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Seminar – IALA – Risk Training Turkey 2014
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/risk-seminar-turkey-2018/?download=true
+docidentifier:
+- content: IALA risk-seminar-turkey-2018 (E)
+  type: IALA
+  primary: true
+docnumber: risk-seminar-turkey-2018
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA risk-seminar-turkey-2018
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/risk-seminar-turkey-2018/

@@ -1,0 +1,69 @@
+---
+id: G1020-1.2-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1020 Training Related to AtoN
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/g1020/?download=true
+docidentifier:
+- content: IALA G1020 Ed 1.2 (E)
+  type: IALA
+  primary: true
+docnumber: '1020'
+date:
+- type: published
+  from: '2001-12-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: AtoN Requirements and Management Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2001-12-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2001'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA G1020
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1020:ed1.2:e
+  webpage: https://www.iala.int/product/g1020/
+  committee: ARM

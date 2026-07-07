@@ -1,0 +1,55 @@
+---
+id: workshop-employing-e-navigation-cssa-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Workshop – IALA – Employing e-Navigation CSSA
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/workshop-employing-e-navigation-cssa/?download=true
+docidentifier:
+- content: IALA workshop-employing-e-navigation-cssa (E)
+  type: IALA
+  primary: true
+docnumber: workshop-employing-e-navigation-cssa
+date:
+- type: published
+  from: '2014-08-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2014-08-29'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA workshop-employing-e-navigation-cssa
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/workshop-employing-e-navigation-cssa/

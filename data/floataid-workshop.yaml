@@ -1,0 +1,51 @@
+---
+id: floataid-workshop
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Workshop – IALA – Floataid
+  type: main
+docidentifier:
+- content: IALA floataid-workshop
+  type: IALA
+  primary: true
+docnumber: floataid-workshop
+date:
+- type: published
+  from: '2008-04-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2008-04-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA floataid-workshop (E)
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala

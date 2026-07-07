@@ -1,0 +1,64 @@
+---
+id: R0104-2.1
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: R0104 ‘Off Station’ Signals for Major Floating Aids
+  type: main
+docidentifier:
+- content: IALA R0104 Ed 2.1
+  type: IALA
+  primary: true
+docnumber: '0104'
+date:
+- type: published
+  from: '1998-06-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: AtoN Requirements and Management Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '1998-06-09'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA R0104 Ed 2.1 (E)
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  committee: ARM

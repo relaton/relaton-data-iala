@@ -1,0 +1,70 @@
+---
+id: R0106-2.1-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: R0106 Retroreflecting Material on Aids to Navigation Marks within the IALA
+    Maritime Buoyage System
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r0106/?download=true
+docidentifier:
+- content: IALA R0106 Ed 2.1 (E)
+  type: IALA
+  primary: true
+docnumber: '0106'
+date:
+- type: published
+  from: '2005-12-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2005-12-07'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2005'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R0106
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r0106:ed2.1:e
+  webpage: https://www.iala.int/product/r0106/
+  committee: ENG

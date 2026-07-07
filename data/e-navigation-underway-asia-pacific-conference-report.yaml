@@ -1,0 +1,38 @@
+---
+id: e-navigation-underway-asia-pacific-conference-report
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Conference – IALA – e-Navigation Underway Asia-Pacific 2017
+  type: main
+docidentifier:
+- content: IALA e-navigation-underway-asia-pacific-conference-report
+  type: IALA
+  primary: true
+docnumber: e-navigation-underway-asia-pacific-conference-report
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA e-navigation-underway-asia-pacific-conference-report (E)
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala

@@ -1,0 +1,69 @@
+---
+id: G1140-1.1-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1140 Commissioning of AtoN Equipment and Systems
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/g1140/?download=true
+docidentifier:
+- content: IALA G1140 Ed 1.1 (E)
+  type: IALA
+  primary: true
+docnumber: '1140'
+date:
+- type: published
+  from: '2017-12-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2017-12-15'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA G1140
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1140:ed1.1:e
+  webpage: https://www.iala.int/product/g1140/
+  committee: ENG

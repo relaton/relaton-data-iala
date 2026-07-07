@@ -1,0 +1,57 @@
+---
+id: workshop-application-of-aids-to-navigation-within-marine-spatial-planning-iala-2013-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Workshop – IALA – Application of Aids to Navigation within Marine
+    Spatial Planning 2013
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/workshop-application-of-aids-to-navigation-within-marine-spatial-planning-iala-2013/?download=true
+docidentifier:
+- content: IALA workshop-application-of-aids-to-navigation-within-marine-spatial-planning-iala-2013
+    (E)
+  type: IALA
+  primary: true
+docnumber: workshop-application-of-aids-to-navigation-within-marine-spatial-planning-iala-2013
+date:
+- type: published
+  from: '2013-05-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2013-05-24'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA workshop-application-of-aids-to-navigation-within-marine-spatial-planning-iala-2013
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/workshop-application-of-aids-to-navigation-within-marine-spatial-planning-iala-2013/

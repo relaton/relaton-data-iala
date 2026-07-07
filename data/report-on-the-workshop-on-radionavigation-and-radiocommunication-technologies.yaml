@@ -1,0 +1,52 @@
+---
+id: report-on-the-workshop-on-radionavigation-and-radiocommunication-technologies
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report on the Workshop on Radionavigation and Radiocommunication Technologies
+  type: main
+docidentifier:
+- content: IALA report-on-the-workshop-on-radionavigation-and-radiocommunication-technologies
+  type: IALA
+  primary: true
+docnumber: report-on-the-workshop-on-radionavigation-and-radiocommunication-technologies
+date:
+- type: published
+  from: '2026-03-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2026-03-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA report-on-the-workshop-on-radionavigation-and-radiocommunication-technologies
+        (E)
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala

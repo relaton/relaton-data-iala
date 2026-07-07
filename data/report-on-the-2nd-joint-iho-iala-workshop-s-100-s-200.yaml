@@ -1,0 +1,64 @@
+---
+id: report-on-the-2nd-joint-iho-iala-workshop-s-100-s-200
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report on the 2nd Joint IHO IALA Workshop S-100 S-200
+  type: main
+docidentifier:
+- content: IALA report-on-the-2nd-joint-iho-iala-workshop-s-100-s-200
+  type: IALA
+  primary: true
+docnumber: report-on-the-2nd-joint-iho-iala-workshop-s-100-s-200
+date:
+- type: published
+  from: '2024-09-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: AtoN Requirements and Management Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2024-09-13'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA report-on-the-2nd-joint-iho-iala-workshop-s-100-s-200 (E)
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  committee: ARM

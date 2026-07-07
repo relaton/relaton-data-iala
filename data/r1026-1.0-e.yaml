@@ -1,0 +1,57 @@
+---
+id: R1026-1.0-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: R1026 Digitalization of AtoN & Services for Vessels of Varying Levels of
+    Autonomy
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r1026-digitalization-of-aton-services-for-vessels-of-varying-levels-of-autonomy/?download=true
+docidentifier:
+- content: IALA R1026 Ed 1.0 (E)
+  type: IALA
+  primary: true
+docnumber: '1026'
+date:
+- type: published
+  from: '2025-12-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2025-12-12'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R1026
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r1026:ed1.0:e
+  webpage: https://www.iala.int/product/r1026-digitalization-of-aton-services-for-vessels-of-varying-levels-of-autonomy/

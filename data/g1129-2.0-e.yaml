@@ -1,0 +1,70 @@
+---
+id: G1129-2.0-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1129 The Retransmission of SBAS Corrections Using MF-Radio Beacon and
+    AIS
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/g1129/?download=true
+docidentifier:
+- content: IALA G1129 Ed 2.0 (E)
+  type: IALA
+  primary: true
+docnumber: '1129'
+date:
+- type: published
+  from: '2017-12-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: e-Navigation Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2017-12-15'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA G1129
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1129:ed2.0:e
+  webpage: https://www.iala.int/product/g1129/
+  committee: ENAV

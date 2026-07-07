@@ -1,0 +1,56 @@
+---
+id: R1016-2.0-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: R1016 Aides à la navigation maritimes mobiles (MAtoN)
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r1016-aides-a-la-navigation-maritimes-mobiles-maton/?download=true
+docidentifier:
+- content: IALA R1016 Ed 2.0 (F)
+  type: IALA
+  primary: true
+docnumber: '1016'
+date:
+- type: published
+  from: '2017-12-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2017-12-15'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R1016
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r1016:ed2.0:f
+  webpage: https://www.iala.int/product/r1016-aides-a-la-navigation-maritimes-mobiles-maton/

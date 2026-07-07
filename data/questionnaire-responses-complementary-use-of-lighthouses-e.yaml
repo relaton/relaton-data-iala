@@ -1,0 +1,68 @@
+---
+id: questionnaire-responses-complementary-use-of-lighthouses-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Questionnaire responses – complementary use of lighthouses
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/questionnaire-responses-complementary-use-of-lighthouses/?download=true
+docidentifier:
+- content: IALA questionnaire-responses-complementary-use-of-lighthouses (E)
+  type: IALA
+  primary: true
+docnumber: questionnaire-responses-complementary-use-of-lighthouses
+date:
+- type: published
+  from: '2009-12-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: EEP
+    abbreviation:
+      content: IALA
+version:
+- content: '2009-12-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA questionnaire-responses-complementary-use-of-lighthouses
+      type: IALA
+ext:
+  doctype:
+    content: resolution
+  flavor: iala
+  webpage: https://www.iala.int/product/questionnaire-responses-complementary-use-of-lighthouses/
+  committee: EEP
