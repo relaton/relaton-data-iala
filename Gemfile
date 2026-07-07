@@ -11,11 +11,7 @@ gem "psych", "~> 5.2.6"
 # relaton-core / relaton-index / relaton-logger sub-gems plus all flavor
 # namespaces — Oiml, Iho, Iala, etc. — were merged into it). The IALA
 # flavor ships inside the gem (lib/relaton/iala/*).
-#
-# Tracks the `feat/iala-flavor` branch on relaton/relaton until that PR
-# merges; flip back to `main` afterwards.
-gem "relaton", git: "https://github.com/relaton/relaton.git",
-             branch: "feat/iala-flavor"
+gem "relaton", git: "https://github.com/relaton/relaton.git", branch: "main"
 
 # pubid v2 (with IALA support) parses primary docids into structured
 # identifiers for the pubid_class-based index-v2.yaml. Tracks the

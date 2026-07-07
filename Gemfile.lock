@@ -9,8 +9,8 @@ GIT
 
 GIT
   remote: https://github.com/relaton/relaton.git
-  revision: faa145f5a4455ed135200a07dff066eb7eaf1a65
-  branch: feat/iala-flavor
+  revision: e8451701604b1518a1f532cac358873b3663dcf0
+  branch: main
   specs:
     relaton (3.0.0.pre.alpha.1)
       addressable (~> 2.8)
