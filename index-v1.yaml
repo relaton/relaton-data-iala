@@ -1,0 +1,1738 @@
+---
+- :id: IALA 13th-vts-symposium-sustainable-safe-navigation-august-2016-report (E)
+  :file: data/13th-vts-symposium-sustainable-safe-navigation-august-2016-report-e.yaml
+- :id: IALA 13th-vts-symposium-sustainable-safe-navigation-august-2016-report
+  :file: data/13th-vts-symposium-sustainable-safe-navigation-august-2016-report.yaml
+- :id: IALA 14th-iala-symposium-report (E)
+  :file: data/14th-iala-symposium-report-e.yaml
+- :id: IALA 14th-iala-symposium-report
+  :file: data/14th-iala-symposium-report.yaml
+- :id: IALA 19th-iala-conference-report-without-the-delegates-contact-details (E)
+  :file: data/19th-iala-conference-report-without-the-delegates-contact-details-e.yaml
+- :id: IALA 19th-iala-conference-report-without-the-delegates-contact-details
+  :file: data/19th-iala-conference-report-without-the-delegates-contact-details.yaml
+- :id: IALA a-history-of-floating-aids-to-navigation-by-adrian-h-wilkins (E)
+  :file: data/a-history-of-floating-aids-to-navigation-by-adrian-h-wilkins-e.yaml
+- :id: IALA a-history-of-floating-aids-to-navigation-by-adrian-h-wilkins
+  :file: data/a-history-of-floating-aids-to-navigation-by-adrian-h-wilkins.yaml
+- :id: IALA A12-01 (E)
+  :file: data/a12-01-e.yaml
+- :id: IALA A12-01 (F)
+  :file: data/a12-01-f.yaml
+- :id: IALA A12-01
+  :file: data/a12-01.yaml
+- :id: IALA A13-01 (E)
+  :file: data/a13-01-e.yaml
+- :id: IALA A13-01
+  :file: data/a13-01.yaml
+- :id: IALA A13-02 (E)
+  :file: data/a13-02-e.yaml
+- :id: IALA A13-02
+  :file: data/a13-02.yaml
+- :id: IALA A13-03 (E)
+  :file: data/a13-03-e.yaml
+- :id: IALA A13-03
+  :file: data/a13-03.yaml
+- :id: IALA A13-04 (E)
+  :file: data/a13-04-e.yaml
+- :id: IALA A13-04
+  :file: data/a13-04.yaml
+- :id: IALA ais-in-a-historic-perspective (E)
+  :file: data/ais-in-a-historic-perspective-e.yaml
+- :id: IALA ais-in-a-historic-perspective
+  :file: data/ais-in-a-historic-perspective.yaml
+- :id: IALA arctic-seminar-report (E)
+  :file: data/arctic-seminar-report-e.yaml
+- :id: IALA arctic-seminar-report
+  :file: data/arctic-seminar-report.yaml
+- :id: IALA C0103-1 Ed 3.0 (E)
+  :file: data/c0103-1-3.0-e.yaml
+- :id: IALA C0103-1 Ed 3.0
+  :file: data/c0103-1.yaml
+- :id: IALA C0103-2 Ed 3.0 (E)
+  :file: data/c0103-2-3.0-e.yaml
+- :id: IALA C0103-2 Ed 3.0
+  :file: data/c0103-2.yaml
+- :id: IALA C0103-3 Ed 3.0 (E)
+  :file: data/c0103-3-3.0-e.yaml
+- :id: IALA C0103-3 Ed 3.0
+  :file: data/c0103-3.yaml
+- :id: IALA C0103-4 Ed 3.0 (E)
+  :file: data/c0103-4-3.0-e.yaml
+- :id: IALA C0103-4 Ed 3.0
+  :file: data/c0103-4.yaml
+- :id: IALA C0103-5 Ed 2.0 (E)
+  :file: data/c0103-5-2.0-e.yaml
+- :id: IALA C0103-5 Ed 2.0
+  :file: data/c0103-5.yaml
+- :id: IALA C1001 Ed 3.1 (E)
+  :file: data/c1001-3.1-e.yaml
+- :id: IALA C1001 Ed 3.1
+  :file: data/c1001.yaml
+- :id: IALA C1002 Ed 1.0 (E)
+  :file: data/c1002-1.0-e.yaml
+- :id: IALA C1002 Ed 1.0
+  :file: data/c1002.yaml
+- :id: IALA C1003 Ed 1 (E)
+  :file: data/c1003-1-e.yaml
+- :id: IALA C1003 Ed 1
+  :file: data/c1003.yaml
+- :id: IALA C1004 Ed 2.0 (E)
+  :file: data/c1004-2.0-e.yaml
+- :id: IALA C1004 Ed 2.0
+  :file: data/c1004.yaml
+- :id: IALA C1005 Ed 2.0 (E)
+  :file: data/c1005-2.0-e.yaml
+- :id: IALA C1005 Ed 2.0
+  :file: data/c1005.yaml
+- :id: IALA C2000 Ed 3.0 (E)
+  :file: data/c2000-3.0-e.yaml
+- :id: IALA C2000 Ed 3.0
+  :file: data/c2000.yaml
+- :id: IALA C2001-1 Ed 2.0 (E)
+  :file: data/c2001-1-2.0-e.yaml
+- :id: IALA C2001-1 Ed 2.0
+  :file: data/c2001-1.yaml
+- :id: IALA C2001-10 Ed 2.0 (E)
+  :file: data/c2001-10-2.0-e.yaml
+- :id: IALA C2001-10 Ed 2.0
+  :file: data/c2001-10.yaml
+- :id: IALA C2001-2 Ed 2.0 (E)
+  :file: data/c2001-2-2.0-e.yaml
+- :id: IALA C2001-2 Ed 2.0
+  :file: data/c2001-2.yaml
+- :id: IALA C2001-3 Ed 2.0 (E)
+  :file: data/c2001-3-2.0-e.yaml
+- :id: IALA C2001-3 Ed 2.0
+  :file: data/c2001-3.yaml
+- :id: IALA C2001-4 Ed 4.0 (E)
+  :file: data/c2001-4-4.0-e.yaml
+- :id: IALA C2001-4 Ed 4.0
+  :file: data/c2001-4.yaml
+- :id: IALA C2001-5 Ed 2.0 (E)
+  :file: data/c2001-5-2.0-e.yaml
+- :id: IALA C2001-5 Ed 2.0
+  :file: data/c2001-5.yaml
+- :id: IALA C2001-6 Ed 2.0 (E)
+  :file: data/c2001-6-2.0-e.yaml
+- :id: IALA C2001-6 Ed 2.0
+  :file: data/c2001-6.yaml
+- :id: IALA C2001-7 Ed 2.0 (E)
+  :file: data/c2001-7-2.0-e.yaml
+- :id: IALA C2001-7 Ed 2.0
+  :file: data/c2001-7.yaml
+- :id: IALA C2001-8 Ed 3.0 (E)
+  :file: data/c2001-8-3.0-e.yaml
+- :id: IALA C2001-8 Ed 3.0
+  :file: data/c2001-8.yaml
+- :id: IALA C2001-9 Ed 3.0 (E)
+  :file: data/c2001-9-3.0-e.yaml
+- :id: IALA C2001-9 Ed 3.0
+  :file: data/c2001-9.yaml
+- :id: IALA C2002-1 Ed 3 (E)
+  :file: data/c2002-1-3-e.yaml
+- :id: IALA C2002-1 Ed 3
+  :file: data/c2002-1.yaml
+- :id: IALA C2002-2 Ed 3 (E)
+  :file: data/c2002-2-3-e.yaml
+- :id: IALA C2002-2 Ed 3
+  :file: data/c2002-2.yaml
+- :id: IALA C2002-3 Ed 3 (E)
+  :file: data/c2002-3-3-e.yaml
+- :id: IALA C2002-3 Ed 3
+  :file: data/c2002-3.yaml
+- :id: IALA C2002-4 Ed 2.0 (E)
+  :file: data/c2002-4-2.0-e.yaml
+- :id: IALA C2002-4 Ed 2.0
+  :file: data/c2002-4.yaml
+- :id: IALA C2002-5 Ed 2.0 (E)
+  :file: data/c2002-5-2.0-e.yaml
+- :id: IALA C2002-5 Ed 2.0
+  :file: data/c2002-5.yaml
+- :id: IALA C2002-6 Ed 2.0 (E)
+  :file: data/c2002-6-2.0-e.yaml
+- :id: IALA C2002-6 Ed 2.0
+  :file: data/c2002-6.yaml
+- :id: IALA C2003-1 Ed 2.0 (E)
+  :file: data/c2003-1-2.0-e.yaml
+- :id: IALA C2003-1 Ed 2.0
+  :file: data/c2003-1.yaml
+- :id: IALA C2003-2 Ed 2.0 (E)
+  :file: data/c2003-2-2.0-e.yaml
+- :id: IALA C2003-2 Ed 2.0
+  :file: data/c2003-2.yaml
+- :id: IALA C2003-3 Ed 2.0 (E)
+  :file: data/c2003-3-2.0-e.yaml
+- :id: IALA C2003-3 Ed 2.0
+  :file: data/c2003-3.yaml
+- :id: IALA C2003-4 Ed 2.0 (E)
+  :file: data/c2003-4-2.0-e.yaml
+- :id: IALA C2003-4 Ed 2.0
+  :file: data/c2003-4.yaml
+- :id: IALA C2003-5 Ed 2.0 (E)
+  :file: data/c2003-5-2.0-e.yaml
+- :id: IALA C2003-5 Ed 2.0
+  :file: data/c2003-5.yaml
+- :id: IALA C2004-1 Ed 2.0 (E)
+  :file: data/c2004-1-2.0-e.yaml
+- :id: IALA C2004-1 Ed 2.0
+  :file: data/c2004-1.yaml
+- :id: IALA C2005-1 Ed 3.0 (E)
+  :file: data/c2005-1-3.0-e.yaml
+- :id: IALA C2005-1 Ed 3.0
+  :file: data/c2005-1.yaml
+- :id: IALA C2006-1 Ed 2.0 (E)
+  :file: data/c2006-1-2.0-e.yaml
+- :id: IALA C2006-1 Ed 2.0
+  :file: data/c2006-1.yaml
+- :id: IALA C2007-1 Ed 3.0 (E)
+  :file: data/c2007-1-3.0-e.yaml
+- :id: IALA C2007-1 Ed 3.0
+  :file: data/c2007-1.yaml
+- :id: IALA C2008-1 Ed 2.0 (E)
+  :file: data/c2008-1-2.0-e.yaml
+- :id: IALA C2008-1 Ed 2.0
+  :file: data/c2008-1.yaml
+- :id: IALA C2009-1 Ed 2.0 (E)
+  :file: data/c2009-1-2.0-e.yaml
+- :id: IALA C2009-1 Ed 2.0
+  :file: data/c2009-1.yaml
+- :id: IALA C2010-1 Ed 2.0 (E)
+  :file: data/c2010-1-2.0-e.yaml
+- :id: IALA C2010-1 Ed 2.0
+  :file: data/c2010-1.yaml
+- :id: IALA C2011-1 Ed 2.0 (E)
+  :file: data/c2011-1-2.0-e.yaml
+- :id: IALA C2011-1 Ed 2.0
+  :file: data/c2011-1.yaml
+- :id: IALA C2011-2 Ed 2.0 (E)
+  :file: data/c2011-2-2.0-e.yaml
+- :id: IALA C2011-2 Ed 2.0
+  :file: data/c2011-2.yaml
+- :id: IALA C2011-3 Ed 2.0 (E)
+  :file: data/c2011-3-2.0-e.yaml
+- :id: IALA C2011-3 Ed 2.0
+  :file: data/c2011-3.yaml
+- :id: IALA cooperation-international-en-signalisation-maritime-1889-1955 (E)
+  :file: data/cooperation-international-en-signalisation-maritime-1889-1955-e.yaml
+- :id: IALA cooperation-international-en-signalisation-maritime-1889-1955
+  :file: data/cooperation-international-en-signalisation-maritime-1889-1955.yaml
+- :id: IALA definitions-conservation-of-historic-lighthouses (E)
+  :file: data/definitions-conservation-of-historic-lighthouses-e.yaml
+- :id: IALA definitions-conservation-of-historic-lighthouses
+  :file: data/definitions-conservation-of-historic-lighthouses.yaml
+- :id: IALA e-navigation-underway-2014-north-america (E)
+  :file: data/e-navigation-underway-2014-north-america-e.yaml
+- :id: IALA e-navigation-underway-2014-north-america
+  :file: data/e-navigation-underway-2014-north-america.yaml
+- :id: IALA e-navigation-underway-asia-pacific-conference-report (E)
+  :file: data/e-navigation-underway-asia-pacific-conference-report-e.yaml
+- :id: IALA e-navigation-underway-asia-pacific-conference-report
+  :file: data/e-navigation-underway-asia-pacific-conference-report.yaml
+- :id: IALA floataid-workshop (E)
+  :file: data/floataid-workshop-e.yaml
+- :id: IALA floataid-workshop
+  :file: data/floataid-workshop.yaml
+- :id: IALA G01.012 (E)
+  :file: data/g01.012-e.yaml
+- :id: IALA G01.012
+  :file: data/g01.012.yaml
+- :id: IALA G01.05 (E)
+  :file: data/g01.05-e.yaml
+- :id: IALA G01.05
+  :file: data/g01.05.yaml
+- :id: IALA G1004 Ed 3 (E)
+  :file: data/g1004-3-e.yaml
+- :id: IALA G1004 Ed 3
+  :file: data/g1004.yaml
+- :id: IALA G1005 Ed 2.1 (E)
+  :file: data/g1005-2.1-e.yaml
+- :id: IALA G1005 Ed 2.1
+  :file: data/g1005.yaml
+- :id: IALA G1006 Ed 4.1 (E)
+  :file: data/g1006-4.1-e.yaml
+- :id: IALA G1006 Ed 4.1
+  :file: data/g1006.yaml
+- :id: IALA G1008 Ed 2.1 (E)
+  :file: data/g1008-2.1-e.yaml
+- :id: IALA G1008 Ed 2.1
+  :file: data/g1008.yaml
+- :id: IALA G1010 Ed 2.1 (E)
+  :file: data/g1010-2.1-e.yaml
+- :id: IALA G1010 Ed 2.1
+  :file: data/g1010.yaml
+- :id: IALA G1012 Ed 3.1 (E)
+  :file: data/g1012-3.1-e.yaml
+- :id: IALA G1012 Ed 3.1
+  :file: data/g1012.yaml
+- :id: IALA G1014 Ed 4.0 (E)
+  :file: data/g1014-4.0-e.yaml
+- :id: IALA G1014 Ed 4.0
+  :file: data/g1014.yaml
+- :id: IALA G1015 Ed 1.1 (S)
+  :file: data/g1015-1.1-s.yaml
+- :id: IALA G1015 Ed 2.1 (E)
+  :file: data/g1015-2.1-e.yaml
+- :id: IALA G1015 Ed 2.1
+  :file: data/g1015.yaml
+- :id: IALA G1016 Ed 1.1 (E)
+  :file: data/g1016-1.1-e.yaml
+- :id: IALA G1016 Ed 1.1
+  :file: data/g1016.yaml
+- :id: IALA G1017 Ed 2.1 (E)
+  :file: data/g1017-2.1-e.yaml
+- :id: IALA G1017 Ed 2.1
+  :file: data/g1017.yaml
+- :id: IALA G1018 Ed 4.0 (E)
+  :file: data/g1018-4.0-e.yaml
+- :id: IALA G1018 Ed 4.0
+  :file: data/g1018.yaml
+- :id: IALA G1020 Ed 1.2 (E)
+  :file: data/g1020-1.2-e.yaml
+- :id: IALA G1020 Ed 1.2
+  :file: data/g1020.yaml
+- :id: IALA G1027 Ed 2.0 (E)
+  :file: data/g1027-2.0-e.yaml
+- :id: IALA G1027 Ed 2.0
+  :file: data/g1027.yaml
+- :id: IALA G1033 Ed 1.1 (E)
+  :file: data/g1033-1.1-e.yaml
+- :id: IALA G1033 Ed 1.1
+  :file: data/g1033.yaml
+- :id: IALA G1035 Ed 2.1 (E)
+  :file: data/g1035-2.1-e.yaml
+- :id: IALA G1035 Ed 2.1
+  :file: data/g1035.yaml
+- :id: IALA G1036 Ed 3.1 (E)
+  :file: data/g1036-3.1-e.yaml
+- :id: IALA G1036 Ed 3.1
+  :file: data/g1036.yaml
+- :id: IALA G1037 Ed 2.1 (E)
+  :file: data/g1037-2.1-e.yaml
+- :id: IALA G1037 Ed 2.1
+  :file: data/g1037.yaml
+- :id: IALA G1038 Ed 3.1 (E)
+  :file: data/g1038-3.1-e.yaml
+- :id: IALA G1038 Ed 3.1
+  :file: data/g1038.yaml
+- :id: IALA G1039-1 Ed 2.1 (E)
+  :file: data/g1039-1-2.1-e.yaml
+- :id: IALA G1039-1 Ed 2.1
+  :file: data/g1039-1.yaml
+- :id: IALA G1039-2 Ed 2.1 (E)
+  :file: data/g1039-2-2.1-e.yaml
+- :id: IALA G1039 Ed 2.1 (E)
+  :file: data/g1039-2.1-e.yaml
+- :id: IALA G1039-2 Ed 2.1
+  :file: data/g1039-2.yaml
+- :id: IALA G1039 Ed 2.1
+  :file: data/g1039.yaml
+- :id: IALA G1041 Ed 3.1 (E)
+  :file: data/g1041-3.1-e.yaml
+- :id: IALA G1041 Ed 3.1
+  :file: data/g1041.yaml
+- :id: IALA G1043 Ed 1.3 (E)
+  :file: data/g1043-1.3-e.yaml
+- :id: IALA G1043 Ed 1.3
+  :file: data/g1043.yaml
+- :id: IALA G1045 Ed 1.2 (E)
+  :file: data/g1045-1.2-e.yaml
+- :id: IALA G1045 Ed 1.2
+  :file: data/g1045.yaml
+- :id: IALA G1045 Annex Ed 1 (E)
+  :file: data/g1045_annex-1-e.yaml
+- :id: IALA G1045 Annex Ed 1
+  :file: data/g1045_annex.yaml
+- :id: IALA G1046 Ed 2.1 (E)
+  :file: data/g1046-2.1-e.yaml
+- :id: IALA G1046 Ed 2.1
+  :file: data/g1046.yaml
+- :id: IALA G1047 Ed 1.1 (E)
+  :file: data/g1047-1.1-e.yaml
+- :id: IALA G1047 Ed 1.1
+  :file: data/g1047.yaml
+- :id: IALA G1048 Ed 1.1 (E)
+  :file: data/g1048-1.1-e.yaml
+- :id: IALA G1048 Ed 1.1
+  :file: data/g1048.yaml
+- :id: IALA G1049 Ed 2.1 (E)
+  :file: data/g1049-2.1-e.yaml
+- :id: IALA G1049 Ed 2.1
+  :file: data/g1049.yaml
+- :id: IALA G1050 Ed 1.1 (E)
+  :file: data/g1050-1.1-e.yaml
+- :id: IALA G1050 Ed 1.1
+  :file: data/g1050.yaml
+- :id: IALA G1051 Ed 1.1 (E)
+  :file: data/g1051-1.1-e.yaml
+- :id: IALA G1051 Ed 1.1
+  :file: data/g1051.yaml
+- :id: IALA G1052 Ed 2 (S)
+  :file: data/g1052-2-s.yaml
+- :id: IALA G1052 Ed 3.2 (E)
+  :file: data/g1052-3.2-e.yaml
+- :id: IALA G1052 Ed 3.2
+  :file: data/g1052.yaml
+- :id: IALA G1053 Ed 1.1 (E)
+  :file: data/g1053-1.1-e.yaml
+- :id: IALA G1053 Ed 1.1
+  :file: data/g1053.yaml
+- :id: IALA G1054 Ed 2.0 (E)
+  :file: data/g1054-2.0-e.yaml
+- :id: IALA G1054 Ed 2.0
+  :file: data/g1054.yaml
+- :id: IALA G1057 Ed 1.1 (E)
+  :file: data/g1057-1.1-e.yaml
+- :id: IALA G1057 Ed 1.1
+  :file: data/g1057.yaml
+- :id: IALA G1058 Ed 3.0 (E)
+  :file: data/g1058-3.0-e.yaml
+- :id: IALA G1058 Ed 3.0
+  :file: data/g1058.yaml
+- :id: IALA G1060 Ed 2.1 (E)
+  :file: data/g1060-2.1-e.yaml
+- :id: IALA G1060 Ed 2.1
+  :file: data/g1060.yaml
+- :id: IALA G1061 Ed 1.1 (E)
+  :file: data/g1061-1.1-e.yaml
+- :id: IALA G1061 Ed 1.1
+  :file: data/g1061.yaml
+- :id: IALA G1062 Ed 1.1 (E)
+  :file: data/g1062-1.1-e.yaml
+- :id: IALA G1062 Ed 1.1
+  :file: data/g1062.yaml
+- :id: IALA G1063 Ed 2.0 (E)
+  :file: data/g1063-2.0-e.yaml
+- :id: IALA G1063 Ed 2.0
+  :file: data/g1063.yaml
+- :id: IALA G1064 Ed 1.1 (E)
+  :file: data/g1064-1.1-e.yaml
+- :id: IALA G1064 Ed 1.1
+  :file: data/g1064.yaml
+- :id: IALA G1065 Ed 4.2 (E)
+  :file: data/g1065-4.2-e.yaml
+- :id: IALA G1065 Ed 4.2
+  :file: data/g1065.yaml
+- :id: IALA G1066 Ed 1.2 (E)
+  :file: data/g1066-1.2-e.yaml
+- :id: IALA G1066 Ed 1.2
+  :file: data/g1066.yaml
+- :id: IALA G1067-0 Ed 3.1 (E)
+  :file: data/g1067-0-3.1-e.yaml
+- :id: IALA G1067-0 Ed 3.1
+  :file: data/g1067-0.yaml
+- :id: IALA G1067-1 Ed 2.1 (E)
+  :file: data/g1067-1-2.1-e.yaml
+- :id: IALA G1067-1 Ed 2.1
+  :file: data/g1067-1.yaml
+- :id: IALA G1067-2 Ed 2.1 (E)
+  :file: data/g1067-2-2.1-e.yaml
+- :id: IALA G1067-2 Ed 2.1
+  :file: data/g1067-2.yaml
+- :id: IALA G1067-3 Ed 3.1 (E)
+  :file: data/g1067-3-3.1-e.yaml
+- :id: IALA G1067-3 Ed 3.1
+  :file: data/g1067-3.yaml
+- :id: IALA G1070 Ed 1.1 (E)
+  :file: data/g1070-1.1-e.yaml
+- :id: IALA G1070 Ed 1.1
+  :file: data/g1070.yaml
+- :id: IALA G1073 Ed 2.1 (E)
+  :file: data/g1073-2.1-e.yaml
+- :id: IALA G1073 Ed 2.1
+  :file: data/g1073.yaml
+- :id: IALA G1074 Ed 1.2 (E)
+  :file: data/g1074-1.2-e.yaml
+- :id: IALA G1074 Ed 1.2
+  :file: data/g1074.yaml
+- :id: IALA G1075 Ed 1.1 (E)
+  :file: data/g1075-1.1-e.yaml
+- :id: IALA G1075 Ed 1.1
+  :file: data/g1075.yaml
+- :id: IALA G1077 Ed 2.0 (E)
+  :file: data/g1077-2.0-e.yaml
+- :id: IALA G1077 Ed 2.0
+  :file: data/g1077.yaml
+- :id: IALA G1078 Ed 2.1 (E)
+  :file: data/g1078-2.1-e.yaml
+- :id: IALA G1078 Ed 2.1
+  :file: data/g1078.yaml
+- :id: IALA G1079 Ed 1.1 (E)
+  :file: data/g1079-1.1-e.yaml
+- :id: IALA G1079 Ed 1.1
+  :file: data/g1079.yaml
+- :id: IALA G1080 Ed 1.1 (E)
+  :file: data/g1080-1.1-e.yaml
+- :id: IALA G1080 Ed 1.1
+  :file: data/g1080.yaml
+- :id: IALA G1081 Ed 1.0 (S)
+  :file: data/g1081-1.0-s.yaml
+- :id: IALA G1081
+  :file: data/g1081.yaml
+- :id: IALA G1082 Ed 2.1 (E)
+  :file: data/g1082-2.1-e.yaml
+- :id: IALA G1082 Ed 2.1
+  :file: data/g1082.yaml
+- :id: IALA G1083 Ed 1.1 (E)
+  :file: data/g1083-1.1-e.yaml
+- :id: IALA G1083 Ed 1.1
+  :file: data/g1083.yaml
+- :id: IALA G1084 Ed 1.1 (E)
+  :file: data/g1084-1.1-e.yaml
+- :id: IALA G1084 Ed 1.1
+  :file: data/g1084.yaml
+- :id: IALA G1085 Ed 1.1 (E)
+  :file: data/g1085-1.1-e.yaml
+- :id: IALA G1085 Ed 1.1
+  :file: data/g1085.yaml
+- :id: IALA G1086 Ed 1.1 (E)
+  :file: data/g1086-1.1-e.yaml
+- :id: IALA G1086 Ed 1.1
+  :file: data/g1086.yaml
+- :id: IALA G1087 Ed 4.0 (E)
+  :file: data/g1087-4.0-e.yaml
+- :id: IALA G1087 Ed 4.0
+  :file: data/g1087.yaml
+- :id: IALA G1088 Ed 1.1 (E)
+  :file: data/g1088-1.1-e.yaml
+- :id: IALA G1088 Ed 1.1
+  :file: data/g1088.yaml
+- :id: IALA G1089 Ed 3.0 (E)
+  :file: data/g1089-3.0-e.yaml
+- :id: IALA G1089 Ed 3.0
+  :file: data/g1089.yaml
+- :id: IALA G1090 Ed 1.1 (E)
+  :file: data/g1090-1.1-e.yaml
+- :id: IALA G1090 Ed 1.1
+  :file: data/g1090.yaml
+- :id: IALA G1091 Ed 2.1 (E)
+  :file: data/g1091-2.1-e.yaml
+- :id: IALA G1091 Ed 2.1
+  :file: data/g1091.yaml
+- :id: IALA G1092 Ed 2.0 (E)
+  :file: data/g1092-2.0-e.yaml
+- :id: IALA G1092 Ed 2.0
+  :file: data/g1092.yaml
+- :id: IALA G1093 Ed 1.2 (E)
+  :file: data/g1093-1.2-e.yaml
+- :id: IALA G1093 Ed 1.2
+  :file: data/g1093.yaml
+- :id: IALA G1094 Ed 2.1 (E)
+  :file: data/g1094-2.1-e.yaml
+- :id: IALA G1094 Ed 2.1
+  :file: data/g1094.yaml
+- :id: IALA G1095 Ed 1.1 (E)
+  :file: data/g1095-1.1-e.yaml
+- :id: IALA G1095 Ed 1.1
+  :file: data/g1095.yaml
+- :id: IALA G1096 Ed 1.1 (E)
+  :file: data/g1096-1.1-e.yaml
+- :id: IALA G1096 Ed 1.1
+  :file: data/g1096.yaml
+- :id: IALA G1098 Ed 1.1 (E)
+  :file: data/g1098-1.1-e.yaml
+- :id: IALA G1098 Ed 1.1
+  :file: data/g1098.yaml
+- :id: IALA G1099 Ed 1.1 (E)
+  :file: data/g1099-1.1-e.yaml
+- :id: IALA G1099 Ed 1.1
+  :file: data/g1099.yaml
+- :id: IALA G1100 Ed 2.0 (E)
+  :file: data/g1100-2.0-e.yaml
+- :id: IALA G1100 Ed 2.0
+  :file: data/g1100.yaml
+- :id: IALA G1101 Ed 1.1 (E)
+  :file: data/g1101-1.1-e.yaml
+- :id: IALA G1101 Ed 1.1
+  :file: data/g1101.yaml
+- :id: IALA G1102 Ed 1.1 (E)
+  :file: data/g1102-1.1-e.yaml
+- :id: IALA G1102 Ed 1.1
+  :file: data/g1102.yaml
+- :id: IALA G1103 Ed 1.1 (E)
+  :file: data/g1103-1.1-e.yaml
+- :id: IALA G1103 Ed 1.1
+  :file: data/g1103.yaml
+- :id: IALA G1104 Ed 1.1 (E)
+  :file: data/g1104-1.1-e.yaml
+- :id: IALA G1104 Ed 1.1
+  :file: data/g1104.yaml
+- :id: IALA G1105 Ed 2.0 (E)
+  :file: data/g1105-2.0-e.yaml
+- :id: IALA G1105 Ed 2.0
+  :file: data/g1105.yaml
+- :id: IALA G1106-1 Ed 1.1 (E)
+  :file: data/g1106-1-1.1-e.yaml
+- :id: IALA G1106-1 Ed 1.1
+  :file: data/g1106-1.yaml
+- :id: IALA G1106-2 Ed 1.1 (E)
+  :file: data/g1106-2-1.1-e.yaml
+- :id: IALA G1106-2 Ed 1.1
+  :file: data/g1106-2.yaml
+- :id: IALA G1106-3 Ed 1.1 (E)
+  :file: data/g1106-3-1.1-e.yaml
+- :id: IALA G1106 Ed 3.0 (E)
+  :file: data/g1106-3.0-e.yaml
+- :id: IALA G1106-3 Ed 1.1
+  :file: data/g1106-3.yaml
+- :id: IALA G1106 Ed 3.0
+  :file: data/g1106.yaml
+- :id: IALA G1107 Ed 3.0 (E)
+  :file: data/g1107-3.0-e.yaml
+- :id: IALA G1107 Ed 3.0
+  :file: data/g1107.yaml
+- :id: IALA G1109 Ed 1.1 (E)
+  :file: data/g1109-1.1-e.yaml
+- :id: IALA G1109 Ed 1.1
+  :file: data/g1109.yaml
+- :id: IALA G1110 Ed 2.1 (E)
+  :file: data/g1110-2.1-e.yaml
+- :id: IALA G1110 Ed 2.1
+  :file: data/g1110.yaml
+- :id: IALA G1111-1 Ed 1.0 (E)
+  :file: data/g1111-1-1.0-e.yaml
+- :id: IALA G1111-1 Ed 1.0
+  :file: data/g1111-1.yaml
+- :id: IALA G1111-2 Ed 1.0 (E)
+  :file: data/g1111-2-1.0-e.yaml
+- :id: IALA G1111 Ed 2.0 (E)
+  :file: data/g1111-2.0-e.yaml
+- :id: IALA G1111-2 Ed 1.0
+  :file: data/g1111-2.yaml
+- :id: IALA G1111-3 Ed 1.0 (E)
+  :file: data/g1111-3-1.0-e.yaml
+- :id: IALA G1111-3 Ed 1.0
+  :file: data/g1111-3.yaml
+- :id: IALA G1111-4 Ed 1.0 (E)
+  :file: data/g1111-4-1.0-e.yaml
+- :id: IALA G1111-4 Ed 1.0
+  :file: data/g1111-4.yaml
+- :id: IALA G1111-5 Ed 1.0 (E)
+  :file: data/g1111-5-1.0-e.yaml
+- :id: IALA G1111-5 Ed 1.0
+  :file: data/g1111-5.yaml
+- :id: IALA G1111-6 Ed 1.0 (E)
+  :file: data/g1111-6-1.0-e.yaml
+- :id: IALA G1111-6 Ed 1.0
+  :file: data/g1111-6.yaml
+- :id: IALA G1111-7 Ed 1.0 (E)
+  :file: data/g1111-7-1.0-e.yaml
+- :id: IALA G1111-7 Ed 1.0
+  :file: data/g1111-7.yaml
+- :id: IALA G1111-8 Ed 1.0 (E)
+  :file: data/g1111-8-1.0-e.yaml
+- :id: IALA G1111-8 Ed 1.0
+  :file: data/g1111-8.yaml
+- :id: IALA G1111-9 Ed 1.0 (E)
+  :file: data/g1111-9-1.0-e.yaml
+- :id: IALA G1111-9 Ed 1.0
+  :file: data/g1111-9.yaml
+- :id: IALA G1111 Ed 2.0
+  :file: data/g1111.yaml
+- :id: IALA G1112 Ed 1.1 (E)
+  :file: data/g1112-1.1-e.yaml
+- :id: IALA G1112 Ed 1.1
+  :file: data/g1112.yaml
+- :id: IALA G1113 Ed 1.1 (E)
+  :file: data/g1113-1.1-e.yaml
+- :id: IALA G1113 Ed 1.1
+  :file: data/g1113.yaml
+- :id: IALA G1114 Ed 1.1 (E)
+  :file: data/g1114-1.1-e.yaml
+- :id: IALA G1114 Ed 1.1
+  :file: data/g1114.yaml
+- :id: IALA G1115 Ed 1.1 (E)
+  :file: data/g1115-1.1-e.yaml
+- :id: IALA G1115 Ed 1.1
+  :file: data/g1115.yaml
+- :id: IALA G1116 Ed 1.1 (E)
+  :file: data/g1116-1.1-e.yaml
+- :id: IALA G1116 Ed 1.1
+  :file: data/g1116.yaml
+- :id: IALA G1117 Ed 4.0 (E)
+  :file: data/g1117-4.0-e.yaml
+- :id: IALA G1117 Ed 4.0
+  :file: data/g1117.yaml
+- :id: IALA G1118 Ed 1.1 (E)
+  :file: data/g1118-1.1-e.yaml
+- :id: IALA G1118 Ed 1.1
+  :file: data/g1118.yaml
+- :id: IALA G1119 Ed 1.1 (E)
+  :file: data/g1119-1.1-e.yaml
+- :id: IALA G1119 Ed 1.1
+  :file: data/g1119.yaml
+- :id: IALA G1120 Ed 1.1 (E)
+  :file: data/g1120-1.1-e.yaml
+- :id: IALA G1120 Ed 1.1
+  :file: data/g1120.yaml
+- :id: IALA G1121 Ed 1.2 (E)
+  :file: data/g1121-1.2-e.yaml
+- :id: IALA G1121 Ed 1.2
+  :file: data/g1121.yaml
+- :id: IALA G1122 Ed 1.1 (E)
+  :file: data/g1122-1.1-e.yaml
+- :id: IALA G1122 Ed 1.1
+  :file: data/g1122.yaml
+- :id: IALA G1123 Ed 2.1 (E)
+  :file: data/g1123-2.1-e.yaml
+- :id: IALA G1123 Ed 2.1
+  :file: data/g1123.yaml
+- :id: IALA G1124 Ed 2.1 (E)
+  :file: data/g1124-2.1-e.yaml
+- :id: IALA G1124 Ed 2.1
+  :file: data/g1124.yaml
+- :id: IALA G1125 Ed 1.1 (E)
+  :file: data/g1125-1.1-e.yaml
+- :id: IALA G1125 Ed 1.1
+  :file: data/g1125.yaml
+- :id: IALA G1126 Ed 1.1 (E)
+  :file: data/g1126-1.1-e.yaml
+- :id: IALA G1126 Ed 1.1
+  :file: data/g1126.yaml
+- :id: IALA G1127 Ed 2.1 (E)
+  :file: data/g1127-2.1-e.yaml
+- :id: IALA G1127 Ed 2.1
+  :file: data/g1127.yaml
+- :id: IALA G1128 Ed 1.6 (E)
+  :file: data/g1128-1.6-e.yaml
+- :id: IALA G1128 Ed 1.6
+  :file: data/g1128.yaml
+- :id: IALA G1128 ANNEX A Ed 1.6 (E)
+  :file: data/g1128_annex_a-1.6-e.yaml
+- :id: IALA G1128 ANNEX A Ed 1.6
+  :file: data/g1128_annex_a.yaml
+- :id: IALA G1128 ANNEX B Ed 1.6 (E)
+  :file: data/g1128_annex_b-1.6-e.yaml
+- :id: IALA G1128 ANNEX B Ed 1.6
+  :file: data/g1128_annex_b.yaml
+- :id: IALA G1128 ANNEX C Ed 1.6 (E)
+  :file: data/g1128_annex_c-1.6-e.yaml
+- :id: IALA G1128 ANNEX C Ed 1.6
+  :file: data/g1128_annex_c.yaml
+- :id: IALA G1128 ANNEX D Ed 1.6 (E)
+  :file: data/g1128_annex_d-1.6-e.yaml
+- :id: IALA G1128 ANNEX D Ed 1.6
+  :file: data/g1128_annex_d.yaml
+- :id: IALA G1129 Ed 2.0 (E)
+  :file: data/g1129-2.0-e.yaml
+- :id: IALA G1129 Ed 2.0
+  :file: data/g1129.yaml
+- :id: IALA G1130 Ed 2.0 (E)
+  :file: data/g1130-2.0-e.yaml
+- :id: IALA G1130 Ed 2.0
+  :file: data/g1130.yaml
+- :id: IALA G1131 Ed 1.1 (E)
+  :file: data/g1131-1.1-e.yaml
+- :id: IALA G1131 Ed 1.1
+  :file: data/g1131.yaml
+- :id: IALA G1132 Ed 2.2 (E)
+  :file: data/g1132-2.2-e.yaml
+- :id: IALA G1132 Ed 2.2
+  :file: data/g1132.yaml
+- :id: IALA G1133 Ed 1.1 (E)
+  :file: data/g1133-1.1-e.yaml
+- :id: IALA G1133 Ed 1.1
+  :file: data/g1133.yaml
+- :id: IALA G1134 Ed 2.1 (E)
+  :file: data/g1134-2.1-e.yaml
+- :id: IALA G1134 Ed 2.1
+  :file: data/g1134.yaml
+- :id: IALA G1135 Ed 3.1 (E)
+  :file: data/g1135-3.1-e.yaml
+- :id: IALA G1135 Ed 3.1
+  :file: data/g1135.yaml
+- :id: IALA G1137 Ed 1.1 (E)
+  :file: data/g1137-1.1-e.yaml
+- :id: IALA G1137 Ed 1.1
+  :file: data/g1137.yaml
+- :id: IALA G1138 Ed 2.0 (E)
+  :file: data/g1138-2.0-e.yaml
+- :id: IALA G1138 Ed 2.0
+  :file: data/g1138.yaml
+- :id: IALA G1140 Ed 1.1 (E)
+  :file: data/g1140-1.1-e.yaml
+- :id: IALA G1140 (E)
+  :file: data/g1140-e.yaml
+- :id: IALA G1140 Ed 1.1
+  :file: data/g1140.yaml
+- :id: IALA G1142 Ed 1.1 (E)
+  :file: data/g1142-1.1-e.yaml
+- :id: IALA G1142 Ed 1.1
+  :file: data/g1142.yaml
+- :id: IALA G1144 Ed 1.1 (E)
+  :file: data/g1144-1.1-e.yaml
+- :id: IALA G1144 Ed 1.1
+  :file: data/g1144.yaml
+- :id: IALA G1145 Ed 1.1 (E)
+  :file: data/g1145-1.1-e.yaml
+- :id: IALA G1145 Ed 1.1
+  :file: data/g1145.yaml
+- :id: IALA G1147 Ed 1.1 (E)
+  :file: data/g1147-1.1-e.yaml
+- :id: IALA G1147 Ed 1.1
+  :file: data/g1147.yaml
+- :id: IALA G1148 Ed 1.1 (E)
+  :file: data/g1148-1.1-e.yaml
+- :id: IALA G1148 Ed 1.1
+  :file: data/g1148.yaml
+- :id: IALA G1149 Ed 1.1 (E)
+  :file: data/g1149-1.1-e.yaml
+- :id: IALA G1149 Ed 1.1
+  :file: data/g1149.yaml
+- :id: IALA G1151 Ed 1.1 (E)
+  :file: data/g1151-1.1-e.yaml
+- :id: IALA G1151 Ed 1.1
+  :file: data/g1151.yaml
+- :id: IALA G1152 Ed 1.1 (E)
+  :file: data/g1152-1.1-e.yaml
+- :id: IALA G1152 Ed 1.1
+  :file: data/g1152.yaml
+- :id: IALA G1153 Ed 2.0 (E)
+  :file: data/g1153-2.0-e.yaml
+- :id: IALA G1153 Ed 2.0
+  :file: data/g1153.yaml
+- :id: IALA G1157 Ed 2.0 (E)
+  :file: data/g1157-2.0-e.yaml
+- :id: IALA G1157 Ed 2.0
+  :file: data/g1157.yaml
+- :id: IALA G1159 Ed 2.0 (E)
+  :file: data/g1159-2.0-e.yaml
+- :id: IALA G1159 Ed 2.0
+  :file: data/g1159.yaml
+- :id: IALA G1165 Ed 1.2 (E)
+  :file: data/g1165-1.2-e.yaml
+- :id: IALA G1165 Ed 1.2
+  :file: data/g1165.yaml
+- :id: IALA G1166 Ed 1.1 (E)
+  :file: data/g1166-1.1-e.yaml
+- :id: IALA G1166 Ed 1.1
+  :file: data/g1166.yaml
+- :id: IALA G1167 Ed 1.1 (E)
+  :file: data/g1167-1.1-e.yaml
+- :id: IALA G1167 Ed 1.1
+  :file: data/g1167.yaml
+- :id: IALA G1168 Ed 1.1 (E)
+  :file: data/g1168-1.1-e.yaml
+- :id: IALA G1168 Ed 1.1
+  :file: data/g1168.yaml
+- :id: IALA G1169 Ed 1.1 (E)
+  :file: data/g1169-1.1-e.yaml
+- :id: IALA G1169 Ed 1.1
+  :file: data/g1169.yaml
+- :id: IALA G1170 Ed 1.1 (E)
+  :file: data/g1170-1.1-e.yaml
+- :id: IALA G1170 Ed 1.1
+  :file: data/g1170.yaml
+- :id: IALA G1171 Ed 1.1 (E)
+  :file: data/g1171-1.1-e.yaml
+- :id: IALA G1171 Ed 1.1
+  :file: data/g1171.yaml
+- :id: IALA G1172 Ed 1.0 (E)
+  :file: data/g1172-1.0-e.yaml
+- :id: IALA G1172 Ed 1.0
+  :file: data/g1172.yaml
+- :id: IALA G1173 Ed 1.0 (E)
+  :file: data/g1173-1.0-e.yaml
+- :id: IALA G1173 Ed 1.0
+  :file: data/g1173.yaml
+- :id: IALA G1174 Ed 1.0 (E)
+  :file: data/g1174-1.0-e.yaml
+- :id: IALA G1174 Ed 1.0
+  :file: data/g1174.yaml
+- :id: IALA G1175 Ed 2.0 (E)
+  :file: data/g1175-2.0-e.yaml
+- :id: IALA G1175 Ed 2.0
+  :file: data/g1175.yaml
+- :id: IALA G1176 Ed 1.0 (E)
+  :file: data/g1176-1.0-e.yaml
+- :id: IALA G1176 Ed 1.0
+  :file: data/g1176.yaml
+- :id: IALA G1177 Ed 2.0 (E)
+  :file: data/g1177-2.0-e.yaml
+- :id: IALA G1177 Ed 2.0
+  :file: data/g1177.yaml
+- :id: IALA G1178 Ed 1.0 (E)
+  :file: data/g1178-1.0-e.yaml
+- :id: IALA G1178 Ed 1.0
+  :file: data/g1178.yaml
+- :id: IALA G1179 Ed 1.0 (E)
+  :file: data/g1179-1.0-e.yaml
+- :id: IALA G1179 Ed 1.0
+  :file: data/g1179.yaml
+- :id: IALA G1180 Ed 1.0 (E)
+  :file: data/g1180-1.0-e.yaml
+- :id: IALA G1180 Ed 1.0
+  :file: data/g1180.yaml
+- :id: IALA G1181 Ed 1.0 (E)
+  :file: data/g1181-1.0-e.yaml
+- :id: IALA G1181 Ed 1.0
+  :file: data/g1181.yaml
+- :id: IALA G1182 Ed 1.0 (E)
+  :file: data/g1182-1.0-e.yaml
+- :id: IALA G1182 Ed 1.0
+  :file: data/g1182.yaml
+- :id: IALA G1183 Ed 1.1 (E)
+  :file: data/g1183-1.1-e.yaml
+- :id: IALA G1183 Ed 1.1
+  :file: data/g1183.yaml
+- :id: IALA G1184 Ed 1.0 (E)
+  :file: data/g1184-1.0-e.yaml
+- :id: IALA G1184 Ed 1.0
+  :file: data/g1184.yaml
+- :id: IALA G1185 Ed 2.0 (E)
+  :file: data/g1185-2.0-e.yaml
+- :id: IALA G1185 Ed 2.0
+  :file: data/g1185.yaml
+- :id: IALA G1186 Ed 1.0 (E)
+  :file: data/g1186-1.0-e.yaml
+- :id: IALA G1186 Ed 1.0
+  :file: data/g1186.yaml
+- :id: IALA G1187 Ed 1.0 (E)
+  :file: data/g1187-1.0-e.yaml
+- :id: IALA G1187 Ed 1.0
+  :file: data/g1187.yaml
+- :id: IALA G1188 Ed 1.0 (E)
+  :file: data/g1188-1.0-e.yaml
+- :id: IALA G1188 Ed 1.0
+  :file: data/g1188.yaml
+- :id: IALA G1189 Ed 1.0 (E)
+  :file: data/g1189-1.0-e.yaml
+- :id: IALA G1189 Ed 1.0
+  :file: data/g1189.yaml
+- :id: IALA G1190 Ed 1.0 (E)
+  :file: data/g1190-1.0-e.yaml
+- :id: IALA G1190 Ed 1.0
+  :file: data/g1190.yaml
+- :id: IALA G1191 Ed 1.2 (E)
+  :file: data/g1191-1.2-e.yaml
+- :id: IALA G1191 Ed 1.2
+  :file: data/g1191.yaml
+- :id: IALA G1192 Ed 1.0 (E)
+  :file: data/g1192-1.0-e.yaml
+- :id: IALA G1192 Ed 1.0
+  :file: data/g1192.yaml
+- :id: IALA G1193 Ed 1.0 (E)
+  :file: data/g1193-1.0-e.yaml
+- :id: IALA G1193 Ed 1.0
+  :file: data/g1193.yaml
+- :id: IALA G1194 Ed 1.0 (E)
+  :file: data/g1194-1.0-e.yaml
+- :id: IALA G1194 Ed 1.0
+  :file: data/g1194.yaml
+- :id: IALA G1195 Ed 1.0 (E)
+  :file: data/g1195-1.0-e.yaml
+- :id: IALA G1195 Ed 1.0
+  :file: data/g1195.yaml
+- :id: IALA G1196 Ed 1.0 (E)
+  :file: data/g1196-1.0-e.yaml
+- :id: IALA G1196 Ed 1.0
+  :file: data/g1196.yaml
+- :id: IALA G1197 Ed 1.0 (E)
+  :file: data/g1197-1.0-e.yaml
+- :id: IALA G1197 Ed 1.0
+  :file: data/g1197.yaml
+- :id: IALA G1198 Ed 1.0 (E)
+  :file: data/g1198-1.0-e.yaml
+- :id: IALA G1198 Ed 1.0
+  :file: data/g1198.yaml
+- :id: IALA G1199 Ed 1.0 (E)
+  :file: data/g1199-1.0-e.yaml
+- :id: IALA G1199 Ed 1.0
+  :file: data/g1199.yaml
+- :id: IALA G1200 Ed 1.0 (E)
+  :file: data/g1200-1.0-e.yaml
+- :id: IALA G1200 Ed 1.0
+  :file: data/g1200.yaml
+- :id: IALA G1201 Ed 1.0 (E)
+  :file: data/g1201-1.0-e.yaml
+- :id: IALA G1201 Ed 1.0
+  :file: data/g1201.yaml
+- :id: IALA GA01.01 (E)
+  :file: data/ga01.01-e.yaml
+- :id: IALA GA01.01
+  :file: data/ga01.01.yaml
+- :id: IALA GA01.02 (E)
+  :file: data/ga01.02-e.yaml
+- :id: IALA GA01.02
+  :file: data/ga01.02.yaml
+- :id: IALA GA01.03 (E)
+  :file: data/ga01.03-e.yaml
+- :id: IALA GA01.03
+  :file: data/ga01.03.yaml
+- :id: IALA GA01.04 (E)
+  :file: data/ga01.04-e.yaml
+- :id: IALA GA01.04
+  :file: data/ga01.04.yaml
+- :id: IALA GA01.06 (E)
+  :file: data/ga01.06-e.yaml
+- :id: IALA GA01.06
+  :file: data/ga01.06.yaml
+- :id: IALA GA01.07 (E)
+  :file: data/ga01.07-e.yaml
+- :id: IALA GA01.07
+  :file: data/ga01.07.yaml
+- :id: IALA GA01.08 (E)
+  :file: data/ga01.08-e.yaml
+- :id: IALA GA01.08
+  :file: data/ga01.08.yaml
+- :id: IALA GA01.09 (E)
+  :file: data/ga01.09-e.yaml
+- :id: IALA GA01.09
+  :file: data/ga01.09.yaml
+- :id: IALA GA01.10 (E)
+  :file: data/ga01.10-e.yaml
+- :id: IALA GA01.10
+  :file: data/ga01.10.yaml
+- :id: IALA GA01.11 (E)
+  :file: data/ga01.11-e.yaml
+- :id: IALA GA01.11
+  :file: data/ga01.11.yaml
+- :id: IALA GA01.13 (E)
+  :file: data/ga01.13-e.yaml
+- :id: IALA GA01.13
+  :file: data/ga01.13.yaml
+- :id: IALA global-sharing-of-maritime-data-2011 (E)
+  :file: data/global-sharing-of-maritime-data-2011-e.yaml
+- :id: IALA global-sharing-of-maritime-data-2011
+  :file: data/global-sharing-of-maritime-data-2011.yaml
+- :id: IALA guideline-for-preparation-of-conference-or-symposium Ed 3.0 (E)
+  :file: data/guideline-for-preparation-of-conference-or-symposium-3.0-e.yaml
+- :id: IALA guideline-for-preparation-of-conference-or-symposium Ed 3.0
+  :file: data/guideline-for-preparation-of-conference-or-symposium.yaml
+- :id: IALA heritage-seminar-santander-june-2008 (E)
+  :file: data/heritage-seminar-santander-june-2008-e.yaml
+- :id: IALA heritage-seminar-santander-june-2008
+  :file: data/heritage-seminar-santander-june-2008.yaml
+- :id: IALA iala-1957-1990-33-year-of-international-cooperation (E)
+  :file: data/iala-1957-1990-33-year-of-international-cooperation-e.yaml
+- :id: IALA iala-1957-1990-33-year-of-international-cooperation
+  :file: data/iala-1957-1990-33-year-of-international-cooperation.yaml
+- :id: IALA iala-complementary-lighthouse-manual (E)
+  :file: data/iala-complementary-lighthouse-manual-e.yaml
+- :id: IALA iala-complementary-lighthouse-manual
+  :file: data/iala-complementary-lighthouse-manual.yaml
+- :id: IALA iala-style-guide Ed 1.0 (E)
+  :file: data/iala-style-guide-1.0-e.yaml
+- :id: IALA iala-style-guide Ed 1.0
+  :file: data/iala-style-guide.yaml
+- :id: IALA iala-world-wide-radio-navigation-plan Ed 2 (E)
+  :file: data/iala-world-wide-radio-navigation-plan-2-e.yaml
+- :id: IALA iala-world-wide-radio-navigation-plan Ed 2
+  :file: data/iala-world-wide-radio-navigation-plan.yaml
+- :id: IALA ialabatt-ialalite-2008 (E)
+  :file: data/ialabatt-ialalite-2008-e.yaml
+- :id: IALA ialabatt-ialalite-2008
+  :file: data/ialabatt-ialalite-2008.yaml
+- :id: IALA international-cooperation-in-aids-to-navigation-1889-1955 (E)
+  :file: data/international-cooperation-in-aids-to-navigation-1889-1955-e.yaml
+- :id: IALA international-cooperation-in-aids-to-navigation-1889-1955
+  :file: data/international-cooperation-in-aids-to-navigation-1889-1955.yaml
+- :id: IALA international-e-navigation-underway-2014 (E)
+  :file: data/international-e-navigation-underway-2014-e.yaml
+- :id: IALA international-e-navigation-underway-2014
+  :file: data/international-e-navigation-underway-2014.yaml
+- :id: IALA international-e-navigation-underway-2015 (E)
+  :file: data/international-e-navigation-underway-2015-e.yaml
+- :id: IALA international-e-navigation-underway-2015
+  :file: data/international-e-navigation-underway-2015.yaml
+- :id: IALA international-e-navigation-underway-2016 (E)
+  :file: data/international-e-navigation-underway-2016-e.yaml
+- :id: IALA international-e-navigation-underway-2016
+  :file: data/international-e-navigation-underway-2016.yaml
+- :id: IALA international-e-navigation-underway-2018 (E)
+  :file: data/international-e-navigation-underway-2018-e.yaml
+- :id: IALA international-e-navigation-underway-2018
+  :file: data/international-e-navigation-underway-2018.yaml
+- :id: IALA international-e-navigation-underway-2019 (E)
+  :file: data/international-e-navigation-underway-2019-e.yaml
+- :id: IALA international-e-navigation-underway-2019
+  :file: data/international-e-navigation-underway-2019.yaml
+- :id: IALA L2.1.11 Ed 2 (E)
+  :file: data/l2.1.11-2-e.yaml
+- :id: IALA L2.1.11 Ed 2
+  :file: data/l2.1.11.yaml
+- :id: IALA L2.1.12 Ed Ed 2 (E)
+  :file: data/l2.1.12-ed_2-e.yaml
+- :id: IALA L2.1.12 Ed Ed 2
+  :file: data/l2.1.12.yaml
+- :id: IALA L2.7.1-2 Ed 2 (E)
+  :file: data/l2.7.1-2-2-e.yaml
+- :id: IALA L2.7.1-2 Ed 2
+  :file: data/l2.7.1-2.yaml
+- :id: IALA M0001 Ed 9.0 (E)
+  :file: data/m0001-9.0-e.yaml
+- :id: IALA M0001 Ed 9.0 (S)
+  :file: data/m0001-9.0-s.yaml
+- :id: IALA M0001 Ed 9.0
+  :file: data/m0001.yaml
+- :id: IALA M0002 Ed 8.5 (E)
+  :file: data/m0002-8.5-e.yaml
+- :id: IALA M0002 Ed 8.5
+  :file: data/m0002.yaml
+- :id: IALA M0003 Ed 2.0 (E)
+  :file: data/m0003-2.0-e.yaml
+- :id: IALA M0003 Ed 2.0
+  :file: data/m0003.yaml
+- :id: IALA M0004 Ed 1.0 (E)
+  :file: data/m0004-1.0-e.yaml
+- :id: IALA M0004 Ed 1.0
+  :file: data/m0004.yaml
+- :id: IALA maritime-radio-communications-plan (E)
+  :file: data/maritime-radio-communications-plan-e.yaml
+- :id: IALA maritime-radio-communications-plan
+  :file: data/maritime-radio-communications-plan.yaml
+- :id: IALA preliminary-results-iala-vts-questionnaire (E)
+  :file: data/preliminary-results-iala-vts-questionnaire-e.yaml
+- :id: IALA preliminary-results-iala-vts-questionnaire
+  :file: data/preliminary-results-iala-vts-questionnaire.yaml
+- :id: IALA questionnaire-responses-complementary-use-of-lighthouses (E)
+  :file: data/questionnaire-responses-complementary-use-of-lighthouses-e.yaml
+- :id: IALA questionnaire-responses-complementary-use-of-lighthouses
+  :file: data/questionnaire-responses-complementary-use-of-lighthouses.yaml
+- :id: IALA R0101 Ed 2 (S)
+  :file: data/r0101-2-s.yaml
+- :id: IALA R0101 Ed 3.0 (E)
+  :file: data/r0101-3.0-e.yaml
+- :id: IALA R0101 Ed 3.0
+  :file: data/r0101.yaml
+- :id: IALA R0103 Ed 3.1 (E)
+  :file: data/r0103-3.1-e.yaml
+- :id: IALA R0103 Ed 3.1
+  :file: data/r0103.yaml
+- :id: IALA R0104 Ed 2.1 (E)
+  :file: data/r0104-2.1-e.yaml
+- :id: IALA R0104 Ed 2.1
+  :file: data/r0104.yaml
+- :id: IALA R0106 Ed 2.0 (S)
+  :file: data/r0106-2.0-s.yaml
+- :id: IALA R0106 Ed 2.1 (E)
+  :file: data/r0106-2.1-e.yaml
+- :id: IALA R0106 Ed 2.1 (F)
+  :file: data/r0106-2.1-f.yaml
+- :id: IALA R0106 Ed 2.1
+  :file: data/r0106.yaml
+- :id: IALA R0107 Ed 2 (S)
+  :file: data/r0107-2-s.yaml
+- :id: IALA R0107 Ed 2.1 (E)
+  :file: data/r0107-2.1-e.yaml
+- :id: IALA R0107 Ed 2.1
+  :file: data/r0107.yaml
+- :id: IALA R0108 Ed 4.0 (S)
+  :file: data/r0108-4.0-s.yaml
+- :id: IALA R0108 Ed 4.1 (E)
+  :file: data/r0108-4.1-e.yaml
+- :id: IALA R0108 Ed 4.1 (F)
+  :file: data/r0108-4.1-f.yaml
+- :id: IALA R0108 Ed 4.1
+  :file: data/r0108.yaml
+- :id: IALA R0109 Ed 1.0 (S)
+  :file: data/r0109-1.0-s.yaml
+- :id: IALA R0109 Ed 1.1 (E)
+  :file: data/r0109-1.1-e.yaml
+- :id: IALA R0109 Ed 1.1
+  :file: data/r0109.yaml
+- :id: IALA R0110 Ed 4.0 (S)
+  :file: data/r0110-4.0-s.yaml
+- :id: IALA R0110 Ed 5.0 (E)
+  :file: data/r0110-5.0-e.yaml
+- :id: IALA R0110 Ed 5.0
+  :file: data/r0110.yaml
+- :id: IALA R0111 Ed 1.3 (E)
+  :file: data/r0111-1.3-e.yaml
+- :id: IALA R0111 Ed 1.3 (F)
+  :file: data/r0111-1.3-f.yaml
+- :id: IALA R0111 Ed 1.3 (S)
+  :file: data/r0111-1.3-s.yaml
+- :id: IALA R0111 Ed 1.3
+  :file: data/r0111.yaml
+- :id: IALA R0112 Ed 1.2 (E)
+  :file: data/r0112-1.2-e.yaml
+- :id: IALA R0112-2 Ed 2.02 (E)
+  :file: data/r0112-2-2.02-e.yaml
+- :id: IALA R0112-2 Ed 2.02
+  :file: data/r0112-2.yaml
+- :id: IALA R0112 Ed 1.2
+  :file: data/r0112.yaml
+- :id: IALA R0115 Ed 1.2 (E)
+  :file: data/r0115-1.2-e.yaml
+- :id: IALA R0115 Ed 1.2
+  :file: data/r0115.yaml
+- :id: IALA R0118 Ed 1.2 (E)
+  :file: data/r0118-1.2-e.yaml
+- :id: IALA R0118 Ed 1.2 (F)
+  :file: data/r0118-1.2-f.yaml
+- :id: IALA R0118 Ed 1.2 (S)
+  :file: data/r0118-1.2-s.yaml
+- :id: IALA R0118 Ed 1.2
+  :file: data/r0118.yaml
+- :id: IALA R0119 Ed 4.2 (E)
+  :file: data/r0119-4.2-e.yaml
+- :id: IALA R0119 Ed 4.2
+  :file: data/r0119.yaml
+- :id: IALA R0121 Ed 2.1 (E)
+  :file: data/r0121-2.1-e.yaml
+- :id: IALA R0121 Ed 2.1
+  :file: data/r0121.yaml
+- :id: IALA R0123 Ed 2.0 (S)
+  :file: data/r0123-2.0-s.yaml
+- :id: IALA R0123 Ed 2.1 (E)
+  :file: data/r0123-2.1-e.yaml
+- :id: IALA R0123 Ed 2.1
+  :file: data/r0123.yaml
+- :id: IALA R0124-0 Ed 1 (E)
+  :file: data/r0124-0-1-e.yaml
+- :id: IALA R0124-0 Ed 1
+  :file: data/r0124-0.yaml
+- :id: IALA R0124-1 Ed 1 (E)
+  :file: data/r0124-1-1-e.yaml
+- :id: IALA R0124-1 Ed 1
+  :file: data/r0124-1.yaml
+- :id: IALA R0124-12 Ed 1 (E)
+  :file: data/r0124-12-1-e.yaml
+- :id: IALA R0124-12 Ed 1
+  :file: data/r0124-12.yaml
+- :id: IALA R0124-14 Ed 2 (E)
+  :file: data/r0124-14-2-e.yaml
+- :id: IALA R0124-14 Ed 2
+  :file: data/r0124-14.yaml
+- :id: IALA R0124-16 Ed 1 (E)
+  :file: data/r0124-16-1-e.yaml
+- :id: IALA R0124-16 Ed 1
+  :file: data/r0124-16.yaml
+- :id: IALA R0124-17 Ed 1 (E)
+  :file: data/r0124-17-1-e.yaml
+- :id: IALA R0124-17 Ed 1
+  :file: data/r0124-17.yaml
+- :id: IALA R0124-18 Ed 1 (E)
+  :file: data/r0124-18-1-e.yaml
+- :id: IALA R0124-18 Ed 1
+  :file: data/r0124-18.yaml
+- :id: IALA R0124-19 Ed 1 (E)
+  :file: data/r0124-19-1-e.yaml
+- :id: IALA R0124-19 Ed 1
+  :file: data/r0124-19.yaml
+- :id: IALA R0124 Ed 2.2 (E)
+  :file: data/r0124-2.2-e.yaml
+- :id: IALA R0124 Ed 2.2 (S)
+  :file: data/r0124-2.2-s.yaml
+- :id: IALA R0124-3 Ed 1 (E)
+  :file: data/r0124-3-1-e.yaml
+- :id: IALA R0124-3 Ed 1
+  :file: data/r0124-3.yaml
+- :id: IALA R0124-4 Ed 1 (E)
+  :file: data/r0124-4-1-e.yaml
+- :id: IALA R0124-4 Ed 1
+  :file: data/r0124-4.yaml
+- :id: IALA R0124-5 Ed 1 (E)
+  :file: data/r0124-5-1-e.yaml
+- :id: IALA R0124-5 Ed 1
+  :file: data/r0124-5.yaml
+- :id: IALA R0124-9-11 Ed 1 (E)
+  :file: data/r0124-9-11-1-e.yaml
+- :id: IALA R0124-9-11 Ed 1
+  :file: data/r0124-9-11.yaml
+- :id: IALA R0124 Ed 2.2
+  :file: data/r0124.yaml
+- :id: IALA R0125 Ed 4.0 (E)
+  :file: data/r0125-4.0-e.yaml
+- :id: IALA R0125 Ed 4.0
+  :file: data/r0125.yaml
+- :id: IALA R0126 Ed 2.0 (E)
+  :file: data/r0126-2.0-e.yaml
+- :id: IALA R0126 Ed 2.0
+  :file: data/r0126.yaml
+- :id: IALA R0127 Ed 3.2 (E)
+  :file: data/r0127-3.2-e.yaml
+- :id: IALA R0127 Ed 3.2
+  :file: data/r0127.yaml
+- :id: IALA R0128 Ed 5.0 (E)
+  :file: data/r0128-5.0-e.yaml
+- :id: IALA R0128 Ed 5.0
+  :file: data/r0128.yaml
+- :id: IALA R0129 Ed 3.1 (E)
+  :file: data/r0129-3.1-e.yaml
+- :id: IALA R0129 Ed 3.1 (S)
+  :file: data/r0129-3.1-s.yaml
+- :id: IALA R0129 Ed 3.1
+  :file: data/r0129.yaml
+- :id: IALA R0130 Ed 3.1 (E)
+  :file: data/r0130-3.1-e.yaml
+- :id: IALA R0130 Ed 3.1 (F)
+  :file: data/r0130-3.1-f.yaml
+- :id: IALA R0130 Ed 3.1 (S)
+  :file: data/r0130-3.1-s.yaml
+- :id: IALA R0130 Ed 3.1
+  :file: data/r0130.yaml
+- :id: IALA R0132 Ed 3.0 (E)
+  :file: data/r0132-3.0-e.yaml
+- :id: IALA R0132 Ed 3.0
+  :file: data/r0132.yaml
+- :id: IALA R0135 Ed 2.1 (E)
+  :file: data/r0135-2.1-e.yaml
+- :id: IALA R0135 Ed 2.1
+  :file: data/r0135.yaml
+- :id: IALA R0138 Ed 1.1 (E)
+  :file: data/r0138-1.1-e.yaml
+- :id: IALA R0138 Ed 1.1
+  :file: data/r0138.yaml
+- :id: IALA R0139 Ed 3.0 (E)
+  :file: data/r0139-3.0-e.yaml
+- :id: IALA R0139 Ed 3.0 (S)
+  :file: data/r0139-3.0-s.yaml
+- :id: IALA R0139 Ed 3.0
+  :file: data/r0139.yaml
+- :id: IALA R0140 Ed 2.1 (E)
+  :file: data/r0140-2.1-e.yaml
+- :id: IALA R0140 Ed 2.1
+  :file: data/r0140.yaml
+- :id: IALA R0141 Ed 5.0 (E)
+  :file: data/r0141-5.0-e.yaml
+- :id: IALA R0141 Ed 5.0
+  :file: data/r0141.yaml
+- :id: IALA R0142 Ed 1.1 (E)
+  :file: data/r0142-1.1-e.yaml
+- :id: IALA R0142 Ed 1.1
+  :file: data/r0142.yaml
+- :id: IALA R0143 Ed 2.0 (E)
+  :file: data/r0143-2.0-e.yaml
+- :id: IALA R0143 Ed 2.0
+  :file: data/r0143.yaml
+- :id: IALA R0144 Ed 2.0 (E)
+  :file: data/r0144-2.0-e.yaml
+- :id: IALA R0144 Ed 2.0
+  :file: data/r0144.yaml
+- :id: IALA R0145 Ed 1.1 (E)
+  :file: data/r0145-1.1-e.yaml
+- :id: IALA R0145 Ed 1.1
+  :file: data/r0145.yaml
+- :id: IALA R0146 Ed 2.0 (E)
+  :file: data/r0146-2.0-e.yaml
+- :id: IALA R0146 Ed 2.0
+  :file: data/r0146.yaml
+- :id: IALA R0147 Ed 2.1 (E)
+  :file: data/r0147-2.1-e.yaml
+- :id: IALA R0147 Ed 2.1
+  :file: data/r0147.yaml
+- :id: IALA R0148 Ed 1.1 (E)
+  :file: data/r0148-1.1-e.yaml
+- :id: IALA R0148 Ed 1.1
+  :file: data/r0148.yaml
+- :id: IALA R0149 Ed 1.1 (E)
+  :file: data/r0149-1.1-e.yaml
+- :id: IALA R0149 Ed 1.1
+  :file: data/r0149.yaml
+- :id: IALA R0150 Ed 1.1 (E)
+  :file: data/r0150-1.1-e.yaml
+- :id: IALA R0150 Ed 1.1
+  :file: data/r0150.yaml
+- :id: IALA R0200-0 Ed 1 (S)
+  :file: data/r0200-0-1-s.yaml
+- :id: IALA R0200-0
+  :file: data/r0200-0.yaml
+- :id: IALA R0200-1 Ed 1 (S)
+  :file: data/r0200-1-1-s.yaml
+- :id: IALA R0200-1
+  :file: data/r0200-1.yaml
+- :id: IALA R0200-2 Ed 1 (S)
+  :file: data/r0200-2-1-s.yaml
+- :id: IALA R0200-2
+  :file: data/r0200-2.yaml
+- :id: IALA R0200-3 Ed 1 (S)
+  :file: data/r0200-3-1-s.yaml
+- :id: IALA R0200-3
+  :file: data/r0200-3.yaml
+- :id: IALA R0200-4 Ed 1 (S)
+  :file: data/r0200-4-1-s.yaml
+- :id: IALA R0200-4
+  :file: data/r0200-4.yaml
+- :id: IALA R0200-5 Ed 1 (S)
+  :file: data/r0200-5-1-s.yaml
+- :id: IALA R0200-5
+  :file: data/r0200-5.yaml
+- :id: IALA R0201 Ed 3.0 (S)
+  :file: data/r0201-3.0-s.yaml
+- :id: IALA R0201 Ed 3.1 (E)
+  :file: data/r0201-3.1-e.yaml
+- :id: IALA R0201 Ed 3.1 (F)
+  :file: data/r0201-3.1-f.yaml
+- :id: IALA R0201 Ed 3.1
+  :file: data/r0201.yaml
+- :id: IALA R0202 Ed 2.0 (S)
+  :file: data/r0202-2.0-s.yaml
+- :id: IALA R0202 Ed 2.1 (E)
+  :file: data/r0202-2.1-e.yaml
+- :id: IALA R0202 Ed 2.1 (F)
+  :file: data/r0202-2.1-f.yaml
+- :id: IALA R0202 Ed 2.1
+  :file: data/r0202.yaml
+- :id: IALA R0203 Ed 1.1 (S)
+  :file: data/r0203-1.1-s.yaml
+- :id: IALA R0203 Ed 2.0 (E)
+  :file: data/r0203-2.0-e.yaml
+- :id: IALA R0203 Ed 2.0
+  :file: data/r0203.yaml
+- :id: IALA R0204 Ed 2.0 (S)
+  :file: data/r0204-2.0-s.yaml
+- :id: IALA R0204 Ed 3.0 (E)
+  :file: data/r0204-3.0-e.yaml
+- :id: IALA R0204 Ed 3.0 (F)
+  :file: data/r0204-3.0-f.yaml
+- :id: IALA R0204 Ed 3.0
+  :file: data/r0204.yaml
+- :id: IALA R0205 Ed 1.1 (E)
+  :file: data/r0205-1.1-e.yaml
+- :id: IALA R0205 Ed 1.1
+  :file: data/r0205.yaml
+- :id: IALA R1001 Ed 2.0 (E)
+  :file: data/r1001-2.0-e.yaml
+- :id: IALA R1001 Ed 2.0 (S)
+  :file: data/r1001-2.0-s.yaml
+- :id: IALA R1001 Ed 2.0
+  :file: data/r1001.yaml
+- :id: IALA R1002 Ed 1.1 (E)
+  :file: data/r1002-1.1-e.yaml
+- :id: IALA R1002 Ed 1.1 (F)
+  :file: data/r1002-1.1-f.yaml
+- :id: IALA R1002 Ed 1.1
+  :file: data/r1002.yaml
+- :id: IALA R1004 Ed 2.1 (E)
+  :file: data/r1004-2.1-e.yaml
+- :id: IALA R1004 Ed 2.1
+  :file: data/r1004.yaml
+- :id: IALA R1005 Ed 3.0 (E)
+  :file: data/r1005-3.0-e.yaml
+- :id: IALA R1005 Ed 3.0
+  :file: data/r1005.yaml
+- :id: IALA R1007 Ed 2.0 (E)
+  :file: data/r1007-2.0-e.yaml
+- :id: IALA R1007 Ed 2.0
+  :file: data/r1007.yaml
+- :id: IALA R1009 Ed 1.1 (E)
+  :file: data/r1009-1.1-e.yaml
+- :id: IALA R1009 Ed 1.1
+  :file: data/r1009.yaml
+- :id: IALA R1010 Ed 1.1 (E)
+  :file: data/r1010-1.1-e.yaml
+- :id: IALA R1010 Ed 1.1
+  :file: data/r1010.yaml
+- :id: IALA R1011 Ed 1.1 (E)
+  :file: data/r1011-1.1-e.yaml
+- :id: IALA R1011 Ed 1.1
+  :file: data/r1011.yaml
+- :id: IALA R1012 Ed 1.3 (E)
+  :file: data/r1012-1.3-e.yaml
+- :id: IALA R1012 Ed 1.3
+  :file: data/r1012.yaml
+- :id: IALA R1013 Ed 1.1 (E)
+  :file: data/r1013-1.1-e.yaml
+- :id: IALA R1013 Ed 1.1
+  :file: data/r1013.yaml
+- :id: IALA R1015 Ed 1.0 (S)
+  :file: data/r1015-1.0-s.yaml
+- :id: IALA R1015 Ed 1.1 (E)
+  :file: data/r1015-1.1-e.yaml
+- :id: IALA R1015 Ed 1.1 (F)
+  :file: data/r1015-1.1-f.yaml
+- :id: IALA R1015 Ed 1.1
+  :file: data/r1015.yaml
+- :id: IALA R1016 Ed 1.0 (S)
+  :file: data/r1016-1.0-s.yaml
+- :id: IALA R1016 Ed 2.0 (E)
+  :file: data/r1016-2.0-e.yaml
+- :id: IALA R1016 Ed 2.0 (F)
+  :file: data/r1016-2.0-f.yaml
+- :id: IALA R1016 Ed 2.0
+  :file: data/r1016.yaml
+- :id: IALA R1017 Ed 1.1 (E)
+  :file: data/r1017-1.1-e.yaml
+- :id: IALA R1017 Ed 1.1
+  :file: data/r1017.yaml
+- :id: IALA R1018 Ed 1.1 (E)
+  :file: data/r1018-1.1-e.yaml
+- :id: IALA R1018 Ed 1.1
+  :file: data/r1018.yaml
+- :id: IALA R1019 Ed 2.0 (E)
+  :file: data/r1019-2.0-e.yaml
+- :id: IALA R1019 Ed 2.0
+  :file: data/r1019.yaml
+- :id: IALA R1020 Ed 1.0 (E)
+  :file: data/r1020-1.0-e.yaml
+- :id: IALA R1020 Ed 1.0
+  :file: data/r1020.yaml
+- :id: IALA R1021 Ed 1.1 (E)
+  :file: data/r1021-1.1-e.yaml
+- :id: IALA R1021 Ed 1.1
+  :file: data/r1021.yaml
+- :id: IALA R1022 Ed 1.0 (E)
+  :file: data/r1022-1.0-e.yaml
+- :id: IALA R1022 Ed 1.0
+  :file: data/r1022.yaml
+- :id: IALA R1023 Ed 1.0 (E)
+  :file: data/r1023-1.0-e.yaml
+- :id: IALA R1023 Ed 1.0
+  :file: data/r1023.yaml
+- :id: IALA R1024 Ed 1.0 (E)
+  :file: data/r1024-1.0-e.yaml
+- :id: IALA R1024 Ed 1.0
+  :file: data/r1024.yaml
+- :id: IALA R1025 Ed 1.0 (E)
+  :file: data/r1025-1.0-e.yaml
+- :id: IALA R1025 Ed 1.0
+  :file: data/r1025.yaml
+- :id: IALA R1026 Ed 1.0 (E)
+  :file: data/r1026-1.0-e.yaml
+- :id: IALA R1026 Ed 1.0
+  :file: data/r1026.yaml
+- :id: IALA R1027 Ed 1.0 (E)
+  :file: data/r1027-1.0-e.yaml
+- :id: IALA R1027 Ed 1.0
+  :file: data/r1027.yaml
+- :id: IALA report-18th-iala-conference (E)
+  :file: data/report-18th-iala-conference-e.yaml
+- :id: IALA report-18th-iala-conference
+  :file: data/report-18th-iala-conference.yaml
+- :id: IALA report-conference-20th-iala-conference-in-brazil (E)
+  :file: data/report-conference-20th-iala-conference-in-brazil-e.yaml
+- :id: IALA report-conference-20th-iala-conference-in-brazil
+  :file: data/report-conference-20th-iala-conference-in-brazil.yaml
+- :id: IALA report-e-navigation-underway-international-2017 (E)
+  :file: data/report-e-navigation-underway-international-2017-e.yaml
+- :id: IALA report-e-navigation-underway-international-2017
+  :file: data/report-e-navigation-underway-international-2017.yaml
+- :id: IALA report-e-navigation-underway-north-america-2017 (E)
+  :file: data/report-e-navigation-underway-north-america-2017-e.yaml
+- :id: IALA report-e-navigation-underway-north-america-2017
+  :file: data/report-e-navigation-underway-north-america-2017.yaml
+- :id: IALA report-iala-workshop-common-phraseology-procedures-vts-communication (E)
+  :file: data/report-iala-workshop-common-phraseology-procedures-vts-communication-e.yaml
+- :id: IALA report-iala-workshop-common-phraseology-procedures-vts-communication
+  :file: data/report-iala-workshop-common-phraseology-procedures-vts-communication.yaml
+- :id: IALA report-iala-workshop-sustainable-light-power-next-generation (E)
+  :file: data/report-iala-workshop-sustainable-light-power-next-generation-e.yaml
+- :id: IALA report-iala-workshop-sustainable-light-power-next-generation
+  :file: data/report-iala-workshop-sustainable-light-power-next-generation.yaml
+- :id: IALA report-of-the-iala-workshop-on-the-future-of-marine-radiobeacon-dgps-dgnss
+    (E)
+  :file: data/report-of-the-iala-workshop-on-the-future-of-marine-radiobeacon-dgps-dgnss-e.yaml
+- :id: IALA report-of-the-iala-workshop-on-the-future-of-marine-radiobeacon-dgps-dgnss
+  :file: data/report-of-the-iala-workshop-on-the-future-of-marine-radiobeacon-dgps-dgnss.yaml
+- :id: IALA report-of-the-workshop-on-marine-aton-in-the-autonomous-world (E)
+  :file: data/report-of-the-workshop-on-marine-aton-in-the-autonomous-world-e.yaml
+- :id: IALA report-of-the-workshop-on-marine-aton-in-the-autonomous-world
+  :file: data/report-of-the-workshop-on-marine-aton-in-the-autonomous-world.yaml
+- :id: IALA report-of-the-workshop-on-vts-competent-authorities (E)
+  :file: data/report-of-the-workshop-on-vts-competent-authorities-e.yaml
+- :id: IALA report-of-the-workshop-on-vts-competent-authorities
+  :file: data/report-of-the-workshop-on-vts-competent-authorities.yaml
+- :id: IALA report-of-the-wwa-seminar-on-the-safety-of-navigation-2019-turkey (E)
+  :file: data/report-of-the-wwa-seminar-on-the-safety-of-navigation-2019-turkey-e.yaml
+- :id: IALA report-of-the-wwa-seminar-on-the-safety-of-navigation-2019-turkey
+  :file: data/report-of-the-wwa-seminar-on-the-safety-of-navigation-2019-turkey.yaml
+- :id: IALA report-on-iala-workshop-on-vts-training-and-qualifications-2020-and-beyond
+    (E)
+  :file: data/report-on-iala-workshop-on-vts-training-and-qualifications-2020-and-beyond-e.yaml
+- :id: IALA report-on-iala-workshop-on-vts-training-and-qualifications-2020-and-beyond
+  :file: data/report-on-iala-workshop-on-vts-training-and-qualifications-2020-and-beyond.yaml
+- :id: IALA report-on-joint-iala-iho-workshop-on-s-100-s-200-product-specification-development-and-portrayal
+    (E)
+  :file: data/report-on-joint-iala-iho-workshop-on-s-100-s-200-product-specification-development-and-portrayal-e.yaml
+- :id: IALA report-on-joint-iala-iho-workshop-on-s-100-s-200-product-specification-development-and-portrayal
+  :file: data/report-on-joint-iala-iho-workshop-on-s-100-s-200-product-specification-development-and-portrayal.yaml
+- :id: IALA report-on-the-2nd-joint-iho-iala-workshop-s-100-s-200 (E)
+  :file: data/report-on-the-2nd-joint-iho-iala-workshop-s-100-s-200-e.yaml
+- :id: IALA report-on-the-2nd-joint-iho-iala-workshop-s-100-s-200
+  :file: data/report-on-the-2nd-joint-iho-iala-workshop-s-100-s-200.yaml
+- :id: IALA report-on-the-aton-engineering-workshop (E)
+  :file: data/report-on-the-aton-engineering-workshop-e.yaml
+- :id: IALA report-on-the-aton-engineering-workshop
+  :file: data/report-on-the-aton-engineering-workshop.yaml
+- :id: IALA report-on-the-iala-workshop-on-r-mode (E)
+  :file: data/report-on-the-iala-workshop-on-r-mode-e.yaml
+- :id: IALA report-on-the-iala-workshop-on-r-mode
+  :file: data/report-on-the-iala-workshop-on-r-mode.yaml
+- :id: IALA report-on-the-on-imt-workshop-for-marine-atons-september-2025-germany
+    (E)
+  :file: data/report-on-the-on-imt-workshop-for-marine-atons-september-2025-germany-e.yaml
+- :id: IALA report-on-the-on-imt-workshop-for-marine-atons-september-2025-germany
+  :file: data/report-on-the-on-imt-workshop-for-marine-atons-september-2025-germany.yaml
+- :id: IALA report-on-the-seminar-on-vdes-singapore-2025 (E)
+  :file: data/report-on-the-seminar-on-vdes-singapore-2025-e.yaml
+- :id: IALA report-on-the-seminar-on-vdes-singapore-2025
+  :file: data/report-on-the-seminar-on-vdes-singapore-2025.yaml
+- :id: IALA report-on-the-workshop-digital-maritime-communications (E)
+  :file: data/report-on-the-workshop-digital-maritime-communications-e.yaml
+- :id: IALA report-on-the-workshop-digital-maritime-communications
+  :file: data/report-on-the-workshop-digital-maritime-communications.yaml
+- :id: IALA report-on-the-workshop-on-radionavigation-and-radiocommunication-technologies
+    (E)
+  :file: data/report-on-the-workshop-on-radionavigation-and-radiocommunication-technologies-e.yaml
+- :id: IALA report-on-the-workshop-on-radionavigation-and-radiocommunication-technologies
+  :file: data/report-on-the-workshop-on-radionavigation-and-radiocommunication-technologies.yaml
+- :id: IALA report-on-the-workshop-on-sustainability-in-aton-provision (E)
+  :file: data/report-on-the-workshop-on-sustainability-in-aton-provision-e.yaml
+- :id: IALA report-on-the-workshop-on-sustainability-in-aton-provision
+  :file: data/report-on-the-workshop-on-sustainability-in-aton-provision.yaml
+- :id: IALA report-seminar-on-preservation-of-lighthouse-heritage-june-2013 (E)
+  :file: data/report-seminar-on-preservation-of-lighthouse-heritage-june-2013-e.yaml
+- :id: IALA report-seminar-on-preservation-of-lighthouse-heritage-june-2013
+  :file: data/report-seminar-on-preservation-of-lighthouse-heritage-june-2013.yaml
+- :id: IALA report-training-and-certification-of-aton-and-vts-personnel (E)
+  :file: data/report-training-and-certification-of-aton-and-vts-personnel-e.yaml
+- :id: IALA report-training-and-certification-of-aton-and-vts-personnel
+  :file: data/report-training-and-certification-of-aton-and-vts-personnel.yaml
+- :id: IALA report-workshop-iala-cyber-security (E)
+  :file: data/report-workshop-iala-cyber-security-e.yaml
+- :id: IALA report-workshop-iala-cyber-security
+  :file: data/report-workshop-iala-cyber-security.yaml
+- :id: IALA report-workshop-iala-erps (E)
+  :file: data/report-workshop-iala-erps-e.yaml
+- :id: IALA report-workshop-iala-erps
+  :file: data/report-workshop-iala-erps.yaml
+- :id: IALA report-workshop-iala-initial-operating-capabilities-phase-of-e-navigation-services-singapore
+    (E)
+  :file: data/report-workshop-iala-initial-operating-capabilities-phase-of-e-navigation-services-singapore-e.yaml
+- :id: IALA report-workshop-iala-initial-operating-capabilities-phase-of-e-navigation-services-singapore
+  :file: data/report-workshop-iala-initial-operating-capabilities-phase-of-e-navigation-services-singapore.yaml
+- :id: IALA report-workshop-iala-the-enhancing-e-navigation-capability-digitalsea
+    (E)
+  :file: data/report-workshop-iala-the-enhancing-e-navigation-capability-digitalsea-e.yaml
+- :id: IALA report-workshop-iala-the-enhancing-e-navigation-capability-digitalsea
+  :file: data/report-workshop-iala-the-enhancing-e-navigation-capability-digitalsea.yaml
+- :id: IALA risk-management-pawsa-iwrap-mk2-simulation (E)
+  :file: data/risk-management-pawsa-iwrap-mk2-simulation-e.yaml
+- :id: IALA risk-management-pawsa-iwrap-mk2-simulation
+  :file: data/risk-management-pawsa-iwrap-mk2-simulation.yaml
+- :id: IALA risk-seminar-singapore-2015 (E)
+  :file: data/risk-seminar-singapore-2015-e.yaml
+- :id: IALA risk-seminar-singapore-2015
+  :file: data/risk-seminar-singapore-2015.yaml
+- :id: IALA risk-seminar-turkey-2018 (E)
+  :file: data/risk-seminar-turkey-2018-e.yaml
+- :id: IALA risk-seminar-turkey-2018
+  :file: data/risk-seminar-turkey-2018.yaml
+- :id: IALA risk-training-seminar-cartagena-2019 (E)
+  :file: data/risk-training-seminar-cartagena-2019-e.yaml
+- :id: IALA risk-training-seminar-cartagena-2019
+  :file: data/risk-training-seminar-cartagena-2019.yaml
+- :id: IALA risk-training-seminar-china-2017 (E)
+  :file: data/risk-training-seminar-china-2017-e.yaml
+- :id: IALA risk-training-seminar-china-2017
+  :file: data/risk-training-seminar-china-2017.yaml
+- :id: IALA risk-training-seminar-france-2019 (E)
+  :file: data/risk-training-seminar-france-2019-e.yaml
+- :id: IALA risk-training-seminar-france-2019
+  :file: data/risk-training-seminar-france-2019.yaml
+- :id: IALA risk-training-seminar-oman-2011 (E)
+  :file: data/risk-training-seminar-oman-2011-e.yaml
+- :id: IALA risk-training-seminar-oman-2011
+  :file: data/risk-training-seminar-oman-2011.yaml
+- :id: IALA risk-training-seminar-panama-2016 (E)
+  :file: data/risk-training-seminar-panama-2016-e.yaml
+- :id: IALA risk-training-seminar-panama-2016
+  :file: data/risk-training-seminar-panama-2016.yaml
+- :id: IALA risk-training-seminar-south-africa-2018 (E)
+  :file: data/risk-training-seminar-south-africa-2018-e.yaml
+- :id: IALA risk-training-seminar-south-africa-2018
+  :file: data/risk-training-seminar-south-africa-2018.yaml
+- :id: IALA risk-training-seminar-sydney-2012 (E)
+  :file: data/risk-training-seminar-sydney-2012-e.yaml
+- :id: IALA risk-training-seminar-sydney-2012
+  :file: data/risk-training-seminar-sydney-2012.yaml
+- :id: IALA S1010 Ed 2.0 (E)
+  :file: data/s1010-2.0-e.yaml
+- :id: IALA S1010 Ed 2.0
+  :file: data/s1010.yaml
+- :id: IALA S1020 Ed 2.0 (E)
+  :file: data/s1020-2.0-e.yaml
+- :id: IALA S1020 Ed 2.0
+  :file: data/s1020.yaml
+- :id: IALA S1030 Ed 2.0 (E)
+  :file: data/s1030-2.0-e.yaml
+- :id: IALA S1030 Ed 2.0
+  :file: data/s1030.yaml
+- :id: IALA S1040 Ed 2.0 (E)
+  :file: data/s1040-2.0-e.yaml
+- :id: IALA S1040 Ed 2.0
+  :file: data/s1040.yaml
+- :id: IALA S1050 Ed 2.0 (E)
+  :file: data/s1050-2.0-e.yaml
+- :id: IALA S1050 Ed 2.0
+  :file: data/s1050.yaml
+- :id: IALA S1060 Ed 2.0 (E)
+  :file: data/s1060-2.0-e.yaml
+- :id: IALA S1060 Ed 2.0
+  :file: data/s1060.yaml
+- :id: IALA S1070 Ed 2.0 (E)
+  :file: data/s1070-2.0-e.yaml
+- :id: IALA S1070 Ed 2.0
+  :file: data/s1070.yaml
+- :id: IALA seminar-iwrap-mk-ii-2009-kuala-lumpur (E)
+  :file: data/seminar-iwrap-mk-ii-2009-kuala-lumpur-e.yaml
+- :id: IALA seminar-iwrap-mk-ii-2009-kuala-lumpur
+  :file: data/seminar-iwrap-mk-ii-2009-kuala-lumpur.yaml
+- :id: IALA seminar-on-maritime-digital-infrastructures-and-testbeds (E)
+  :file: data/seminar-on-maritime-digital-infrastructures-and-testbeds-e.yaml
+- :id: IALA seminar-on-maritime-digital-infrastructures-and-testbeds
+  :file: data/seminar-on-maritime-digital-infrastructures-and-testbeds.yaml
+- :id: IALA seminar-on-the-revision-of-imo-resolution-a-85720-guidelines-for-vts (E)
+  :file: data/seminar-on-the-revision-of-imo-resolution-a-85720-guidelines-for-vts-e.yaml
+- :id: IALA seminar-on-the-revision-of-imo-resolution-a-85720-guidelines-for-vts
+  :file: data/seminar-on-the-revision-of-imo-resolution-a-85720-guidelines-for-vts.yaml
+- :id: IALA seminar-simulation-in-vts-training-wageningen-2013 (E)
+  :file: data/seminar-simulation-in-vts-training-wageningen-2013-e.yaml
+- :id: IALA seminar-simulation-in-vts-training-wageningen-2013
+  :file: data/seminar-simulation-in-vts-training-wageningen-2013.yaml
+- :id: IALA short-range-aton-in-e-navigation-era-2012-brest (E)
+  :file: data/short-range-aton-in-e-navigation-era-2012-brest-e.yaml
+- :id: IALA short-range-aton-in-e-navigation-era-2012-brest
+  :file: data/short-range-aton-in-e-navigation-era-2012-brest.yaml
+- :id: IALA vts-training-workshop-warnemunda-2009 (E)
+  :file: data/vts-training-workshop-warnemunda-2009-e.yaml
+- :id: IALA vts-training-workshop-warnemunda-2009
+  :file: data/vts-training-workshop-warnemunda-2009.yaml
+- :id: IALA workshop-ais-aton-real-virtual-developments-uses (E)
+  :file: data/workshop-ais-aton-real-virtual-developments-uses-e.yaml
+- :id: IALA workshop-ais-aton-real-virtual-developments-uses
+  :file: data/workshop-ais-aton-real-virtual-developments-uses.yaml
+- :id: IALA workshop-application-of-aids-to-navigation-within-marine-spatial-planning-iala-2013
+    (E)
+  :file: data/workshop-application-of-aids-to-navigation-within-marine-spatial-planning-iala-2013-e.yaml
+- :id: IALA workshop-application-of-aids-to-navigation-within-marine-spatial-planning-iala-2013
+  :file: data/workshop-application-of-aids-to-navigation-within-marine-spatial-planning-iala-2013.yaml
+- :id: IALA workshop-aton-services-extremely-hot-climates (E)
+  :file: data/workshop-aton-services-extremely-hot-climates-e.yaml
+- :id: IALA workshop-aton-services-extremely-hot-climates
+  :file: data/workshop-aton-services-extremely-hot-climates.yaml
+- :id: IALA workshop-challenges-of-providing-aton-services-in-polar-regions (E)
+  :file: data/workshop-challenges-of-providing-aton-services-in-polar-regions-e.yaml
+- :id: IALA workshop-challenges-of-providing-aton-services-in-polar-regions
+  :file: data/workshop-challenges-of-providing-aton-services-in-polar-regions.yaml
+- :id: IALA workshop-employing-e-navigation-cssa (E)
+  :file: data/workshop-employing-e-navigation-cssa-e.yaml
+- :id: IALA workshop-employing-e-navigation-cssa
+  :file: data/workshop-employing-e-navigation-cssa.yaml
+- :id: IALA workshop-on-development-of-vhf-data-exchange-system-vdes (E)
+  :file: data/workshop-on-development-of-vhf-data-exchange-system-vdes-e.yaml
+- :id: IALA workshop-on-development-of-vhf-data-exchange-system-vdes
+  :file: data/workshop-on-development-of-vhf-data-exchange-system-vdes.yaml
+- :id: IALA workshop-on-harmonizing-vts-voice-communication (E)
+  :file: data/workshop-on-harmonizing-vts-voice-communication-e.yaml
+- :id: IALA workshop-on-harmonizing-vts-voice-communication
+  :file: data/workshop-on-harmonizing-vts-voice-communication.yaml
+- :id: IALA workshop-on-ioc-phase-for-e-navigation-services (E)
+  :file: data/workshop-on-ioc-phase-for-e-navigation-services-e.yaml
+- :id: IALA workshop-on-ioc-phase-for-e-navigation-services
+  :file: data/workshop-on-ioc-phase-for-e-navigation-services.yaml
+- :id: IALA workshop-on-shore-based-maritime-services-from-theory-to-practical-use
+    (E)
+  :file: data/workshop-on-shore-based-maritime-services-from-theory-to-practical-use-e.yaml
+- :id: IALA workshop-on-shore-based-maritime-services-from-theory-to-practical-use
+  :file: data/workshop-on-shore-based-maritime-services-from-theory-to-practical-use.yaml
+- :id: IALA workshop-portrayal-of-data-and-information-at-a-vts-bremen-2013 (E)
+  :file: data/workshop-portrayal-of-data-and-information-at-a-vts-bremen-2013-e.yaml
+- :id: IALA workshop-portrayal-of-data-and-information-at-a-vts-bremen-2013
+  :file: data/workshop-portrayal-of-data-and-information-at-a-vts-bremen-2013.yaml
+- :id: IALA wwa-safety-of-navigation-seminar-february-2025 (E)
+  :file: data/wwa-safety-of-navigation-seminar-february-2025-e.yaml
+- :id: IALA wwa-safety-of-navigation-seminar-february-2025
+  :file: data/wwa-safety-of-navigation-seminar-february-2025.yaml

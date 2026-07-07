@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R1021 Marine AtoN Awareness for Mariners
+  content: MARINE AIDS TO NAVIGATION AWARENESS FOR MARINERS
   type: main
 source:
 - type: website
@@ -64,6 +64,6 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r1021:ed1.1:e
+  urn: urn:mrn:iala:pub:r1021:ed1.1
   webpage: https://www.iala.int/product/r1021/
   committee: VTS

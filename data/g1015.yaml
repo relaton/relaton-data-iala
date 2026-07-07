@@ -4,10 +4,10 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1015 Painting aids to navigation buoys
+  content: PAINTING AIDS TO NAVIGATION BUOYS
   type: main
 - language: spa
-  content: G1015 Pintura de las boyas de ayuda a la navegación
+  content: PAINTING AIDS TO NAVIGATION BUOYS
   type: main
 docidentifier:
 - content: IALA G1015 Ed 2.1
@@ -70,4 +70,5 @@ ext:
   doctype:
     content: guideline
   flavor: iala
+  urn: urn:mrn:iala:pub:g1015ed2.2
   committee: ENG

@@ -65,6 +65,6 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r1019:ed2.0:e
+  urn: urn:mrn:iala:pub:r1019:ed2.0
   webpage: https://www.iala.int/product/r1019/
   committee: ARM

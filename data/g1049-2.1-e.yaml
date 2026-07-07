@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1049 Use of Modern Light Sources in Traditional Lighthouse Optics
+  content: THE USE OF MODERN LIGHT SOURCES IN TRADITIONAL LIGHTHOUSE OPTICS
   type: main
 source:
 - type: website
@@ -64,6 +64,6 @@ ext:
   doctype:
     content: guideline
   flavor: iala
-  urn: urn:mrn:iala:pub:g1049:ed2.1:e
+  urn: urn:mrn:iala:pub:g1049:ed2.1
   webpage: https://www.iala.int/product/g1049/
   committee: ENG

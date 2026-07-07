@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R1025 Harmonized waterways datasets
+  content: HARMONIZED WATERWAY DATASETS
   type: main
 source:
 - type: website
@@ -52,5 +52,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r1025:ed1.0:e
+  urn: urn:mrn:iala:pub:r1025:ed1.0
   webpage: https://www.iala.int/product/r1025-harmonized-waterways-datasets/

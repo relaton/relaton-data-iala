@@ -4,8 +4,8 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R1018 Responsible Design, Operation and Maintenance on the provision of
-    Marine AtoN
+  content: RESPONSIBLE DESIGN, OPERATION AND MAINTENANCE IN THE PROVISION OF MARINE
+    AIDS TO NAVIGATION
   type: main
 docidentifier:
 - content: IALA R1018 Ed 1.1
@@ -62,4 +62,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
+  urn: urn:mrn:iala:pub:r1018:ed1.1
   committee: ENG

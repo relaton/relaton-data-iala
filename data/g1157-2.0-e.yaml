@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1157 Web Service Based S-100 Data Exchange
+  content: WEB SERVICE BASED S-100 DATA EXCHANGE
   type: main
 source:
 - type: website

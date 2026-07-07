@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R1022 Provision of GNSS Augmentation Service for Maritime Application
+  content: PROVISION OF GNSS AUGMENTATION SERVICES FOR MARITIME NAVIGATION APPLICATIONS
   type: main
 source:
 - type: website
@@ -64,6 +64,6 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r1022:ed1.0:e
+  urn: urn:mrn:iala:pub:r1022:ed1.0
   webpage: https://www.iala.int/product/r1022/
   committee: ENG

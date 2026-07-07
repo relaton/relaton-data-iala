@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1138 The Use of the Simplified IALA Risk Assessment Method (SIRA)
+  content: THE USE OF THE SIMPLIFIED IALA RISK ASSESSMENT METHOD (SIRA)
   type: main
 docidentifier:
 - content: IALA G1138 Ed 2.0
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: guideline
   flavor: iala
+  urn: urn:mrn:iala:pub:g1138:ed2.0
   committee: ARM

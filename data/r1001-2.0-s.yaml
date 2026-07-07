@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: spa
-  content: R1001 El sistema de balizamiento maritimo – IALA
+  content: SISTEMA DE BALIZAMIENTO MARÍTIMO IALA (SBM) Edición 2.0 Junio 2023
   type: main
 source:
 - type: website
@@ -52,5 +52,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r1001:ed2.0:s
+  urn: urn:mrn:iala:pub:r1001:ed2.0
   webpage: https://www.iala.int/product/r1001-el-sistema-de-balizamiento-maritimo-iala/

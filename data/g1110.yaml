@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1110 Use of Decision Support Tools for VTS Personnel
+  content: USE OF DECISION SUPPORT TOOLS FOR VTS PERSONNEL
   type: main
 docidentifier:
 - content: IALA G1110 Ed 2.1
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: guideline
   flavor: iala
+  urn: urn:mrn:iala:pub:g1110:ed2.1
   committee: VTS

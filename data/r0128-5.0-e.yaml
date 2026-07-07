@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R0128 Operational and Technical Performance of VTS Systems (V-128)
+  content: VTS SYSTEMS AND EQUIPMENT
   type: main
 source:
 - type: website
@@ -64,6 +64,6 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r0128:ed5.0:e
+  urn: urn:mrn:iala:pub:r0128:ed5.0
   webpage: https://www.iala.int/product/r0128/
   committee: VTS

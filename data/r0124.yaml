@@ -70,4 +70,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
+  urn: urn:mrn:iala:pub:r0124:ed2.2
   committee: e-NAV

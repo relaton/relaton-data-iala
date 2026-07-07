@@ -4,8 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1058 Use of Simulation as a Tool for Waterway Design and Aids to Navigation
-    Planning
+  content: THE USE OF SIMULATION AS A TOOL FOR WATERWAY DESIGN AND ATON PLANNING
   type: main
 source:
 - type: website
@@ -65,6 +64,6 @@ ext:
   doctype:
     content: guideline
   flavor: iala
-  urn: urn:mrn:iala:pub:g1058:ed3.0:e
+  urn: urn:mrn:iala:pub:g1058:ed3.0
   webpage: https://www.iala.int/product/g1058/
   committee: ARM

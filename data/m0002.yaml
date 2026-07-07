@@ -61,4 +61,5 @@ ext:
   doctype:
     content: manual
   flavor: iala
+  urn: urn:mrn:iala:pub:m0002:ed8.5
   committee: VTS

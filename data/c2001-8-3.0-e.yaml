@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: C2001-8 Maintenance of Steel Buoys
+  content: MARINE AIDS TO NAVIGATION – TECHNICIAN TRAINING MAINTENANCE OF STEEL BUOYS
   type: main
 source:
 - type: website
@@ -64,6 +64,6 @@ ext:
   doctype:
     content: model-course
   flavor: iala
-  urn: urn:mrn:iala:pub:c2001-8:ed3.0:e
+  urn: urn:mrn:iala:pub:c2001-8:ed3.0
   webpage: https://www.iala.int/product/c2001-8/
   committee: ENG

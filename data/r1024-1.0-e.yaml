@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R1024 Cyber security for the IALA domain
+  content: CYBER SECURITY FOR THE IALA DOMAINS
   type: main
 source:
 - type: website
@@ -52,5 +52,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r1024:ed1.0:e
+  urn: urn:mrn:iala:pub:r1024:ed1.0
   webpage: https://www.iala.int/product/r1024-cyber-security-for-the-iala-domain/

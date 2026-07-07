@@ -64,6 +64,6 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r0124-4:ed1:e
+  urn: urn:mrn:iala:pub:r0124-4:ed1.1
   webpage: https://www.iala.int/product/r0124-4/
   committee: e-NAV

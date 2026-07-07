@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1172 The Marking of Bridges and other structures over navigable waters
+  content: THE MARKING OF BRIDGES AND OTHER STRUCTURES OVER NAVIGABLE WATERS
   type: main
 docidentifier:
 - content: IALA G1172 Ed 1.0
@@ -49,3 +49,4 @@ ext:
   doctype:
     content: guideline
   flavor: iala
+  urn: urn:mrn:iala:pub:g1172:ed1.0

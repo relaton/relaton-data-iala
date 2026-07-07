@@ -4,10 +4,10 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R1001 The IALA Maritime Buoyage System
+  content: THE IALA MARITIME BUOYAGE SYSTEM (MBS)
   type: main
 - language: spa
-  content: R1001 El sistema de balizamiento maritimo – IALA
+  content: THE IALA MARITIME BUOYAGE SYSTEM (MBS)
   type: main
 docidentifier:
 - content: IALA R1001 Ed 2.0
@@ -70,4 +70,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
+  urn: urn:mrn:iala:pub:r1001:ed2.0
   committee: ARM

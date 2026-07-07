@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1047 Cost Comparison Methodology of Buoy Technologies
+  content: COST COMPARISON METHODOLOGY OF BUOY TECHNOLOGIES
   type: main
 docidentifier:
 - content: IALA G1047 Ed 1.1
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: guideline
   flavor: iala
+  urn: urn:mrn:iala:pub:g1047:ed1.1
   committee: ENG

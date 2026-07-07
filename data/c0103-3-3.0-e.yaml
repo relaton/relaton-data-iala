@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: C0103-3 (V-103/3) Vessel Traffic Service On the Job Training
+  content: VTS ON-THE-JOB TRAINING
   type: main
 source:
 - type: website
@@ -64,6 +64,6 @@ ext:
   doctype:
     content: model-course
   flavor: iala
-  urn: urn:mrn:iala:pub:c0103-3:ed3.0:e
+  urn: urn:mrn:iala:pub:c0103-3
   webpage: https://www.iala.int/product/c0103-3/
   committee: VTS

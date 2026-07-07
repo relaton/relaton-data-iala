@@ -64,6 +64,6 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r0108:ed4.1:e
+  urn: urn:mrn:iala:pub:r0108:ed4.1
   webpage: https://www.iala.int/product/r0108/
   committee: ENG

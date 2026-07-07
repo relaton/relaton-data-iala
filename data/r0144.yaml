@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R0144 Harmonized implementation of Application Specific Messages (ASM)
+  content: HARMONIZED IMPLEMENTATION OF APPLICATION SPECIFIC MESSAGES (ASM)
   type: main
 docidentifier:
 - content: IALA R0144 Ed 2.0
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
+  urn: urn:mrn:iala:pub:r0144:ed2.0
   committee: DTEC

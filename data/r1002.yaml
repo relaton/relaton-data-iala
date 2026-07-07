@@ -4,10 +4,10 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R1002 Risk Management for Marine Aids to Navigation
+  content: RISK MANAGEMENT FOR MARINE AIDS TO NAVIGATION
   type: main
 - language: fra
-  content: R1002 Gestion des risques pour les aides à la navigation maritimes
+  content: RISK MANAGEMENT FOR MARINE AIDS TO NAVIGATION
   type: main
 docidentifier:
 - content: IALA R1002 Ed 1.1
@@ -70,4 +70,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
+  urn: urn:mrn:iala:pub:r1002:ed1.1
   committee: ARM

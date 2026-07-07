@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1114 A Technical Specification for the Common Shore-based System Architecture
+  content: A TECHNICAL SPECIFICATION FOR THE COMMON SHORE-BASED SYSTEM ARCHITECTURE
     (CSSA)
   type: main
 docidentifier:
@@ -62,4 +62,5 @@ ext:
   doctype:
     content: guideline
   flavor: iala
+  urn: urn:mrn:iala:pub:g1114:ed1.1
   committee: ENAV

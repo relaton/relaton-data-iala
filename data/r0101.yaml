@@ -4,10 +4,10 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R0101 Marine Radar Beacons (Racons)
+  content: MARINE RADAR BEACONS (RACONS)
   type: main
 - language: spa
-  content: R0101 Balizas de radar (Racones)-Revised in Dec 2025(see english)
+  content: MARINE RADAR BEACONS (RACONS)
   type: main
 docidentifier:
 - content: IALA R0101 Ed 3.0
@@ -70,4 +70,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
+  urn: urn:mrn:iala:pub:r0101:ed3.0
   committee: DTEC

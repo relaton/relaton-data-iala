@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1165 Sustainable Structural Design of Marine Aids to Navigation
+  content: SUSTAINABLE STRUCTURAL DESIGN OF MARINE AIDS TO NAVIGATION
   type: main
 docidentifier:
 - content: IALA G1165 Ed 1.2
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: guideline
   flavor: iala
+  urn: urn:mrn:iala:pub:g1165:ed1.2
   committee: ENG

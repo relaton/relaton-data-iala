@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: S1030 Radionavigation Services
+  content: RADIONAVIGATION SERVICES
   type: main
 source:
 - type: website
@@ -52,5 +52,5 @@ ext:
   doctype:
     content: standard
   flavor: iala
-  urn: urn:mrn:iala:pub:s1030:ed2.0:e
+  urn: urn:mrn:iala:pub:s1030:ed2.0
   webpage: https://www.iala.int/product/s1030/

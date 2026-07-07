@@ -4,8 +4,8 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: G1112 Performance and Monitoring of DGNSS Services in the Frequency Band
-    283.5-325kHz
+  content: PERFORMANCE AND MONITORING OF DGNSS SERVICES IN THE FREQUENCY BAND 283.5
+    – 325 KHZ
   type: main
 docidentifier:
 - content: IALA G1112 Ed 1.1
@@ -62,4 +62,5 @@ ext:
   doctype:
     content: guideline
   flavor: iala
+  urn: urn:mrn:iala:pub:g1112:ed1.1
   committee: ENG

@@ -4,13 +4,13 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R1016 Mobile Marine Aid to Navigation (MAtoN)
+  content: MOBILE MARINE AIDS TO NAVIGATION (MAtoN)
   type: main
 - language: fra
-  content: R1016 Aides à la navigation maritimes mobiles (MAtoN)
+  content: MOBILE MARINE AIDS TO NAVIGATION (MAtoN)
   type: main
 - language: spa
-  content: R1016  AYUDAS A LA NAVEGACIÓN MARÍTIMA  MOVILES (MAtoN)
+  content: MOBILE MARINE AIDS TO NAVIGATION (MAtoN)
   type: main
 docidentifier:
 - content: IALA R1016 Ed 2.0
@@ -79,4 +79,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
+  urn: urn:mrn:iala:pub:r1016:ed2.0
   committee: ARM

@@ -4,8 +4,8 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: R1026 Digitalization of AtoN & Services for Vessels of Varying Levels of
-    Autonomy
+  content: DIGITALIZATION OF MARINE AIDS TO NAVIGATION AND SERVICES FOR VESSELS OF
+    VARYING LEVELS OF AUTONOMY
   type: main
 source:
 - type: website
@@ -53,5 +53,5 @@ ext:
   doctype:
     content: recommendation
   flavor: iala
-  urn: urn:mrn:iala:pub:r1026:ed1.0:e
+  urn: urn:mrn:iala:pub:r1026:ed.1.0
   webpage: https://www.iala.int/product/r1026-digitalization-of-aton-services-for-vessels-of-varying-levels-of-autonomy/

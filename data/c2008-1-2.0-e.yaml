@@ -14,6 +14,9 @@ docidentifier:
   type: IALA
   primary: true
 docnumber: 2008-1
+date:
+- type: published
+  from: '2017-12-01'
 contributor:
 - role:
   - type: publisher
@@ -34,6 +37,8 @@ contributor:
       - content: Engineering and Sustainability Committee
     abbreviation:
       content: IALA
+version:
+- content: '2017-12-01'
 language:
 - eng
 script:
@@ -41,6 +46,14 @@ script:
 status:
   stage:
     content: in-force
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
 relation:
 - type: instanceOf
   bibitem:

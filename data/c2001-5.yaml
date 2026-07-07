@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: C2001-5 Buoy Cleaning
+  content: MARINE AIDS TO NAVIGATION – TECHNICIAN TRAINING BUOY CLEANING
   type: main
 docidentifier:
 - content: IALA C2001-5 Ed 2.0
@@ -61,4 +61,5 @@ ext:
   doctype:
     content: model-course
   flavor: iala
+  urn: urn:mrn:iala:pub:c2001-5:ed2.0
   committee: ENG

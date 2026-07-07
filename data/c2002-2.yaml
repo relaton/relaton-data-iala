@@ -61,4 +61,5 @@ ext:
   doctype:
     content: model-course
   flavor: iala
+  urn: urn:mrn:iala:pub:c2002-2:ed3
   committee: ENG
