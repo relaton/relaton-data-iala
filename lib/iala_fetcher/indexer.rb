@@ -60,7 +60,11 @@ module IalaFetcher
 
     def resolve_pubid_class
       begin
-        require "pubid/iala"
+        # `require "pubid"` registers `Pubid::Iala` via autoload in
+        # lib/pubid.rb; referencing the constant then loads the flavor.
+        # `require "pubid/iala"` alone fails because the flavor file
+        # references ::Pubid::Identifier, which isn't yet loaded.
+        require "pubid"
         Pubid::Iala::Identifier
       rescue LoadError, StandardError
         nil

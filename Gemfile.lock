@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/metanorma/pubid.git
-  revision: 7da403b63c0fecd762b03c2a9b3b5d4757e43970
+  revision: a9a794c68f431413e2624ae5b0f954d270a76ed3
   branch: rt-new-lutaml-model
   specs:
     pubid (2.0.0.pre.alpha.5)
