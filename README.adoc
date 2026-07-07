@@ -1,0 +1,120 @@
+= IALA publications bibliographic data for Relaton
+
+Bibliographic dataset of IALA (International Organization for Marine Aids
+to Navigation) publications — Standards (S), Recommendations (R),
+Guidelines (G), Manuals (M), Model Courses (C), Reports & Proceedings,
+and Council Resolutions — stored as Relaton YAML under `data/` and
+consumed by the link:https://github.com/relaton/relaton[relaton] toolkit.
+
+== Document model
+
+Each IALA publication is modeled at two levels, mirroring FRBR
+(Work → Expression):
+
+=== Work vs Instance
+
+[cols="1,3,3", options="header"]
+|===
+|Kind |What it is |Example
+
+|**Work**
+|Abstract publication. Carries docid, all available language titles,
+contributor, status. No `source` (the Work has no PDF). `hasInstance`
+to its language instances.
+|`IALA S1070 Ed 2.0`
+
+|**Instance**
+|Language-specific PDF. One `source` URL (the `?download=true` endpoint),
+one `title`, one `language`. `instanceOf` back to its work.
+|`IALA S1070 Ed 2.0 (E)`
+|===
+
+== IALA identifier forms
+
+[cols="1,4", options="header"]
+|===
+|Form |Example
+
+|Bare catalogue code
+|`S1070`, `R0126`, `G1015`, `C0103-1`, `M0001`
+
+|Cover-page human form
+|`IALA S1070 Ed 2.0`
+
+|Listing cell with language
+|`R1016:fr` (recommendations-french category)
+
+|Resolution code
+|`GA01.13`, `A12-01-F` (other-publications; trailing `-E`/`-F` is language)
+
+|Cover-page URN
+|`urn:mrn:iala:pub:s1070:ed2.0`
+|===
+
+== Identifier → file mapping
+
+[cols="2,2,2", options="header"]
+|===
+|Item |`id` |Filename
+
+|Work
+|`S1070-2.0`
+|`data/s1070-2.0.yaml`
+
+|English instance
+|`S1070-2.0-E`
+|`data/s1070-2.0-e.yaml`
+
+|French instance
+|`S1070-2.0-F`
+|`data/s1070-2.0-f.yaml`
+
+|Codeless report
+|`report-on-the-workshop-…`
+|`data/report-on-the-workshop-….yaml`
+|===
+
+== Installation
+
+Add to your Gemfile:
+
+[source,ruby]
+----
+gem "relaton", git: "https://github.com/relaton/relaton.git", branch: "main"
+----
+
+== Usage
+
+Consuming the dataset via the relaton toolkit:
+
+[source,ruby]
+----
+require "relaton"
+item = Relaton::Iala::Bibliography.get("IALA S1070 Ed 2.0")
+puts item.ext.urn     # => urn:mrn:iala:pub:s1070:ed2.0
+puts item.ext.webpage # => https://www.iala.int/product/s1070/
+----
+
+== Updating the dataset
+
+[source,bash]
+----
+bundle install
+bundle exec ruby exe/iala-fetch                # scrape website only
+bundle exec ruby exe/iala-fetch --pdfs         # also download PDFs and OCR cover pages
+bundle exec ruby check_data.rb                 # round-trip validate
+bundle exec ruby crawler.rb                    # rebuild index-v1 + index-v2
+----
+
+== Architecture
+
+The scraper lives in `lib/iala_fetcher/`. It uses Ruby autoload (no
+`require_relative` in library code). The CLI is a Thor subclass. Each
+component (Http, Source, YamlStore, Docid, CataloguePage, ProductPage,
+CrossLanguageLinker, PdfDownloader, CoverPageOcr, CoverPageParser,
+PublicationFetcher, Indexer, Scrape) has dedicated specs under
+`spec/iala_fetcher/`.
+
+== License
+
+MIT, matching other `relaton-data-*` repositories.
