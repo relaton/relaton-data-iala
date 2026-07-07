@@ -1,18 +1,18 @@
 # 22 — Wire index-v2 to Pubid::Iala
 
-**Priority:** P2 (blocked on `metanorma/pubid` PR merge).
-**Status:** ❌ NOT DONE.
+**Priority:** P2.
+**Status:** ✅ DONE.
+
+## Current state (2026-07-08)
+
+- pubid PRs [#91](https://github.com/metanorma/pubid/pull/91) + [#92](https://github.com/metanorma/pubid/pull/92) merged into `rt-new-lutaml-model`.
+- `IalaFetcher::Indexer.resolve_pubid_class` now returns `Pubid::Iala::Identifier`.
+- `index-v2.yaml`: **3580 lines** (was 7 — empty), with each entry's `:id` a polymorphic `Pubid::Iala::*` instance.
+- `index-v1.yaml`: 1738 lines (string docid → file), unchanged.
+- `index-v1.zip` / `index-v2.zip`: generated and committed (relaton/support will regenerate in CI).
+- Codeless items (slug-derived ids for ~89 reports/workshops) are warned and skipped from v2 only — they don't fit Pubid::Iala's typed grammar. This is correct.
 
 ## Why
-
-`index-v2.yaml` is currently empty (7 bytes — just `---\n...`) because
-the pubid gem pinned in the Gemfile (`metanorma/pubid:rt-new-lutaml-model`)
-doesn't yet have `Pubid::Iala`. The IALA flavor lives on
-`metanorma/pubid:feat/iala-flavor` (PR open).
-
-`index-v1.yaml` is fully populated (1736 entries) and unaffected.
-
-## Scope
 
 ### Step 1 — Land the pubid PR
 
