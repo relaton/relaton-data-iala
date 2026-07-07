@@ -102,7 +102,8 @@ module IalaFetcher
 
     def build_work_hash(group, work_docid)
       english_detail = product_detail_for(group.instances_by_language["eng"])
-      cover = cover_for(english_detail)
+      work_docid = work_docid_with_edition(work_docid, english_detail, nil)
+      cover = cover_for(english_detail, name: work_docid.filename_stem)
       work_docid = work_docid_with_edition(work_docid, english_detail, cover)
 
       titles = titles_for(group, cover)
@@ -134,9 +135,13 @@ module IalaFetcher
 
     def emit_instance(group, row, lang, work_docid)
       detail = product_detail_for(row)
-      cover = cover_for(detail)
       lang_letter = IalaFetcher::DOCID_LANG_CODE.fetch(lang.to_s)
 
+      instance_docid =
+        work_docid_with_edition(work_docid, detail, nil)
+        .with_language(lang_letter)
+
+      cover = cover_for(detail, name: instance_docid.filename_stem)
       instance_docid =
         work_docid_with_edition(work_docid, detail, cover)
         .with_language(lang_letter)
@@ -188,12 +193,12 @@ module IalaFetcher
       nil
     end
 
-    def cover_for(detail)
+    def cover_for(detail, name:)
       return nil unless detail&.download_url && @pdf_downloader
 
-      pdf_path = @pdf_downloader.fetch(detail.download_url)
+      pdf_path = @pdf_downloader.fetch(detail.download_url, name: name)
       text = extract_first_page_text(pdf_path)
-      text = ocr_first_page(pdf_path) if (text.nil? || text.strip.empty?) && @cover_page_ocr
+      text = ocr_first_page(pdf_path, name: name) if (text.nil? || text.strip.empty?) && @cover_page_ocr
       return nil unless text && !text.strip.empty?
 
       IalaFetcher::CoverPageParser.parse(text)

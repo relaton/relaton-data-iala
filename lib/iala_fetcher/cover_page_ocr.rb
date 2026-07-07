@@ -39,14 +39,18 @@ module IalaFetcher
     end
 
     # OCRs only the first page of the PDF. Returns markdown text.
-    def ocr_first_page(file_input)
-      chunk(file_input, 1, 1)
+    # `name` is the caller-chosen cache key — typically the instance
+    # docid's filename stem (e.g. "s1070-2.0-e") so the cache entry is
+    # human-browsable: pdfs/ocr-cache/s1070-2.0-e.md.
+    def ocr_first_page(file_input, name:)
+      chunk(file_input, 1, 1, name: name)
     end
 
     # OCRs an arbitrary page window (1-indexed, inclusive). Cached per
-    # (input, window) so re-runs are free.
-    def chunk(file_input, start_page, end_page)
-      key = cache_key_for(file_input, start_page, end_page)
+    # (name, window) so re-runs are free. Falls back to a SHA256 of the
+    # file_input when `name` is nil (back-compat).
+    def chunk(file_input, start_page, end_page, name: nil)
+      key = cache_key_for(file_input, start_page, end_page, name: name)
       cached = read_cache(key)
       return cached if cached
 
@@ -110,8 +114,14 @@ module IalaFetcher
       "data:#{mime};base64,#{Base64.strict_encode64(File.binread(input))}"
     end
 
-    def cache_key_for(input, start_page, end_page)
+    def cache_key_for(input, start_page, end_page, name: nil)
+      return safe_name(name) if name
+
       Digest::SHA256.hexdigest("#{input}|#{start_page}|#{end_page}")[0, 16]
+    end
+
+    def safe_name(name)
+      name.to_s.gsub(/[^\w.\-]/, "_")
     end
 
     def read_cache(key)
