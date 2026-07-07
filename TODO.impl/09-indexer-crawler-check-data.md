@@ -1,6 +1,16 @@
 # 09 — IalaFetcher::Indexer + crawler.rb + check_data.rb
 
-**Priority:** P1 (gated by 08).
+**Status:** 🟡 PARTIAL — code complete, indexes committed but v2 empty.
+**Priority:** P1.
+
+## Current state (2026-07-07)
+
+- `lib/iala_fetcher/indexer.rb` ✅ — clean-rebuild, v1+v2 split, pubid_class resolved lazily.
+- `crawler.rb` ✅ — invokes `IalaFetcher::Indexer.build`.
+- `check_data.rb` ✅ — uses `Relaton::Iala::Item` so ext fields round-trip natively (no merge hack needed after the [monorepo merge](20-relaton-iala-mono.md)).
+- `index-v1.yaml` ✅ — 1736 entries, sorted.
+- `index-v2.yaml` 🟡 — 7 bytes (`---\n...`); empty because `metanorma/pubid:rt-new-lutaml-model` doesn't have IALA yet. Tracked in [22](22-index-v2-wiring.md).
+- `index-v1.zip` / `index-v2.zip` ❌ — not generated. The `relaton/support` crawler workflow will create these on first merge to `main`.
 
 ## Why
 

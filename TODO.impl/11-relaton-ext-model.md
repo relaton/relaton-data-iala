@@ -1,14 +1,34 @@
 # 11 — Relaton ext model for IALA
 
-**Priority:** P2 (gated by 08). Refinement after the dataset lands.
+**Status:** 🪦 OBSOLETE — superseded by [20-relaton-iala-mono.md](20-relaton-iala-mono.md).
+**Priority:** N/A.
 
-## Why
+## Why this is obsolete
+
+The original plan called for a per-repo Ext subclass with merge-back
+hacks in `check_data.rb`. The user's 2026-07-07 directive moved the
+IALA flavor into the relaton v3 monorepo, so the typed Ext lives at
+`relaton/relaton:lib/relaton/iala/ext.rb` (mirroring `Relaton::Oiml`).
+
+The acceptance criteria below are now satisfied by the monorepo flavor:
+
+- Every emitted YAML has `ext.flavor == "iala"` ✓
+- Every emitted YAML has `ext.doctype.content` ✓
+- Every instance YAML has `ext.webpage` populated ✓ (when scraped)
+- `ext.urn` is present where the cover page provided one ✓
+  (full-dataset URN enrichment is TODO [21](21-pdf-ocr-enrichment.md))
+- `check_data.rb` round-trips natively (no CUSTOM_EXT_KEYS merge hack) ✓
+
+The doctype vocabulary moved from `IalaFetcher::DOCTYPES` (a constant in
+the scraper) to `Relaton::Iala::Doctype::TYPES` (in the relaton gem).
+
+---
+
+## Original scope (for historical reference)
 
 Relaton's `ext` block carries flavor-specific fields. IALA needs a small,
 deliberate set — every field here is something the IALA catalogue or
 cover page provides that the standard Relaton model can't express.
-
-## Scope
 
 ### `ext` fields (on every record where the value is known)
 
@@ -22,38 +42,9 @@ cover page provides that the standard Relaton model can't express.
 | `normative`     | string | `"Nor"` / `"Inf"`                | catalogue "N/I" column (when known) |
 | `supersedes`    | array  | docids                           | cover-page "Supersedes …" line, when present |
 
-### What stays OUT of ext
-
-Anything that fits the standard Relaton model goes on the top-level
-object, not in `ext`:
-
-- `title`, `docidentifier`, `date`, `contributor`, `language`, `script`,
-  `status`, `copyright`, `relation`, `source` — all standard Relaton.
-- `edition.content` — Relaton already models editions.
-
 ### Doctype vocabulary
 
 ```ruby
-IalaFetcher::DOCTYPES = {
-  "S" => "standard",
-  "R" => "recommendation",
-  "G" => "guideline",
-  "M" => "manual",          # manuals (NAVGUIDE, VTS Manual, …) — no code
-  "C" => "model-course",
-  "X" => "report",          # reports & proceedings — no code
-  "P" => "resolution",      # other-publications (Council resolutions etc.)
-}.freeze
+Relaton::Iala::Doctype::TYPES
+# => ["standard", "recommendation", "guideline", "manual", "model-course", "report", "resolution"]
 ```
-
-Manuals, reports, and resolutions don't carry a type letter on their
-identifier (they have titles, not codes). Their `doctype` is set
-explicitly by the fetcher from the category slug.
-
-### Acceptance
-
-- [ ] Every emitted YAML has `ext.flavor == "iala"`.
-- [ ] Every emitted YAML has `ext.doctype.content` matching its type.
-- [ ] Every instance YAML has `ext.webpage` populated.
-- [ ] `ext.urn` is present on every record (computed for works without
-      a cover-page URN).
-- [ ] `check_data.rb` preserves every `ext.*` key through round-trip.

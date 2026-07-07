@@ -1,59 +1,66 @@
 # 19 — Architecture review
 
-**Priority:** P3 (gated by 16). Reflective — what to revisit after the
-dataset lands.
+**Status:** 🟡 PARTIAL — questions still open; some resolved by the scrape.
+**Priority:** P3.
 
-## Open questions to revisit
+## Resolved by the full scrape (2026-07-07)
 
 ### 1. Should IalaFetcher::Docid fold into Pubid::Iala::Identifier?
 
-Today `Docid` is a thin wrapper: it adds `id`, `filename_stem`, and
-`with_language` to `Pubid::Iala::Identifier`. After the dataset is
-populated and the patterns stabilise, consider whether those methods
-belong on `Pubid::Iala::Identifier` itself (with a `relaton:` keyword
-arg or a separate `Relaton` mixin) so the wrapper can disappear.
+**Partially answered.** `IalaFetcher::Docid` is no longer "thin" — it
+now handles typed codes (S/R/G/M/C), resolution codes (`GA01.13`), and
+slug-derived ids (codeless reports). Pubid::Iala only handles the typed
+subset. Folding would require Pubid::Iala to grow the generic + slug
+paths, which doesn't fit its parser model. **Decision: keep `Docid` as a
+separate value object; have it delegate to `Pubid::Iala.parse` only for
+URN generation when the code is typed.**
 
-**Why defer:** the right API shape isn't clear until we've seen 500+
-identifiers round-trip. Premature consolidation would lock in a bad
-shape.
+### 4. Legacy 3-digit codes
+
+**Not seen in the scrape.** All recommendation codes on the current
+site are 4-digit (`R0101`-`R1027`). The legacy `R100`/`R101` form is
+not in the dataset. **Close as not-applicable until such a code surfaces.**
+
+### 5. Manual and report records — synthetic codes?
+
+**Resolved by adoption of slug-derived ids.** Manuals (`M0001`-`M0004`)
+now have proper M codes on the site. Reports and codeless items use
+their URL slug as the natural key (e.g. `report-on-the-workshop-on-…`).
+**Decision: no synthetic codes — slugs are stable and human-readable.**
+
+## Still open
 
 ### 2. Should the Work + Instance split be enforced by a typed model?
 
 Today the work vs instance distinction is implicit: Works lack a
-`source`, Instances carry `relation: instanceOf`. Relaton's typed
-ext block could make this explicit (`ext.kind = "work"|"instance"`).
-Consider after seeing whether downstream consumers (relaton-cli,
-relaton-db) care.
+`source`, Instances carry `relation: instanceOf`. Relaton's typed ext
+block could make this explicit. Defer until downstream consumers
+(relaton-cli, relaton-db) signal they need it.
 
 ### 3. CoverPageParser — regex vs structured grammar?
 
-The current cover-page parser is line-based regex. If IALA changes its
-cover layout, the parser breaks silently. A parslet grammar would be
-more robust but adds complexity. Revisit if more than two layout
-variants surface.
+Current parser is line-based regex. The full `--pdfs` pass (TODO [21](21-pdf-ocr-enrichment.md))
+will surface any layout variants. If more than two variants appear,
+switch to a parslet grammar.
 
-### 4. Identifier normalization for legacy codes
+## New questions (added 2026-07-07)
 
-Some pre-2017 IALA codes use the legacy `R<3-digit>` form (`R100`,
-`R101`) instead of `R<4-digit>` (`R0100`, `R0101`). The catalogue uses
-4-digit; the website sometimes shows the legacy form. Confirm whether
-both should be treated as the same identifier or kept distinct.
+### 6. Should `Relaton::Iala` have per-document-type Item subclasses?
 
-### 5. Manual and report records — synthetic codes?
+The pubid flavor has 7 classes (`Identifiers::Standard`, `Recommendation`,
+`Guideline`, `Manual`, `ModelCourse`, `Report`, `Resolution`). The
+relaton practice across all v3 flavors is **one `Item` class with
+doctype on `Ext`** (OIML, IHO, CIE all do this). **Decision: keep the
+single `Relaton::Iala::Item` — the bibliographic shape is uniform across
+doctypes, and splitting would force lutaml polymorphic mapping per
+subclass for zero benefit.**
 
-Today manuals (`NAVGUIDE`, `VTS Manual`) and reports don't have type
-codes. They get synthetic ids (`navguide_9.0`, `vts_manual_8.4`). This
-makes their docids look unlike other IALA identifiers. Consider whether
-a `M####` prefix should be minted for them.
+### 7. Should the data scraper emit `Relaton::Iala::Item` or `Relaton::Bib::Item`?
 
-## Triggers for revisiting
-
-- New category or identifier shape appears on the website.
-- Downstream consumer asks for a field we don't expose.
-- Round-trip mismatch surfaces a custom-ext hole.
-- Pubid::Iala gains capabilities that subsume Docid.
+Currently emits hash literals fed through `Relaton::Iala::Item.from_hash`
+via `IalaFetcher::YamlStore#write`. This is correct. **No change.**
 
 ## Acceptance
 
-- [ ] After full scrape, review the five questions and update
-      TODO.impl/* or close them with a written decision.
+- [x] After full scrape, review the five questions — done (3 closed, 2 deferred).
+- [x] Capture new questions surfaced during the work — done (questions 6, 7 added).
