@@ -33,7 +33,7 @@ relation:
 - type: instanceOf
   bibitem:
     docidentifier:
-    - content: IALA R0201
+    - content: IALA R0201 Ed 3.1
       type: IALA
 ext:
   doctype:

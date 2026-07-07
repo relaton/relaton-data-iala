@@ -58,7 +58,7 @@ relation:
 - type: instanceOf
   bibitem:
     docidentifier:
-    - content: IALA C2002-2
+    - content: IALA C2002-2 Ed 3
       type: IALA
 ext:
   doctype:

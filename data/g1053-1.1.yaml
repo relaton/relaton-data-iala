@@ -1,0 +1,67 @@
+---
+id: G1053-1.1
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: TEMPLATE FOR THE SUBMISSION OF A DGNSS SERVICE FOR RECOGNITION AS A COMPONENT
+    OF THE IMO WWRNS
+  type: main
+docidentifier:
+- content: IALA G1053 Ed 1.1
+  type: IALA
+  primary: true
+docnumber: '1053'
+date:
+- type: published
+  from: '2006-11-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2006-11-30'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA G1053 Ed 1.1 (E)
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1053:ed1.1
+  webpage: https://www.iala.int/product/g1053/
+  committee: ENG

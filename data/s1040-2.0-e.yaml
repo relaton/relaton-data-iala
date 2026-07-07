@@ -31,6 +31,27 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: |2+
+
+
+    <p>IALA standards may contain normative and informative provisions.</p>
+    <p>Normative provisions are those with which it is necessary to conform in order to claim compliance to the Standard.</p>
+    <p>Informative provisions are those which specify additional desirable practices but with which it is not necessary to conform in order to claim compliance to the Standard.</p>
+    <p>This Standard references normative and informative provisions, detailed in the listed IALA recommendations, covering the following scope:</p>
+
+    VTS implementation
+    VTS operations
+    VTS communications
+    VTS auditing and assessing
+    VTS data and information management
+    VTS technologies
+    VTS additional services
+
+    <p> </p>
+
+  format: text/html
 status:
   stage:
     content: in-force
@@ -46,7 +67,7 @@ relation:
 - type: instanceOf
   bibitem:
     docidentifier:
-    - content: IALA S1040
+    - content: IALA S1040 Ed 2.0
       type: IALA
 ext:
   doctype:
@@ -54,3 +75,4 @@ ext:
   flavor: iala
   urn: urn:mrn:iala:pub:s1040:ed2.0
   webpage: https://www.iala.int/product/s1040/
+...

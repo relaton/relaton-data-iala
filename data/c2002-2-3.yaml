@@ -1,0 +1,66 @@
+---
+id: C2002-2-3
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: C2002-2 Primary and Secondary Battery Maintenance
+  type: main
+docidentifier:
+- content: IALA C2002-2 Ed 3
+  type: IALA
+  primary: true
+docnumber: 2002-2
+date:
+- type: published
+  from: '2014-12-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2014-12-15'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA C2002-2 Ed 3 (E)
+      type: IALA
+ext:
+  doctype:
+    content: model-course
+  flavor: iala
+  urn: urn:mrn:iala:pub:c2002-2:ed3
+  webpage: https://www.iala.int/product/c2002-2/
+  committee: ENG

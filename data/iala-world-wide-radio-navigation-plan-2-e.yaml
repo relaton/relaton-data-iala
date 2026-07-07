@@ -58,7 +58,7 @@ relation:
 - type: instanceOf
   bibitem:
     docidentifier:
-    - content: IALA iala-world-wide-radio-navigation-plan
+    - content: IALA iala-world-wide-radio-navigation-plan Ed 2
       type: IALA
 ext:
   doctype:

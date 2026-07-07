@@ -58,7 +58,7 @@ relation:
 - type: instanceOf
   bibitem:
     docidentifier:
-    - content: IALA R0124
+    - content: IALA R0124 Ed 2.2
       type: IALA
 ext:
   doctype:

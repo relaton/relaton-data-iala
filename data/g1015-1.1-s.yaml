@@ -58,7 +58,7 @@ relation:
 - type: instanceOf
   bibitem:
     docidentifier:
-    - content: IALA G1015
+    - content: IALA G1015 Ed 2.1
       type: IALA
 ext:
   doctype:
