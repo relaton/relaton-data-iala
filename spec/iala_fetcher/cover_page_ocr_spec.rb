@@ -38,10 +38,11 @@ RSpec.describe IalaFetcher::CoverPageOcr do
   end
 
   describe "#ocr_first_page" do
-    let(:pdf_path) { File.join(tmp_cache, "input.pdf") }
+    let(:pdf_path) { File.join(tmp_cache, "s1070-2.0-e.pdf") }
     let(:response) do
       { "md_results" => "# Cover Page\n\nIALA STANDARD\nS1070\nInformation Services\n" }
     end
+    let(:name) { "s1070-2.0-e" }
 
     before do
       FileUtils.mkdir_p(tmp_cache)
@@ -52,18 +53,24 @@ RSpec.describe IalaFetcher::CoverPageOcr do
       stub = stub_request(:post, endpoint).to_return(
         status: 200, body: JSON.generate(response), headers: { "Content-Type" => "application/json" }
       )
-      result = ocr.ocr_first_page(pdf_path)
+      result = ocr.ocr_first_page(pdf_path, name: name)
       expect(result).to include("IALA STANDARD")
       expect(stub).to have_been_made.once
     end
 
-    it "caches the result so a second call doesn't hit the network" do
+    it "caches by name so a second call doesn't hit the network" do
       stub = stub_request(:post, endpoint).to_return(
         status: 200, body: JSON.generate(response)
       )
-      ocr.ocr_first_page(pdf_path)
-      ocr.ocr_first_page(pdf_path)
+      ocr.ocr_first_page(pdf_path, name: name)
+      ocr.ocr_first_page(pdf_path, name: name)
       expect(stub).to have_been_made.once
+    end
+
+    it "writes a human-browsable cache filename when name is given" do
+      stub_request(:post, endpoint).to_return(status: 200, body: JSON.generate(response))
+      ocr.ocr_first_page(pdf_path, name: name)
+      expect(File.exist?(File.join(tmp_cache, "#{name}.md"))).to be true
     end
 
     it "retries on HTTP 429 then succeeds" do
@@ -71,19 +78,19 @@ RSpec.describe IalaFetcher::CoverPageOcr do
         .to_return({ status: 429, body: "" }, { status: 429, body: "" },
                    { status: 200, body: JSON.generate(response) })
       allow(ocr).to receive(:sleep).and_return(nil)
-      result = ocr.ocr_first_page(pdf_path)
+      result = ocr.ocr_first_page(pdf_path, name: name)
       expect(result).to include("IALA STANDARD")
     end
 
     it "raises when all retries are 429" do
       stub_request(:post, endpoint).to_return(status: 429, body: "")
       allow(ocr).to receive(:sleep).and_return(nil)
-      expect { ocr.ocr_first_page(pdf_path) }.to raise_error(/GLM-OCR HTTP 429/)
+      expect { ocr.ocr_first_page(pdf_path, name: name) }.to raise_error(/GLM-OCR HTTP 429/)
     end
 
     it "raises when the API key is missing" do
       no_key = described_class.new(api_key: nil, cache_dir: tmp_cache)
-      expect { no_key.ocr_first_page(pdf_path) }
+      expect { no_key.ocr_first_page(pdf_path, name: name) }
         .to raise_error(/API key missing/)
     end
   end
