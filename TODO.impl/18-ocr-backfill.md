@@ -1,7 +1,14 @@
 # 18 — Backfill: GLM OCR for scanned cover pages
 
-**Priority:** P3 (gated by 16). Defensive — only needed if any cover
-pages come back without a text layer.
+**Status:** ❌ NOT DONE — code exists, never exercised.
+**Priority:** P3.
+
+## Current state (2026-07-07)
+
+- `lib/iala_fetcher/cover_page_ocr.rb` ✅ (reads `~/.zai-api-key`)
+- `IalaFetcher::CoverPageParser::MissingCoverFields` error class ✅
+- The fetcher's `cover_for` invokes OCR only when `--pdfs` is on AND pdftotext returns nothing.
+- The full `--pdfs` pass has not been run, so the OCR path has zero real-world exercise. See [21](21-pdf-ocr-enrichment.md).
 
 ## Why
 

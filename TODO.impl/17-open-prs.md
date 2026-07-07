@@ -1,6 +1,17 @@
-# 17 — Open PRs (pubid + relaton-data-iala)
+# 17 — Open PRs (pubid + relaton + relaton-data-iala)
 
-**Priority:** P3 (gated by 00, 16).
+**Status:** ✅ DONE — 3 PRs open (none merged).
+**Priority:** P3.
+
+## Current state (2026-07-07)
+
+| PR | Repo | Status |
+|----|------|--------|
+| feat/iala-flavor → rt-new-lutaml-model | metanorma/pubid | open |
+| feat/iala-flavor → main | relaton/relaton (#20) | open |
+| feat/scraper-bootstrap → main | relaton/relaton-data-iala (#1) | open |
+
+The standalone `relaton/relaton-iala` repo (was PR #1 there) is archived.
 
 ## Why
 

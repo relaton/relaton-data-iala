@@ -1,9 +1,16 @@
 # 07 — IalaFetcher::PdfDownloader + CoverPageOcr
 
-**Priority:** P1 (gated by 02, 03). **Required for full bibliographic
-encoding** — most products have no website-side abstract, so the cover
-page is the only source for: title, edition, month/year, URN, and
-sometimes committee.
+**Status:** 🟡 PARTIAL — code complete, only 20 PDFs cached, 0 OCR runs.
+**Priority:** P1.
+
+## Current state (2026-07-07)
+
+- `lib/iala_fetcher/pdf_downloader.rb` ✅
+- `lib/iala_fetcher/cover_page_ocr.rb` ✅
+- `lib/iala_fetcher/cover_page_parser.rb` ✅
+- `spec/iala_fetcher/cover_page_parser_spec.rb` ✅ (3 examples)
+- Specs for PdfDownloader + CoverPageOcr ❌ (tracked in [24](24-missing-specs.md))
+- Full-dataset PDF/OCR enrichment ❌ (tracked in [21](21-pdf-ocr-enrichment.md))
 
 ## Why
 

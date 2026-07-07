@@ -1,6 +1,27 @@
 # 12 — Specs
 
-**Priority:** P1 (gated by each component task; specs land alongside).
+**Status:** 🟡 PARTIAL — 42 of ~55 planned examples done.
+**Priority:** P1.
+
+## Current coverage (2026-07-07)
+
+| Component | Status | Examples |
+|-----------|--------|----------|
+| Http | ✅ | 5 |
+| Source | ✅ | 5 |
+| YamlStore | ✅ | 3 |
+| Docid | ✅ | 17 |
+| CataloguePage | ✅ | 5 |
+| ProductPage | ✅ | 3 |
+| CrossLanguageLinker | ✅ | 6 |
+| CoverPageParser | ✅ | 3 |
+| PdfDownloader | ❌ | — |
+| CoverPageOcr | ❌ | — |
+| PublicationFetcher (integration) | ❌ | — |
+| Indexer | ❌ | — |
+| Scrape (Thor CLI) | ❌ | — |
+
+See [24-missing-specs.md](24-missing-specs.md) for the gap plan.
 
 ## Why
 

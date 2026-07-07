@@ -1,6 +1,14 @@
 # 14 — Documentation: README.adoc + AGENTS.md
 
-**Priority:** P2 (gated by 09).
+**Status:** ❌ NOT DONE.
+**Priority:** P2.
+
+## Current state (2026-07-07)
+
+- `CLAUDE.md` exists (the original /init artifact). It does NOT reflect
+  the move from standalone `relaton-iala` gem to the monorepo merge.
+- `README.adoc` — **missing**.
+- `AGENTS.md` — **missing**.
 
 ## Why
 
