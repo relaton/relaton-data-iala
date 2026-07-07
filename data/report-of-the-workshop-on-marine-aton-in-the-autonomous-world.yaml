@@ -1,0 +1,52 @@
+---
+id: report-of-the-workshop-on-marine-aton-in-the-autonomous-world
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Workshop – IALA – Marine AtoN in the Autonomous World
+  type: main
+docidentifier:
+- content: IALA report-of-the-workshop-on-marine-aton-in-the-autonomous-world
+  type: IALA
+  primary: true
+docnumber: report-of-the-workshop-on-marine-aton-in-the-autonomous-world
+date:
+- type: published
+  from: '2021-05-28'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2021-05-28'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA report-of-the-workshop-on-marine-aton-in-the-autonomous-world
+        (E)
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala

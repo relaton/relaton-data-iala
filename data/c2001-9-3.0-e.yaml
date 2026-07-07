@@ -1,0 +1,69 @@
+---
+id: C2001-9-3.0-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: C2001-9 Power Sources on Buoys
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/c2001-9/?download=true
+docidentifier:
+- content: IALA C2001-9 Ed 3.0 (E)
+  type: IALA
+  primary: true
+docnumber: 2001-9
+date:
+- type: published
+  from: '2021-12-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2021-12-17'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA C2001-9
+      type: IALA
+ext:
+  doctype:
+    content: model-course
+  flavor: iala
+  urn: urn:mrn:iala:pub:c2001-9:ed3.0:e
+  webpage: https://www.iala.int/product/c2001-9/
+  committee: ENG

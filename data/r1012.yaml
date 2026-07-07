@@ -1,0 +1,64 @@
+---
+id: R1012-1.3
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: R1012 VTS Communications
+  type: main
+docidentifier:
+- content: IALA R1012 Ed 1.3
+  type: IALA
+  primary: true
+docnumber: '1012'
+date:
+- type: published
+  from: '2017-12-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Vessel Traffic Services Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2017-12-15'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA R1012 Ed 1.3 (E)
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  committee: VTS

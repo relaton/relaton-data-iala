@@ -1,0 +1,53 @@
+---
+id: workshop-on-shore-based-maritime-services-from-theory-to-practical-use
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Workshop – IALA – Shore Based Maritime Services – From Theory
+    to Practical Use
+  type: main
+docidentifier:
+- content: IALA workshop-on-shore-based-maritime-services-from-theory-to-practical-use
+  type: IALA
+  primary: true
+docnumber: workshop-on-shore-based-maritime-services-from-theory-to-practical-use
+date:
+- type: published
+  from: '2016-06-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2016-06-06'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA workshop-on-shore-based-maritime-services-from-theory-to-practical-use
+        (E)
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala

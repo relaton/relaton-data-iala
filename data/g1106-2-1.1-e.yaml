@@ -1,0 +1,70 @@
+---
+id: G1106-2-1.1-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1106-2 Proposal for Additional S-100 Feature Concept Dictionary Item –
+    Template
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/g1106-2/?download=true
+docidentifier:
+- content: IALA G1106-2 Ed 1.1 (E)
+  type: IALA
+  primary: true
+docnumber: 1106-2
+date:
+- type: published
+  from: '2017-12-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: e-Navigation Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2017-12-15'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA G1106-2
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1106-2:ed1.1:e
+  webpage: https://www.iala.int/product/g1106-2/
+  committee: ENAV

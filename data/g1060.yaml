@@ -1,0 +1,64 @@
+---
+id: G1060-2.1
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1060 Recapitalisation of DGNSS
+  type: main
+docidentifier:
+- content: IALA G1060 Ed 2.1
+  type: IALA
+  primary: true
+docnumber: '1060'
+date:
+- type: published
+  from: '2008-12-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: e-Navigation Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2008-12-04'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA G1060 Ed 2.1 (E)
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  committee: ENAV

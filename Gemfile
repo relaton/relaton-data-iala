@@ -7,22 +7,21 @@ source "https://rubygems.org"
 # relaton-data-oiml Gemfile.
 gem "psych", "~> 5.2.6"
 
-# relaton is a single unpublished gem in the relaton/relaton monorepo (the
-# former relaton-bib / relaton-core / relaton-index / relaton-logger sub-gems
-# were consolidated into it). Pull it from main over HTTPS so the GH Action
-# can clone the public repo anonymously (no SSH key). Provides relaton/bib,
-# relaton/index, etc. Matches relaton-data-oiml/Gemfile.
-gem "relaton", git: "https://github.com/relaton/relaton.git", branch: "main"
+# relaton is the single combined v3 gem (the former relaton-bib /
+# relaton-core / relaton-index / relaton-logger sub-gems plus all flavor
+# namespaces — Oiml, Iho, Iala, etc. — were merged into it). The IALA
+# flavor ships inside the gem (lib/relaton/iala/*).
+#
+# Tracks the `feat/iala-flavor` branch on relaton/relaton until that PR
+# merges; flip back to `main` afterwards.
+gem "relaton", git: "https://github.com/relaton/relaton.git",
+             branch: "feat/iala-flavor"
 
 # pubid v2 (with IALA support) parses primary docids into structured
 # identifiers for the pubid_class-based index-v2.yaml. Tracks the
 # rt-new-lutaml-model branch until pubid v2 is released.
 gem "pubid", git: "https://github.com/metanorma/pubid.git",
              branch: "rt-new-lutaml-model"
-
-# relaton-iala provides the typed IALA Ext subclass (urn, webpage,
-# committee, normative, supersedes) so the fields round-trip natively.
-gem "relaton-iala", path: "../relaton-iala"
 
 gem "thor",              "~> 1.3"
 gem "nokogiri"

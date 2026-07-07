@@ -27,6 +27,57 @@ module IalaFetcher
 
         language_cell[/\b(English|French|Spanish|Arabic|Chinese|Russian)\b/, 1]
       end
+
+      # True when the displayed code cell was empty (reports-and-proceedings,
+      # some other-publications items). The fetcher uses #product_url to
+      # derive a stable id in that case.
+      def codeless?
+        code.nil? || code.strip.empty?
+      end
+
+      # The bare code without any trailing language marker. Handles the
+      # three conventions observed across IALA categories:
+      #   "R1016:fr"          → "R1016"            (recommendations)
+      #   "GA01.13 (EN)"      → "GA01.13"          (other-publications, parens)
+      #   "A12-01-F"          → "A12-01"           (legacy resolutions, dash + letter)
+      # Empty for codeless rows.
+      def bare_code
+        return "" if codeless?
+
+        c = code.to_s
+        # `:fr` style (recommendations-french etc.)
+        c = c.sub(/:([a-z]{2})\z/i, "")
+        # `(EN)` style (other-publications GA/G01 resolutions)
+        c = c.sub(/\s*\((?:EN|FR|ES|AR|CN|RU)\)\s*\z/i, "")
+        # `-F` style (legacy A12-01-F resolutions). Single language letter
+        # at the very end after a dash. Avoid stripping sub-part numbers
+        # (which are digits, not letters).
+        c = c.sub(/-(#{IalaFetcher::Docid::LANGUAGE_LETTERS.join("|")})\z/i, "")
+        c
+      end
+
+      # The trailing language letter for this row's code, if any.
+      # `nil` when the code has no embedded language marker — the language
+      # is then determined by the category slug (English by default).
+      def code_language_letter
+        c = code.to_s
+        if (m = c.match(/\((#{IalaFetcher::Docid::LANGUAGE_LETTERS.join("|")})\)\s*\z/i))
+          return m[1].upcase
+        end
+        if (m = c.match(/-(#{IalaFetcher::Docid::LANGUAGE_LETTERS.join("|")})\z/i))
+          return m[1].upcase
+        end
+        if (m = c.match(/:([a-z]{2})\z/i))
+          suffix = m[1].downcase
+          return "E" if suffix == "en"
+          return "F" if suffix == "fr"
+          return "S" if suffix == "es"
+          return "C" if suffix == "cn"
+          return "A" if suffix == "ar"
+          return "R" if suffix == "ru"
+        end
+        nil
+      end
     end
 
     BASE_PATH = "/product-category/publications".freeze

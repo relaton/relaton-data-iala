@@ -1,0 +1,38 @@
+---
+id: risk-training-seminar-china-2017
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Seminar – IALA – Risk Training China 2017
+  type: main
+docidentifier:
+- content: IALA risk-training-seminar-china-2017
+  type: IALA
+  primary: true
+docnumber: risk-training-seminar-china-2017
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA risk-training-seminar-china-2017 (E)
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala

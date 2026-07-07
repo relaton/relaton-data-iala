@@ -1,0 +1,64 @@
+---
+id: report-on-the-workshop-on-sustainability-in-aton-provision
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report on the Workshop on Sustainability in AtoN provision
+  type: main
+docidentifier:
+- content: IALA report-on-the-workshop-on-sustainability-in-aton-provision
+  type: IALA
+  primary: true
+docnumber: report-on-the-workshop-on-sustainability-in-aton-provision
+date:
+- type: published
+  from: '2025-10-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2025-10-30'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA report-on-the-workshop-on-sustainability-in-aton-provision (E)
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  committee: ENG

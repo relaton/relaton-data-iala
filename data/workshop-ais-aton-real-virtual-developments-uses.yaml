@@ -1,0 +1,65 @@
+---
+id: workshop-ais-aton-real-virtual-developments-uses
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Workshop – IALA – AIS AtoN (real and virtual) developments and
+    their uses
+  type: main
+docidentifier:
+- content: IALA workshop-ais-aton-real-virtual-developments-uses
+  type: IALA
+  primary: true
+docnumber: workshop-ais-aton-real-virtual-developments-uses
+date:
+- type: published
+  from: '2016-11-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: AtoN Requirements and Management Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2016-11-07'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA workshop-ais-aton-real-virtual-developments-uses (E)
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  committee: ARM

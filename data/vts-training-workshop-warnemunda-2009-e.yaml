@@ -1,0 +1,55 @@
+---
+id: vts-training-workshop-warnemunda-2009-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Workshop – IALA – VTS Training Warnemunda 2009
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/vts-training-workshop-warnemunda-2009/?download=true
+docidentifier:
+- content: IALA vts-training-workshop-warnemunda-2009 (E)
+  type: IALA
+  primary: true
+docnumber: vts-training-workshop-warnemunda-2009
+date:
+- type: published
+  from: '2009-09-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2009-09-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA vts-training-workshop-warnemunda-2009
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/vts-training-workshop-warnemunda-2009/

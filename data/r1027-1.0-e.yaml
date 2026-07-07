@@ -1,0 +1,56 @@
+---
+id: R1027-1.0-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: R1027 VDE Payload Format Identifier (VPFI)
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r1027-vde-payload-format-identifier-vpfi/?download=true
+docidentifier:
+- content: IALA R1027 Ed 1.0 (E)
+  type: IALA
+  primary: true
+docnumber: '1027'
+date:
+- type: published
+  from: '2026-06-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2026-06-11'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R1027
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r1027:ed1.0:e
+  webpage: https://www.iala.int/product/r1027-vde-payload-format-identifier-vpfi/

@@ -1,0 +1,69 @@
+---
+id: G1121-1.2-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1121 Navigational Safety within Marine Spatial Planning
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/g1121/?download=true
+docidentifier:
+- content: IALA G1121 Ed 1.2 (E)
+  type: IALA
+  primary: true
+docnumber: '1121'
+date:
+- type: published
+  from: '2017-06-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: AtoN Requirements and Management Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2017-06-16'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA G1121
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1121:ed1.2:e
+  webpage: https://www.iala.int/product/g1121/
+  committee: ARM

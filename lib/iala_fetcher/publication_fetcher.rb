@@ -42,10 +42,12 @@ module IalaFetcher
         rows_by_category, language_for_category: @language_categories,
       )
 
-      linker.groups.each do |group|
+      groups = linker.groups
+      warn "  Emitted #{groups.length} work groups across #{rows_by_category.values.flatten.length} rows"
+      groups.each do |group|
         emit_group(group)
       rescue StandardError => e
-        warn "  ERROR emitting #{group&.work_code}: #{e.message}"
+        warn "  ERROR emitting #{group&.work_natural_key}: #{e.message}"
       end
     end
 
@@ -89,12 +91,13 @@ module IalaFetcher
       end
     end
 
+    # Build the Work's Docid from the group's natural key + doctype.
+    # Typed codes (S/R/G/M/C) go through from_code; resolution numbers
+    # and slug-derived ids go through from_natural_key.
     def work_docid_for(group)
-      code = group.work_code
-      # If we have an English instance row, its code is bare; the work
-      # docid has no language. Sub-parts and editions are attached later
-      # when the product page is fetched.
-      IalaFetcher::Docid.from_listing_cell(code).work
+      IalaFetcher::Docid.from_natural_key(
+        group.work_natural_key, doctype: group.work_doctype,
+      ).work
     end
 
     def build_work_hash(group, work_docid)
@@ -115,12 +118,12 @@ module IalaFetcher
           "type" => "IALA",
           "primary" => true,
         }],
-        "docnumber" => work_docid.number,
-        "contributor" => contributors(committee),
+        "docnumber" => docnumber_for(work_docid),
+        "contributor" => contributors(committee, group.work_doctype),
         "language" => titles.map { |t| t["language"] }.uniq,
         "script" => scripts_for(group),
         "status" => { "stage" => { "content" => "in-force" } },
-        "ext" => ext_block(work_docid, doctype_for(group), committee, nil, nil),
+        "ext" => ext_block(work_docid, group.work_doctype, committee, nil, nil),
       }
       apply_dates!(hash, date)
       apply_copyright!(hash, date)
@@ -150,8 +153,8 @@ module IalaFetcher
           "type" => "IALA",
           "primary" => true,
         }],
-        "docnumber" => instance_docid.number,
-        "contributor" => contributors(detail&.committee),
+        "docnumber" => docnumber_for(instance_docid),
+        "contributor" => contributors(detail&.committee, group.work_doctype),
         "language" => [lang.to_s],
         "script" => [script_for_language(lang.to_s)],
         "status" => { "stage" => { "content" => "in-force" } },
@@ -162,7 +165,7 @@ module IalaFetcher
           },
         }],
         "ext" => ext_block(
-          instance_docid, doctype_for(group), detail&.committee,
+          instance_docid, group.work_doctype, detail&.committee,
           row.product_url, cover&.urn || instance_docid.urn,
         ),
       }
@@ -189,7 +192,7 @@ module IalaFetcher
 
       pdf_path = @pdf_downloader.fetch(detail.download_url)
       text = extract_first_page_text(pdf_path)
-      text = ocr_first_page(pdf_path) if text.nil? || text.strip.empty?
+      text = ocr_first_page(pdf_path) if (text.nil? || text.strip.empty?) && @cover_page_ocr
       return nil unless text && !text.strip.empty?
 
       IalaFetcher::CoverPageParser.parse(text)
@@ -249,9 +252,6 @@ module IalaFetcher
     end
 
     def instance_title_content(detail, cover, _lang)
-      # Cover-page title wins when available (it's the authoritative
-      # typography); product-page h1 is a fallback when no PDF was
-      # processed.
       cover&.title || detail&.title
     end
 
@@ -264,7 +264,7 @@ module IalaFetcher
       nil
     end
 
-    def contributors(committee_code)
+    def contributors(committee_code, _doctype)
       list = [IalaFetcher.iala_publisher_contributor]
       if committee_code && !committee_code.empty?
         committee_name = IalaFetcher::COMMITTEES.fetch(committee_code.to_s) do |code|
@@ -272,7 +272,7 @@ module IalaFetcher
           code
         end
         list << {
-          "role" => [{ "type" => "author", "description" => "committee" }],
+          "role" => [{ "type" => "author", "description" => [{ "content" => "committee" }] }],
           "organization" => {
             "name" => [{ "content" => IalaFetcher::IALA_NAME }],
             "subdivision" => [{ "name" => [{ "content" => committee_name }] }],
@@ -283,13 +283,13 @@ module IalaFetcher
       list
     end
 
-    def doctype_for(group)
-      # Use the English row's category slug when available; otherwise
-      # fall back to the slug of the first instance.
-      slug = group.instances_by_language["eng"]&.category_slug ||
-             group.instances_by_language.values.first.category_slug
-      entry = IalaFetcher::TYPES[slug]
-      entry ? entry[1] : "standard"
+    # `docnumber` is a free-form string for relaton. For typed codes we
+    # emit the bare number ("1070"); for resolution/slug ids we emit the
+    # whole natural key (no clean number to extract).
+    def docnumber_for(docid)
+      return docid.code unless docid.typed
+
+      docid.code[/\d+(?:-\d+)*/]
     end
 
     def scripts_for(group)
@@ -310,8 +310,8 @@ module IalaFetcher
       ext = {
         "doctype" => { "content" => doctype },
         "flavor" => "iala",
-        "urn" => urn || docid.urn,
       }
+      ext["urn"] = urn if urn && !urn.empty?
       ext["committee"] = committee if committee && !committee.empty?
       ext["webpage"] = webpage if webpage
       ext

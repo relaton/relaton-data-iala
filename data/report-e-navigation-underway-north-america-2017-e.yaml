@@ -1,0 +1,55 @@
+---
+id: report-e-navigation-underway-north-america-2017-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report e-Navigation Underway North America 2017
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/report-e-navigation-underway-north-america-2017/?download=true
+docidentifier:
+- content: IALA report-e-navigation-underway-north-america-2017 (E)
+  type: IALA
+  primary: true
+docnumber: report-e-navigation-underway-north-america-2017
+date:
+- type: published
+  from: '2018-01-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2018-01-23'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA report-e-navigation-underway-north-america-2017
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/report-e-navigation-underway-north-america-2017/

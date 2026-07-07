@@ -1,0 +1,56 @@
+---
+id: report-of-the-iala-workshop-on-the-future-of-marine-radiobeacon-dgps-dgnss-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Workshop – IALA – The Future of Marine Radiobeacon DGPS/DGNSS
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/report-of-the-iala-workshop-on-the-future-of-marine-radiobeacon-dgps-dgnss/?download=true
+docidentifier:
+- content: IALA report-of-the-iala-workshop-on-the-future-of-marine-radiobeacon-dgps-dgnss
+    (E)
+  type: IALA
+  primary: true
+docnumber: report-of-the-iala-workshop-on-the-future-of-marine-radiobeacon-dgps-dgnss
+date:
+- type: published
+  from: '2020-01-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2020-01-31'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA report-of-the-iala-workshop-on-the-future-of-marine-radiobeacon-dgps-dgnss
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/report-of-the-iala-workshop-on-the-future-of-marine-radiobeacon-dgps-dgnss/

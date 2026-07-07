@@ -1,0 +1,55 @@
+---
+id: report-18th-iala-conference-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Conference – IALA – 18th IALA Conference
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/report-18th-iala-conference/?download=true
+docidentifier:
+- content: IALA report-18th-iala-conference (E)
+  type: IALA
+  primary: true
+docnumber: report-18th-iala-conference
+date:
+- type: published
+  from: '2014-07-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2014-07-07'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA report-18th-iala-conference
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/report-18th-iala-conference/

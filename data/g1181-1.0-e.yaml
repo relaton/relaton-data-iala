@@ -1,0 +1,69 @@
+---
+id: G1181-1.0-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1181 VDES VDL Integrity Monitoring
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/g1181-vdes-vdl-integrity-monitoring/?download=true
+docidentifier:
+- content: IALA G1181 Ed 1.0 (E)
+  type: IALA
+  primary: true
+docnumber: '1181'
+date:
+- type: published
+  from: '2023-12-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Digital Technologies Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2023-12-14'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA G1181
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1181:ed1.0:e
+  webpage: https://www.iala.int/product/g1181-vdes-vdl-integrity-monitoring/
+  committee: DTEC

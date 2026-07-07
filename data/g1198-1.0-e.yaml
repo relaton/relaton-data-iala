@@ -1,0 +1,56 @@
+---
+id: G1198-1.0-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1198 Responsabilities of a VTS Competent Authority
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/g1198-responsabilities-of-a-vts-competent-authority/?download=true
+docidentifier:
+- content: IALA G1198 Ed 1.0 (E)
+  type: IALA
+  primary: true
+docnumber: '1198'
+date:
+- type: published
+  from: '2026-06-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2026-06-11'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA G1198
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1198:ed1.0:e
+  webpage: https://www.iala.int/product/g1198-responsabilities-of-a-vts-competent-authority/

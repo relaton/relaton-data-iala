@@ -1,0 +1,55 @@
+---
+id: GA01.02-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: GA01-Res.02 (EN) Resolution on Delegation of Responsability
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/ga01-res-02-en-resolution-on-delegation-of-responsability/?download=true
+docidentifier:
+- content: IALA GA01.02 (E)
+  type: IALA
+  primary: true
+docnumber: GA01.02
+date:
+- type: published
+  from: '2025-02-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2025-02-18'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA GA01.02
+      type: IALA
+ext:
+  doctype:
+    content: resolution
+  flavor: iala
+  webpage: https://www.iala.int/product/ga01-res-02-en-resolution-on-delegation-of-responsability/

@@ -1,0 +1,69 @@
+---
+id: G1074-1.2-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1074 Branding and Marketing of Historic Lighthouses
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/g1074/?download=true
+docidentifier:
+- content: IALA G1074 Ed 1.2 (E)
+  type: IALA
+  primary: true
+docnumber: '1074'
+date:
+- type: published
+  from: '2009-12-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2009-12-09'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA G1074
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1074:ed1.2:e
+  webpage: https://www.iala.int/product/g1074/
+  committee: ENG

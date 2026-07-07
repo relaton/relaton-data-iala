@@ -1,0 +1,64 @@
+---
+id: G1075-1.1
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1075 Business Plan for the complementary use of a Historic Lighthouse
+  type: main
+docidentifier:
+- content: IALA G1075 Ed 1.1
+  type: IALA
+  primary: true
+docnumber: '1075'
+date:
+- type: published
+  from: '2009-12-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2009-12-09'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA G1075 Ed 1.1 (E)
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  committee: ENG

@@ -1,0 +1,69 @@
+---
+id: R0119-4.2-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: R0119 Establishment of a VTS
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r0119/?download=true
+docidentifier:
+- content: IALA R0119 Ed 4.2 (E)
+  type: IALA
+  primary: true
+docnumber: '0119'
+date:
+- type: published
+  from: '2020-12-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Vessel Traffic Services Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2020-12-10'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R0119
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r0119:ed4.2:e
+  webpage: https://www.iala.int/product/r0119/
+  committee: VTS

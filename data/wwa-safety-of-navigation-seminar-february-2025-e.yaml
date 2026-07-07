@@ -1,0 +1,55 @@
+---
+id: wwa-safety-of-navigation-seminar-february-2025-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: WWA Safety of Navigation Seminar – February 2025
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/wwa-safety-of-navigation-seminar-february-2025/?download=true
+docidentifier:
+- content: IALA wwa-safety-of-navigation-seminar-february-2025 (E)
+  type: IALA
+  primary: true
+docnumber: wwa-safety-of-navigation-seminar-february-2025
+date:
+- type: published
+  from: '2025-02-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2025-02-17'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA wwa-safety-of-navigation-seminar-february-2025
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/wwa-safety-of-navigation-seminar-february-2025/

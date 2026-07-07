@@ -1,0 +1,68 @@
+---
+id: report-on-the-aton-engineering-workshop-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report on the AtoN Engineering Workshop
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/report-on-the-aton-engineering-workshop/?download=true
+docidentifier:
+- content: IALA report-on-the-aton-engineering-workshop (E)
+  type: IALA
+  primary: true
+docnumber: report-on-the-aton-engineering-workshop
+date:
+- type: published
+  from: '2024-10-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2024-10-18'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA report-on-the-aton-engineering-workshop
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/report-on-the-aton-engineering-workshop/
+  committee: ENG

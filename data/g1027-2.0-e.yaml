@@ -1,0 +1,69 @@
+---
+id: G1027-2.0-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1027 Simulation in VTS Training
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/g1027/?download=true
+docidentifier:
+- content: IALA G1027 Ed 2.0 (E)
+  type: IALA
+  primary: true
+docnumber: '1027'
+date:
+- type: published
+  from: '2002-06-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Vessel Traffic Services Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2002-06-19'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA G1027
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1027:ed2.0:e
+  webpage: https://www.iala.int/product/g1027/
+  committee: VTS

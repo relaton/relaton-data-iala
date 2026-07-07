@@ -1,0 +1,57 @@
+---
+id: report-on-joint-iala-iho-workshop-on-s-100-s-200-product-specification-development-and-portrayal-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Workshop – IALA & IHO – S-100/S-200 Product Specification Development
+    and Portrayal
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/report-on-joint-iala-iho-workshop-on-s-100-s-200-product-specification-development-and-portrayal/?download=true
+docidentifier:
+- content: IALA report-on-joint-iala-iho-workshop-on-s-100-s-200-product-specification-development-and-portrayal
+    (E)
+  type: IALA
+  primary: true
+docnumber: report-on-joint-iala-iho-workshop-on-s-100-s-200-product-specification-development-and-portrayal
+date:
+- type: published
+  from: '2022-09-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2022-09-09'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA report-on-joint-iala-iho-workshop-on-s-100-s-200-product-specification-development-and-portrayal
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/report-on-joint-iala-iho-workshop-on-s-100-s-200-product-specification-development-and-portrayal/

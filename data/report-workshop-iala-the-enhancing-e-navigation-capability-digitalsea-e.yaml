@@ -1,0 +1,43 @@
+---
+id: report-workshop-iala-the-enhancing-e-navigation-capability-digitalsea-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Workshop – IALA – The Enhancing e-Navigation Capability – Digital@Sea
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/report-workshop-iala-the-enhancing-e-navigation-capability-digitalsea/?download=true
+docidentifier:
+- content: IALA report-workshop-iala-the-enhancing-e-navigation-capability-digitalsea
+    (E)
+  type: IALA
+  primary: true
+docnumber: report-workshop-iala-the-enhancing-e-navigation-capability-digitalsea
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA report-workshop-iala-the-enhancing-e-navigation-capability-digitalsea
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/report-workshop-iala-the-enhancing-e-navigation-capability-digitalsea/

@@ -1,0 +1,69 @@
+---
+id: G1005-2.1-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1005 Contracting out Aids to Navigation Services
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/g1005/?download=true
+docidentifier:
+- content: IALA G1005 Ed 2.1 (E)
+  type: IALA
+  primary: true
+docnumber: '1005'
+date:
+- type: published
+  from: '1994-12-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: AtoN Requirements and Management Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '1994-12-31'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA G1005
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1005:ed2.1:e
+  webpage: https://www.iala.int/product/g1005/
+  committee: ARM

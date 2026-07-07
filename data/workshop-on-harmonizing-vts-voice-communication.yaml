@@ -1,0 +1,38 @@
+---
+id: workshop-on-harmonizing-vts-voice-communication
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Workshop – IALA – Harmonizing VTS Voice Communication
+  type: main
+docidentifier:
+- content: IALA workshop-on-harmonizing-vts-voice-communication
+  type: IALA
+  primary: true
+docnumber: workshop-on-harmonizing-vts-voice-communication
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA workshop-on-harmonizing-vts-voice-communication (E)
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala

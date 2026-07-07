@@ -1,0 +1,70 @@
+---
+id: 13th-vts-symposium-sustainable-safe-navigation-august-2016-report-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report –  Symposium – IALA – 13th VTS Symposium – Sustainable Safe Navigation
+    August 2016
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/13th-vts-symposium-sustainable-safe-navigation-august-2016-report/?download=true
+docidentifier:
+- content: IALA 13th-vts-symposium-sustainable-safe-navigation-august-2016-report
+    (E)
+  type: IALA
+  primary: true
+docnumber: 13th-vts-symposium-sustainable-safe-navigation-august-2016-report
+date:
+- type: published
+  from: '2016-10-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Vessel Traffic Services Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2016-10-11'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA 13th-vts-symposium-sustainable-safe-navigation-august-2016-report
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/13th-vts-symposium-sustainable-safe-navigation-august-2016-report/
+  committee: VTS

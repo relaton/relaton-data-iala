@@ -1,0 +1,69 @@
+---
+id: G1165-1.2-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1165 Sustainable Structural Design of Marine Aids to Navigation
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/g1165/?download=true
+docidentifier:
+- content: IALA G1165 Ed 1.2 (E)
+  type: IALA
+  primary: true
+docnumber: '1165'
+date:
+- type: published
+  from: '2021-12-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2021-12-17'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA G1165
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1165:ed1.2:e
+  webpage: https://www.iala.int/product/g1165/
+  committee: ENG

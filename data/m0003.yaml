@@ -1,0 +1,64 @@
+---
+id: M0003-2.0
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: IALA Complementary Lighthouse Use Manual
+  type: main
+docidentifier:
+- content: IALA M0003 Ed 2.0
+  type: IALA
+  primary: true
+docnumber: '0003'
+date:
+- type: published
+  from: '2017-12-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2017-12-15'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA M0003 Ed 2.0 (E)
+      type: IALA
+ext:
+  doctype:
+    content: manual
+  flavor: iala
+  committee: ENG

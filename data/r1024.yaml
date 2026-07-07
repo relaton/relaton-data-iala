@@ -1,0 +1,51 @@
+---
+id: R1024-1.0
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: R1024 Cyber security for the IALA domain
+  type: main
+docidentifier:
+- content: IALA R1024 Ed 1.0
+  type: IALA
+  primary: true
+docnumber: '1024'
+date:
+- type: published
+  from: '2022-12-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2022-12-16'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA R1024 Ed 1.0 (E)
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala

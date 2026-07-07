@@ -1,0 +1,51 @@
+---
+id: international-e-navigation-underway-2014
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Conference – IALA – International e-Navigation Underway 2014
+  type: main
+docidentifier:
+- content: IALA international-e-navigation-underway-2014
+  type: IALA
+  primary: true
+docnumber: international-e-navigation-underway-2014
+date:
+- type: published
+  from: '2014-02-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2014-02-11'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA international-e-navigation-underway-2014 (E)
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala

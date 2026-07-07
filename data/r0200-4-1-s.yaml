@@ -1,0 +1,70 @@
+---
+id: R0200-4-1-S
+schema_version: v1.5.6
+type: standard
+title:
+- language: spa
+  content: Señales Luminosas Marítimas – La Determinación y el Cálculo de la Intensidad
+    Eficaz 200
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r0200-4_es/?download=true
+docidentifier:
+- content: IALA R0200-4 Ed 1 (S)
+  type: IALA
+  primary: true
+docnumber: 0200-4
+date:
+- type: published
+  from: '2008-12-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2008-12-04'
+language:
+- spa
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R0200-4
+      type: IALA
+ext:
+  doctype:
+    content: standard
+  flavor: iala
+  urn: urn:mrn:iala:pub:r0200-4:ed1:s
+  webpage: https://www.iala.int/product/r0200-4_es/
+  committee: ENG

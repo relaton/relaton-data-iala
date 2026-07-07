@@ -1,0 +1,68 @@
+---
+id: preliminary-results-iala-vts-questionnaire-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Preliminary results of the IALA VTS Questionnaire
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/preliminary-results-iala-vts-questionnaire/?download=true
+docidentifier:
+- content: IALA preliminary-results-iala-vts-questionnaire (E)
+  type: IALA
+  primary: true
+docnumber: preliminary-results-iala-vts-questionnaire
+date:
+- type: published
+  from: '2016-08-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Vessel Traffic Services Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2016-08-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA preliminary-results-iala-vts-questionnaire
+      type: IALA
+ext:
+  doctype:
+    content: resolution
+  flavor: iala
+  webpage: https://www.iala.int/product/preliminary-results-iala-vts-questionnaire/
+  committee: VTS

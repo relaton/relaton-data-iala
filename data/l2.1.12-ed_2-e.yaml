@@ -1,0 +1,55 @@
+---
+id: L2.1.12-Ed 2-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Power Sources on Buoys
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/power-sources-buoys/?download=true
+docidentifier:
+- content: IALA L2.1.12 Ed Ed 2 (E)
+  type: IALA
+  primary: true
+docnumber: L2.1.12
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA L2.1.12
+      type: IALA
+ext:
+  doctype:
+    content: model-course
+  flavor: iala
+  webpage: https://www.iala.int/product/power-sources-buoys/
+  committee: ENG

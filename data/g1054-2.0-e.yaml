@@ -1,0 +1,70 @@
+---
+id: G1054-2.0-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1054 Preparing for a Voluntary IMO Audit on Aids to Navigation Service
+    Delivery
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/g1054/?download=true
+docidentifier:
+- content: IALA G1054 Ed 2.0 (E)
+  type: IALA
+  primary: true
+docnumber: '1054'
+date:
+- type: published
+  from: '2006-11-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: AtoN Requirements and Management Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2006-11-30'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA G1054
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1054:ed2.0:e
+  webpage: https://www.iala.int/product/g1054/
+  committee: ARM

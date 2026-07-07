@@ -1,0 +1,69 @@
+---
+id: G1088-1.1-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1088 Introduction to Preparing S-100 Product Specifications
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/g1088/?download=true
+docidentifier:
+- content: IALA G1088 Ed 1.1 (E)
+  type: IALA
+  primary: true
+docnumber: '1088'
+date:
+- type: published
+  from: '2012-12-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: e-Navigation Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2012-12-07'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA G1088
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1088:ed1.1:e
+  webpage: https://www.iala.int/product/g1088/
+  committee: e-NAV

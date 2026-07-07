@@ -1,0 +1,55 @@
+---
+id: ialabatt-ialalite-2008-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Workshop – IALA – IALABATT / IALALITE 2008
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/ialabatt-ialalite-2008/?download=true
+docidentifier:
+- content: IALA ialabatt-ialalite-2008 (E)
+  type: IALA
+  primary: true
+docnumber: ialabatt-ialalite-2008
+date:
+- type: published
+  from: '2008-10-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2008-10-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA ialabatt-ialalite-2008
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/ialabatt-ialalite-2008/

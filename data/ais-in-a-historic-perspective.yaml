@@ -1,0 +1,38 @@
+---
+id: ais-in-a-historic-perspective
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: AIS in a Historic Perspective by Wim van der Heijden
+  type: main
+docidentifier:
+- content: IALA ais-in-a-historic-perspective
+  type: IALA
+  primary: true
+docnumber: ais-in-a-historic-perspective
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA ais-in-a-historic-perspective (E)
+      type: IALA
+ext:
+  doctype:
+    content: resolution
+  flavor: iala

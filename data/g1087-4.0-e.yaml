@@ -1,0 +1,70 @@
+---
+id: G1087-4.0-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1087 Procedures for the Management of the IALA Domains under the IHO GI
+    Registry
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/g1087/?download=true
+docidentifier:
+- content: IALA G1087 Ed 4.0 (E)
+  type: IALA
+  primary: true
+docnumber: '1087'
+date:
+- type: published
+  from: '2012-12-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: e-Navigation Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2012-12-07'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA G1087
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1087:ed4.0:e
+  webpage: https://www.iala.int/product/g1087/
+  committee: ENAV

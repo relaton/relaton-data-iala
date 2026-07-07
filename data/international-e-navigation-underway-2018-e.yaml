@@ -1,0 +1,55 @@
+---
+id: international-e-navigation-underway-2018-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Report – Conference – IALA – International e-Navigation Underway 2018
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/international-e-navigation-underway-2018/?download=true
+docidentifier:
+- content: IALA international-e-navigation-underway-2018 (E)
+  type: IALA
+  primary: true
+docnumber: international-e-navigation-underway-2018
+date:
+- type: published
+  from: '2018-01-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2018-01-26'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA international-e-navigation-underway-2018
+      type: IALA
+ext:
+  doctype:
+    content: report
+  flavor: iala
+  webpage: https://www.iala.int/product/international-e-navigation-underway-2018/
