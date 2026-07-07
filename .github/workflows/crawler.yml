@@ -1,0 +1,14 @@
+name: Crawler
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ v* ]
+  pull_request:
+  schedule:
+    - cron: '0 14 * * *'
+  workflow_dispatch:
+
+jobs:
+  crawl:
+    uses: relaton/support/.github/workflows/crawler.yml@main

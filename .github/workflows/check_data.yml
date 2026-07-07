@@ -1,0 +1,12 @@
+name: check_data
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ v* ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check-data:
+    uses: relaton/support/.github/workflows/check-data.yml@main
