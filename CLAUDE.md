@@ -6,25 +6,29 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Bibliographic dataset of IALA (International Organization for Marine Aids to
 Navigation — formerly IALA AISM) publications, stored as Relaton YAML under
-`data/`. The scraper lives in this repo (`lib/iala_fetcher/`); data is
-consumed by `relaton-bib` directly via `Relaton::Bib::Item` (no
-`relaton-iala` gem exists yet).
+`data/`. The scraper lives in this repo (`lib/iala_fetcher/`); the data is
+consumed by the unified `relaton` v3 gem via the typed `Relaton::Iala::Item`
+class shipped inside it (PR relaton/relaton#20).
 
 IALA publication categories, with their catalogue letter prefixes:
 
-| Path segment under `/product-category/publications/` | Prefix | doctype          |
-|------------------------------------------------------|--------|------------------|
-| `standards`                                          | S      | standard         |
-| `recommendations`                                    | R      | recommendation   |
-| `guidelines`                                         | G      | guideline        |
-| `manuals`                                            | —      | manual           |
+| Path segment under `/product-category/publications/`            | Prefix | doctype     |
+|-----------------------------------------------------------------|--------|-------------|
+| `standards`                                                     | S      | standard    |
+| `recommendations`                                               | R      | recommendation |
+| `guidelines`                                                    | G      | guideline   |
+| `manuals`                                                       | M      | manual      |
 | `model-courses`, `model-courses/level-1-…`, `model-courses/level-2-…`, `model-courses/vts-model-courses` | C | model-course |
-| `reports-and-proceedings`                            | —      | report           |
-| `other-publications`                                 | —      | resolution/other |
+| `reports-and-proceedings`                                       | —      | report      |
+| `other-publications`                                            | —      | resolution  |
 
 Numbered identifiers take the form `<Letter><4-digit>` (e.g., `S1070`,
-`R0126`, `G1015`, `C0103-1`). Editions are dotted (`2.0`, `1.3`, `Ed 9.0`).
-URN form printed on covers: `urn:mrn:iala:pub:s1070:ed2.0`.
+`R0126`, `G1015`, `C0103-1`, `M0001`). Editions are dotted (`2.0`, `1.3`,
+`Ed 9.0`). URN form printed on covers: `urn:mrn:iala:pub:s1070:ed2.0`.
+
+Resolution codes (`GA01.13`, `A12-01-F`) and slug-derived ids (codeless
+reports) don't follow the typed `<Letter><4-digit>` form and are carried
+as opaque strings in `Relaton::Iala::Docidentifier`.
 
 ## The big picture: iala.int is WooCommerce HTML
 
@@ -110,26 +114,40 @@ parameters. Tests install `IalaFetcher::Http::Fake` with fixture tables;
 production uses `IalaFetcher::Http::NetHttp` (the default).
 
 `IalaFetcher::YamlStore` owns all YAML I/O — encoding (UTF-8), location
-resolution, idempotency, and `Relaton::Bib::Item` serialization. No
+resolution, idempotency, and `Relaton::Iala::Item` serialization. No
 `File.write` exists outside `YamlStore`.
 
 `IalaFetcher::Docid` is the single value object for IALA document
-identifiers (catalogue form `S1070`, cover form with edition, URN
-`urn:mrn:iala:pub:s1070:ed2.0`). All fetchers use it for id/docid/filename
-derivation.
+identifiers across all observed forms: typed codes (`S1070`), cover form
+with edition (`IALA S1070 Ed 2.0`), MRN URNs (`urn:mrn:iala:pub:s1070:ed2.0`),
+resolution codes (`GA01.13 (EN)`), and slug-derived ids (codeless
+reports). Typed ids emit URNs; generic ids return nil for urn.
 
 `IalaFetcher::Source` produces correctly-typed `source` hashes (`.url`,
 `.iala`, `.local`) — prevents the "local path tagged as website" bug.
 
+## Relaton::Iala flavor (inside relaton/relaton v3 monorepo)
+
+The IALA Relaton flavor lives at `relaton/relaton:lib/relaton/iala/`
+(PR relaton/relaton#20). It provides `Relaton::Iala::Ext < Relaton::Bib::Ext`
+with typed attributes for `urn`, `webpage`, `committee`, `normative`,
+`supersedes` — these round-trip natively through YAML and XML, so
+`check_data.rb` doesn't need a merge hack.
+
+This repo's Gemfile pins `gem "relaton", …, branch: "feat/iala-flavor"`
+until that PR merges, then flips back to `branch: "main"`.
+
 ## Pubid::Iala (in mn/pubid)
 
-IALA PubIDs are parsed by the `Pubid::Iala` flavor in `mn/pubid` (target
-branch: `rt-new-lutaml-model`). The flavor follows the OIML/IHO pattern:
-`Identifier`, `Identifiers::*` (one class per doctype), `Parser`
+IALA PubIDs are parsed by the `Pubid::Iala` flavor in `mn/pubid`
+(worktree at `/Users/mulgogi/src/mn/pubid-iala`, branch `feat/iala-flavor`,
+targets `rt-new-lutaml-model`). The flavor follows the OIML/IHO pattern:
+`Identifier`, `Identifiers::*` (7 classes — one per doctype), `Parser`
 (parslet), `Builder`, `Renderer`, `UrnGenerator`, `UrnParser`. The
 `index-v2.yaml` serializes identifiers via
 `Pubid::Iala::Identifier#to_hash` and re-instantiates via
-`Pubid::Iala::Identifier.from_hash`.
+`Pubid::Iala::Identifier.from_hash`. Until that PR merges, `index-v2.yaml`
+stays empty (see TODO.impl/22-index-v2-wiring.md).
 
 ## Commands
 
