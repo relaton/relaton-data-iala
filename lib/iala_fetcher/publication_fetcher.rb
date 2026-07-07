@@ -81,7 +81,7 @@ module IalaFetcher
 
     def emit_group(group)
       work_docid = work_docid_for(group)
-      work_hash = build_work_hash(group, work_docid)
+      work_hash, work_docid = build_work_hash(group, work_docid)
       yaml_store.write(work_docid.filename_stem, work_hash)
 
       group.instances_by_language.each do |lang, row|
@@ -100,6 +100,8 @@ module IalaFetcher
       ).work
     end
 
+    # Returns [hash, work_docid_with_edition] so the caller can derive
+    # the matching filename and pass the updated docid to emit_instance.
     def build_work_hash(group, work_docid)
       english_detail = product_detail_for(group.instances_by_language["eng"])
       work_docid = work_docid_with_edition(work_docid, english_detail, nil)
@@ -107,6 +109,7 @@ module IalaFetcher
       work_docid = work_docid_with_edition(work_docid, english_detail, cover)
 
       titles = titles_for(group, cover)
+      abstracts = abstracts_for(group)
       date = published_date(english_detail, cover)
       committee = english_detail&.committee
 
@@ -124,13 +127,15 @@ module IalaFetcher
         "language" => titles.map { |t| t["language"] }.uniq,
         "script" => scripts_for(group),
         "status" => { "stage" => { "content" => "in-force" } },
-        "ext" => ext_block(work_docid, group.work_doctype, committee, nil,
+        "ext" => ext_block(work_docid, group.work_doctype, committee,
+                           english_detail&.product_url,
                            work_urn_for(work_docid, cover)),
       }
+      hash["abstract"] = abstracts unless abstracts.empty?
       apply_dates!(hash, date)
       apply_copyright!(hash, date)
       add_instance_relations!(hash, group, work_docid)
-      hash
+      [hash, work_docid]
     end
 
     def emit_instance(group, row, lang, work_docid)
@@ -147,6 +152,7 @@ module IalaFetcher
         .with_language(lang_letter)
 
       title = instance_title(detail, cover, lang)
+      abstract = instance_abstract(detail, lang)
       date = published_date(detail, cover)
 
       hash = {
@@ -175,6 +181,7 @@ module IalaFetcher
           row.product_url, cover&.urn || instance_docid.urn,
         ),
       }
+      hash["abstract"] = [abstract] if abstract
       apply_dates!(hash, date)
       apply_copyright!(hash, date)
       yaml_store.write(instance_docid.filename_stem, hash)
@@ -237,6 +244,40 @@ module IalaFetcher
       return cover.urn if cover&.urn && !cover.urn.empty?
 
       work_docid.urn
+    end
+
+    # Work-level abstracts: one per language that has one on the product
+    # page. Standards (S1010, S1020, S1070) carry website-side abstracts
+    # in `<div class="page">`; most other categories do not.
+    def abstracts_for(group)
+      group.instances_by_language.each_with_object([]) do |(lang, row), acc|
+        detail = product_detail_for(row)
+        html = detail&.abstract_html
+        next unless html && !html.strip.empty?
+
+        acc << {
+          "content" => clean_abstract_html(html),
+          "language" => lang.to_s,
+          "format" => "text/html",
+        }
+      end
+    end
+
+    def instance_abstract(detail, lang)
+      html = detail&.abstract_html
+      return nil unless html && !html.strip.empty?
+
+      {
+        "content" => clean_abstract_html(html),
+        "language" => lang.to_s,
+        "format" => "text/html",
+      }
+    end
+
+    # Nokogiri's inner_html on a fragment can leave leading/trailing
+    # whitespace and entity-encoded characters. Strip and normalise.
+    def clean_abstract_html(html)
+      html.strip
     end
 
     def titles_for(group, cover)
