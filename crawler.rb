@@ -8,6 +8,7 @@
 # in a single pass over data/*.yaml.
 
 require "bundler/setup"
+$LOAD_PATH.unshift File.expand_path("lib", __dir__)
 require "relaton/index"
 require "relaton/bib"
 require "iala_fetcher"
