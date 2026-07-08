@@ -1,0 +1,56 @@
+---
+id: M0001-9.0-S
+schema_version: v1.5.6
+type: standard
+title:
+- language: spa
+  content: IALA Navguide (ES)
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/iala-navguide-es/?download=true
+docidentifier:
+- content: IALA M0001 Ed 9.0 (S)
+  type: IALA
+  primary: true
+docnumber: '0001'
+date:
+- type: published
+  from: '2023-04-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2023-04-15'
+language:
+- spa
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA M0001 Ed 9.0
+      type: IALA
+ext:
+  doctype:
+    content: manual
+  flavor: iala
+  urn: urn:mrn:iala:pub:m0001:ed9.0:s
+  webpage: https://www.iala.int/product/iala-navguide-es/

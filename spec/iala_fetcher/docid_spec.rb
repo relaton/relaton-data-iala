@@ -21,15 +21,10 @@ RSpec.describe IalaFetcher::Docid do
       expect(d.urn).to eq("urn:mrn:iala:pub:s1070:ed2.0")
     end
 
-    it "parses the compact listing form (stripping leading zeros)" do
+    it "parses the compact listing form" do
       d = described_class.from_code("R0126:ed2.0")
-      expect(d.to_s).to eq("IALA R126 Ed 2.0")
-      expect(d.id).to eq("R126-2.0")
-    end
-
-    it "normalises zero-padded numbers (M0001 → M1, C0103-1 → C103-1)" do
-      expect(described_class.from_code("M0001").id).to eq("M1")
-      expect(described_class.from_code("C0103-1 Ed 3.0").id).to eq("C103-1-3.0")
+      expect(d.to_s).to eq("IALA R0126 Ed 2.0")
+      expect(d.id).to eq("R0126-2.0")
     end
 
     it "parses a code with language" do
@@ -39,11 +34,11 @@ RSpec.describe IalaFetcher::Docid do
       expect(d.filename_stem).to eq("r1016-2.0-f")
     end
 
-    it "preserves a numeric subpart (with normalised base)" do
+    it "preserves a numeric subpart" do
       d = described_class.from_code("C0103-1 Ed 3.0")
-      expect(d.to_s).to eq("IALA C103-1 Ed 3.0")
-      expect(d.id).to eq("C103-1-3.0")
-      expect(d.urn).to eq("urn:mrn:iala:pub:c103-1:ed3.0")
+      expect(d.to_s).to eq("IALA C0103-1 Ed 3.0")
+      expect(d.id).to eq("C0103-1-3.0")
+      expect(d.urn).to eq("urn:mrn:iala:pub:c0103-1:ed3.0")
     end
 
     it "raises on unrecognised input" do

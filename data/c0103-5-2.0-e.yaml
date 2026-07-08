@@ -1,0 +1,69 @@
+---
+id: C0103-5-2.0-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: REVALIDATION TRAINING FOR VTS PERSONNEL
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/c0103-5/?download=true
+docidentifier:
+- content: IALA C0103-5 Ed 2.0 (E)
+  type: IALA
+  primary: true
+docnumber: 0103-5
+date:
+- type: published
+  from: '2016-06-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Vessel Traffic Services Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2016-06-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA C0103-5 Ed 2.0
+      type: IALA
+ext:
+  doctype:
+    content: model-course
+  flavor: iala
+  urn: urn:mrn:iala:pub:c0103-5:ed2.0
+  webpage: https://www.iala.int/product/c0103-5/
+  committee: VTS

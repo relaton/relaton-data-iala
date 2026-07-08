@@ -1,0 +1,43 @@
+---
+id: R0106-2.0-S
+schema_version: v1.5.6
+type: standard
+title:
+- language: spa
+  content: R0106 Material Retrorefectante en Marcas de AtoN Dentro del IALA MBS
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r0106_es/?download=true
+docidentifier:
+- content: IALA R0106 Ed 2.0 (S)
+  type: IALA
+  primary: true
+docnumber: '0106'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+language:
+- spa
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R0106 Ed 2.1
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r0106:ed2.0:s
+  webpage: https://www.iala.int/product/r0106_es/

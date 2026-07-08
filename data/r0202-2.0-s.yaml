@@ -1,0 +1,57 @@
+---
+id: R0202-2.0-S
+schema_version: v1.5.6
+type: standard
+title:
+- language: spa
+  content: R0202(E200‐2)  SEÑALES MARÍTIMAS LUMINOSAS ‐ CÁLCULO,  DEFINICIÓN Y NOTACIÓN
+    DEL ALCANCE  LUMINOSO
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r0202_es/?download=true
+docidentifier:
+- content: IALA R0202 Ed 2.0 (S)
+  type: IALA
+  primary: true
+docnumber: '0202'
+date:
+- type: published
+  from: '2008-12-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2008-12-12'
+language:
+- spa
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R0202 Ed 2.1
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r0202:ed2.0:s
+  webpage: https://www.iala.int/product/r0202_es/

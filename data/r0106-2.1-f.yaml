@@ -1,0 +1,44 @@
+---
+id: R0106-2.1-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: R0106 Matériau rétroréfléchissant sur les aides à la navigation du système
+    de balisage maritime de l’AISM
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/materiau-retroreflechissant-sur-les-aides-a-la-navigation-du-systeme-de-balisage-maritime-de-laism/?download=true
+docidentifier:
+- content: IALA R0106 Ed 2.1 (F)
+  type: IALA
+  primary: true
+docnumber: '0106'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R0106 Ed 2.1
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r0106
+  webpage: https://www.iala.int/product/materiau-retroreflechissant-sur-les-aides-a-la-navigation-du-systeme-de-balisage-maritime-de-laism/

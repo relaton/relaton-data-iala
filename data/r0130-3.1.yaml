@@ -1,0 +1,87 @@
+---
+id: R0130-3.1
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: R0130 Categorisation and Availability Objectives for Short Range Aids to
+    Navigation
+  type: main
+- language: fra
+  content: R0130 Catégories et Objectifs de disponibilité des aides à la navigation
+    de courte portée
+  type: main
+- language: spa
+  content: R0130 (O-130) Categorización y Objetivos de Disponibilidad para las AtoN
+    de Corto Alcance
+  type: main
+docidentifier:
+- content: IALA R0130 Ed 3.1
+  type: IALA
+  primary: true
+docnumber: '0130'
+date:
+- type: published
+  from: '2004-12-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: AtoN Requirements and Management Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2004-12-01'
+language:
+- eng
+- fra
+- spa
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA R0130 Ed 3.1 (E)
+      type: IALA
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA R0130 Ed 3.1 (F)
+      type: IALA
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA R0130 Ed 3.1 (S)
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r0130:ed3.1
+  webpage: https://www.iala.int/product/r0130/
+  committee: ARM

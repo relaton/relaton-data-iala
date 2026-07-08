@@ -1,0 +1,43 @@
+---
+id: R0111-1.3-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: R0111 Signaux de trafic portuaire
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r0111-signaux-de-trafic-portuaire/?download=true
+docidentifier:
+- content: IALA R0111 Ed 1.3 (F)
+  type: IALA
+  primary: true
+docnumber: '0111'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R0111 Ed 1.3
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r0111:ed1.3:f
+  webpage: https://www.iala.int/product/r0111-signaux-de-trafic-portuaire/

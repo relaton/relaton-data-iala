@@ -1,0 +1,56 @@
+---
+id: R0110-4.0-S
+schema_version: v1.5.6
+type: standard
+title:
+- language: spa
+  content: R0110 APARIENCIA DE LAS LUCES EN AYUDAS A LA  NAVEGACIÓN
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r0110_es/?download=true
+docidentifier:
+- content: IALA R0110 Ed 4.0 (S)
+  type: IALA
+  primary: true
+docnumber: '0110'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+language:
+- spa
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R0110 Ed 5.0
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r0110:ed4.0:s
+  webpage: https://www.iala.int/product/r0110_es/
+  committee: ENG

@@ -1,0 +1,54 @@
+---
+id: A13-02
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: GA Resolution A13-02 – Approval of the strategic vision for the period
+    2018-2026 – Adoption de la vision stratégique pour la période 2018-2026
+  type: main
+docidentifier:
+- content: IALA A13-02
+  type: IALA
+  primary: true
+docnumber: 13-02
+date:
+- type: published
+  from: '2018-05-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2018-05-29'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA A13-02 (E)
+      type: IALA
+ext:
+  doctype:
+    content: resolution
+  flavor: iala
+  urn: urn:mrn:iala:pub:a13-02
+  webpage: https://www.iala.int/product/a13-02-approval-of-the-strategic-vision-for-the-period-2018-2026-adoption-de-la-vision-strategique-pour-la-periode-2018-2026/

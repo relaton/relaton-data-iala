@@ -1,0 +1,70 @@
+---
+id: R0205-1.1-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: R0205 Marine Signal Lights Part 5 – Estimation of the Performance of Optical
+    Apparatus (E-200-5)
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r0205/?download=true
+docidentifier:
+- content: IALA R0205 Ed 1.1 (E)
+  type: IALA
+  primary: true
+docnumber: '0205'
+date:
+- type: published
+  from: '2008-12-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: EEP
+    abbreviation:
+      content: IALA
+version:
+- content: '2008-12-04'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R0205 Ed 1.1
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r0205:ed1.1
+  webpage: https://www.iala.int/product/r0205/
+  committee: EEP

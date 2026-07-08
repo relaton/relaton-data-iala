@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/metanorma/pubid.git
-  revision: 2219ee1fa2e5fad4d4eb68c46570a48dcf2d2fd2
+  revision: a9a794c68f431413e2624ae5b0f954d270a76ed3
   branch: rt-new-lutaml-model
   specs:
-    pubid (2.0.0.pre.alpha.6)
+    pubid (2.0.0.pre.alpha.5)
       lutaml-model
       parslet
 
@@ -404,7 +404,7 @@ CHECKSUMS
   parslet (2.0.0) sha256=d45130695d39b43d7e6a91f4d2ec66b388a8d822bae38de9b4de9a5fbde1f606
   prism (1.9.0) sha256=7b530c6a9f92c24300014919c9dcbc055bf4cdf51ec30aed099b06cd6674ef85
   psych (5.2.6) sha256=814328aa5dcb6d604d32126a20bc1cbcf05521a5b49dbb1a8b30a07e580f316e
-  pubid (2.0.0.pre.alpha.6)
+  pubid (2.0.0.pre.alpha.5)
   public_suffix (7.0.5) sha256=1a8bb08f1bbea19228d3bed6e5ed908d1cb4f7c2726d18bd9cadf60bc676f623
   racc (1.8.1) sha256=4a7f6929691dbec8b5209a0b373bc2614882b55fc5d2e447a21aaa691303d62f
   rainbow (3.1.1) sha256=039491aa3a89f42efa1d6dec2fc4e62ede96eb6acd95e52f1ad581182b79bc6a

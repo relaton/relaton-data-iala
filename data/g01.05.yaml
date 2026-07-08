@@ -1,0 +1,52 @@
+---
+id: G01.05
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: GA01-Res.05 (EN) Resolution on the Financial Arrangements
+  type: main
+docidentifier:
+- content: IALA G01.05
+  type: IALA
+  primary: true
+docnumber: G01.05
+date:
+- type: published
+  from: '2025-02-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2025-02-19'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA G01.05 (E)
+      type: IALA
+ext:
+  doctype:
+    content: resolution
+  flavor: iala
+  webpage: https://www.iala.int/product/ga01-res-05-en-resolution-on-the-financial-arrangements/

@@ -1,21 +1,924 @@
 ---
 - :id:
     _type: pubid:iala:manual
-    number: '1'
+    number: '0001'
     edition: '9.0'
     language: E
-  :file: data/m1-9.0-e.yaml
+  :file: data/m0001-9.0-e.yaml
 - :id:
     _type: pubid:iala:manual
-    number: '1'
+    number: '0001'
     edition: '9.0'
     language: S
-  :file: data/m1-9.0-s.yaml
+  :file: data/m0001-9.0-s.yaml
 - :id:
     _type: pubid:iala:manual
-    number: '1'
+    number: '0001'
     edition: '9.0'
-  :file: data/m1-9.0.yaml
+  :file: data/m0001-9.0.yaml
+- :id:
+    _type: pubid:iala:manual
+    number: '0002'
+    edition: '8.5'
+    language: E
+  :file: data/m0002-8.5-e.yaml
+- :id:
+    _type: pubid:iala:manual
+    number: '0002'
+    edition: '8.5'
+  :file: data/m0002-8.5.yaml
+- :id:
+    _type: pubid:iala:manual
+    number: '0003'
+    edition: '2.0'
+    language: E
+  :file: data/m0003-2.0-e.yaml
+- :id:
+    _type: pubid:iala:manual
+    number: '0003'
+    edition: '2.0'
+  :file: data/m0003-2.0.yaml
+- :id:
+    _type: pubid:iala:manual
+    number: '0004'
+    edition: '1.0'
+    language: E
+  :file: data/m0004-1.0-e.yaml
+- :id:
+    _type: pubid:iala:manual
+    number: '0004'
+    edition: '1.0'
+  :file: data/m0004-1.0.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0101'
+    edition: '2'
+    language: S
+  :file: data/r0101-2-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0101'
+    edition: '3.0'
+    language: E
+  :file: data/r0101-3.0-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0101'
+    edition: '3.0'
+  :file: data/r0101-3.0.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0103'
+    edition: '3.1'
+    language: E
+  :file: data/r0103-3.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0103'
+    edition: '3.1'
+  :file: data/r0103-3.1.yaml
+- :id:
+    _type: pubid:iala:model-course
+    number: 0103-1
+    edition: '3.0'
+    language: E
+  :file: data/c0103-1-3.0-e.yaml
+- :id:
+    _type: pubid:iala:model-course
+    number: 0103-1
+    edition: '3.0'
+  :file: data/c0103-1-3.0.yaml
+- :id:
+    _type: pubid:iala:model-course
+    number: 0103-2
+    edition: '3.0'
+    language: E
+  :file: data/c0103-2-3.0-e.yaml
+- :id:
+    _type: pubid:iala:model-course
+    number: 0103-2
+    edition: '3.0'
+  :file: data/c0103-2-3.0.yaml
+- :id:
+    _type: pubid:iala:model-course
+    number: 0103-3
+    edition: '3.0'
+    language: E
+  :file: data/c0103-3-3.0-e.yaml
+- :id:
+    _type: pubid:iala:model-course
+    number: 0103-3
+    edition: '3.0'
+  :file: data/c0103-3-3.0.yaml
+- :id:
+    _type: pubid:iala:model-course
+    number: 0103-4
+    edition: '3.0'
+    language: E
+  :file: data/c0103-4-3.0-e.yaml
+- :id:
+    _type: pubid:iala:model-course
+    number: 0103-4
+    edition: '3.0'
+  :file: data/c0103-4-3.0.yaml
+- :id:
+    _type: pubid:iala:model-course
+    number: 0103-5
+    edition: '2.0'
+    language: E
+  :file: data/c0103-5-2.0-e.yaml
+- :id:
+    _type: pubid:iala:model-course
+    number: 0103-5
+    edition: '2.0'
+  :file: data/c0103-5-2.0.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0104'
+    edition: '2.1'
+    language: E
+  :file: data/r0104-2.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0104'
+    edition: '2.1'
+  :file: data/r0104-2.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0106'
+    edition: '2.0'
+    language: S
+  :file: data/r0106-2.0-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0106'
+    edition: '2.1'
+    language: E
+  :file: data/r0106-2.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0106'
+    edition: '2.1'
+    language: F
+  :file: data/r0106-2.1-f.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0106'
+    edition: '2.1'
+  :file: data/r0106-2.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0107'
+    edition: '2'
+    language: S
+  :file: data/r0107-2-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0107'
+    edition: '2.1'
+    language: E
+  :file: data/r0107-2.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0107'
+    edition: '2.1'
+  :file: data/r0107-2.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0108'
+    edition: '4.0'
+    language: S
+  :file: data/r0108-4.0-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0108'
+    edition: '4.1'
+    language: E
+  :file: data/r0108-4.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0108'
+    edition: '4.1'
+    language: F
+  :file: data/r0108-4.1-f.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0108'
+    edition: '4.1'
+  :file: data/r0108-4.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0109'
+    edition: '1.0'
+    language: S
+  :file: data/r0109-1.0-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0109'
+    edition: '1.1'
+    language: E
+  :file: data/r0109-1.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0109'
+    edition: '1.1'
+  :file: data/r0109-1.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0110'
+    edition: '4.0'
+    language: S
+  :file: data/r0110-4.0-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0110'
+    edition: '5.0'
+    language: E
+  :file: data/r0110-5.0-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0110'
+    edition: '5.0'
+  :file: data/r0110-5.0.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0111'
+    edition: '1.3'
+    language: E
+  :file: data/r0111-1.3-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0111'
+    edition: '1.3'
+    language: F
+  :file: data/r0111-1.3-f.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0111'
+    edition: '1.3'
+    language: S
+  :file: data/r0111-1.3-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0111'
+    edition: '1.3'
+  :file: data/r0111-1.3.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0112'
+    edition: '1.2'
+    language: E
+  :file: data/r0112-1.2-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0112'
+    edition: '1.2'
+  :file: data/r0112-1.2.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0112-2
+    edition: '2.02'
+    language: E
+  :file: data/r0112-2-2.02-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0112-2
+    edition: '2.02'
+  :file: data/r0112-2-2.02.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0115'
+    edition: '1.2'
+    language: E
+  :file: data/r0115-1.2-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0115'
+    edition: '1.2'
+  :file: data/r0115-1.2.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0118'
+    edition: '1.2'
+    language: E
+  :file: data/r0118-1.2-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0118'
+    edition: '1.2'
+    language: F
+  :file: data/r0118-1.2-f.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0118'
+    edition: '1.2'
+    language: S
+  :file: data/r0118-1.2-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0118'
+    edition: '1.2'
+  :file: data/r0118-1.2.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0119'
+    edition: '4.2'
+    language: E
+  :file: data/r0119-4.2-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0119'
+    edition: '4.2'
+  :file: data/r0119-4.2.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0121'
+    edition: '2.1'
+    language: E
+  :file: data/r0121-2.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0121'
+    edition: '2.1'
+  :file: data/r0121-2.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0123'
+    edition: '2.0'
+    language: S
+  :file: data/r0123-2.0-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0123'
+    edition: '2.1'
+    language: E
+  :file: data/r0123-2.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0123'
+    edition: '2.1'
+  :file: data/r0123-2.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0124'
+    edition: '2.2'
+    language: E
+  :file: data/r0124-2.2-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0124'
+    edition: '2.2'
+    language: S
+  :file: data/r0124-2.2-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0124'
+    edition: '2.2'
+  :file: data/r0124-2.2.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-0
+    edition: '1'
+    language: E
+  :file: data/r0124-0-1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-0
+    edition: '1'
+  :file: data/r0124-0-1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-1
+    edition: '1'
+    language: E
+  :file: data/r0124-1-1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-1
+    edition: '1'
+  :file: data/r0124-1-1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-12
+    edition: '1'
+    language: E
+  :file: data/r0124-12-1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-12
+    edition: '1'
+  :file: data/r0124-12-1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-14
+    edition: '2'
+    language: E
+  :file: data/r0124-14-2-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-14
+    edition: '2'
+  :file: data/r0124-14-2.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-16
+    edition: '1'
+    language: E
+  :file: data/r0124-16-1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-16
+    edition: '1'
+  :file: data/r0124-16-1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-17
+    edition: '1'
+    language: E
+  :file: data/r0124-17-1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-17
+    edition: '1'
+  :file: data/r0124-17-1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-18
+    edition: '1'
+    language: E
+  :file: data/r0124-18-1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-18
+    edition: '1'
+  :file: data/r0124-18-1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-19
+    edition: '1'
+    language: E
+  :file: data/r0124-19-1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-19
+    edition: '1'
+  :file: data/r0124-19-1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-3
+    edition: '1'
+    language: E
+  :file: data/r0124-3-1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-3
+    edition: '1'
+  :file: data/r0124-3-1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-4
+    edition: '1'
+    language: E
+  :file: data/r0124-4-1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-4
+    edition: '1'
+  :file: data/r0124-4-1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-5
+    edition: '1'
+    language: E
+  :file: data/r0124-5-1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0124-5
+    edition: '1'
+  :file: data/r0124-5-1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0124-9-11'
+    edition: '1'
+    language: E
+  :file: data/r0124-9-11-1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0124-9-11'
+    edition: '1'
+  :file: data/r0124-9-11-1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0125'
+    edition: '4.0'
+    language: E
+  :file: data/r0125-4.0-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0125'
+    edition: '4.0'
+  :file: data/r0125-4.0.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0126'
+    edition: '2.0'
+    language: E
+  :file: data/r0126-2.0-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0126'
+    edition: '2.0'
+  :file: data/r0126-2.0.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0127'
+    edition: '3.2'
+    language: E
+  :file: data/r0127-3.2-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0127'
+    edition: '3.2'
+  :file: data/r0127-3.2.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0128'
+    edition: '5.0'
+    language: E
+  :file: data/r0128-5.0-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0128'
+    edition: '5.0'
+  :file: data/r0128-5.0.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0129'
+    edition: '3.1'
+    language: E
+  :file: data/r0129-3.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0129'
+    edition: '3.1'
+    language: S
+  :file: data/r0129-3.1-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0129'
+    edition: '3.1'
+  :file: data/r0129-3.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0130'
+    edition: '3.1'
+    language: E
+  :file: data/r0130-3.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0130'
+    edition: '3.1'
+    language: F
+  :file: data/r0130-3.1-f.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0130'
+    edition: '3.1'
+    language: S
+  :file: data/r0130-3.1-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0130'
+    edition: '3.1'
+  :file: data/r0130-3.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0132'
+    edition: '3.0'
+    language: E
+  :file: data/r0132-3.0-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0132'
+    edition: '3.0'
+  :file: data/r0132-3.0.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0135'
+    edition: '2.1'
+    language: E
+  :file: data/r0135-2.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0135'
+    edition: '2.1'
+  :file: data/r0135-2.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0138'
+    edition: '1.1'
+    language: E
+  :file: data/r0138-1.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0138'
+    edition: '1.1'
+  :file: data/r0138-1.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0139'
+    edition: '3.0'
+    language: E
+  :file: data/r0139-3.0-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0139'
+    edition: '3.0'
+    language: S
+  :file: data/r0139-3.0-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0139'
+    edition: '3.0'
+  :file: data/r0139-3.0.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0140'
+    edition: '2.1'
+    language: E
+  :file: data/r0140-2.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0140'
+    edition: '2.1'
+  :file: data/r0140-2.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0141'
+    edition: '5.0'
+    language: E
+  :file: data/r0141-5.0-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0141'
+    edition: '5.0'
+  :file: data/r0141-5.0.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0142'
+    edition: '1.1'
+    language: E
+  :file: data/r0142-1.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0142'
+    edition: '1.1'
+  :file: data/r0142-1.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0143'
+    edition: '2.0'
+    language: E
+  :file: data/r0143-2.0-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0143'
+    edition: '2.0'
+  :file: data/r0143-2.0.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0144'
+    edition: '2.0'
+    language: E
+  :file: data/r0144-2.0-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0144'
+    edition: '2.0'
+  :file: data/r0144-2.0.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0145'
+    edition: '1.1'
+    language: E
+  :file: data/r0145-1.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0145'
+    edition: '1.1'
+  :file: data/r0145-1.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0146'
+    edition: '2.0'
+    language: E
+  :file: data/r0146-2.0-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0146'
+    edition: '2.0'
+  :file: data/r0146-2.0.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0147'
+    edition: '2.1'
+    language: E
+  :file: data/r0147-2.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0147'
+    edition: '2.1'
+  :file: data/r0147-2.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0148'
+    edition: '1.1'
+    language: E
+  :file: data/r0148-1.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0148'
+    edition: '1.1'
+  :file: data/r0148-1.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0149'
+    edition: '1.1'
+    language: E
+  :file: data/r0149-1.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0149'
+    edition: '1.1'
+  :file: data/r0149-1.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0150'
+    edition: '1.1'
+    language: E
+  :file: data/r0150-1.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0150'
+    edition: '1.1'
+  :file: data/r0150-1.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0200-0
+    edition: '1'
+    language: S
+  :file: data/r0200-0-1-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0200-0
+  :file: data/r0200-0.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0200-1
+    edition: '1'
+    language: S
+  :file: data/r0200-1-1-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0200-1
+  :file: data/r0200-1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0200-2
+    edition: '1'
+    language: S
+  :file: data/r0200-2-1-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0200-2
+  :file: data/r0200-2.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0200-3
+    edition: '1'
+    language: S
+  :file: data/r0200-3-1-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0200-3
+  :file: data/r0200-3.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0200-4
+    edition: '1'
+    language: S
+  :file: data/r0200-4-1-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0200-4
+  :file: data/r0200-4.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0200-5
+    edition: '1'
+    language: S
+  :file: data/r0200-5-1-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: 0200-5
+  :file: data/r0200-5.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0201'
+    edition: '3.0'
+    language: S
+  :file: data/r0201-3.0-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0201'
+    edition: '3.1'
+    language: E
+  :file: data/r0201-3.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0201'
+    edition: '3.1'
+    language: F
+  :file: data/r0201-3.1-f.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0201'
+    edition: '3.1'
+  :file: data/r0201-3.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0202'
+    edition: '2.0'
+    language: S
+  :file: data/r0202-2.0-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0202'
+    edition: '2.1'
+    language: E
+  :file: data/r0202-2.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0202'
+    edition: '2.1'
+    language: F
+  :file: data/r0202-2.1-f.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0202'
+    edition: '2.1'
+  :file: data/r0202-2.1.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0203'
+    edition: '1.1'
+    language: S
+  :file: data/r0203-1.1-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0203'
+    edition: '2.0'
+    language: E
+  :file: data/r0203-2.0-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0203'
+    edition: '2.0'
+  :file: data/r0203-2.0.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0204'
+    edition: '2.0'
+    language: S
+  :file: data/r0204-2.0-s.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0204'
+    edition: '3.0'
+    language: E
+  :file: data/r0204-3.0-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0204'
+    edition: '3.0'
+    language: F
+  :file: data/r0204-3.0-f.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0204'
+    edition: '3.0'
+  :file: data/r0204-3.0.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0205'
+    edition: '1.1'
+    language: E
+  :file: data/r0205-1.1-e.yaml
+- :id:
+    _type: pubid:iala:recommendation
+    number: '0205'
+    edition: '1.1'
+  :file: data/r0205-1.1.yaml
 - :id:
     _type: pubid:iala:model-course
     number: '1001'
@@ -193,23 +1096,6 @@
     number: '1009'
     edition: '1.1'
   :file: data/r1009-1.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '101'
-    edition: '2'
-    language: S
-  :file: data/r101-2-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '101'
-    edition: '3.0'
-    language: E
-  :file: data/r101-3.0-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '101'
-    edition: '3.0'
-  :file: data/r101-3.0.yaml
 - :id:
     _type: pubid:iala:guideline
     number: '1010'
@@ -549,72 +1435,6 @@
     edition: '1.0'
   :file: data/r1027-1.0.yaml
 - :id:
-    _type: pubid:iala:recommendation
-    number: '103'
-    edition: '3.1'
-    language: E
-  :file: data/r103-3.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '103'
-    edition: '3.1'
-  :file: data/r103-3.1.yaml
-- :id:
-    _type: pubid:iala:model-course
-    number: 103-1
-    edition: '3.0'
-    language: E
-  :file: data/c103-1-3.0-e.yaml
-- :id:
-    _type: pubid:iala:model-course
-    number: 103-1
-    edition: '3.0'
-  :file: data/c103-1-3.0.yaml
-- :id:
-    _type: pubid:iala:model-course
-    number: 103-2
-    edition: '3.0'
-    language: E
-  :file: data/c103-2-3.0-e.yaml
-- :id:
-    _type: pubid:iala:model-course
-    number: 103-2
-    edition: '3.0'
-  :file: data/c103-2-3.0.yaml
-- :id:
-    _type: pubid:iala:model-course
-    number: 103-3
-    edition: '3.0'
-    language: E
-  :file: data/c103-3-3.0-e.yaml
-- :id:
-    _type: pubid:iala:model-course
-    number: 103-3
-    edition: '3.0'
-  :file: data/c103-3-3.0.yaml
-- :id:
-    _type: pubid:iala:model-course
-    number: 103-4
-    edition: '3.0'
-    language: E
-  :file: data/c103-4-3.0-e.yaml
-- :id:
-    _type: pubid:iala:model-course
-    number: 103-4
-    edition: '3.0'
-  :file: data/c103-4-3.0.yaml
-- :id:
-    _type: pubid:iala:model-course
-    number: 103-5
-    edition: '2.0'
-    language: E
-  :file: data/c103-5-2.0-e.yaml
-- :id:
-    _type: pubid:iala:model-course
-    number: 103-5
-    edition: '2.0'
-  :file: data/c103-5-2.0.yaml
-- :id:
     _type: pubid:iala:standard
     number: '1030'
     edition: '2.0'
@@ -713,17 +1533,6 @@
     number: 1039-2
     edition: '2.1'
   :file: data/g1039-2-2.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '104'
-    edition: '2.1'
-    language: E
-  :file: data/r104-2.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '104'
-    edition: '2.1'
-  :file: data/r104-2.1.yaml
 - :id:
     _type: pubid:iala:standard
     number: '1040'
@@ -907,29 +1716,6 @@
     edition: '3.0'
   :file: data/g1058-3.0.yaml
 - :id:
-    _type: pubid:iala:recommendation
-    number: '106'
-    edition: '2.0'
-    language: S
-  :file: data/r106-2.0-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '106'
-    edition: '2.1'
-    language: E
-  :file: data/r106-2.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '106'
-    edition: '2.1'
-    language: F
-  :file: data/r106-2.1-f.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '106'
-    edition: '2.1'
-  :file: data/r106-2.1.yaml
-- :id:
     _type: pubid:iala:guideline
     number: '1060'
     edition: '2.1'
@@ -1062,23 +1848,6 @@
     edition: '3.1'
   :file: data/g1067-3-3.1.yaml
 - :id:
-    _type: pubid:iala:recommendation
-    number: '107'
-    edition: '2'
-    language: S
-  :file: data/r107-2-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '107'
-    edition: '2.1'
-    language: E
-  :file: data/r107-2.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '107'
-    edition: '2.1'
-  :file: data/r107-2.1.yaml
-- :id:
     _type: pubid:iala:guideline
     number: '1070'
     edition: '1.1'
@@ -1166,29 +1935,6 @@
     number: '1079'
     edition: '1.1'
   :file: data/g1079-1.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '108'
-    edition: '4.0'
-    language: S
-  :file: data/r108-4.0-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '108'
-    edition: '4.1'
-    language: E
-  :file: data/r108-4.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '108'
-    edition: '4.1'
-    language: F
-  :file: data/r108-4.1-f.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '108'
-    edition: '4.1'
-  :file: data/r108-4.1.yaml
 - :id:
     _type: pubid:iala:guideline
     number: '1080'
@@ -1299,23 +2045,6 @@
     edition: '3.0'
   :file: data/g1089-3.0.yaml
 - :id:
-    _type: pubid:iala:recommendation
-    number: '109'
-    edition: '1.0'
-    language: S
-  :file: data/r109-1.0-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '109'
-    edition: '1.1'
-    language: E
-  :file: data/r109-1.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '109'
-    edition: '1.1'
-  :file: data/r109-1.1.yaml
-- :id:
     _type: pubid:iala:guideline
     number: '1090'
     edition: '1.1'
@@ -1414,23 +2143,6 @@
     number: '1099'
     edition: '1.1'
   :file: data/g1099-1.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '110'
-    edition: '4.0'
-    language: S
-  :file: data/r110-4.0-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '110'
-    edition: '5.0'
-    language: E
-  :file: data/r110-5.0-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '110'
-    edition: '5.0'
-  :file: data/r110-5.0.yaml
 - :id:
     _type: pubid:iala:guideline
     number: '1100'
@@ -1563,29 +2275,6 @@
     number: '1109'
     edition: '1.1'
   :file: data/g1109-1.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '111'
-    edition: '1.3'
-    language: E
-  :file: data/r111-1.3-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '111'
-    edition: '1.3'
-    language: F
-  :file: data/r111-1.3-f.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '111'
-    edition: '1.3'
-    language: S
-  :file: data/r111-1.3-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '111'
-    edition: '1.3'
-  :file: data/r111-1.3.yaml
 - :id:
     _type: pubid:iala:guideline
     number: '1110'
@@ -1795,28 +2484,6 @@
     number: '1119'
     edition: '1.1'
   :file: data/g1119-1.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '112'
-    edition: '1.2'
-    language: E
-  :file: data/r112-1.2-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '112'
-    edition: '1.2'
-  :file: data/r112-1.2.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 112-2
-    edition: '2.2'
-    language: E
-  :file: data/r112-2-2.2-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 112-2
-    edition: '2.2'
-  :file: data/r112-2-2.2.yaml
 - :id:
     _type: pubid:iala:guideline
     number: '1120'
@@ -2093,17 +2760,6 @@
     edition: '1.1'
   :file: data/g1149-1.1.yaml
 - :id:
-    _type: pubid:iala:recommendation
-    number: '115'
-    edition: '1.2'
-    language: E
-  :file: data/r115-1.2-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '115'
-    edition: '1.2'
-  :file: data/r115-1.2.yaml
-- :id:
     _type: pubid:iala:guideline
     number: '1151'
     edition: '1.1'
@@ -2324,29 +2980,6 @@
     edition: '1.0'
   :file: data/g1179-1.0.yaml
 - :id:
-    _type: pubid:iala:recommendation
-    number: '118'
-    edition: '1.2'
-    language: E
-  :file: data/r118-1.2-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '118'
-    edition: '1.2'
-    language: F
-  :file: data/r118-1.2-f.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '118'
-    edition: '1.2'
-    language: S
-  :file: data/r118-1.2-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '118'
-    edition: '1.2'
-  :file: data/r118-1.2.yaml
-- :id:
     _type: pubid:iala:guideline
     number: '1180'
     edition: '1.0'
@@ -2456,17 +3089,6 @@
     number: '1189'
     edition: '1.0'
   :file: data/g1189-1.0.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '119'
-    edition: '4.2'
-    language: E
-  :file: data/r119-4.2-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '119'
-    edition: '4.2'
-  :file: data/r119-4.2.yaml
 - :id:
     _type: pubid:iala:guideline
     number: '1190'
@@ -2599,509 +3221,6 @@
     number: '1201'
     edition: '1.0'
   :file: data/g1201-1.0.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '121'
-    edition: '2.1'
-    language: E
-  :file: data/r121-2.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '121'
-    edition: '2.1'
-  :file: data/r121-2.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '123'
-    edition: '2.0'
-    language: S
-  :file: data/r123-2.0-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '123'
-    edition: '2.1'
-    language: E
-  :file: data/r123-2.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '123'
-    edition: '2.1'
-  :file: data/r123-2.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '124'
-    edition: '2.2'
-    language: E
-  :file: data/r124-2.2-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '124'
-    edition: '2.2'
-    language: S
-  :file: data/r124-2.2-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '124'
-    edition: '2.2'
-  :file: data/r124-2.2.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-0
-    edition: '1'
-    language: E
-  :file: data/r124-0-1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-0
-    edition: '1'
-  :file: data/r124-0-1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-1
-    edition: '1'
-    language: E
-  :file: data/r124-1-1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-1
-    edition: '1'
-  :file: data/r124-1-1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-12
-    edition: '1'
-    language: E
-  :file: data/r124-12-1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-12
-    edition: '1'
-  :file: data/r124-12-1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-14
-    edition: '2'
-    language: E
-  :file: data/r124-14-2-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-14
-    edition: '2'
-  :file: data/r124-14-2.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-16
-    edition: '1'
-    language: E
-  :file: data/r124-16-1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-16
-    edition: '1'
-  :file: data/r124-16-1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-17
-    edition: '1'
-    language: E
-  :file: data/r124-17-1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-17
-    edition: '1'
-  :file: data/r124-17-1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-18
-    edition: '1'
-    language: E
-  :file: data/r124-18-1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-18
-    edition: '1'
-  :file: data/r124-18-1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-19
-    edition: '1'
-    language: E
-  :file: data/r124-19-1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-19
-    edition: '1'
-  :file: data/r124-19-1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-3
-    edition: '1'
-    language: E
-  :file: data/r124-3-1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-3
-    edition: '1'
-  :file: data/r124-3-1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-4
-    edition: '1'
-    language: E
-  :file: data/r124-4-1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-4
-    edition: '1'
-  :file: data/r124-4-1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-5
-    edition: '1'
-    language: E
-  :file: data/r124-5-1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-5
-    edition: '1'
-  :file: data/r124-5-1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-9-11
-    edition: '1'
-    language: E
-  :file: data/r124-9-11-1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 124-9-11
-    edition: '1'
-  :file: data/r124-9-11-1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '125'
-    edition: '4.0'
-    language: E
-  :file: data/r125-4.0-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '125'
-    edition: '4.0'
-  :file: data/r125-4.0.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '126'
-    edition: '2.0'
-    language: E
-  :file: data/r126-2.0-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '126'
-    edition: '2.0'
-  :file: data/r126-2.0.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '127'
-    edition: '3.2'
-    language: E
-  :file: data/r127-3.2-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '127'
-    edition: '3.2'
-  :file: data/r127-3.2.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '128'
-    edition: '5.0'
-    language: E
-  :file: data/r128-5.0-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '128'
-    edition: '5.0'
-  :file: data/r128-5.0.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '129'
-    edition: '3.1'
-    language: E
-  :file: data/r129-3.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '129'
-    edition: '3.1'
-    language: S
-  :file: data/r129-3.1-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '129'
-    edition: '3.1'
-  :file: data/r129-3.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '130'
-    edition: '3.1'
-    language: E
-  :file: data/r130-3.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '130'
-    edition: '3.1'
-    language: F
-  :file: data/r130-3.1-f.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '130'
-    edition: '3.1'
-    language: S
-  :file: data/r130-3.1-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '130'
-    edition: '3.1'
-  :file: data/r130-3.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '132'
-    edition: '3.0'
-    language: E
-  :file: data/r132-3.0-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '132'
-    edition: '3.0'
-  :file: data/r132-3.0.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '135'
-    edition: '2.1'
-    language: E
-  :file: data/r135-2.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '135'
-    edition: '2.1'
-  :file: data/r135-2.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '138'
-    edition: '1.1'
-    language: E
-  :file: data/r138-1.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '138'
-    edition: '1.1'
-  :file: data/r138-1.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '139'
-    edition: '3.0'
-    language: E
-  :file: data/r139-3.0-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '139'
-    edition: '3.0'
-    language: S
-  :file: data/r139-3.0-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '139'
-    edition: '3.0'
-  :file: data/r139-3.0.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '140'
-    edition: '2.1'
-    language: E
-  :file: data/r140-2.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '140'
-    edition: '2.1'
-  :file: data/r140-2.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '141'
-    edition: '5.0'
-    language: E
-  :file: data/r141-5.0-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '141'
-    edition: '5.0'
-  :file: data/r141-5.0.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '142'
-    edition: '1.1'
-    language: E
-  :file: data/r142-1.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '142'
-    edition: '1.1'
-  :file: data/r142-1.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '143'
-    edition: '2.0'
-    language: E
-  :file: data/r143-2.0-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '143'
-    edition: '2.0'
-  :file: data/r143-2.0.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '144'
-    edition: '2.0'
-    language: E
-  :file: data/r144-2.0-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '144'
-    edition: '2.0'
-  :file: data/r144-2.0.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '145'
-    edition: '1.1'
-    language: E
-  :file: data/r145-1.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '145'
-    edition: '1.1'
-  :file: data/r145-1.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '146'
-    edition: '2.0'
-    language: E
-  :file: data/r146-2.0-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '146'
-    edition: '2.0'
-  :file: data/r146-2.0.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '147'
-    edition: '2.1'
-    language: E
-  :file: data/r147-2.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '147'
-    edition: '2.1'
-  :file: data/r147-2.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '148'
-    edition: '1.1'
-    language: E
-  :file: data/r148-1.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '148'
-    edition: '1.1'
-  :file: data/r148-1.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '149'
-    edition: '1.1'
-    language: E
-  :file: data/r149-1.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '149'
-    edition: '1.1'
-  :file: data/r149-1.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '150'
-    edition: '1.1'
-    language: E
-  :file: data/r150-1.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '150'
-    edition: '1.1'
-  :file: data/r150-1.1.yaml
-- :id:
-    _type: pubid:iala:manual
-    number: '2'
-    edition: '8.5'
-    language: E
-  :file: data/m2-8.5-e.yaml
-- :id:
-    _type: pubid:iala:manual
-    number: '2'
-    edition: '8.5'
-  :file: data/m2-8.5.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 200-0
-    edition: '1'
-    language: S
-  :file: data/r200-0-1-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 200-0
-  :file: data/r200-0.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 200-1
-    edition: '1'
-    language: S
-  :file: data/r200-1-1-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 200-1
-  :file: data/r200-1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 200-2
-    edition: '1'
-    language: S
-  :file: data/r200-2-1-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 200-2
-  :file: data/r200-2.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 200-3
-    edition: '1'
-    language: S
-  :file: data/r200-3-1-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 200-3
-  :file: data/r200-3.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 200-4
-    edition: '1'
-    language: S
-  :file: data/r200-4-1-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 200-4
-  :file: data/r200-4.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 200-5
-    edition: '1'
-    language: S
-  :file: data/r200-5-1-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: 200-5
-  :file: data/r200-5.yaml
 - :id:
     _type: pubid:iala:model-course
     number: '2000'
@@ -3411,29 +3530,6 @@
     edition: '2.0'
   :file: data/c2009-1-2.0.yaml
 - :id:
-    _type: pubid:iala:recommendation
-    number: '201'
-    edition: '3.0'
-    language: S
-  :file: data/r201-3.0-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '201'
-    edition: '3.1'
-    language: E
-  :file: data/r201-3.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '201'
-    edition: '3.1'
-    language: F
-  :file: data/r201-3.1-f.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '201'
-    edition: '3.1'
-  :file: data/r201-3.1.yaml
-- :id:
     _type: pubid:iala:model-course
     number: 2010-1
     edition: '2.0'
@@ -3477,99 +3573,3 @@
     number: 2011-3
     edition: '2.0'
   :file: data/c2011-3-2.0.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '202'
-    edition: '2.0'
-    language: S
-  :file: data/r202-2.0-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '202'
-    edition: '2.1'
-    language: E
-  :file: data/r202-2.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '202'
-    edition: '2.1'
-    language: F
-  :file: data/r202-2.1-f.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '202'
-    edition: '2.1'
-  :file: data/r202-2.1.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '203'
-    edition: '1.1'
-    language: S
-  :file: data/r203-1.1-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '203'
-    edition: '2.0'
-    language: E
-  :file: data/r203-2.0-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '203'
-    edition: '2.0'
-  :file: data/r203-2.0.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '204'
-    edition: '2.0'
-    language: S
-  :file: data/r204-2.0-s.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '204'
-    edition: '3.0'
-    language: E
-  :file: data/r204-3.0-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '204'
-    edition: '3.0'
-    language: F
-  :file: data/r204-3.0-f.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '204'
-    edition: '3.0'
-  :file: data/r204-3.0.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '205'
-    edition: '1.1'
-    language: E
-  :file: data/r205-1.1-e.yaml
-- :id:
-    _type: pubid:iala:recommendation
-    number: '205'
-    edition: '1.1'
-  :file: data/r205-1.1.yaml
-- :id:
-    _type: pubid:iala:manual
-    number: '3'
-    edition: '2.0'
-    language: E
-  :file: data/m3-2.0-e.yaml
-- :id:
-    _type: pubid:iala:manual
-    number: '3'
-    edition: '2.0'
-  :file: data/m3-2.0.yaml
-- :id:
-    _type: pubid:iala:manual
-    number: '4'
-    edition: '1.0'
-    language: E
-  :file: data/m4-1.0-e.yaml
-- :id:
-    _type: pubid:iala:manual
-    number: '4'
-    edition: '1.0'
-  :file: data/m4-1.0.yaml
