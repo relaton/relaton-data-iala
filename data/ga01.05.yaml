@@ -1,19 +1,19 @@
 ---
-id: G01.012
+id: GA01.05
 schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: GA01-Res.12 Resolution on the Declaration on IALA
+  content: GA01-Res.05 (EN) Resolution on the Financial Arrangements
   type: main
 docidentifier:
-- content: IALA G01.012
+- content: IALA GA01.05
   type: IALA
   primary: true
-docnumber: G01.012
+docnumber: G01.05
 date:
 - type: published
-  from: '2025-02-18'
+  from: '2025-02-19'
 contributor:
 - role:
   - type: publisher
@@ -23,7 +23,7 @@ contributor:
     abbreviation:
       content: IALA
 version:
-- content: '2025-02-18'
+- content: '2025-02-19'
 language:
 - eng
 script:
@@ -43,10 +43,10 @@ relation:
 - type: hasInstance
   bibitem:
     docidentifier:
-    - content: IALA G01.012 (E)
+    - content: IALA GA01.05 (E)
       type: IALA
 ext:
   doctype:
     content: resolution
   flavor: iala
-  webpage: https://www.iala.int/product/ga01-res-12-resolution-on-the-declaration-on-iala/
+  webpage: https://www.iala.int/product/ga01-res-05-en-resolution-on-the-financial-arrangements/

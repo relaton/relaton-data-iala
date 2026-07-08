@@ -233,14 +233,6 @@
   :file: data/floataid-workshop-e.yaml
 - :id: IALA floataid-workshop
   :file: data/floataid-workshop.yaml
-- :id: IALA G01.012 (E)
-  :file: data/g01.012-e.yaml
-- :id: IALA G01.012
-  :file: data/g01.012.yaml
-- :id: IALA G01.05 (E)
-  :file: data/g01.05-e.yaml
-- :id: IALA G01.05
-  :file: data/g01.05.yaml
 - :id: IALA G1004 Ed 3 (E)
   :file: data/g1004-3-e.yaml
 - :id: IALA G1004 Ed 3
@@ -949,6 +941,10 @@
   :file: data/ga01.01-e.yaml
 - :id: IALA GA01.01
   :file: data/ga01.01.yaml
+- :id: IALA GA01.012 (E)
+  :file: data/ga01.012-e.yaml
+- :id: IALA GA01.012
+  :file: data/ga01.012.yaml
 - :id: IALA GA01.02 (E)
   :file: data/ga01.02-e.yaml
 - :id: IALA GA01.02
@@ -961,6 +957,10 @@
   :file: data/ga01.04-e.yaml
 - :id: IALA GA01.04
   :file: data/ga01.04.yaml
+- :id: IALA GA01.05 (E)
+  :file: data/ga01.05-e.yaml
+- :id: IALA GA01.05
+  :file: data/ga01.05.yaml
 - :id: IALA GA01.06 (E)
   :file: data/ga01.06-e.yaml
 - :id: IALA GA01.06

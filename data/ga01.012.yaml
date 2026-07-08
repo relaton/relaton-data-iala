@@ -1,16 +1,13 @@
 ---
-id: G01.012-E
+id: GA01.012
 schema_version: v1.5.6
 type: standard
 title:
 - language: eng
   content: GA01-Res.12 Resolution on the Declaration on IALA
   type: main
-source:
-- type: website
-  content: https://www.iala.int/product/ga01-res-12-resolution-on-the-declaration-on-iala/?download=true
 docidentifier:
-- content: IALA G01.012 (E)
+- content: IALA GA01.012
   type: IALA
   primary: true
 docnumber: G01.012
@@ -43,10 +40,10 @@ copyright:
       abbreviation:
         content: IALA
 relation:
-- type: instanceOf
+- type: hasInstance
   bibitem:
     docidentifier:
-    - content: IALA G01.012
+    - content: IALA GA01.012 (E)
       type: IALA
 ext:
   doctype:

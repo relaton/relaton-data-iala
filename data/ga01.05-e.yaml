@@ -1,13 +1,16 @@
 ---
-id: G01.05
+id: GA01.05-E
 schema_version: v1.5.6
 type: standard
 title:
 - language: eng
   content: GA01-Res.05 (EN) Resolution on the Financial Arrangements
   type: main
+source:
+- type: website
+  content: https://www.iala.int/product/ga01-res-05-en-resolution-on-the-financial-arrangements/?download=true
 docidentifier:
-- content: IALA G01.05
+- content: IALA GA01.05 (E)
   type: IALA
   primary: true
 docnumber: G01.05
@@ -40,10 +43,10 @@ copyright:
       abbreviation:
         content: IALA
 relation:
-- type: hasInstance
+- type: instanceOf
   bibitem:
     docidentifier:
-    - content: IALA G01.05 (E)
+    - content: IALA GA01.05
       type: IALA
 ext:
   doctype:

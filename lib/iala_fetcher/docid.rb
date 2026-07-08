@@ -219,8 +219,20 @@ module IalaFetcher
           parse_typed(str)
         rescue ArgumentError
           stripped = strip_resolution_language_suffix(str.to_s.strip)
+          stripped = fix_g01_typo(stripped)
           new(code: stripped, typed: false, doctype: doctype)
         end
+      end
+
+      # Fix the G01 → GA01 typo on General Assembly resolutions. The IALA
+      # listing site publishes two resolutions with a missing "A" — G01.012
+      # and G01.05. Real Guidelines are G1xxx; G0xxx never appears outside
+      # resolutions, so a G0 prefix unambiguously indicates the typo.
+      def fix_g01_typo(code)
+        s = code.to_s
+        return s unless s.start_with?("G0")
+
+        "GA" + s[1..]
       end
 
       def parse_typed(str)
