@@ -219,8 +219,17 @@ module IalaFetcher
           parse_typed(str)
         rescue ArgumentError
           stripped = strip_resolution_language_suffix(str.to_s.strip)
+          stripped = normalise_code(stripped)
           new(code: stripped, typed: false, doctype: doctype)
         end
+      end
+
+      # Strip leading zeros from every numeric run and fix the G01 → GA01
+      # typo on General Assembly resolutions. Idempotent.
+      def normalise_code(code)
+        s = code.to_s.dup
+        s = "GA" + s[1..] if s.start_with?("G0")
+        s.gsub(/(\d+)/) { |m| m.to_i.to_s }
       end
 
       def parse_typed(str)
@@ -250,7 +259,7 @@ module IalaFetcher
         end
 
         type_letter = m[1].upcase
-        number = m[2]
+        number = m[2].sub(/\A0+(\d)/, '\1')  # strip leading zeros
         subpart = m[3]
         code = subpart ? "#{type_letter}#{number}-#{subpart}" : "#{type_letter}#{number}"
 

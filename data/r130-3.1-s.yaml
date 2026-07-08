@@ -1,0 +1,57 @@
+---
+id: R130-3.1-S
+schema_version: v1.5.6
+type: standard
+title:
+- language: spa
+  content: R0130 (O-130) Categorización y Objetivos de Disponibilidad para las AtoN
+    de Corto Alcance
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r0130-ed-3-1-o-130-categorizacion-y-objetivos-de-disponibilidad-para-las-aton-de-corto-alcance/?download=true
+docidentifier:
+- content: IALA R130 Ed 3.1 (S)
+  type: IALA
+  primary: true
+docnumber: '130'
+date:
+- type: published
+  from: '2004-12-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2004-12-01'
+language:
+- spa
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R130 Ed 3.1
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r130:ed3.1:es
+  webpage: https://www.iala.int/product/r0130-ed-3-1-o-130-categorizacion-y-objetivos-de-disponibilidad-para-las-aton-de-corto-alcance/

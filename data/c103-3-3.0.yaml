@@ -1,0 +1,66 @@
+---
+id: C103-3-3.0
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: VTS ON-THE-JOB TRAINING
+  type: main
+docidentifier:
+- content: IALA C103-3 Ed 3.0
+  type: IALA
+  primary: true
+docnumber: 103-3
+date:
+- type: published
+  from: '1999-05-28'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Vessel Traffic Services Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '1999-05-28'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA C103-3 Ed 3.0 (E)
+      type: IALA
+ext:
+  doctype:
+    content: model-course
+  flavor: iala
+  urn: urn:mrn:iala:pub:c103-3
+  webpage: https://www.iala.int/product/c0103-3/
+  committee: VTS

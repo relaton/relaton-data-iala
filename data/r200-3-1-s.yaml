@@ -1,0 +1,69 @@
+---
+id: R200-3-1-S
+schema_version: v1.5.6
+type: standard
+title:
+- language: spa
+  content: Señales Luminosas Marítimas – La Medición 200
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r0200-3_es/?download=true
+docidentifier:
+- content: IALA R200-3 Ed 1 (S)
+  type: IALA
+  primary: true
+docnumber: 200-3
+date:
+- type: published
+  from: '2008-12-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2008-12-04'
+language:
+- spa
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R200-3
+      type: IALA
+ext:
+  doctype:
+    content: standard
+  flavor: iala
+  urn: urn:mrn:iala:pub:r200-3:ed1:s
+  webpage: https://www.iala.int/product/r0200-3_es/
+  committee: ENG

@@ -1,0 +1,43 @@
+---
+id: R201-3.1-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: R0201 Feux de signalisation maritime – Couleurs
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r0201-feux-de-signalisation-maritime-couleurs/?download=true
+docidentifier:
+- content: IALA R201 Ed 3.1 (F)
+  type: IALA
+  primary: true
+docnumber: '201'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R201 Ed 3.1
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r201
+  webpage: https://www.iala.int/product/r0201-feux-de-signalisation-maritime-couleurs/

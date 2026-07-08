@@ -1,0 +1,55 @@
+---
+id: GA1.7-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: GA01-Res.07 (EN) Resolution on the transfer of documents
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/ga01-res-07-en-resolution-on-the-transfer-of-documents/?download=true
+docidentifier:
+- content: IALA GA1.7 (E)
+  type: IALA
+  primary: true
+docnumber: GA1.7
+date:
+- type: published
+  from: '2025-02-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2025-02-19'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA GA1.7
+      type: IALA
+ext:
+  doctype:
+    content: resolution
+  flavor: iala
+  webpage: https://www.iala.int/product/ga01-res-07-en-resolution-on-the-transfer-of-documents/

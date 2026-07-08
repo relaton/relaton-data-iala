@@ -1,0 +1,87 @@
+---
+id: R202-2.1
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: R0202 Marine Signal Lights-Calculation, Definition and Notation of Luminous
+    Range (E200-2)
+  type: main
+- language: fra
+  content: R0202 Feux de signalisation maritime – Calcul, définition et notation de
+    la portée lumineuse
+  type: main
+- language: spa
+  content: R0202(E200‐2)  SEÑALES MARÍTIMAS LUMINOSAS ‐ CÁLCULO,  DEFINICIÓN Y NOTACIÓN
+    DEL ALCANCE  LUMINOSO
+  type: main
+docidentifier:
+- content: IALA R202 Ed 2.1
+  type: IALA
+  primary: true
+docnumber: '202'
+date:
+- type: published
+  from: '2008-12-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Engineering and Sustainability Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2008-12-04'
+language:
+- eng
+- fra
+- spa
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA R202 Ed 2.1 (E)
+      type: IALA
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA R202 Ed 2.1 (F)
+      type: IALA
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA R202 Ed 2.1 (S)
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r202:ed2.1
+  webpage: https://www.iala.int/product/r0202/
+  committee: ENG

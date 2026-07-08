@@ -1,0 +1,84 @@
+---
+id: R118-1.2
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: R0118 The Recording of Aids to Navigation Positions
+  type: main
+- language: fra
+  content: R0118 L’enregistrement des positions des aides à la navigation
+  type: main
+- language: spa
+  content: R0118 (O-118) Registro de las Posiciones en AtoN
+  type: main
+docidentifier:
+- content: IALA R118 Ed 1.2
+  type: IALA
+  primary: true
+docnumber: '118'
+date:
+- type: published
+  from: '2000-06-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: AtoN Requirements and Management Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2000-06-21'
+language:
+- eng
+- fra
+- spa
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA R118 Ed 1.2 (E)
+      type: IALA
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA R118 Ed 1.2 (F)
+      type: IALA
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA R118 Ed 1.2 (S)
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r118:ed1.2
+  webpage: https://www.iala.int/product/r0118/
+  committee: ARM

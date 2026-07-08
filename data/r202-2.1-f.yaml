@@ -1,0 +1,44 @@
+---
+id: R202-2.1-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: R0202 Feux de signalisation maritime – Calcul, définition et notation de
+    la portée lumineuse
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r0202-feux-de-signalisation-maritime-calcul-definition-et-notation-de-la-portee-lumineuse/?download=true
+docidentifier:
+- content: IALA R202 Ed 2.1 (F)
+  type: IALA
+  primary: true
+docnumber: '202'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R202 Ed 2.1
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r202
+  webpage: https://www.iala.int/product/r0202-feux-de-signalisation-maritime-calcul-definition-et-notation-de-la-portee-lumineuse/

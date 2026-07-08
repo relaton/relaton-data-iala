@@ -1,0 +1,69 @@
+---
+id: R129-3.1-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: R0129 GNSS Vulnerability and Mitigation Measures
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/r0129/?download=true
+docidentifier:
+- content: IALA R129 Ed 3.1 (E)
+  type: IALA
+  primary: true
+docnumber: '129'
+date:
+- type: published
+  from: '2004-12-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: e-Navigation Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2004-12-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA R129 Ed 3.1
+      type: IALA
+ext:
+  doctype:
+    content: recommendation
+  flavor: iala
+  urn: urn:mrn:iala:pub:r129:ed3.1
+  webpage: https://www.iala.int/product/r0129/
+  committee: e-NAV

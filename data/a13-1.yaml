@@ -1,0 +1,54 @@
+---
+id: A13-1
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: GA Resolution A13-01 – Approval of amendments to the Constitution – Adoption
+    des amendements aux statuts
+  type: main
+docidentifier:
+- content: IALA A13-1
+  type: IALA
+  primary: true
+docnumber: 13-1
+date:
+- type: published
+  from: '2018-05-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+version:
+- content: '2018-05-29'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA A13-1 (E)
+      type: IALA
+ext:
+  doctype:
+    content: resolution
+  flavor: iala
+  urn: urn:mrn:iala:pub:a13-1
+  webpage: https://www.iala.int/product/ga-resolution-a13-01-approval-of-amendments-to-the-constitution-adoption-des-amendements-aux-statuts/
