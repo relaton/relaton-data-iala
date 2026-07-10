@@ -10,7 +10,7 @@ source:
 - type: website
   content: https://www.iala.int/product/power-sources-buoys/?download=true
 docidentifier:
-- content: IALA L2.1.12 Ed Ed 2 (E)
+- content: IALA L2.1.12 Ed 2 (E)
   type: IALA
   primary: true
 docnumber: L2.1.12
@@ -58,7 +58,7 @@ relation:
 - type: instanceOf
   bibitem:
     docidentifier:
-    - content: IALA L2.1.12 Ed Ed 2
+    - content: IALA L2.1.12 Ed 2
       type: IALA
 ext:
   doctype:
