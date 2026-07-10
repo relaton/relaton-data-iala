@@ -7,7 +7,7 @@ title:
   content: Power Sources on Buoys
   type: main
 docidentifier:
-- content: IALA L2.1.12 Ed Ed 2
+- content: IALA L2.1.12 Ed 2
   type: IALA
   primary: true
 docnumber: L2.1.12
@@ -55,7 +55,7 @@ relation:
 - type: hasInstance
   bibitem:
     docidentifier:
-    - content: IALA L2.1.12 Ed Ed 2 (E)
+    - content: IALA L2.1.12 Ed 2 (E)
       type: IALA
 ext:
   doctype:
