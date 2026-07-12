@@ -4,7 +4,7 @@ name: check_data
 
 on:
   push:
-    branches: [ master, main ]
+    branches: [ main ]
     tags: [ v* ]
   pull_request:
   workflow_dispatch:
