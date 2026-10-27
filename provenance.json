@@ -1,0 +1,9 @@
+{
+  "repository": "relaton/relaton-data-iala",
+  "workflow": "Crawler",
+  "run_id": "40566804167",
+  "run_attempt": "1",
+  "source_revision": "7711d593ed8a31855b15bd57ed10a961c9edd62d",
+  "crawler": "bundle exec ruby crawler.rb",
+  "crawled_at": "2026-10-27T19:11:56Z"
+}
