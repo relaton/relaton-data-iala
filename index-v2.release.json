@@ -1,11 +1,11 @@
 {
   "version": 1,
   "index": "index-v2",
-  "sha256": "29bfbf897842f8799715be1e0c8333994ebee47bb5972a58a4664ec529d7ae05",
-  "bytes": 5011,
-  "count": 675,
-  "generated": "2026-10-27T19:11:56Z",
-  "source_revision": "7711d593ed8a31855b15bd57ed10a961c9edd62d",
-  "run_id": "40566804167",
+  "sha256": "935e457c340a5286bf1f5571d5348ab43006f91e25f56994cf27c842c166075f",
+  "bytes": 5173,
+  "count": 701,
+  "generated": "2026-10-28T19:19:08Z",
+  "source_revision": "0b78e2cb9070f595d2af47257bb8767f2fa0b156",
+  "run_id": "40753091938",
   "repository": "relaton/relaton-data-iala"
 }

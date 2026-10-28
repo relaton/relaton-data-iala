@@ -51,12 +51,120 @@
   :file: data/m0004-1.0.yaml
 - :id:
     _type: pubid:iala:general-assembly
-    number: '01'
+    number: '01.01'
+    language: E
+  :file: data/ga01.01-e.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.01'
+  :file: data/ga01.01.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.012'
+    language: E
+  :file: data/ga01.012-e.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.012'
+  :file: data/ga01.012.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.02'
+    language: E
+  :file: data/ga01.02-e.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.02'
+  :file: data/ga01.02.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.03'
+    language: E
+  :file: data/ga01.03-e.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.03'
+  :file: data/ga01.03.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.04'
+    language: E
+  :file: data/ga01.04-e.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.04'
+  :file: data/ga01.04.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.05'
+    language: E
+  :file: data/ga01.05-e.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.05'
+  :file: data/ga01.05.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.06'
+    language: E
+  :file: data/ga01.06-e.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.06'
+  :file: data/ga01.06.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.07'
+    language: E
+  :file: data/ga01.07-e.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.07'
+  :file: data/ga01.07.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.08'
+    language: E
+  :file: data/ga01.08-e.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.08'
+  :file: data/ga01.08.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.09'
+    language: E
+  :file: data/ga01.09-e.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.09'
+  :file: data/ga01.09.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.10'
+    language: E
+  :file: data/ga01.10-e.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.10'
+  :file: data/ga01.10.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.11'
+    language: E
+  :file: data/ga01.11-e.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.11'
+  :file: data/ga01.11.yaml
+- :id:
+    _type: pubid:iala:general-assembly
+    number: '01.13'
     language: E
   :file: data/ga01.13-e.yaml
 - :id:
     _type: pubid:iala:general-assembly
-    number: '01'
+    number: '01.13'
   :file: data/ga01.13.yaml
 - :id:
     _type: pubid:iala:recommendation
@@ -3375,24 +3483,35 @@
   :file: data/a13-04.yaml
 - :id:
     _type: pubid:iala:letter
-    number: '2'
+    number: 2.1.11
+    edition: '2'
+    language: E
+  :file: data/l2.1.11-2-e.yaml
+- :id:
+    _type: pubid:iala:letter
+    number: 2.1.11
+    edition: '2'
+  :file: data/l2.1.11-2.yaml
+- :id:
+    _type: pubid:iala:letter
+    number: 2.1.12
     edition: '2'
     language: E
   :file: data/l2.1.12-ed_2-e.yaml
 - :id:
     _type: pubid:iala:letter
-    number: '2'
+    number: 2.1.12
     edition: '2'
   :file: data/l2.1.12-ed_2.yaml
 - :id:
     _type: pubid:iala:letter
-    number: 2-2
+    number: 2.7.1-2
     edition: '2'
     language: E
   :file: data/l2.7.1-2-2-e.yaml
 - :id:
     _type: pubid:iala:letter
-    number: 2-2
+    number: 2.7.1-2
     edition: '2'
   :file: data/l2.7.1-2-2.yaml
 - :id:
