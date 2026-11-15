@@ -3410,17 +3410,17 @@
     edition: '1.0'
   :file: data/g1199-1.0.yaml
 - :id:
-    _type: pubid:iala:advice
+    _type: pubid:iala:general-assembly
     number: 12-01
     language: E
   :file: data/a12-01-e.yaml
 - :id:
-    _type: pubid:iala:advice
+    _type: pubid:iala:general-assembly
     number: 12-01
     language: F
   :file: data/a12-01-f.yaml
 - :id:
-    _type: pubid:iala:advice
+    _type: pubid:iala:general-assembly
     number: 12-01
   :file: data/a12-01.yaml
 - :id:
@@ -3446,39 +3446,39 @@
     edition: '1.0'
   :file: data/g1201-1.0.yaml
 - :id:
-    _type: pubid:iala:advice
+    _type: pubid:iala:general-assembly
     number: 13-01
     language: E
   :file: data/a13-01-e.yaml
 - :id:
-    _type: pubid:iala:advice
+    _type: pubid:iala:general-assembly
     number: 13-01
   :file: data/a13-01.yaml
 - :id:
-    _type: pubid:iala:advice
+    _type: pubid:iala:general-assembly
     number: 13-02
     language: E
   :file: data/a13-02-e.yaml
 - :id:
-    _type: pubid:iala:advice
+    _type: pubid:iala:general-assembly
     number: 13-02
   :file: data/a13-02.yaml
 - :id:
-    _type: pubid:iala:advice
+    _type: pubid:iala:general-assembly
     number: 13-03
     language: E
   :file: data/a13-03-e.yaml
 - :id:
-    _type: pubid:iala:advice
+    _type: pubid:iala:general-assembly
     number: 13-03
   :file: data/a13-03.yaml
 - :id:
-    _type: pubid:iala:advice
+    _type: pubid:iala:general-assembly
     number: 13-04
     language: E
   :file: data/a13-04-e.yaml
 - :id:
-    _type: pubid:iala:advice
+    _type: pubid:iala:general-assembly
     number: 13-04
   :file: data/a13-04.yaml
 - :id:
