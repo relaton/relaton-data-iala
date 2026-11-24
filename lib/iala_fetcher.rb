@@ -53,6 +53,17 @@ module IalaFetcher
     "recommendation-russian"                     => "rus",
   }.freeze
 
+  # Catalogue code letter → the English category slug a reconciled product
+  # is filed under (TechnicalCatalogue reconciliation). Strict: a new
+  # letter must be added here, not defaulted.
+  CATALOGUE_PREFIX_CATEGORY = {
+    "S" => "standards",
+    "R" => "recommendations",
+    "G" => "guidelines",
+    "M" => "manuals",
+    "C" => "model-courses",
+  }.freeze
+
   # ISO 639-3 → IALA single-letter docid language code (printed on covers).
   DOCID_LANG_CODE = {
     "eng" => "E",
@@ -123,5 +134,7 @@ module IalaFetcher
   autoload :CoverPageParser,      "iala_fetcher/cover_page_parser"
   autoload :PublicationFetcher,   "iala_fetcher/publication_fetcher"
   autoload :Indexer,              "iala_fetcher/indexer"
+  autoload :TechnicalCatalogue,   "iala_fetcher/technical_catalogue"
+  autoload :AbstractBackfill,     "iala_fetcher/abstract_backfill"
   autoload :Scrape,               "iala_fetcher/scrape"
 end

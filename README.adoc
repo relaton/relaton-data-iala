@@ -100,8 +100,10 @@ puts item.ext.webpage # => https://www.iala.int/product/s1070/
 [source,bash]
 ----
 bundle install
-bundle exec ruby exe/iala-fetch                # scrape website only
+bundle exec ruby exe/iala-fetch                # scrape website + Technical Documents Catalogue
+bundle exec ruby exe/iala-fetch --no-catalogue # scrape website only
 bundle exec ruby exe/iala-fetch --pdfs         # also download PDFs and OCR cover pages
+bundle exec ruby exe/iala-fetch catalogue      # add catalogue items missing from data/ + backfill abstracts
 bundle exec ruby check_data.rb                 # round-trip validate
 bundle exec ruby crawler.rb                    # rebuild index-v1 + index-v2
 ----
@@ -112,7 +114,8 @@ The scraper lives in `lib/iala_fetcher/`. It uses Ruby autoload (no
 `require_relative` in library code). The CLI is a Thor subclass. Each
 component (Http, Source, YamlStore, Docid, CataloguePage, ProductPage,
 CrossLanguageLinker, PdfDownloader, CoverPageOcr, CoverPageParser,
-PublicationFetcher, Indexer, Scrape) has dedicated specs under
+TechnicalCatalogue, AbstractBackfill, PublicationFetcher, Indexer, Scrape)
+has dedicated specs under
 `spec/iala_fetcher/`.
 
 == License

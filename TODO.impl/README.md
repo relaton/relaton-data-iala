@@ -34,6 +34,7 @@ Legend: ✅ DONE · 🟡 PARTIAL · ❌ NOT DONE · 🪦 OBSOLETE
 | [22-index-v2-wiring.md](22-index-v2-wiring.md) | ✅ | `index-v2.yaml` populated via `Pubid::Iala`. |
 | [23-canonical-xml-specs.md](23-canonical-xml-specs.md) | ✅ | canon migration in IALA specs. |
 | [24-missing-specs.md](24-missing-specs.md) | ✅ | PdfDownloader, CoverPageOcr, Indexer, Scrape specs added. |
+| [27-catalogue-reconciliation.md](27-catalogue-reconciliation.md) | ✅ | Technical Documents Catalogue: 13 missing guidelines + G1081 Ed 2.1 (English) added, 432 abstracts backfilled (#10). |
 
 ## Critical remaining work
 
