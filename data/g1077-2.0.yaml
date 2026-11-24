@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to assist authorities develop an overall AtoN maintenance strategy.
+    Several annexes provide detailed information on all aspects of maintenance.
+  format: text/plain
 status:
   stage:
     content: in-force

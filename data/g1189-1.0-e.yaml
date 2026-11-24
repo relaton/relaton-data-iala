@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on AtoN signal lights and concerns their measurement, both photometric
+    and colorimetric.
+  format: text/plain
 status:
   stage:
     content: in-force

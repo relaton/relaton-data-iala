@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to service providers, system architects and developers who are
+    designing S-100 based technical service and implementing maritime services in
+    the context of e-Navigation.
+  format: text/plain
 status:
   stage:
     content: in-force

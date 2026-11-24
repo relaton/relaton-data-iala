@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities adopt the system for surface colours set out in
+    the annexes.
+  format: text/plain
 status:
   stage:
     content: in-force

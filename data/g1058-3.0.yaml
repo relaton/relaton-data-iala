@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on user requirements, simulation tools, analysis, reporting and
+    documentation of results.
+  format: text/plain
 status:
   stage:
     content: in-force

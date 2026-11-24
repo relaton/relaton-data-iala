@@ -40,6 +40,10 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the illumination of light structures for navigational aspects.
+  format: text/plain
 status:
   stage:
     content: in-force

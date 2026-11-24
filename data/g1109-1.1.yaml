@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidanceontheft andvandalism inthecontext of AtoNs.Includes details of
+    thedetrimental effects, andinformationonprevious experiences of authorities.
+  format: text/plain
 status:
   stage:
     content: in-force

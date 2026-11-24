@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities draw the attention of those involved in maritime
+    training to the contents of this recommendation.
+  format: text/plain
 status:
   stage:
     content: in-force

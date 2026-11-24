@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance for authorities to set operational objectives for a VTS and achieve
+    them.
+  format: text/plain
 status:
   stage:
     content: in-force

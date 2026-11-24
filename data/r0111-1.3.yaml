@@ -48,6 +48,10 @@ language:
 - spa
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends principles and rules for port traffic signals.
+  format: text/plain
 status:
   stage:
     content: in-force

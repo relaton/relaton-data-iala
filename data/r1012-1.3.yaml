@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities contribute to precise and unambiguous communications
+    with traffic by implementing harmonized procedures and technology.
+  format: text/plain
 status:
   stage:
     content: in-force

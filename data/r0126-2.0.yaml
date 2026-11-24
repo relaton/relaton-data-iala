@@ -41,6 +41,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities use appropriate AIS units as part of their AtoN
+    services for providing information to ships and for traffic monitoring.
+  format: text/plain
 status:
   stage:
     content: in-force

@@ -28,6 +28,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidanceonapplicable international requirements and thetheoretical principles
+    of radar waves andtheir propagation. It alsoprovides examples of radar reflectors
+    inuseandrange calculations.
+  format: text/plain
 status:
   stage:
     content: in-force

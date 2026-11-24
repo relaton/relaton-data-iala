@@ -44,6 +44,11 @@ language:
 - spa
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities providing marine aids to navigation comply with
+    the IALA Maritime Buoyage System.
+  format: text/plain
 status:
   stage:
     content: in-force

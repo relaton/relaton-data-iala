@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on achieving a more synchronized presentation of information ashore
+    with the presentation on-board ships.
+  format: text/plain
 status:
   stage:
     content: in-force

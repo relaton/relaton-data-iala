@@ -1,0 +1,74 @@
+---
+id: G1150-3.1-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1150 Establishing, Planning and Implementing a VTS
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/g1150/?download=true
+docidentifier:
+- content: IALA G1150 Ed 3.1 (E)
+  type: IALA
+  primary: true
+docnumber: '1150'
+date:
+- type: published
+  from: '2020-12-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Vessel Traffic Services Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2020-12-10'
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  content: Guidancethatprovidesaframework toassistauthoritiesimplement practicesspecifiedinIALA
+    RecommendationR0119onthe establishmentofVTS.
+  format: text/plain
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA G1150 Ed 3.1
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1150:ed3.1:e
+  webpage: https://www.iala.int/product/g1150/
+  committee: VTS

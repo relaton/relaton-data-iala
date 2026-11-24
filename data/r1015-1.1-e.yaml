@@ -43,6 +43,10 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities mark hazardous wrecks taking into account IALA guidance.
+  format: text/plain
 status:
   stage:
     content: in-force

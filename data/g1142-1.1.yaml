@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to assist authorities ensure the difference between a VTS and
+    a local port service is clearly communicated to mariners, allied services and
+    others.
+  format: text/plain
 status:
   stage:
     content: in-force

@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to assist with initial preparations for an audit under the International
+    Maritime Organization (IMO) Member State Audit Scheme (IMSAS). It includes information
+    on the pre-audit questionnaire and associated checklist.
+  format: text/plain
 status:
   stage:
     content: in-force

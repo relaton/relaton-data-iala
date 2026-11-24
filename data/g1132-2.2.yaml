@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to assist authorities implement IALA recommended practices that
+    ensure VTS communications are harmonized by using standard message structures
+    and phrases.
+  format: text/plain
 status:
   stage:
     content: in-force

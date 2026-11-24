@@ -40,6 +40,13 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on a systems and services enabling high-accuracy positioning or
+    ranging in specific areas such as waterways, traffic separation schemes, traffic
+    zones with limited manoeuvring space, ports and harbours, and congested waters,
+    with increased risks of collisions or groundings.
+  format: text/plain
 status:
   stage:
     content: in-force

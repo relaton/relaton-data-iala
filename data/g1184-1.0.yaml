@@ -28,6 +28,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on harmonizing waterways is a necessary development for the application
+    of e-navigation to all segments of maritime, especially those segments which operate
+    outside the SOLAS domain and are unlikely to adopt S-100 compliant systems.
+  format: text/plain
 status:
   stage:
     content: in-force

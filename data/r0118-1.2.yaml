@@ -48,6 +48,11 @@ language:
 - spa
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommendation on recording the geographical positions of a variety of
+    AtoNs.
+  format: text/plain
 status:
   stage:
     content: in-force

@@ -28,6 +28,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends members recognize the need for a harmonized way to indicate
+    to the maritime applications the data format used inside VDE data packets to enable
+    applications to use the data.
+  format: text/plain
 status:
   stage:
     content: in-force

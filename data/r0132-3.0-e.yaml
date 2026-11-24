@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: RecommendsAtoNauthorities implement and maintain a Quality Management System
+    (QMS). Authorities should ensure ongoing integrity of the QMS by periodic certification.
+  format: text/plain
 status:
   stage:
     content: in-force

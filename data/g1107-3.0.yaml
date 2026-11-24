@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to promote the sharing of knowledge and ex-perience gained in
+    the development of test beds in the maritime domain. It addresses the design,
+    planning and reporting of results from these test beds.
+  format: text/plain
 status:
   stage:
     content: in-force

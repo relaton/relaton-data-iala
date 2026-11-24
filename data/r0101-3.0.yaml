@@ -44,6 +44,11 @@ language:
 - spa
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends racon provided by authorities conform to the technical characteristics
+    provided.
+  format: text/plain
 status:
   stage:
     content: in-force

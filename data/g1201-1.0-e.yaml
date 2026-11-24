@@ -31,6 +31,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to training organizations and VTS providers when preparing and
+    conducting remote training for VTS personnel.
+  format: text/plain
 status:
   stage:
     content: in-force

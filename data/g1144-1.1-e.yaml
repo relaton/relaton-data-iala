@@ -44,6 +44,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance for VTS providers to promulgate information that will reduce the
+    burden on ship masters (to obtain a VTS’ requirements) and minimise confusion
+    when moving from one VTS area to another.
+  format: text/plain
 status:
   stage:
     content: in-force

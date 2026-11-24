@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the use of decision support tools to manage identified risks,
+    enhance situational awareness, and support VTS personnel.
+  format: text/plain
 status:
   stage:
     content: in-force

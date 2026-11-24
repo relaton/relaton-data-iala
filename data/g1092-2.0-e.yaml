@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on managing safety in the AtoN workplace. Includes guidance on
+    the standards and codes that support effective safety management.
+  format: text/plain
 status:
   stage:
     content: in-force

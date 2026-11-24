@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on information provided by AIS and use of historical AIS data
+    for planning and evaluation process. Guidance is also provided on the design and
+    implementation of AIS data storage and handling and processing systems.
+  format: text/plain
 status:
   stage:
     content: in-force

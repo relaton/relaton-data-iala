@@ -40,6 +40,10 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends technical parameters for leading lights.
+  format: text/plain
 status:
   stage:
     content: in-force

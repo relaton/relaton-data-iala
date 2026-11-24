@@ -1,0 +1,75 @@
+---
+id: G1155-1.1-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1155 The Development of a Description of a Maritime Service in the Context
+    of e-Navigation
+  type: main
+source:
+- type: website
+  content: https://www.iala.int/product/g1155/?download=true
+docidentifier:
+- content: IALA G1155 Ed 1.1 (E)
+  type: IALA
+  primary: true
+docnumber: '1155'
+date:
+- type: published
+  from: '2020-12-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: AtoN Requirements and Management Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2020-12-10'
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  content: Guidance to develop and implement a maritime service in the context of
+    e-Navigation.
+  format: text/plain
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: IALA G1155 Ed 1.1
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1155:ed1.1:e
+  webpage: https://www.iala.int/product/g1155/
+  committee: ARM

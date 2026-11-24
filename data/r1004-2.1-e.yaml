@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities endeavour to support the United Nations Sustainable
+    Development Goals (SDGs) and implement formal systems to protect the marine environment
+    and promote sustainability.
+  format: text/plain
 status:
   stage:
     content: in-force

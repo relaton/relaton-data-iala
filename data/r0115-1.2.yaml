@@ -41,6 +41,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities consider the provision, or enhancement, of DGNSS
+    services in the frequency band 283.5-315 kHz in Region 1 and 285-325 kHz in Regions
+    2 and 3 to improve the safety of navigation.
+  format: text/plain
 status:
   stage:
     content: in-force

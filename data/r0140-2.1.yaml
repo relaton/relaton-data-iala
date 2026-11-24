@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends principles to consider for authorities when establishing shore-based
+    infrastructure for e-Navigation.
+  format: text/plain
 status:
   stage:
     content: in-force

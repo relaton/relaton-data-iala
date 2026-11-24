@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance for authorities to deliver, monitor and assess the performance
+    of eLoran services in a common manner.
+  format: text/plain
 status:
   stage:
     content: in-force

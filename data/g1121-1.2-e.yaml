@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the main elements of a Marine Spatial Planning (MSP) process.
+    It also provides information on the underlying navigation factors to be taken
+    into account during a MSP process.
+  format: text/plain
 status:
   stage:
     content: in-force

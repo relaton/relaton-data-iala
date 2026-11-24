@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to authorities for applying risk management to their activities.
+    It provides a broad understanding of the risk management process and tools to
+    conduct risk assessments.
+  format: text/plain
 status:
   stage:
     content: in-force

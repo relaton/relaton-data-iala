@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance for members providing a system for the first time, replacing an
+    existing system or updating a system. It advises on establishing the basic operational
+    decision criteria and performance standards for AtoN systems.
+  format: text/plain
 status:
   stage:
     content: in-force

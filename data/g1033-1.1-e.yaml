@@ -44,6 +44,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Provides information on AtoN requirements for HSC and for assessing AtoN
+    requirements for different classes of vessels.
+  format: text/plain
 status:
   stage:
     content: in-force

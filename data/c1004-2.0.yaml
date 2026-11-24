@@ -41,6 +41,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Global Navigation Satellite Systems and e-Navigation This model course
+    includes a framework for providing training to managers and other interested parties
+    so that they obtain a good understanding of GNSS and the e-navigation concept.
+  format: text/plain
 status:
   stage:
     content: in-force

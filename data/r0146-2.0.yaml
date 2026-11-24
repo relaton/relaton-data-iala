@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends that authorities follow the strategy for existing and future
+    Racon services provided.
+  format: text/plain
 status:
   stage:
     content: in-force

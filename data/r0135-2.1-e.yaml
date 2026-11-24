@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities providing or intending to provide DGNSS services
+    in the band 283.5-325 kHz, implement the strategy outlined.
+  format: text/plain
 status:
   stage:
     content: in-force

@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities consider accrediting and approving VTS and AtoN
+    training organizations.
+  format: text/plain
 status:
   stage:
     content: in-force

@@ -31,6 +31,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidanceonimplementing practicesassociatedwiththe recruitment,training,and
+    assessmentof AtoNpersonnel.
+  format: text/plain
 status:
   stage:
     content: in-force

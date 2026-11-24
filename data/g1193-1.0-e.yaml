@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on detailed framework for preparing and documenting radio signal
+    measurements for a VDES system, using data from real-world campaigns and simulations
+    as a basis for best practices.
+  format: text/plain
 status:
   stage:
     content: in-force

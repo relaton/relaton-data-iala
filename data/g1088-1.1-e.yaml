@@ -43,6 +43,10 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the process of developing S-100 based Product Specifications.
+  format: text/plain
 status:
   stage:
     content: in-force

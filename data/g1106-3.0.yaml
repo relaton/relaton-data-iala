@@ -28,6 +28,14 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on an overview of the development process of a S-200 based product
+    specification, including a step-by-step guide from data modelling to product specification.
+    G1106-1 IALA PS number template G1106-2 Proposal for additional S-100 feature
+    concept dictionary (FCD) item – the name of proposed FCM item G1106-3 PS under
+    development- template
+  format: text/plain
 status:
   stage:
     content: in-force

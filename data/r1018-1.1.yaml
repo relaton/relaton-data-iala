@@ -41,6 +41,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends national members implement systematic procedures for the design,
+    maintenance and safe and sustainable operation of their AtoN.
+  format: text/plain
 status:
   stage:
     content: in-force

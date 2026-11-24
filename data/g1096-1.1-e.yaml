@@ -44,6 +44,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance for AtoN authorities on user requirements and applications of
+    e-Navigation. Includes general requirements, communications, navigation and AtoN
+    requirements.
+  format: text/plain
 status:
   stage:
     content: in-force

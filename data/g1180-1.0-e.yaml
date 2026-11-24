@@ -43,6 +43,13 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance for members on assisting in understanding the vulnerabilities
+    of PNT systems, the potential impacts of these vulnerabilities on AtoN services
+    and VTS, their users, and exploring measures for enhancing PNT resiliency and
+    mitigating risks associated with GNSS failures.
+  format: text/plain
 status:
   stage:
     content: in-force

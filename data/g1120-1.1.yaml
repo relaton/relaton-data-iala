@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to Increase awareness of the benefits of developing disaster recovery
+    plan. It includes actions that can be taken to restore service capability and
+    guidance to overcome the difficulties after a disaster.
+  format: text/plain
 status:
   stage:
     content: in-force

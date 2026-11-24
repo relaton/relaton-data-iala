@@ -41,6 +41,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to authorities that wish to establish and conduct user consultancy.
+    It includes defining participants, phases of consulting and continuous improvement.
+  format: text/plain
 status:
   stage:
     content: in-force

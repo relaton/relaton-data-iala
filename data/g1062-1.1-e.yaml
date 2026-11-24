@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to assist AtoN authorities determine if AIS AtoN functionality
+    should be provided and, if so, guidance to establish AIS AtoN.
+  format: text/plain
 status:
   stage:
     content: in-force

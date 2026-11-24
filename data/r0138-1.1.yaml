@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities providing marine AtoN use GIS and simulation based
+    on the principles set out in IALA guidance.
+  format: text/plain
 status:
   stage:
     content: in-force

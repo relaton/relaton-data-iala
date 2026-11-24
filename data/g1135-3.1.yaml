@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on calculating the effective intensity of a given flash of light
+    (when viewed at the IALA defined illumination threshold for visual signalling).
+  format: text/plain
 status:
   stage:
     content: in-force

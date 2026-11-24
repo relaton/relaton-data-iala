@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidanceoncommissioning, includingidentificationof critical factors andresponsibilities
+    of authorities.
+  format: text/plain
 status:
   stage:
     content: in-force

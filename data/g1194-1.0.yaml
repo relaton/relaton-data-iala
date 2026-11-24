@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidanceontheuseof drones tosupport theinspectionof MarineAids toNavigation(AtoN),
+    includinglighthouses,beacons, andVTS-relatedinfrastructure, particularlywheredirect
+    access is difficult,hazardous,or impractical. risks topersonnel.
+  format: text/plain
 status:
   stage:
     content: in-force

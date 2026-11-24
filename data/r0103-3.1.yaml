@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends Competent Authorities and VTS providers implement and establish
+    VTS training and certification in a standardised and harmonised manner in accordance
+    with the guidelines and model courses developed by IALA.
+  format: text/plain
 status:
   stage:
     content: in-force

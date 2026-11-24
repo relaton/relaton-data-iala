@@ -40,6 +40,10 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidancetopromoteconsistent nomenclatureamongstVTSaround theworld.
+  format: text/plain
 status:
   stage:
     content: in-force

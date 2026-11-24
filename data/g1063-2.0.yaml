@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on developing agreements to permit complementary use of lighthouse
+    properties.
+  format: text/plain
 status:
   stage:
     content: in-force

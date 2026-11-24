@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the use of audible signals to warn mariners of navigational
+    hazards and their use to augment floating AtoN.
+  format: text/plain
 status:
   stage:
     content: in-force

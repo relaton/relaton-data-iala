@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to AtoN authorities and suppliers on retroreflective material,
+    including terminology, design, characterising, classification and use for AtoN
+    purposes.
+  format: text/plain
 status:
   stage:
     content: in-force

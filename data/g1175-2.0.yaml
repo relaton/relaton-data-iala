@@ -28,6 +28,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the effects of extreme environmental conditions on AtoN. Includes
+    information on factors to consider to mitigate their effects.
+  format: text/plain
 status:
   stage:
     content: in-force

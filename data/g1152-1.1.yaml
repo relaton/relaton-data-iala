@@ -28,6 +28,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance for authorities when considering the use of SBAS by ships in their
+    waters. It includes a description of all elements relevant to the maritime use
+    of SBAS.
+  format: text/plain
 status:
   stage:
     content: in-force

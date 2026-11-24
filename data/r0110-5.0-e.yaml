@@ -43,6 +43,10 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommendations for the rhythmic characters of lights.
+  format: text/plain
 status:
   stage:
     content: in-force

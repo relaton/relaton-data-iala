@@ -43,6 +43,10 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities consider deploying virtual as required.
+  format: text/plain
 status:
   stage:
     content: in-force

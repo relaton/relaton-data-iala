@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities introducing an IVEF Service into their shore infrastructure,
+    take into account the principles set out in the relevant IALA Guideline/s on the
+    Inter-VTS Exchange Format (IVEF)
+  format: text/plain
 status:
   stage:
     content: in-force

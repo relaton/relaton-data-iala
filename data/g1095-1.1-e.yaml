@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on implementing ASM in a harmonized manner, including guidance
+    on operational and technical aspects.
+  format: text/plain
 status:
   stage:
     content: in-force

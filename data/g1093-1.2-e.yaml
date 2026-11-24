@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on appropriate methods for the management or disposal of surplus
+    lighthouse properties, so as to preserve the lighthouse heritage.
+  format: text/plain
 status:
   stage:
     content: in-force

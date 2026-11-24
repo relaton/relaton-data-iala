@@ -41,6 +41,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance for Competent Authorities and VTS providers on the development
+    of harmonized casualty/incident/ near-miss reporting, recording and analysis processes.
+  format: text/plain
 status:
   stage:
     content: in-force

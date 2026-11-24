@@ -28,6 +28,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the requirements for implementing a Maritime Service Registry
+    (MSR) that is a part of the Maritime Connectivity Platform (MCP).
+  format: text/plain
 status:
   stage:
     content: in-force

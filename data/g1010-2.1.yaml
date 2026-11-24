@@ -40,6 +40,10 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to estimate racon ranges, including examples.
+  format: text/plain
 status:
   stage:
     content: in-force

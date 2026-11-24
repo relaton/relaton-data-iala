@@ -40,6 +40,10 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities share their maritime data by participating in IALA-NET.
+  format: text/plain
 status:
   stage:
     content: in-force

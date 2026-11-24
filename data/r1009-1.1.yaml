@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities contribute to disaster recovery efforts by developing
+    contingency plans based on generic situations.
+  format: text/plain
 status:
   stage:
     content: in-force

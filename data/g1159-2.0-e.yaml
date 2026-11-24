@@ -31,6 +31,14 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on approaches to facilitate harmonized ship reporting using digital
+    systems. It describes systems that could be used by those who require ships to
+    submit reports. It is intended to be used by authorities to assist them comply
+    with IMO FAL Conventions and IMO resolutions on mandatory ship reporting and to
+    automate processes and procedures both ashore and on board.
+  format: text/plain
 status:
   stage:
     content: in-force

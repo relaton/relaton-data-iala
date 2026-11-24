@@ -44,6 +44,11 @@ language:
 - spa
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities providing AtoN conduct photometric and colorimetric
+    measurements of signal lights in accordance with this recommendation.
+  format: text/plain
 status:
   stage:
     content: in-force

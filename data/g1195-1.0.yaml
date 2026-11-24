@@ -40,6 +40,14 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: 'Guidance to provide a framework to assess the competency of VTS operators
+    in the use of standard messaging structure and phrases to: Facilitate clear, concise,
+    and unambiguous VTS communications that are timely and effective; and minimize
+    misunderstanding of the intent of messages and reduce the time required for effective
+    VTS communication.'
+  format: text/plain
 status:
   stage:
     content: in-force

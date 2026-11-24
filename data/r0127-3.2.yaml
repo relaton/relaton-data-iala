@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities contribute to precise and unambiguous delivery of
+    VTS operations by implementing harmonised VTS operations.
+  format: text/plain
 status:
   stage:
     content: in-force

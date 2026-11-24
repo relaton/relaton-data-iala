@@ -43,6 +43,10 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the application of pictograms on special marks.
+  format: text/plain
 status:
   stage:
     content: in-force

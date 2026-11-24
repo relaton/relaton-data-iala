@@ -44,6 +44,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the technical aspects of selecting the rhythmic characters.
+    Includes selection of colours, the use of the fixed and flashing character and
+    user considerations.
+  format: text/plain
 status:
   stage:
     content: in-force

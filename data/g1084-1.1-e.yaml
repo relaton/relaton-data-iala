@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Provides information on a suggested procedure for the authorization of
+    AIS AtoN.
+  format: text/plain
 status:
   stage:
     content: in-force

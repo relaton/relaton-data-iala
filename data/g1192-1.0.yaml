@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on providing clear, implementable approaches to authenticating
+    data transmitted over VDES, it supports the development of a more secure and resilient
+    maritime communication environment.
+  format: text/plain
 status:
   stage:
     content: in-force

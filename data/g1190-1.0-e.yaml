@@ -31,6 +31,13 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on how an establi-shed Internet of Things (IoT) system can be
+    utilised to provide a harmonised, efficient, affordable protocol for connected
+    visual AtoN.This protocol will allow commonality of data exchange, providing interoperability
+    of visual AtoN equipment from a mix of suppliers who adopt this approach.
+  format: text/plain
 status:
   stage:
     content: in-force

@@ -41,6 +41,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the framework for authorities to accredit organizations to
+    provide training based on IALA model courses; and approve their delivery of such
+    courses.
+  format: text/plain
 status:
   stage:
     content: in-force

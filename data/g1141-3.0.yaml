@@ -1,0 +1,71 @@
+---
+id: G1141-3.0
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: G1141 Operational procedure for delivering VTS
+  type: main
+docidentifier:
+- content: IALA G1141 Ed 3.0
+  type: IALA
+  primary: true
+docnumber: '1141'
+date:
+- type: published
+  from: '2018-12-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    abbreviation:
+      content: IALA
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization for Marine Aids to Navigation
+    subdivision:
+    - name:
+      - content: Vessel Traffic Services Committee
+    abbreviation:
+      content: IALA
+version:
+- content: '2018-12-14'
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  content: Guidance on a framework for authorities to implement processes and procedures
+    associated with the provision of VTS.
+  format: text/plain
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - content: International Organization for Marine Aids to Navigation
+      abbreviation:
+        content: IALA
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: IALA G1141 Ed 3.0 (E)
+      type: IALA
+ext:
+  doctype:
+    content: guideline
+  flavor: iala
+  urn: urn:mrn:iala:pub:g1141:ed3.0
+  webpage: https://www.iala.int/product/g1141/
+  committee: VTS

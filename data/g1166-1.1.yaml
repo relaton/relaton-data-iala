@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidancetoassistsauthorities establishinlandVTSininlandwaters effectivelyandreflectiveof
+    the internationalregulatoryregimefor VTS.
+  format: text/plain
 status:
   stage:
     content: in-force

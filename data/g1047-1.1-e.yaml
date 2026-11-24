@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the different considerations (i.e. materials, technologies,
+    environment) when deploying buoys. It also offers guidance on conducting financial
+    analysis.
+  format: text/plain
 status:
   stage:
     content: in-force

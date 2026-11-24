@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends members and authorities providing AtoN services observe the
+    provisions in the IALA Guideline on the topic.
+  format: text/plain
 status:
   stage:
     content: in-force

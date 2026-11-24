@@ -28,6 +28,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the requirements for providing and using secure identities
+    by means of the Maritime Identity Registry (MIR) of the Maritime Connectivity
+    Platform (MCP).
+  format: text/plain
 status:
   stage:
     content: in-force

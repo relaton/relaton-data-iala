@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends members ensure the marking of man-made structures conforms to
+    the standards and practices specified in IALA guidelines.
+  format: text/plain
 status:
   stage:
     content: in-force

@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the branding and marketing of heritage lighthouses. It includes
+    examples from authorities around the world.
+  format: text/plain
 status:
   stage:
     content: in-force

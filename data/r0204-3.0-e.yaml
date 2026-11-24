@@ -44,6 +44,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities use the modified Allard Method described for the
+    determination and calculation of effective intensity of a rhythmic light
+  format: text/plain
 status:
   stage:
     content: in-force

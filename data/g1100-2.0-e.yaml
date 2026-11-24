@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the process by which AtoN training organisations can achieve
+    accreditation and approval of their AtoN training.
+  format: text/plain
 status:
   stage:
     content: in-force

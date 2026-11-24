@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on calculating the expected signal strength of a single radiobeacon
+    under different conditions.
+  format: text/plain
 status:
   stage:
     content: in-force

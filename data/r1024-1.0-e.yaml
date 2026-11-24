@@ -31,6 +31,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends improvement in the awareness of cyber security. Along with updating
+    of risk management processes, business continuity plans and adopting of industry
+    best practices.
+  format: text/plain
 status:
   stage:
     content: in-force

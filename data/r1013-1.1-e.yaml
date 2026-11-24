@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends implementation of a formal system for auditing and assessing
+    VTS , to ensure the harmonized delivery of VTS worldwide.
+  format: text/plain
 status:
   stage:
     content: in-force

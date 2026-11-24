@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities providing shore infrastructure for marine AtoN should
+    plan to upgrade existing AIS to VDES shore infrastructure, so as to provide enhanced
+    digital connectivity.
+  format: text/plain
 status:
   stage:
     content: in-force

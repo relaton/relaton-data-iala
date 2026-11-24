@@ -41,6 +41,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends members and authorities providing, or intending to provide,
+    e-navigation solutions, take into account the principles outlined.
+  format: text/plain
 status:
   stage:
     content: in-force

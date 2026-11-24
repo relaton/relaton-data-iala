@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the issues to be considered for successful interaction between
+    VTS and allied or other services.
+  format: text/plain
 status:
   stage:
     content: in-force

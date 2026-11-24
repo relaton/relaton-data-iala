@@ -48,6 +48,10 @@ language:
 - spa
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends the circumstances when authorities should use MAtoN.
+  format: text/plain
 status:
   stage:
     content: in-force

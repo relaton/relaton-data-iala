@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends VTS portrayal focus on VTS tasks and follow human-centered design
+    and ergonomic principles.
+  format: text/plain
 status:
   stage:
     content: in-force

@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to develop a business plan for lighthouse estates when contemplating
+    their development for complementary uses.
+  format: text/plain
 status:
   stage:
     content: in-force

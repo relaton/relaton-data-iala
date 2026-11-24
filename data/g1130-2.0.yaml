@@ -41,6 +41,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Technical guidance on issues to be to be considered and the principles
+    to be applied for interaction between VTS and allied or other services.
+  format: text/plain
 status:
   stage:
     content: in-force

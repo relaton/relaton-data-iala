@@ -41,6 +41,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities adopt methods to estimate the performance of optical
+    apparatus.
+  format: text/plain
 status:
   stage:
     content: in-force

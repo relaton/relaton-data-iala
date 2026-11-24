@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to assist DGNSS service providers to establish correct output
+    signal levels from LF/MF transmitter stations and measure antenna efficiency.
+  format: text/plain
 status:
   stage:
     content: in-force
