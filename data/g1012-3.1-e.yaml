@@ -44,6 +44,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on a practical approach to risk assessment, design, installation,
+    inspection and testing of lightning protection systems for AtoNs.
+  format: text/plain
 status:
   stage:
     content: in-force

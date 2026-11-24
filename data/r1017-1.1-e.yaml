@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities conduct a risk assessment on the impact of PNT service
+    degradation or total loss to their services and consider how PNT information can
+    be made more resilient.
+  format: text/plain
 status:
   stage:
     content: in-force

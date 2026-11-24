@@ -32,6 +32,13 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Presents information on AtoN training and awareness, to be taken into consideration
+    by training organizations. It aims to enhance mariners’ understanding of AtoNs.
+    The Guideline also provides examples of tools that could be used to facilitate
+    effective communication.
+  format: text/plain
 status:
   stage:
     content: in-force

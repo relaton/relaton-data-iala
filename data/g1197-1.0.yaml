@@ -28,6 +28,13 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the use of satellite-based PPP services for maritime navigation.This
+    document defines the characteristics, performance considerations, and operational
+    aspects of satellite-based PPP services relevant to maritime authorities, service
+    providers, and end users.
+  format: text/plain
 status:
   stage:
     content: in-force

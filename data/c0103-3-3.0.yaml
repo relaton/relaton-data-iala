@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: The purpose of this model course is to assist VTS providers establish and
+    conduct on-the-job training. It provides guidance on the level of training and
+    knowledge needed to reach levels of competence  so as to obtain a C0103-3 endorsement. 
+  format: text/plain
 status:
   stage:
     content: in-force

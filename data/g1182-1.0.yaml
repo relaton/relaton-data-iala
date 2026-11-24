@@ -28,6 +28,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on possible measures to be taken to mitigate cyber security risks
+    in the IALA domain.
+  format: text/plain
 status:
   stage:
     content: in-force

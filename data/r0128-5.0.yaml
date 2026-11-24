@@ -40,6 +40,14 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Provides the framework to assist competent authorities when arranging for
+    the establishment of the functional and performance requirements for VTS systems
+    and equipment. Recommends competent authorities take into account IALA guidance
+    when establishing functional and performance requirements for VTS systems and
+    equipment.
+  format: text/plain
 status:
   stage:
     content: in-force

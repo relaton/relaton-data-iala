@@ -49,6 +49,36 @@ first page to recover title, edition, month/year, and URN. The
 `reference-docs/Technical-documents-Catalogue-Ed-10.0-December-2025-03.02.2026.pdf`
 catalogue is the canonical reference for cross-checking.
 
+## Second source: the Technical Documents Catalogue (issue #10)
+
+The category listings lag behind new publications. The catalogue PDF
+(newest edition linked from `/guidance-publications/`, e.g. Ed 11.0 June
+2026) is IALA's complete inventory. `IalaFetcher::TechnicalCatalogue`
+(pdf-reader gem) reads it for two things:
+
+- **`#product_urls`** — the `/product/<slug>/` link annotations (hosts
+  `iala.int`, `iala-aism.org`, typo `iala-.int` normalised). Any slug the
+  site walk missed is fetched through `ProductPage` and added as a
+  `CataloguePage::Row` under `CATALOGUE_PREFIX_CATEGORY` (strict map by code
+  letter), so the linker + emit path is unchanged. Known codes behind a
+  legacy slug are skipped.
+- **`#summary_for(code)`** — the Summary column, parsed from positioned
+  text runs. Layouts: `No | [N/I] | Date | Title | Ed | Summary` and the
+  model-course `Ref. | Edition | Title` (summary under the title line).
+  Tables continue across halves of the double-page spread without a
+  repeated header. Rows without a clean date + edition are dropped.
+
+Catalogue summaries become English abstracts
+(`format: text/plain`) only when the product page has no abstract
+(standards keep their HTML abstracts) and the item's edition equals the
+catalogue's edition for that code (`summary_for(code, edition:)`).
+Known codes count English items only, so a code seen only in a
+translation still gets its English item. `iala-fetch` uses the catalogue by
+default (`--no-catalogue`, `--catalogue-url=`). `iala-fetch catalogue`
+adds only the missing items (`PublicationFetcher#run_reconciliation`,
+known codes from `data/`) and runs `AbstractBackfill` on existing files,
+with no site walk — use it to refresh without losing `--pdfs` fields.
+
 ## Multilingual model
 
 IALA publishes in six official languages. The website exposes them via
@@ -92,6 +122,8 @@ lib/iala_fetcher/
   pdf_downloader.rb       # caches PDFs by URL hash under pdfs/
   cover_page_ocr.rb       # GLM-OCR wrapper for first-page extraction
   cover_page_parser.rb    # parses OCR/text output into structured fields
+  technical_catalogue.rb  # catalogue PDF → product links + per-code summaries
+  abstract_backfill.rb    # adds catalogue summaries to existing data/ items
   publication_fetcher.rb  # orchestrates the above → emits work + instance YAMLs
   indexer.rb              # IalaFetcher::Indexer.build (clean-rebuild v1 + v2)
   scrape.rb               # Thor subclass (fetch + index tasks)
@@ -158,6 +190,8 @@ bundle exec iala-fetch --type=standards               # narrow scope to one cate
 bundle exec iala-fetch --languages=en,fr              # narrow languages
 bundle exec iala-fetch --pdfs                         # download PDFs + OCR cover pages
 bundle exec iala-fetch --rebuild-index                # rebuild index-v1 + index-v2
+bundle exec iala-fetch --no-catalogue                 # skip the Technical Documents Catalogue pass
+bundle exec iala-fetch catalogue                      # add catalogue items missing from data/ + backfill abstracts
 bundle exec rspec spec/                               # run specs
 bundle exec ruby crawler.rb                           # rebuild indexes only
 bundle exec ruby check_data.rb                        # round-trip validate data/
@@ -190,6 +224,7 @@ gem "thor", "~> 1.3"
 gem "nokogiri"
 gem "net-http-persistent"
 gem "activesupport", require: false   # String#squish
+gem "pdf-reader", "~> 2.12"           # TechnicalCatalogue (links + text runs)
 ```
 
 HTTPS git sources so the GH Action can clone anonymously.

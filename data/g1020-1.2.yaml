@@ -40,6 +40,10 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidanceonthedeliveryof life cyclemanagementrequirements forAtoN, includingtraining.
+  format: text/plain
 status:
   stage:
     content: in-force

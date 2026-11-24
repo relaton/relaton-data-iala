@@ -41,6 +41,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends IALA members provide maritime services in digital formats, use
+    international standards and ensure a communications infrastructure is available
+    in their area of responsibility.
+  format: text/plain
 status:
   stage:
     content: in-force

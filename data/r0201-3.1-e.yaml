@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities note the colour model specified and adopt the system
+    for coloured light signals mentioned.
+  format: text/plain
 status:
   stage:
     content: in-force

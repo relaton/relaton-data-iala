@@ -28,6 +28,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on a structured approach to bridge the gap between innovation
+    and potential implementation by means of a feasibility demonstrator.
+  format: text/plain
 status:
   stage:
     content: in-force

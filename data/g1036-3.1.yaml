@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the role of environmental management in an organisation’s operations
+    and technical, operational and legal considerations.
+  format: text/plain
 status:
   stage:
     content: in-force

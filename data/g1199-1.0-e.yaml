@@ -31,6 +31,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the operational procedures and functions which are specific
+    to VTS as defined in Maritime Service 1 (MS 1) “Description of maritime services
+    in the context of e-navigation (IMO circular MSC.1/CIRC.1610/ rev.1).
+  format: text/plain
 status:
   stage:
     content: in-force

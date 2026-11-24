@@ -44,6 +44,11 @@ language:
 - fra
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends the use of risk management and IALA risk management tools when
+    assessing risks in waterways.
+  format: text/plain
 status:
   stage:
     content: in-force

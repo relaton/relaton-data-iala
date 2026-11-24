@@ -44,6 +44,10 @@ language:
 - spa
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommendation on the design, capability and inspection of AtoN moorings.
+  format: text/plain
 status:
   stage:
     content: in-force

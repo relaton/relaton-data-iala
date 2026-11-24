@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the use of AtoN in the design of fairways including dredged
+    channels and canals, and review of existing AtoN in the area.
+  format: text/plain
 status:
   stage:
     content: in-force

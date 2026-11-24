@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: RecommendsauthoritiesandVTS providersconsiderIALAstandards andassociatedguidancerelated
+    totheestablishmentandoperation of VTS,soastocontributeto achievingworldwideharmonization
+    of VTS.
+  format: text/plain
 status:
   stage:
     content: in-force

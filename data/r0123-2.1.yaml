@@ -45,6 +45,12 @@ language:
 - spa
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities providing marine aids to navigation services adopt
+    the provision of shore based AIS services in accordance with the principles set
+    out in this recommendation.
+  format: text/plain
 status:
   stage:
     content: in-force

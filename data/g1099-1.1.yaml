@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the calculation of buoy stability for new buoy designs and
+    the impact of installation of new equipment on existing buoys.
+  format: text/plain
 status:
   stage:
     content: in-force

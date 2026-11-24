@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: The purpose of this model course is to assist training organizations deliver
+    new training courses for VTS Operators. It provides guidance on the level of training
+    and knowledge needed to reach levels of competence to obtaining a C0103-1 certificate.
+  format: text/plain
 status:
   stage:
     content: in-force

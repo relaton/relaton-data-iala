@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to develop an Emergency Wreck Marking Plan (EWMP). Includes considerations
+    and actions to take when marking a hazardous wreck.
+  format: text/plain
 status:
   stage:
     content: in-force

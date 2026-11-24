@@ -44,6 +44,12 @@ language:
 - spa
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities introducing an AIS Service consider the information
+    provided in the annex. There are twenty (0 to 19) appendices to the annex, provided
+    as separate documents.
+  format: text/plain
 status:
   stage:
     content: in-force

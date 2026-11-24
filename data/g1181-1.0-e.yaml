@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on a framework for identifying and addressing vulnerabilities
+    in VDES VDL to enhance data reliability, focusing on detection, investigation,
+    reporting, defense, and regulatory enforcement.
+  format: text/plain
 status:
   stage:
     content: in-force

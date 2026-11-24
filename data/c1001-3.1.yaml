@@ -28,6 +28,13 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: This model course is intended to provide national members and other authorities
+    charged with the provision of AtoN services, specific guidance on the training
+    of AtoN managers. It is intended to be delivered by a training organisation accredited
+    by a national Competent Authority.
+  format: text/plain
 status:
   stage:
     content: in-force

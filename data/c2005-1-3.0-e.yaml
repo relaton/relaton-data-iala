@@ -44,6 +44,10 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Surface Preparation
+  format: text/plain
 status:
   stage:
     content: in-force

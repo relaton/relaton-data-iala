@@ -25,6 +25,10 @@ gem "nokogiri"
 gem "net-http-persistent"
 gem "activesupport", require: false   # String#squish for translation parsing
 
+# Pure-Ruby PDF reader: link annotations and positioned text runs from the
+# Technical Documents Catalogue (TechnicalCatalogue).
+gem "pdf-reader", "~> 2.12"
+
 group :development, :test do
   gem "rspec", "~> 3.13"
   gem "webmock"

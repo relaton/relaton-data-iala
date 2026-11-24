@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on a method of calculating availability and reliability, with
+    a view to enabling authorities to provide a cost-effective AtoN service.
+  format: text/plain
 status:
   stage:
     content: in-force

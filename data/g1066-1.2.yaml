@@ -40,6 +40,10 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on AtoN mooring materials, including design and mooring components.
+  format: text/plain
 status:
   stage:
     content: in-force

@@ -43,6 +43,10 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Introduction to AIS for shore authorities and references relevant AIS documents.
+  format: text/plain
 status:
   stage:
     content: in-force

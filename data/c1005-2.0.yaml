@@ -40,6 +40,13 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Level 1 – Module 5 - Historic Lighthouse Projects This model course outlines
+    the framework for providing managers of marine aids to navigation and other interested
+    parties, the necessary theoretical training to manage projects involving historic
+    lighthouses.
+  format: text/plain
 status:
   stage:
     content: in-force

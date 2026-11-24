@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: The Guideline provides a brief overview of current LED technology and identifies
+    specific issues w.r.t the design, specification and use of high-intensity LEDs
+    in signal lights
+  format: text/plain
 status:
   stage:
     content: in-force

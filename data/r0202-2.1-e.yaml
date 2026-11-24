@@ -44,6 +44,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities design, specify and publish the performance of marine
+    AtoNs in accordance with this recommendation.
+  format: text/plain
 status:
   stage:
     content: in-force

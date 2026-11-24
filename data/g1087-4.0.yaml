@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the roles, responsibilities and procedures for IALA as a submitting
+    organization under the IHO registry, based on IHO Standards S-100 and S-99.
+  format: text/plain
 status:
   stage:
     content: in-force

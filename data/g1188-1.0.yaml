@@ -28,6 +28,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on implementing quality management practices consistent with the
+    International Organization of Standardization (ISO). It describes the key elements
+    in the ISO 9001 standard for implementing a QMS to assist VTS providers.
+  format: text/plain
 status:
   stage:
     content: in-force

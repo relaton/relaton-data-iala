@@ -29,6 +29,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidanceonassistingcompetent authoritiesachievetheir responsibilitiesassociatedwiththe
+    establishmentandoperationofVTS innationallaw
+  format: text/plain
 status:
   stage:
     content: in-force

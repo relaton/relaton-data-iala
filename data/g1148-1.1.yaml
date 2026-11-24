@@ -28,6 +28,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to determine the light intensity to provide good service to users,
+    whilst maintaining a balance between performance and cost.
+  format: text/plain
 status:
   stage:
     content: in-force

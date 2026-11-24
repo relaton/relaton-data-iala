@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to assist training organizations prepare and introduce new training
+    courses for trainers, teachers and/or instructors.
+  format: text/plain
 status:
   stage:
     content: in-force

@@ -32,6 +32,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on considering navigational safety issues in and around OREI.This
+    document is intended to assist maritime authorities, OREI developers and other
+    stakeholders when planning the establishment of OREI.
+  format: text/plain
 status:
   stage:
     content: in-force

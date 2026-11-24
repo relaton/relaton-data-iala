@@ -44,6 +44,10 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities providing a DGNSS adopt the principles listed.
+  format: text/plain
 status:
   stage:
     content: in-force

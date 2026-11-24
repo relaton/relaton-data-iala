@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance for VTS providers to facilitate the effective and efficient delivery
+    of VTS and achieve its objectives.
+  format: text/plain
 status:
   stage:
     content: in-force

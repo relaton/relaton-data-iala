@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance for the implementation and use of GIS to assist authorities in
+    the planning and evaluation of the suitability and effectiveness of the provision
+    of AtoN.
+  format: text/plain
 status:
   stage:
     content: in-force

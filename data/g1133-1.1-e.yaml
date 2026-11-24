@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to establish requirement traceability (i.e.,the originator(s)
+    of a requirement for any given technical feature that is implemented in a technical
+    system).
+  format: text/plain
 status:
   stage:
     content: in-force

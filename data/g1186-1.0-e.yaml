@@ -31,6 +31,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the general overview to assist Competent Authorities, AtoN
+    providers, and AtoN manufacturers when selecting floating AtoN for different purposes,
+    depending on nautical, geographical, and operational requirements.
+  format: text/plain
 status:
   stage:
     content: in-force

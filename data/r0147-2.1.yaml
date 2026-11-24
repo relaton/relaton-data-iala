@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends principles to be followed by authorities providing aids to navigation
+    services when developing and managing product specifications.
+  format: text/plain
 status:
   stage:
     content: in-force

@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the main factors that need to be considered when establishing
+    a daymark.
+  format: text/plain
 status:
   stage:
     content: in-force

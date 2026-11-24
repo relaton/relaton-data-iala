@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance for authorities when considering contracting out AtoN services.
+    It includes deciding whether to outsource,selecting a service provider and contract
+    management.
+  format: text/plain
 status:
   stage:
     content: in-force

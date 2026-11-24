@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: High level Recommendation on the provision of DGNSS services in the frequency
+    band 283.5- 315 kHz in Region 1 and 285- 325 kHz in Region 2 and 3.
+  format: text/plain
 status:
   stage:
     content: in-force

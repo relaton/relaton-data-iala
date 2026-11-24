@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on light sources used in marine AtoN. It includes information
+    on operational considerations, operating costs and power consumption.
+  format: text/plain
 status:
   stage:
     content: in-force

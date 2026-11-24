@@ -43,6 +43,13 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: This course is an extension of the IALA Level 1 AtoN Manager course. While
+    the later course focuses on training on the operational, technical and managerial
+    aspects of AtoN service provision at a practical level, this course is more theoretical.
+    It addresses key aspects of AtoN governance from a strategic perspective.
+  format: text/plain
 status:
   stage:
     content: in-force

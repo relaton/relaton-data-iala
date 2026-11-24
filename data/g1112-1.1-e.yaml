@@ -44,6 +44,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the design and implementation principles for the performance
+    and monitoring of DGNSS services.
+  format: text/plain
 status:
   stage:
     content: in-force

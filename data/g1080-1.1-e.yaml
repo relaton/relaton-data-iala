@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the selection and display historic artefacts, including examples
+    from authorities around the world.
+  format: text/plain
 status:
   stage:
     content: in-force

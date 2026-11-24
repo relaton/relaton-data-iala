@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities use the method described to calculate the range
+    of a sound signal.
+  format: text/plain
 status:
   stage:
     content: in-force

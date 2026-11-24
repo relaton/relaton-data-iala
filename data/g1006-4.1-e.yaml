@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance for selecting plastic buoys for different applications. Includes
+    information on material types, manufacturing techniques and quality control considerations.
+  format: text/plain
 status:
   stage:
     content: in-force

@@ -14,8 +14,17 @@ module IalaFetcher
   class PublicationFetcher
     attr_reader :data_dir, :yaml_store, :http_backend,
                 :categories, :pdf_downloader, :cover_page_ocr,
-                :language_categories
+                :language_categories, :technical_catalogue
 
+    # Product slugs and bare codes already covered — by the site walk
+    # (#run) or by data/ (#run_reconciliation).
+    Known = Struct.new(:slugs, :codes)
+
+    PRODUCT_SLUG = %r{/product/([^/?#]+)/?\z}
+
+    # @param technical_catalogue [IalaFetcher::TechnicalCatalogue, nil]
+    #   when given, its product links fill gaps in the site walk, and its
+    #   summaries fill English abstracts the product pages lack.
     def initialize(
       data_dir:,
       yaml_store:,
@@ -23,7 +32,8 @@ module IalaFetcher
       categories: IalaFetcher::TYPES.keys,
       pdf_downloader: nil,
       cover_page_ocr: nil,
-      language_categories: IalaFetcher::LANGUAGE_CATEGORIES
+      language_categories: IalaFetcher::LANGUAGE_CATEGORIES,
+      technical_catalogue: nil
     )
       @data_dir = data_dir
       @yaml_store = yaml_store
@@ -32,12 +42,31 @@ module IalaFetcher
       @pdf_downloader = pdf_downloader
       @cover_page_ocr = cover_page_ocr
       @language_categories = language_categories
+      @technical_catalogue = technical_catalogue
     end
 
     def run
       FileUtils.mkdir_p(@data_dir)
 
       rows_by_category = collect_rows
+      add_catalogue_rows!(rows_by_category, known_from_rows(rows_by_category)) if @technical_catalogue
+      emit_all(rows_by_category)
+    end
+
+    # Emits only the catalogue products that data/ does not cover yet. No
+    # site walk, and existing files stay as they are.
+    def run_reconciliation
+      raise ArgumentError, "technical_catalogue: is required for run_reconciliation" unless @technical_catalogue
+
+      FileUtils.mkdir_p(@data_dir)
+      rows_by_category = {}
+      add_catalogue_rows!(rows_by_category, known_from_store)
+      emit_all(rows_by_category)
+    end
+
+    private
+
+    def emit_all(rows_by_category)
       linker = IalaFetcher::CrossLanguageLinker.new(
         rows_by_category, language_for_category: @language_categories,
       )
@@ -51,7 +80,97 @@ module IalaFetcher
       end
     end
 
-    private
+    # ---- Catalogue reconciliation ----
+
+    # Known codes count only English rows: a code listed only in a
+    # translation category still lacks its English Instance, which the
+    # catalogue's (English) product page provides.
+    def known_from_rows(rows_by_category)
+      english = rows_by_category.select { |slug, _| @language_categories[slug] == "eng" }.values.flatten
+      Known.new(
+        rows_by_category.values.flatten.filter_map { |r| slug_of(r.product_url) }.to_set,
+        english.reject(&:codeless?).map { |r| r.bare_code.upcase }.to_set,
+      )
+    end
+
+    def known_from_store
+      known = Known.new(Set.new, Set.new)
+      @yaml_store.each_yaml do |name, _path|
+        data = @yaml_store.read(name)
+        slug = slug_of(data.dig("ext", "webpage"))
+        known.slugs << slug if slug
+        code, _edition = IalaFetcher::TechnicalCatalogue.primary_code(data)
+        known.codes << code if code && Array(data["language"]).include?("eng")
+      end
+      known
+    end
+
+    def slug_of(url)
+      url.to_s[PRODUCT_SLUG, 1]&.downcase
+    end
+
+    # Category for a `g1164`-style slug, or nil for other slugs (legacy
+    # long names), whose code is known only after the page fetch.
+    def category_from_slug(slug)
+      letter = slug[/\A([srgcm])\d{4}/, 1]
+      letter && IalaFetcher::CATALOGUE_PREFIX_CATEGORY.fetch(letter.upcase)
+    end
+
+    # Fetches each catalogue product page whose slug the walk did not see,
+    # and adds a Row for it unless its code is already known. Rows go under
+    # the English category for the code letter, so the linker and the emit
+    # path treat them like any listing row.
+    def add_catalogue_rows!(rows_by_category, known)
+      @technical_catalogue.product_urls.each do |url|
+        slug = slug_of(url)
+        next if known.slugs.include?(slug)
+
+        known.slugs << slug
+        guessed = category_from_slug(slug)
+        next if guessed && !matches_requested?(guessed)
+
+        add_catalogue_row!(rows_by_category, known, url)
+      end
+    end
+
+    # Network and page-shape failures skip one product. A missing
+    # CATALOGUE_PREFIX_CATEGORY key raises (strict map).
+    def add_catalogue_row!(rows_by_category, known, url)
+      row = catalogue_row(url)
+      return unless row && !known.codes.include?(row.bare_code.upcase)
+      return unless matches_requested?(row.category_slug)
+
+      known.codes << row.bare_code.upcase
+      warn "  Catalogue adds #{row.code} (#{url})"
+      (rows_by_category[row.category_slug] ||= []) << row
+    rescue IalaFetcher::Http::Error, IalaFetcher::ProductPage::ParseError, Date::Error => e
+      warn "  Catalogue product #{url}: #{e.message}"
+    end
+
+    def catalogue_row(url)
+      detail = IalaFetcher::ProductPage.new(url: url, http_backend: @http_backend).fetch
+      code = detail.code.to_s.strip
+      return nil if code.empty?
+
+      IalaFetcher::CataloguePage::Row.new(
+        post_id: detail.post_id,
+        code: code,
+        title: detail.title,
+        date: detail.date && Date.parse(detail.date),
+        language_cell: detail.language && "#{detail.format}: #{detail.language}",
+        product_url: url,
+        category_slug: IalaFetcher::CATALOGUE_PREFIX_CATEGORY.fetch(code[0].upcase),
+      )
+    end
+
+    # The catalogue summary as a plain-text English abstract, or nil when
+    # the catalogue has no entry for this code at this edition.
+    def catalogue_abstract(code, edition)
+      summary = @technical_catalogue&.summary_for(code, edition: edition)
+      return nil unless summary
+
+      { "content" => summary, "language" => "eng", "format" => "text/plain" }
+    end
 
     def collect_rows
       hash = {}
@@ -110,6 +229,9 @@ module IalaFetcher
 
       titles = titles_for(group, cover)
       abstracts = abstracts_for(group)
+      if abstracts.empty? && group.instances_by_language.key?("eng")
+        abstracts = [catalogue_abstract(group.work_natural_key, work_docid.edition)].compact
+      end
       date = published_date(english_detail, cover)
       committee = english_detail&.committee
 
@@ -153,6 +275,7 @@ module IalaFetcher
 
       title = instance_title(detail, cover, lang)
       abstract = instance_abstract(detail, lang)
+      abstract ||= catalogue_abstract(group.work_natural_key, instance_docid.edition) if lang.to_s == "eng"
       date = published_date(detail, cover)
 
       hash = {

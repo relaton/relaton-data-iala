@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on methods that can be used to collect information on the availability
+    and reliability of AtoN equipment.
+  format: text/plain
 status:
   stage:
     content: in-force

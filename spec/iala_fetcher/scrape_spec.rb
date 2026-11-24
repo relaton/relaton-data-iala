@@ -27,6 +27,18 @@ RSpec.describe IalaFetcher::Scrape do
     expect(type_option.repeatable).to be true
   end
 
+  it "turns the catalogue pass on by default for fetch, with a URL override" do
+    options = described_class.tasks["fetch"].options
+    expect(options[:catalogue].type).to eq(:boolean)
+    expect(options[:catalogue].default).to be true
+    expect(options[:catalogue_url].type).to eq(:string)
+  end
+
+  it "exposes a catalogue task with the same data/pdfs/URL options" do
+    options = described_class.tasks.fetch("catalogue").options
+    expect(options.keys).to include(:data_dir, :pdfs_dir, :catalogue_url)
+  end
+
   it "defaults --data-dir to 'data'" do
     options = described_class.tasks["fetch"].options
     expect(options[:data_dir].default).to eq("data")

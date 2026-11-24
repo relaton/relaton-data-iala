@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance for authorities to meet their obligations under SOLAS for the
+    establishment and operation of VTS. It includes guidance for auditing and assessing
+    a VTS.
+  format: text/plain
 status:
   stage:
     content: in-force

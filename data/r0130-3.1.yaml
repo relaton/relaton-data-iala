@@ -51,6 +51,11 @@ language:
 - spa
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities categorize their AtoN, including availability objectives,
+    as set out in the recommendation.
+  format: text/plain
 status:
   stage:
     content: in-force

@@ -44,6 +44,10 @@ language:
 - spa
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidancetodevelopaquality management system,including implementationandmaintenance.
+  format: text/plain
 status:
   stage:
     content: in-force

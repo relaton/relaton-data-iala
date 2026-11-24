@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to assess the level of AtoN effectiveness in built-up areas and
+    methods for improving the conspicuity of such AtoN.
+  format: text/plain
 status:
   stage:
     content: in-force

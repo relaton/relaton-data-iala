@@ -40,6 +40,10 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the IWRAP methodology and its use to conduct risk assessments.
+  format: text/plain
 status:
   stage:
     content: in-force

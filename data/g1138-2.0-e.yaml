@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on SIRA’s structured process to identify navigational hazards
+    and undesirable scena-rios in an area of interest, and to assess their probability
+    and impact.
+  format: text/plain
 status:
   stage:
     content: in-force

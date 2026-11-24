@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: RecommendsauthoritiesandAtoN providersimplementandestablish AtoNtrainingandcertificationin
+    astandardizedandharmonized mannerinaccordancewiththe guidelinesandmodel courses
+    developedbyIALA.
+  format: text/plain
 status:
   stage:
     content: in-force

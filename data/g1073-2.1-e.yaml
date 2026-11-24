@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the factors affecting the usefulness of a marine AtoN light
+    and ways to improve its effectiveness by increasing conspicuity.
+  format: text/plain
 status:
   stage:
     content: in-force

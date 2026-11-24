@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the VHF Data Exchange System (VDES). It gives information about
+    the development of the VDES, its role within the e-Navigation concept of IMO,
+    and the potential of VDES in the maritime environment.
+  format: text/plain
 status:
   stage:
     content: in-force

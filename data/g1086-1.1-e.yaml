@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on relevant aspects for the exchange of global maritime data and
+    information (i.e. terrestrial and satellite AIS).
+  format: text/plain
 status:
   stage:
     content: in-force

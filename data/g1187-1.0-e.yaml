@@ -31,6 +31,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on specific information of the Medium Frequency (MF) R-Mode signal
+    and the MF R-Mode navigation message.
+  format: text/plain
 status:
   stage:
     content: in-force

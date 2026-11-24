@@ -41,6 +41,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on principles for the design and implementation of harmonized
+    shore-based technical system architectures.
+  format: text/plain
 status:
   stage:
     content: in-force

@@ -44,6 +44,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities adhere to principles outlined when providing eLORAN
+    services.
+  format: text/plain
 status:
   stage:
     content: in-force

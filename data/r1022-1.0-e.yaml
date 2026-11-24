@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities providing GNSS augmentation services for maritime
+    use submit a formal declaration of their service as being adequate for maritime
+    navigation (in the format provided In the Annex of the Recommendation).
+  format: text/plain
 status:
   stage:
     content: in-force

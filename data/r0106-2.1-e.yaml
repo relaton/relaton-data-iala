@@ -44,6 +44,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends the use of the standard or comprehensive code for retroreflective
+    material on AtoN.
+  format: text/plain
 status:
   stage:
     content: in-force

@@ -40,6 +40,13 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: The purpose of this model course is to assist maritime training organisations
+    introduce new training courses for VTS Supervisors or update existing training
+    material. It also provides details of the knowledge and practical competence required
+    for a VTS Operator to gain endorsement as a VTS Supervisor.
+  format: text/plain
 status:
   stage:
     content: in-force

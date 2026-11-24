@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the detrimental effects of bird fouling and the possible use
+    of effective bird deterrents or alternative solutions
+  format: text/plain
 status:
   stage:
     content: in-force

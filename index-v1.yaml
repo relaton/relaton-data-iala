@@ -283,6 +283,10 @@
   :file: data/g1020-1.2-e.yaml
 - :id: IALA G1020 Ed 1.2
   :file: data/g1020-1.2.yaml
+- :id: IALA G1023 Ed 2.0 (E)
+  :file: data/g1023-2.0-e.yaml
+- :id: IALA G1023 Ed 2.0
+  :file: data/g1023-2.0.yaml
 - :id: IALA G1027 Ed 2.0 (E)
   :file: data/g1027-2.0-e.yaml
 - :id: IALA G1027 Ed 2.0
@@ -459,6 +463,10 @@
   :file: data/g1080-1.1.yaml
 - :id: IALA G1081 Ed 1.0 (S)
   :file: data/g1081-1.0-s.yaml
+- :id: IALA G1081 Ed 2.1 (E)
+  :file: data/g1081-2.1-e.yaml
+- :id: IALA G1081 Ed 2.1
+  :file: data/g1081-2.1.yaml
 - :id: IALA G1081
   :file: data/g1081.yaml
 - :id: IALA G1082 Ed 2.1 (E)
@@ -745,10 +753,18 @@
   :file: data/g1140-1.1-e.yaml
 - :id: IALA G1140 Ed 1.1
   :file: data/g1140-1.1.yaml
+- :id: IALA G1141 Ed 3.0 (E)
+  :file: data/g1141-3.0-e.yaml
+- :id: IALA G1141 Ed 3.0
+  :file: data/g1141-3.0.yaml
 - :id: IALA G1142 Ed 1.1 (E)
   :file: data/g1142-1.1-e.yaml
 - :id: IALA G1142 Ed 1.1
   :file: data/g1142-1.1.yaml
+- :id: IALA G1143 Ed 3.1 (E)
+  :file: data/g1143-3.1-e.yaml
+- :id: IALA G1143 Ed 3.1
+  :file: data/g1143-3.1.yaml
 - :id: IALA G1144 Ed 1.1 (E)
   :file: data/g1144-1.1-e.yaml
 - :id: IALA G1144 Ed 1.1
@@ -769,6 +785,10 @@
   :file: data/g1149-1.1-e.yaml
 - :id: IALA G1149 Ed 1.1
   :file: data/g1149-1.1.yaml
+- :id: IALA G1150 Ed 3.1 (E)
+  :file: data/g1150-3.1-e.yaml
+- :id: IALA G1150 Ed 3.1
+  :file: data/g1150-3.1.yaml
 - :id: IALA G1151 Ed 1.1 (E)
   :file: data/g1151-1.1-e.yaml
 - :id: IALA G1151 Ed 1.1
@@ -781,14 +801,50 @@
   :file: data/g1153-2.0-e.yaml
 - :id: IALA G1153 Ed 2.0
   :file: data/g1153-2.0.yaml
+- :id: IALA G1154 Ed 1.1 (E)
+  :file: data/g1154-1.1-e.yaml
+- :id: IALA G1154 Ed 1.1
+  :file: data/g1154-1.1.yaml
+- :id: IALA G1155 Ed 1.1 (E)
+  :file: data/g1155-1.1-e.yaml
+- :id: IALA G1155 Ed 1.1
+  :file: data/g1155-1.1.yaml
+- :id: IALA G1156 Ed 2.0 (E)
+  :file: data/g1156-2.0-e.yaml
+- :id: IALA G1156 Ed 2.0
+  :file: data/g1156-2.0.yaml
 - :id: IALA G1157 Ed 2.0 (E)
   :file: data/g1157-2.0-e.yaml
 - :id: IALA G1157 Ed 2.0
   :file: data/g1157-2.0.yaml
+- :id: IALA G1158 Ed 2.0 (E)
+  :file: data/g1158-2.0-e.yaml
+- :id: IALA G1158 Ed 2.0
+  :file: data/g1158-2.0.yaml
 - :id: IALA G1159 Ed 2.0 (E)
   :file: data/g1159-2.0-e.yaml
 - :id: IALA G1159 Ed 2.0
   :file: data/g1159-2.0.yaml
+- :id: IALA G1160 Ed 1.2 (E)
+  :file: data/g1160-1.2-e.yaml
+- :id: IALA G1160 Ed 1.2
+  :file: data/g1160-1.2.yaml
+- :id: IALA G1161 Ed 1.1 (E)
+  :file: data/g1161-1.1-e.yaml
+- :id: IALA G1161 Ed 1.1
+  :file: data/g1161-1.1.yaml
+- :id: IALA G1162 Ed 1.1 (E)
+  :file: data/g1162-1.1-e.yaml
+- :id: IALA G1162 Ed 1.1
+  :file: data/g1162-1.1.yaml
+- :id: IALA G1163 Ed 1.1 (E)
+  :file: data/g1163-1.1-e.yaml
+- :id: IALA G1163 Ed 1.1
+  :file: data/g1163-1.1.yaml
+- :id: IALA G1164 Ed 1.1 (E)
+  :file: data/g1164-1.1-e.yaml
+- :id: IALA G1164 Ed 1.1
+  :file: data/g1164-1.1.yaml
 - :id: IALA G1165 Ed 1.2 (E)
   :file: data/g1165-1.2-e.yaml
 - :id: IALA G1165 Ed 1.2

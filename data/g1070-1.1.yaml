@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to assist VTS providers define appropriate procedures to manage
+    traffic in areas with navigation restrictions.
+  format: text/plain
 status:
   stage:
     content: in-force

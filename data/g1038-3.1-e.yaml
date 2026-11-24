@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance for authorities when selecting methods for activation of AtoN
+    lights and measuring the ambient light levels at which AtoN lights should turn
+    on and off.
+  format: text/plain
 status:
   stage:
     content: in-force

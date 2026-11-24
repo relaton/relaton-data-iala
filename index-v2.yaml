@@ -1486,6 +1486,17 @@
     edition: '1.0'
   :file: data/r1022-1.0.yaml
 - :id:
+    _type: pubid:iala:guideline
+    number: '1023'
+    edition: '2.0'
+    language: E
+  :file: data/g1023-2.0-e.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1023'
+    edition: '2.0'
+  :file: data/g1023-2.0.yaml
+- :id:
     _type: pubid:iala:recommendation
     number: '1023'
     edition: '1.0'
@@ -2086,6 +2097,17 @@
     edition: '1.0'
     language: S
   :file: data/g1081-1.0-s.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1081'
+    edition: '2.1'
+    language: E
+  :file: data/g1081-2.1-e.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1081'
+    edition: '2.1'
+  :file: data/g1081-2.1.yaml
 - :id:
     _type: pubid:iala:guideline
     number: '1081'
@@ -2905,6 +2927,17 @@
   :file: data/g1140-1.1.yaml
 - :id:
     _type: pubid:iala:guideline
+    number: '1141'
+    edition: '3.0'
+    language: E
+  :file: data/g1141-3.0-e.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1141'
+    edition: '3.0'
+  :file: data/g1141-3.0.yaml
+- :id:
+    _type: pubid:iala:guideline
     number: '1142'
     edition: '1.1'
     language: E
@@ -2914,6 +2947,17 @@
     number: '1142'
     edition: '1.1'
   :file: data/g1142-1.1.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1143'
+    edition: '3.1'
+    language: E
+  :file: data/g1143-3.1-e.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1143'
+    edition: '3.1'
+  :file: data/g1143-3.1.yaml
 - :id:
     _type: pubid:iala:guideline
     number: '1144'
@@ -2971,6 +3015,17 @@
   :file: data/g1149-1.1.yaml
 - :id:
     _type: pubid:iala:guideline
+    number: '1150'
+    edition: '3.1'
+    language: E
+  :file: data/g1150-3.1-e.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1150'
+    edition: '3.1'
+  :file: data/g1150-3.1.yaml
+- :id:
+    _type: pubid:iala:guideline
     number: '1151'
     edition: '1.1'
     language: E
@@ -3004,6 +3059,39 @@
   :file: data/g1153-2.0.yaml
 - :id:
     _type: pubid:iala:guideline
+    number: '1154'
+    edition: '1.1'
+    language: E
+  :file: data/g1154-1.1-e.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1154'
+    edition: '1.1'
+  :file: data/g1154-1.1.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1155'
+    edition: '1.1'
+    language: E
+  :file: data/g1155-1.1-e.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1155'
+    edition: '1.1'
+  :file: data/g1155-1.1.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1156'
+    edition: '2.0'
+    language: E
+  :file: data/g1156-2.0-e.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1156'
+    edition: '2.0'
+  :file: data/g1156-2.0.yaml
+- :id:
+    _type: pubid:iala:guideline
     number: '1157'
     edition: '2.0'
     language: E
@@ -3015,6 +3103,17 @@
   :file: data/g1157-2.0.yaml
 - :id:
     _type: pubid:iala:guideline
+    number: '1158'
+    edition: '2.0'
+    language: E
+  :file: data/g1158-2.0-e.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1158'
+    edition: '2.0'
+  :file: data/g1158-2.0.yaml
+- :id:
+    _type: pubid:iala:guideline
     number: '1159'
     edition: '2.0'
     language: E
@@ -3024,6 +3123,61 @@
     number: '1159'
     edition: '2.0'
   :file: data/g1159-2.0.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1160'
+    edition: '1.2'
+    language: E
+  :file: data/g1160-1.2-e.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1160'
+    edition: '1.2'
+  :file: data/g1160-1.2.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1161'
+    edition: '1.1'
+    language: E
+  :file: data/g1161-1.1-e.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1161'
+    edition: '1.1'
+  :file: data/g1161-1.1.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1162'
+    edition: '1.1'
+    language: E
+  :file: data/g1162-1.1-e.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1162'
+    edition: '1.1'
+  :file: data/g1162-1.1.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1163'
+    edition: '1.1'
+    language: E
+  :file: data/g1163-1.1-e.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1163'
+    edition: '1.1'
+  :file: data/g1163-1.1.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1164'
+    edition: '1.1'
+    language: E
+  :file: data/g1164-1.1-e.yaml
+- :id:
+    _type: pubid:iala:guideline
+    number: '1164'
+    edition: '1.1'
+  :file: data/g1164-1.1.yaml
 - :id:
     _type: pubid:iala:guideline
     number: '1165'

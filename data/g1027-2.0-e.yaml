@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on simulation for VTS training including principles, planning,
+    design, development, validation, documentation and conduct of simulation exercises.
+  format: text/plain
 status:
   stage:
     content: in-force

@@ -41,6 +41,10 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the evaluation of emerging digital technologies.
+  format: text/plain
 status:
   stage:
     content: in-force

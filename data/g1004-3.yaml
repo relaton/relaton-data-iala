@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on level of service information for services provided by competent
+    authorities, including related descriptions, components, and benefits.
+  format: text/plain
 status:
   stage:
     content: in-force

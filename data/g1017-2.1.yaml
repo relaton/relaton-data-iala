@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to training organisations when developing a framework to assess
+    and recognise the prior learning of students.The objective of the assessment is
+    to grant exemptions from subject areas In an IALA model course.
+  format: text/plain
 status:
   stage:
     content: in-force

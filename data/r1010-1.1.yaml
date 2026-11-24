@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends authorities involved in MSP follow the principles set out in
+    the recommendation and associated guidance.
+  format: text/plain
 status:
   stage:
     content: in-force

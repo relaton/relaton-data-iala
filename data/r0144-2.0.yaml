@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Recommends members recognize urgency of the need for harmonization of content,
+    encoding, application and portrayal of ASM.
+  format: text/plain
 status:
   stage:
     content: in-force

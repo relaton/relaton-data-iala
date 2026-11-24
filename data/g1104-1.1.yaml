@@ -41,6 +41,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the use of GIS to assess the requirement and impact of AtoN
+    in the area of interest. It covers use of charting overlays for danger identification
+    and Automatic Identification System (AIS) data.
+  format: text/plain
 status:
   stage:
     content: in-force

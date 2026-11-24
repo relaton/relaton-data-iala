@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on the recapitalization of existing DGNSS systems prior to their
+    obsolescence, including options for replacement systems.
+  format: text/plain
 status:
   stage:
     content: in-force

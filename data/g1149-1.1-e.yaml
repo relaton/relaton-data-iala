@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance and information to be used by maritime training organisations
+    in the development of training on VTS (as an integral part of the training of
+    deck officers).
+  format: text/plain
 status:
   stage:
     content: in-force

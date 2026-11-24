@@ -40,6 +40,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance for authorities to meet the objectives of an IMO IMSAS for the
+    implementation and delivery of VTS.
+  format: text/plain
 status:
   stage:
     content: in-force

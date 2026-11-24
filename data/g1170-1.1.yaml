@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to select and apply solar modules to a power system in a marine
+    environment. It includes information about factors influencing performance and
+    reliability, application and purchasing.
+  format: text/plain
 status:
   stage:
     content: in-force

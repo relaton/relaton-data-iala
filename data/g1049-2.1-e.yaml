@@ -43,6 +43,11 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance on methods of using modern light sources in traditional optic
+    systems, outlining the advantages and disadvantages.
+  format: text/plain
 status:
   stage:
     content: in-force

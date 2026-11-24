@@ -43,6 +43,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Guidance to develop an understanding of the advantages and risks of AI
+    within the IALA domain. It also provides information managing this risk, noting
+    the rapid growth of AI and its capabilities.
+  format: text/plain
 status:
   stage:
     content: in-force

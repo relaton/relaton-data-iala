@@ -40,6 +40,12 @@ language:
 - eng
 script:
 - Latn
+abstract:
+- language: eng
+  content: Certification This Model Course is intended to provide guidance on how
+    to maintain and improve the quality of performance of VTSOs, by means of training,
+    so as to enable the revalidation of their qualifications.
+  format: text/plain
 status:
   stage:
     content: in-force
