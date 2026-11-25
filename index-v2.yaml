@@ -3636,6 +3636,33 @@
     number: 13-04
   :file: data/a13-04.yaml
 - :id:
+    _type: pubid:iala:publication
+    number: 13th-vts-symposium-sustainable-safe-navigation-august-2016-report
+    language: E
+  :file: data/13th-vts-symposium-sustainable-safe-navigation-august-2016-report-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: 13th-vts-symposium-sustainable-safe-navigation-august-2016-report
+  :file: data/13th-vts-symposium-sustainable-safe-navigation-august-2016-report.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: 14th-iala-symposium-report
+    language: E
+  :file: data/14th-iala-symposium-report-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: 14th-iala-symposium-report
+  :file: data/14th-iala-symposium-report.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: 19th-iala-conference-report-without-the-delegates-contact-details
+    language: E
+  :file: data/19th-iala-conference-report-without-the-delegates-contact-details-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: 19th-iala-conference-report-without-the-delegates-contact-details
+  :file: data/19th-iala-conference-report-without-the-delegates-contact-details.yaml
+- :id:
     _type: pubid:iala:letter
     number: 2.1.11
     edition: '2'
@@ -4020,3 +4047,711 @@
     number: 2011-3
     edition: '2.0'
   :file: data/c2011-3-2.0.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: a-history-of-floating-aids-to-navigation-by-adrian-h-wilkins
+    language: E
+  :file: data/a-history-of-floating-aids-to-navigation-by-adrian-h-wilkins-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: a-history-of-floating-aids-to-navigation-by-adrian-h-wilkins
+  :file: data/a-history-of-floating-aids-to-navigation-by-adrian-h-wilkins.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: ais-in-a-historic-perspective
+    language: E
+  :file: data/ais-in-a-historic-perspective-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: ais-in-a-historic-perspective
+  :file: data/ais-in-a-historic-perspective.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: arctic-seminar-report
+    language: E
+  :file: data/arctic-seminar-report-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: arctic-seminar-report
+  :file: data/arctic-seminar-report.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: cooperation-international-en-signalisation-maritime-1889-1955
+    language: E
+  :file: data/cooperation-international-en-signalisation-maritime-1889-1955-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: cooperation-international-en-signalisation-maritime-1889-1955
+  :file: data/cooperation-international-en-signalisation-maritime-1889-1955.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: definitions-conservation-of-historic-lighthouses
+    language: E
+  :file: data/definitions-conservation-of-historic-lighthouses-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: definitions-conservation-of-historic-lighthouses
+  :file: data/definitions-conservation-of-historic-lighthouses.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: e-navigation-underway-2014-north-america
+    language: E
+  :file: data/e-navigation-underway-2014-north-america-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: e-navigation-underway-2014-north-america
+  :file: data/e-navigation-underway-2014-north-america.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: e-navigation-underway-asia-pacific-conference-report
+    language: E
+  :file: data/e-navigation-underway-asia-pacific-conference-report-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: e-navigation-underway-asia-pacific-conference-report
+  :file: data/e-navigation-underway-asia-pacific-conference-report.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: floataid-workshop
+    language: E
+  :file: data/floataid-workshop-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: floataid-workshop
+  :file: data/floataid-workshop.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: global-sharing-of-maritime-data-2011
+    language: E
+  :file: data/global-sharing-of-maritime-data-2011-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: global-sharing-of-maritime-data-2011
+  :file: data/global-sharing-of-maritime-data-2011.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: guideline-for-preparation-of-conference-or-symposium
+    edition: '3.0'
+    language: E
+  :file: data/guideline-for-preparation-of-conference-or-symposium-3.0-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: guideline-for-preparation-of-conference-or-symposium
+    edition: '3.0'
+  :file: data/guideline-for-preparation-of-conference-or-symposium-3.0.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: heritage-seminar-santander-june-2008
+    language: E
+  :file: data/heritage-seminar-santander-june-2008-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: heritage-seminar-santander-june-2008
+  :file: data/heritage-seminar-santander-june-2008.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: iala-1957-1990-33-year-of-international-cooperation
+    language: E
+  :file: data/iala-1957-1990-33-year-of-international-cooperation-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: iala-1957-1990-33-year-of-international-cooperation
+  :file: data/iala-1957-1990-33-year-of-international-cooperation.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: iala-complementary-lighthouse-manual
+    language: E
+  :file: data/iala-complementary-lighthouse-manual-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: iala-complementary-lighthouse-manual
+  :file: data/iala-complementary-lighthouse-manual.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: iala-style-guide
+    edition: '1.0'
+    language: E
+  :file: data/iala-style-guide-1.0-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: iala-style-guide
+    edition: '1.0'
+  :file: data/iala-style-guide-1.0.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: iala-world-wide-radio-navigation-plan
+    edition: '2'
+    language: E
+  :file: data/iala-world-wide-radio-navigation-plan-2-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: iala-world-wide-radio-navigation-plan
+    edition: '2'
+  :file: data/iala-world-wide-radio-navigation-plan-2.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: ialabatt-ialalite-2008
+    language: E
+  :file: data/ialabatt-ialalite-2008-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: ialabatt-ialalite-2008
+  :file: data/ialabatt-ialalite-2008.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: international-cooperation-in-aids-to-navigation-1889-1955
+    language: E
+  :file: data/international-cooperation-in-aids-to-navigation-1889-1955-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: international-cooperation-in-aids-to-navigation-1889-1955
+  :file: data/international-cooperation-in-aids-to-navigation-1889-1955.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: international-e-navigation-underway-2014
+    language: E
+  :file: data/international-e-navigation-underway-2014-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: international-e-navigation-underway-2014
+  :file: data/international-e-navigation-underway-2014.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: international-e-navigation-underway-2015
+    language: E
+  :file: data/international-e-navigation-underway-2015-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: international-e-navigation-underway-2015
+  :file: data/international-e-navigation-underway-2015.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: international-e-navigation-underway-2016
+    language: E
+  :file: data/international-e-navigation-underway-2016-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: international-e-navigation-underway-2016
+  :file: data/international-e-navigation-underway-2016.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: international-e-navigation-underway-2018
+    language: E
+  :file: data/international-e-navigation-underway-2018-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: international-e-navigation-underway-2018
+  :file: data/international-e-navigation-underway-2018.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: international-e-navigation-underway-2019
+    language: E
+  :file: data/international-e-navigation-underway-2019-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: international-e-navigation-underway-2019
+  :file: data/international-e-navigation-underway-2019.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: maritime-radio-communications-plan
+    language: E
+  :file: data/maritime-radio-communications-plan-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: maritime-radio-communications-plan
+  :file: data/maritime-radio-communications-plan.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: preliminary-results-iala-vts-questionnaire
+    language: E
+  :file: data/preliminary-results-iala-vts-questionnaire-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: preliminary-results-iala-vts-questionnaire
+  :file: data/preliminary-results-iala-vts-questionnaire.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: questionnaire-responses-complementary-use-of-lighthouses
+    language: E
+  :file: data/questionnaire-responses-complementary-use-of-lighthouses-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: questionnaire-responses-complementary-use-of-lighthouses
+  :file: data/questionnaire-responses-complementary-use-of-lighthouses.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-18th-iala-conference
+    language: E
+  :file: data/report-18th-iala-conference-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-18th-iala-conference
+  :file: data/report-18th-iala-conference.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-conference-20th-iala-conference-in-brazil
+    language: E
+  :file: data/report-conference-20th-iala-conference-in-brazil-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-conference-20th-iala-conference-in-brazil
+  :file: data/report-conference-20th-iala-conference-in-brazil.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-e-navigation-underway-international-2017
+    language: E
+  :file: data/report-e-navigation-underway-international-2017-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-e-navigation-underway-international-2017
+  :file: data/report-e-navigation-underway-international-2017.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-e-navigation-underway-north-america-2017
+    language: E
+  :file: data/report-e-navigation-underway-north-america-2017-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-e-navigation-underway-north-america-2017
+  :file: data/report-e-navigation-underway-north-america-2017.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-iala-workshop-common-phraseology-procedures-vts-communication
+    language: E
+  :file: data/report-iala-workshop-common-phraseology-procedures-vts-communication-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-iala-workshop-common-phraseology-procedures-vts-communication
+  :file: data/report-iala-workshop-common-phraseology-procedures-vts-communication.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-iala-workshop-sustainable-light-power-next-generation
+    language: E
+  :file: data/report-iala-workshop-sustainable-light-power-next-generation-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-iala-workshop-sustainable-light-power-next-generation
+  :file: data/report-iala-workshop-sustainable-light-power-next-generation.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-of-the-iala-workshop-on-the-future-of-marine-radiobeacon-dgps-dgnss
+    language: E
+  :file: data/report-of-the-iala-workshop-on-the-future-of-marine-radiobeacon-dgps-dgnss-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-of-the-iala-workshop-on-the-future-of-marine-radiobeacon-dgps-dgnss
+  :file: data/report-of-the-iala-workshop-on-the-future-of-marine-radiobeacon-dgps-dgnss.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-of-the-workshop-on-marine-aton-in-the-autonomous-world
+    language: E
+  :file: data/report-of-the-workshop-on-marine-aton-in-the-autonomous-world-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-of-the-workshop-on-marine-aton-in-the-autonomous-world
+  :file: data/report-of-the-workshop-on-marine-aton-in-the-autonomous-world.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-of-the-workshop-on-vts-competent-authorities
+    language: E
+  :file: data/report-of-the-workshop-on-vts-competent-authorities-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-of-the-workshop-on-vts-competent-authorities
+  :file: data/report-of-the-workshop-on-vts-competent-authorities.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-of-the-wwa-seminar-on-the-safety-of-navigation-2019-turkey
+    language: E
+  :file: data/report-of-the-wwa-seminar-on-the-safety-of-navigation-2019-turkey-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-of-the-wwa-seminar-on-the-safety-of-navigation-2019-turkey
+  :file: data/report-of-the-wwa-seminar-on-the-safety-of-navigation-2019-turkey.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-iala-workshop-on-vts-training-and-qualifications-2020-and-beyond
+    language: E
+  :file: data/report-on-iala-workshop-on-vts-training-and-qualifications-2020-and-beyond-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-iala-workshop-on-vts-training-and-qualifications-2020-and-beyond
+  :file: data/report-on-iala-workshop-on-vts-training-and-qualifications-2020-and-beyond.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-joint-iala-iho-workshop-on-s-100-s-200-product-specification-development-and-portrayal
+    language: E
+  :file: data/report-on-joint-iala-iho-workshop-on-s-100-s-200-product-specification-development-and-portrayal-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-joint-iala-iho-workshop-on-s-100-s-200-product-specification-development-and-portrayal
+  :file: data/report-on-joint-iala-iho-workshop-on-s-100-s-200-product-specification-development-and-portrayal.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-the-2nd-joint-iho-iala-workshop-s-100-s-200
+    language: E
+  :file: data/report-on-the-2nd-joint-iho-iala-workshop-s-100-s-200-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-the-2nd-joint-iho-iala-workshop-s-100-s-200
+  :file: data/report-on-the-2nd-joint-iho-iala-workshop-s-100-s-200.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-the-aton-engineering-workshop
+    language: E
+  :file: data/report-on-the-aton-engineering-workshop-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-the-aton-engineering-workshop
+  :file: data/report-on-the-aton-engineering-workshop.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-the-iala-workshop-on-r-mode
+    language: E
+  :file: data/report-on-the-iala-workshop-on-r-mode-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-the-iala-workshop-on-r-mode
+  :file: data/report-on-the-iala-workshop-on-r-mode.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-the-on-imt-workshop-for-marine-atons-september-2025-germany
+    language: E
+  :file: data/report-on-the-on-imt-workshop-for-marine-atons-september-2025-germany-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-the-on-imt-workshop-for-marine-atons-september-2025-germany
+  :file: data/report-on-the-on-imt-workshop-for-marine-atons-september-2025-germany.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-the-seminar-on-vdes-singapore-2025
+    language: E
+  :file: data/report-on-the-seminar-on-vdes-singapore-2025-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-the-seminar-on-vdes-singapore-2025
+  :file: data/report-on-the-seminar-on-vdes-singapore-2025.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-the-workshop-digital-maritime-communications
+    language: E
+  :file: data/report-on-the-workshop-digital-maritime-communications-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-the-workshop-digital-maritime-communications
+  :file: data/report-on-the-workshop-digital-maritime-communications.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-the-workshop-on-radionavigation-and-radiocommunication-technologies
+    language: E
+  :file: data/report-on-the-workshop-on-radionavigation-and-radiocommunication-technologies-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-the-workshop-on-radionavigation-and-radiocommunication-technologies
+  :file: data/report-on-the-workshop-on-radionavigation-and-radiocommunication-technologies.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-the-workshop-on-sustainability-in-aton-provision
+    language: E
+  :file: data/report-on-the-workshop-on-sustainability-in-aton-provision-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-on-the-workshop-on-sustainability-in-aton-provision
+  :file: data/report-on-the-workshop-on-sustainability-in-aton-provision.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-seminar-on-preservation-of-lighthouse-heritage-june-2013
+    language: E
+  :file: data/report-seminar-on-preservation-of-lighthouse-heritage-june-2013-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-seminar-on-preservation-of-lighthouse-heritage-june-2013
+  :file: data/report-seminar-on-preservation-of-lighthouse-heritage-june-2013.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-training-and-certification-of-aton-and-vts-personnel
+    language: E
+  :file: data/report-training-and-certification-of-aton-and-vts-personnel-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-training-and-certification-of-aton-and-vts-personnel
+  :file: data/report-training-and-certification-of-aton-and-vts-personnel.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-workshop-iala-cyber-security
+    language: E
+  :file: data/report-workshop-iala-cyber-security-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-workshop-iala-cyber-security
+  :file: data/report-workshop-iala-cyber-security.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-workshop-iala-erps
+    language: E
+  :file: data/report-workshop-iala-erps-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-workshop-iala-erps
+  :file: data/report-workshop-iala-erps.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-workshop-iala-initial-operating-capabilities-phase-of-e-navigation-services-singapore
+    language: E
+  :file: data/report-workshop-iala-initial-operating-capabilities-phase-of-e-navigation-services-singapore-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-workshop-iala-initial-operating-capabilities-phase-of-e-navigation-services-singapore
+  :file: data/report-workshop-iala-initial-operating-capabilities-phase-of-e-navigation-services-singapore.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-workshop-iala-the-enhancing-e-navigation-capability-digitalsea
+    language: E
+  :file: data/report-workshop-iala-the-enhancing-e-navigation-capability-digitalsea-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: report-workshop-iala-the-enhancing-e-navigation-capability-digitalsea
+  :file: data/report-workshop-iala-the-enhancing-e-navigation-capability-digitalsea.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-management-pawsa-iwrap-mk2-simulation
+    language: E
+  :file: data/risk-management-pawsa-iwrap-mk2-simulation-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-management-pawsa-iwrap-mk2-simulation
+  :file: data/risk-management-pawsa-iwrap-mk2-simulation.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-seminar-singapore-2015
+    language: E
+  :file: data/risk-seminar-singapore-2015-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-seminar-singapore-2015
+  :file: data/risk-seminar-singapore-2015.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-seminar-turkey-2018
+    language: E
+  :file: data/risk-seminar-turkey-2018-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-seminar-turkey-2018
+  :file: data/risk-seminar-turkey-2018.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-training-seminar-cartagena-2019
+    language: E
+  :file: data/risk-training-seminar-cartagena-2019-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-training-seminar-cartagena-2019
+  :file: data/risk-training-seminar-cartagena-2019.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-training-seminar-china-2017
+    language: E
+  :file: data/risk-training-seminar-china-2017-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-training-seminar-china-2017
+  :file: data/risk-training-seminar-china-2017.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-training-seminar-france-2019
+    language: E
+  :file: data/risk-training-seminar-france-2019-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-training-seminar-france-2019
+  :file: data/risk-training-seminar-france-2019.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-training-seminar-oman-2011
+    language: E
+  :file: data/risk-training-seminar-oman-2011-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-training-seminar-oman-2011
+  :file: data/risk-training-seminar-oman-2011.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-training-seminar-panama-2016
+    language: E
+  :file: data/risk-training-seminar-panama-2016-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-training-seminar-panama-2016
+  :file: data/risk-training-seminar-panama-2016.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-training-seminar-south-africa-2018
+    language: E
+  :file: data/risk-training-seminar-south-africa-2018-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-training-seminar-south-africa-2018
+  :file: data/risk-training-seminar-south-africa-2018.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-training-seminar-sydney-2012
+    language: E
+  :file: data/risk-training-seminar-sydney-2012-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: risk-training-seminar-sydney-2012
+  :file: data/risk-training-seminar-sydney-2012.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: seminar-iwrap-mk-ii-2009-kuala-lumpur
+    language: E
+  :file: data/seminar-iwrap-mk-ii-2009-kuala-lumpur-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: seminar-iwrap-mk-ii-2009-kuala-lumpur
+  :file: data/seminar-iwrap-mk-ii-2009-kuala-lumpur.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: seminar-on-maritime-digital-infrastructures-and-testbeds
+    language: E
+  :file: data/seminar-on-maritime-digital-infrastructures-and-testbeds-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: seminar-on-maritime-digital-infrastructures-and-testbeds
+  :file: data/seminar-on-maritime-digital-infrastructures-and-testbeds.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: seminar-on-the-revision-of-imo-resolution-a-85720-guidelines-for-vts
+    language: E
+  :file: data/seminar-on-the-revision-of-imo-resolution-a-85720-guidelines-for-vts-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: seminar-on-the-revision-of-imo-resolution-a-85720-guidelines-for-vts
+  :file: data/seminar-on-the-revision-of-imo-resolution-a-85720-guidelines-for-vts.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: seminar-simulation-in-vts-training-wageningen-2013
+    language: E
+  :file: data/seminar-simulation-in-vts-training-wageningen-2013-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: seminar-simulation-in-vts-training-wageningen-2013
+  :file: data/seminar-simulation-in-vts-training-wageningen-2013.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: short-range-aton-in-e-navigation-era-2012-brest
+    language: E
+  :file: data/short-range-aton-in-e-navigation-era-2012-brest-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: short-range-aton-in-e-navigation-era-2012-brest
+  :file: data/short-range-aton-in-e-navigation-era-2012-brest.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: vts-training-workshop-warnemunda-2009
+    language: E
+  :file: data/vts-training-workshop-warnemunda-2009-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: vts-training-workshop-warnemunda-2009
+  :file: data/vts-training-workshop-warnemunda-2009.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-ais-aton-real-virtual-developments-uses
+    language: E
+  :file: data/workshop-ais-aton-real-virtual-developments-uses-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-ais-aton-real-virtual-developments-uses
+  :file: data/workshop-ais-aton-real-virtual-developments-uses.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-application-of-aids-to-navigation-within-marine-spatial-planning-iala-2013
+    language: E
+  :file: data/workshop-application-of-aids-to-navigation-within-marine-spatial-planning-iala-2013-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-application-of-aids-to-navigation-within-marine-spatial-planning-iala-2013
+  :file: data/workshop-application-of-aids-to-navigation-within-marine-spatial-planning-iala-2013.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-aton-services-extremely-hot-climates
+    language: E
+  :file: data/workshop-aton-services-extremely-hot-climates-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-aton-services-extremely-hot-climates
+  :file: data/workshop-aton-services-extremely-hot-climates.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-challenges-of-providing-aton-services-in-polar-regions
+    language: E
+  :file: data/workshop-challenges-of-providing-aton-services-in-polar-regions-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-challenges-of-providing-aton-services-in-polar-regions
+  :file: data/workshop-challenges-of-providing-aton-services-in-polar-regions.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-employing-e-navigation-cssa
+    language: E
+  :file: data/workshop-employing-e-navigation-cssa-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-employing-e-navigation-cssa
+  :file: data/workshop-employing-e-navigation-cssa.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-on-development-of-vhf-data-exchange-system-vdes
+    language: E
+  :file: data/workshop-on-development-of-vhf-data-exchange-system-vdes-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-on-development-of-vhf-data-exchange-system-vdes
+  :file: data/workshop-on-development-of-vhf-data-exchange-system-vdes.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-on-harmonizing-vts-voice-communication
+    language: E
+  :file: data/workshop-on-harmonizing-vts-voice-communication-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-on-harmonizing-vts-voice-communication
+  :file: data/workshop-on-harmonizing-vts-voice-communication.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-on-ioc-phase-for-e-navigation-services
+    language: E
+  :file: data/workshop-on-ioc-phase-for-e-navigation-services-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-on-ioc-phase-for-e-navigation-services
+  :file: data/workshop-on-ioc-phase-for-e-navigation-services.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-on-shore-based-maritime-services-from-theory-to-practical-use
+    language: E
+  :file: data/workshop-on-shore-based-maritime-services-from-theory-to-practical-use-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-on-shore-based-maritime-services-from-theory-to-practical-use
+  :file: data/workshop-on-shore-based-maritime-services-from-theory-to-practical-use.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-portrayal-of-data-and-information-at-a-vts-bremen-2013
+    language: E
+  :file: data/workshop-portrayal-of-data-and-information-at-a-vts-bremen-2013-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: workshop-portrayal-of-data-and-information-at-a-vts-bremen-2013
+  :file: data/workshop-portrayal-of-data-and-information-at-a-vts-bremen-2013.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: wwa-safety-of-navigation-seminar-february-2025
+    language: E
+  :file: data/wwa-safety-of-navigation-seminar-february-2025-e.yaml
+- :id:
+    _type: pubid:iala:publication
+    number: wwa-safety-of-navigation-seminar-february-2025
+  :file: data/wwa-safety-of-navigation-seminar-february-2025.yaml
